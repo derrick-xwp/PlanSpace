@@ -1,0 +1,10 @@
+activity,condition,n,pass,fail
+putting_shopping_away,reference,3,0,3
+putting_shopping_away,replay_valid_nonreference,3,0,3
+putting_shopping_away,required_action_deletion,3,0,3
+set_up_a_home_office_in_your_garage,reference,3,0,3
+set_up_a_home_office_in_your_garage,replay_valid_nonreference,3,0,3
+set_up_a_home_office_in_your_garage,required_action_deletion,3,0,3
+store_batteries,reference,3,0,3
+store_batteries,replay_valid_nonreference,3,1,2
+store_batteries,required_action_deletion,3,1,2

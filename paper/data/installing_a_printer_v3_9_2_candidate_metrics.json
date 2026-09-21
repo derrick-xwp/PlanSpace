@@ -1,0 +1,112 @@
+{
+  "evidence_status": "frozen_bddl_candidate_semantics_not_paper_evidence",
+  "activity": "installing_a_printer",
+  "problem_id": "installing_a_printer-0",
+  "source_sha256": "8701a201851baeed1b8a918d1c03ac3739cff6a8ac5b2d5109df1ce8f4cdbb0a",
+  "action_domain_version": "planspace_domain_v0.1-candidate",
+  "plan_count": 1,
+  "enumeration_unit": "simple_plan_sequences",
+  "plan_lengths": [
+    3
+  ],
+  "completeness_status": "bounded_complete_simple_paths",
+  "search_bound": {
+    "max_depth": 3,
+    "max_cost": null
+  },
+  "single_reference_false_rejection_rate": 0.0,
+  "families": [
+    {
+      "plan": [
+        "grasp::printer.n.03_1",
+        "place::printer.n.03_1->table.n.02_1",
+        "toggle_on::printer.n.03_1"
+      ],
+      "execution_valid": true,
+      "partial_order_edges": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "valid_topological_sorts": 1,
+      "total_topological_sorts": 1,
+      "topological_validation_status": "complete"
+    }
+  ],
+  "structured_negative_count": 5,
+  "structured_negatives": [
+    {
+      "plan": [
+        "place::printer.n.03_1->table.n.02_1",
+        "toggle_on::printer.n.03_1"
+      ],
+      "executable": false,
+      "goal_satisfied": false,
+      "failure_step": 0,
+      "failed_action_id": "place::printer.n.03_1->table.n.02_1",
+      "missing_preconditions": [
+        "holding(agent.n.01_1, printer.n.03_1)"
+      ]
+    },
+    {
+      "plan": [
+        "grasp::printer.n.03_1",
+        "toggle_on::printer.n.03_1"
+      ],
+      "executable": false,
+      "goal_satisfied": false,
+      "failure_step": 1,
+      "failed_action_id": "toggle_on::printer.n.03_1",
+      "missing_preconditions": [
+        "handempty(agent.n.01_1)",
+        "ontop(printer.n.03_1, table.n.02_1)"
+      ]
+    },
+    {
+      "plan": [
+        "grasp::printer.n.03_1",
+        "place::printer.n.03_1->table.n.02_1"
+      ],
+      "executable": true,
+      "goal_satisfied": false,
+      "failure_step": null,
+      "failed_action_id": null,
+      "missing_preconditions": []
+    },
+    {
+      "plan": [
+        "place::printer.n.03_1->table.n.02_1",
+        "grasp::printer.n.03_1",
+        "toggle_on::printer.n.03_1"
+      ],
+      "executable": false,
+      "goal_satisfied": false,
+      "failure_step": 0,
+      "failed_action_id": "place::printer.n.03_1->table.n.02_1",
+      "missing_preconditions": [
+        "holding(agent.n.01_1, printer.n.03_1)"
+      ]
+    },
+    {
+      "plan": [
+        "grasp::printer.n.03_1",
+        "toggle_on::printer.n.03_1",
+        "place::printer.n.03_1->table.n.02_1"
+      ],
+      "executable": false,
+      "goal_satisfied": false,
+      "failure_step": 1,
+      "failed_action_id": "toggle_on::printer.n.03_1",
+      "missing_preconditions": [
+        "handempty(agent.n.01_1)",
+        "ontop(printer.n.03_1, table.n.02_1)"
+      ]
+    }
+  ],
+  "audit_requirement": "manual trace review and action-semantic sign-off"
+}

@@ -1,0 +1,48 @@
+{
+  "status": "frozen_source_candidates_pending_action_semantics_audit",
+  "source": {
+    "repository": "https://github.com/StanfordVL/BEHAVIOR-1K",
+    "tag": "v3.9.2",
+    "commit": "b1979916ec1549b10a4e65e630bc6504a9af1b00",
+    "activity_root": "bddl3/bddl/activity_definitions",
+    "source_audit_sha256": "26ec5037e533812a0685f0d35f33652f7579fcf6abd9d1d9abe971931560861b"
+  },
+  "selection_principle": "Cover independent repetition, causal order, partial initial satisfaction, existential receptacle choice, and disjunctive stacking while keeping the first operator set auditable.",
+  "tasks": [
+    {
+      "activity": "opening_doors",
+      "problem": "problem0.bddl",
+      "sha256": "0051d08c1826ceb8eaf9ca5ab595c14fd539d8b162a42293ab48be8134bbc719",
+      "motif": "two open goals in distinct rooms with order-dependent navigation cost",
+      "gate_role": "first frozen-source end-to-end task"
+    },
+    {
+      "activity": "installing_a_printer",
+      "problem": "problem0.bddl",
+      "sha256": "8701a201851baeed1b8a918d1c03ac3739cff6a8ac5b2d5109df1ce8f4cdbb0a",
+      "motif": "strict grasp-place-activate causal chain under conservative candidate semantics",
+      "gate_role": "short dependency-chain test"
+    },
+    {
+      "activity": "organizing_file_cabinet",
+      "problem": "problem0.bddl",
+      "sha256": "75346b08e46b67d98660fda3197caef802d0412ea60008cd27634fe0cba2008d",
+      "motif": "quantified objects with partially satisfied initial goals",
+      "gate_role": "universal grounding and no-op filtering test"
+    },
+    {
+      "activity": "storing_food",
+      "problem": "problem0.bddl",
+      "sha256": "501ba590cc5699a4f89f20ed68d6ea7d3baccc7adbacd441999e86ed2b934ef3",
+      "motif": "independent transfers with existential receptacle choices",
+      "gate_role": "goal-alternative and multiplicity stress test"
+    },
+    {
+      "activity": "moving_boxes_to_storage",
+      "problem": "problem0.bddl",
+      "sha256": "13c91058b0266345eec5a5019b3882f1a1ff794dec5643548b2d42927b700995",
+      "motif": "two valid disjunctive stacking arrangements",
+      "gate_role": "disjunctive goal and support dependency test"
+    }
+  ]
+}

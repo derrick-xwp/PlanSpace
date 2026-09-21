@@ -1,0 +1,53 @@
+{
+  "schema_version": "planspace.canonical_task_scope_audit.v0.1",
+  "status": "audit_only_no_files_modified",
+  "canonical_recommendation": {
+    "primary_scope": 171,
+    "primary_artifacts": [
+      "artifacts/*_queue_171_analysis_v0_9_context171_six.json",
+      "artifacts/*_queue_171_sampling_v0_9_context171_six.json",
+      "paper/generated_expanded_v09.tex",
+      "paper/scripts/generate_expanded_v09_data.py"
+    ],
+    "historical_subset": 100,
+    "historical_role": "retain as the earlier frozen 100-task benchmark and do not silently merge into 171-task claims"
+  },
+  "findings": [
+    {
+      "type": "scope_mismatch",
+      "locations": ["paper/main.tex:277", "paper/main.tex:706", "paper/main.tex:717", "paper/candidate_result_figures.tex"],
+      "claim": "100-task compiler/queue/results",
+      "status": "historical_100_subset",
+      "action": "label explicitly as historical 100-task scope"
+    },
+    {
+      "type": "scope_mismatch",
+      "locations": ["paper/generated_expanded_v09.tex:19", "artifacts/*_queue_171_*_context171_six.json"],
+      "claim": "171-task compatibility/context-expanded matrix",
+      "status": "canonical_primary_scope",
+      "action": "use for current expanded claims and denominators"
+    },
+    {
+      "type": "mixed_documentation",
+      "locations": ["paper/README.md:24", "paper/README.md:33", "paper/README.md:55"],
+      "claim": "both 100-task v0.4 audit and 171-task v0.9 expansion",
+      "status": "needs explicit scope boundary",
+      "action": "state historical 100 subset versus primary 171 matrix"
+    }
+  ],
+  "source_packets_and_matrices": [
+    "artifacts/uniform_compact_matrix_summary_v0_5.json",
+    "artifacts/olmo2_7b_queue_171_analysis_v0_9_context171_six.json",
+    "artifacts/qwen3_14b_queue_171_analysis_v0_9_context171_six.json",
+    "artifacts/olmo2_7b_queue_100_analysis_v0_5.json",
+    "artifacts/qwen3_14b_queue_100_sampling_v0_6.md"
+  ],
+  "automated_validation": [
+    "assert every primary 171 artifact reports task_count=171",
+    "assert every historical 100 artifact reports task_count=100 where applicable",
+    "check table captions/macros against their source scope",
+    "check denominator arithmetic after each generated LaTeX refresh",
+    "fail if a 100-task result is cited as a 171-task result or vice versa"
+  ],
+  "files_requiring_review": ["paper/main.tex", "paper/README.md", "paper/candidate_result_figures.tex", "paper/generated_expanded_v09.tex", "paper/scripts/generate_expanded_v09_data.py"]
+}

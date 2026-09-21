@@ -1,0 +1,46 @@
+{
+  "source": "artifacts/reviewer_revision_20260919/cap_resource_by_budget_v1/summary.json",
+  "sha256": "c8362005ba4b5f20c68e4faa9003fd12d0e83f1d6c314faf80d0b03ba2fda119",
+  "rows": [
+    {
+      "cap": 100,
+      "wall_seconds": 14.48,
+      "user_seconds": 13.92,
+      "system_seconds": 0.14,
+      "max_rss_bytes": 29442048,
+      "checked_orders": 103400,
+      "valid_orders": 103400,
+      "report_sha256": "adda56bf29b501b9c33dec7da9c78b56ddbcf575bb7e3e86f3c6e419172fe766"
+    },
+    {
+      "cap": 500,
+      "wall_seconds": 46.46,
+      "user_seconds": 44.7,
+      "system_seconds": 0.35,
+      "max_rss_bytes": 28540928,
+      "checked_orders": 517000,
+      "valid_orders": 517000,
+      "report_sha256": "6fba3fc89b34f03a042c77d4108fa94018280c1cc2e7765bbd977923ed4b2445"
+    },
+    {
+      "cap": 1000,
+      "wall_seconds": 92.51,
+      "user_seconds": 89.32,
+      "system_seconds": 0.65,
+      "max_rss_bytes": 26820608,
+      "checked_orders": 1034000,
+      "valid_orders": 1034000,
+      "report_sha256": "fee486f8e97ec23ed227faf67bbe5276268427fc0fdf01d85f96ab227508303c"
+    },
+    {
+      "cap": 2000,
+      "wall_seconds": 194.44,
+      "user_seconds": 181.99,
+      "system_seconds": 1.72,
+      "max_rss_bytes": 26525696,
+      "checked_orders": 2019008,
+      "valid_orders": 2019008,
+      "report_sha256": "cd70eeae3fd873200d5091de1ff158bd69c04a04b0870999afe79ba7949f183a"
+    }
+  ]
+}

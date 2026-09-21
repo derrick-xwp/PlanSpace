@@ -1,0 +1,1573 @@
+{
+  "audit_version": "planspace_prompt_context_compatibility_v0.1",
+  "decision_rule": "retain a task iff the longest-context-constrained checkpoint can encode the frozen serialized chat plus the shared 512-token output budget",
+  "queue_version": "planspace_action_semantics_supported_expanded_v0.1",
+  "queue_sha256": "0903d9daab7507758715b31274d97b39579383b4500ec6fe371894cf21f63940",
+  "model_id": "allenai/OLMo-2-1124-7B-Instruct",
+  "model_revision": "470b1fba1ae01581f270116362ee4aa1b97f4c84",
+  "tokenizer_source": "same frozen local snapshot as model",
+  "prompt_template": "uniform_compact_action_catalog_v1",
+  "context_limit": 4096,
+  "requested_max_new_tokens": 512,
+  "retained_count": 171,
+  "excluded_count": 2,
+  "records": [
+    {
+      "queue_index": 0,
+      "source_path": "opening_windows/problem0.bddl",
+      "source_sha256": "2bda9e149137230f2c4eafbb5cf26cc91c34f4d9ffeb7aafb890cf83d66cb78a",
+      "input_tokens": 248,
+      "requested_max_new_tokens": 512,
+      "context_limit": 4096,
+      "fits_requested_budget": true
+    },
+    {
+      "queue_index": 1,
+      "source_path": "packing_moving_van/problem0.bddl",
+      "source_sha256": "9061b9f70ad72a77f522b4d1b280d20e4e7e18cc13403137b8d4a98b7fabbf34",
+      "input_tokens": 773,
+      "requested_max_new_tokens": 512,
+      "context_limit": 4096,
+      "fits_requested_budget": true
+    },
+    {
+      "queue_index": 2,
+      "source_path": "clean_up_your_desk/problem0.bddl",
+      "source_sha256": "c81e592bf14dd7b2fbbc2a443a5f4989e5d0d038f20c27cc91a4339b3d14318e",
+      "input_tokens": 944,
+      "requested_max_new_tokens": 512,
+      "context_limit": 4096,
+      "fits_requested_budget": true
+    },
+    {
+      "queue_index": 3,
+      "source_path": "turning_on_the_hot_tub/problem0.bddl",
+      "source_sha256": "ecb6b62ff30674582d5cfd49ac694167f907c8ff29b6f65ecf2bf0f926a14445",
+      "input_tokens": 205,
+      "requested_max_new_tokens": 512,
+      "context_limit": 4096,
+      "fits_requested_budget": true
+    },
+    {
+      "queue_index": 4,
+      "source_path": "tidying_living_room/problem0.bddl",
+      "source_sha256": "004780045ce7ab23c72558a7845768cfe7425986bf6e351b6addc7cce4a39989",
+      "input_tokens": 493,
+      "requested_max_new_tokens": 512,
+      "context_limit": 4096,
+      "fits_requested_budget": true
+    },
+    {
+      "queue_index": 5,
+      "source_path": "fold_a_tortilla/problem0.bddl",
+      "source_sha256": "36d3f1446fad7742bd9cd57217fe8a0d14fd45d2524888728547fb0bd2356d5f",
+      "input_tokens": 333,
+      "requested_max_new_tokens": 512,
+      "context_limit": 4096,
+      "fits_requested_budget": true
+    },
+    {
+      "queue_index": 6,
+      "source_path": "opening_doors/problem0.bddl",
+      "source_sha256": "0051d08c1826ceb8eaf9ca5ab595c14fd539d8b162a42293ab48be8134bbc719",
+      "input_tokens": 237,
+      "requested_max_new_tokens": 512,
+      "context_limit": 4096,
+      "fits_requested_budget": true
+    },
+    {
+      "queue_index": 7,
+      "source_path": "bringing_water/problem0.bddl",
+      "source_sha256": "90e7602fbec064f90c21e7921f582209b2a7a3436afd823231166c69ae489297",
+      "input_tokens": 393,
+      "requested_max_new_tokens": 512,
+      "context_limit": 4096,
+      "fits_requested_budget": true
+    },
+    {
+      "queue_index": 8,
+      "source_path": "installing_a_printer/problem0.bddl",
+      "source_sha256": "8701a201851baeed1b8a918d1c03ac3739cff6a8ac5b2d5109df1ce8f4cdbb0a",
+      "input_tokens": 268,
+      "requested_max_new_tokens": 512,
+      "context_limit": 4096,
+      "fits_requested_budget": true
+    },
+    {
+      "queue_index": 9,
+      "source_path": "outfit_a_basic_toolbox/problem0.bddl",
+      "source_sha256": "7500c3d563f851e74f083455bd3860ae271c887a64469dee3d76ad461c87e5c1",
+      "input_tokens": 618,
+      "requested_max_new_tokens": 512,
+      "context_limit": 4096,
+      "fits_requested_budget": true
+    },
+    {
+      "queue_index": 10,
+      "source_path": "turning_out_all_lights_before_sleep/problem0.bddl",
+      "source_sha256": "b922c30c2f0bf4705fabcdc44827a81e433912677d913afef54308d755923d02",
+      "input_tokens": 484,
+      "requested_max_new_tokens": 512,
+      "context_limit": 4096,
+      "fits_requested_budget": true
+    },
+    {
+      "queue_index": 11,
+      "source_path": "loading_the_car/problem0.bddl",
+      "source_sha256": "c5efe2cb96a090c65bb0ef655a71c1e6143e0a4e379e9f03609d83d593cc6c8a",
+      "input_tokens": 448,
+      "requested_max_new_tokens": 512,
+      "context_limit": 4096,
+      "fits_requested_budget": true
+    },
+    {
+      "queue_index": 12,
+      "source_path": "cleaning_up_branches_and_twigs/problem0.bddl",
+      "source_sha256": "a64272314473e3e02549af27925680551ac0763574b8e1139629231ece1db37b",
+      "input_tokens": 496,
+      "requested_max_new_tokens": 512,
+      "context_limit": 4096,
+      "fits_requested_budget": true
+    },
+    {
+      "queue_index": 13,
+      "source_path": "buy_candle_making_supplies/problem0.bddl",
+      "source_sha256": "a52c18069e890efb69176a0baeea54ddcb5107fca8ea04be59611644a3a961c7",
+      "input_tokens": 504,
+      "requested_max_new_tokens": 512,
+      "context_limit": 4096,
+      "fits_requested_budget": true
+    },
+    {
+      "queue_index": 14,
+      "source_path": "bag_groceries/problem0.bddl",
+      "source_sha256": "95ca8aef4e9fb81624df05221fc054ec76c3c6195b204b31a96d3fe23915630a",
+      "input_tokens": 1837,
+      "requested_max_new_tokens": 512,
+      "context_limit": 4096,
+      "fits_requested_budget": true
+    },
+    {
+      "queue_index": 15,
+      "source_path": "bringing_in_mail/problem0.bddl",
+      "source_sha256": "96fe6b1eec8b98104f77ac0ec6093687bca6430366648349ee929902bb87eb9f",
+      "input_tokens": 309,
+      "requested_max_new_tokens": 512,
+      "context_limit": 4096,
+      "fits_requested_budget": true
+    },
+    {
+      "queue_index": 16,
+      "source_path": "set_up_a_home_office_in_your_garage/problem0.bddl",
+      "source_sha256": "fab24760f6a25ac0e3628a9bc8406c9319ddfc018510867e9011c6dd8f8d4c61",
+      "input_tokens": 572,
+      "requested_max_new_tokens": 512,
+      "context_limit": 4096,
+      "fits_requested_budget": true
+    },
+    {
+      "queue_index": 17,
+      "source_path": "boxing_food_after_dinner/problem0.bddl",
+      "source_sha256": "807ff776b31242fd2a478d884217e16c350062ae531a93fb77406237c5753c3a",
+      "input_tokens": 700,
+      "requested_max_new_tokens": 512,
+      "context_limit": 4096,
+      "fits_requested_budget": true
+    },
+    {
+      "queue_index": 18,
+      "source_path": "turning_on_radio/problem0.bddl",
+      "source_sha256": "06bd7ab790f3b33dd9d701ea689216fd4a73d7fc17e80f3130a1f92dd1c93e32",
+      "input_tokens": 217,
+      "requested_max_new_tokens": 512,
+      "context_limit": 4096,
+      "fits_requested_budget": true
+    },
+    {
+      "queue_index": 19,
+      "source_path": "pack_a_pencil_case/problem0.bddl",
+      "source_sha256": "d85dfb695817ee18fefec37280116a1ffca9e6a578eb953c609bbc38510ceaef",
+      "input_tokens": 490,
+      "requested_max_new_tokens": 512,
+      "context_limit": 4096,
+      "fits_requested_budget": true
+    },
+    {
+      "queue_index": 20,
+      "source_path": "installing_carpet/problem0.bddl",
+      "source_sha256": "4d3570fc9fac8246250ed67076c35da938a009666f013fafc44f8e39b4a01d98",
+      "input_tokens": 382,
+      "requested_max_new_tokens": 512,
+      "context_limit": 4096,
+      "fits_requested_budget": true
+    },
+    {
+      "queue_index": 21,
+      "source_path": "loading_shopping_into_car/problem0.bddl",
+      "source_sha256": "cd4f77be53330c488836ab006a3c938f2a28c1291491e67c79de1a1564a13367",
+      "input_tokens": 570,
+      "requested_max_new_tokens": 512,
+      "context_limit": 4096,
+      "fits_requested_budget": true
+    },
+    {
+      "queue_index": 22,
+      "source_path": "installing_a_fax_machine/problem0.bddl",
+      "source_sha256": "5eb9ba3bade965e05bdc117fe2dca798943dd7a4a48e46686d92f5d7c18df1b3",
+      "input_tokens": 386,
+      "requested_max_new_tokens": 512,
+      "context_limit": 4096,
+      "fits_requested_budget": true
+    },
+    {
+      "queue_index": 23,
+      "source_path": "turning_off_the_hot_tub/problem0.bddl",
+      "source_sha256": "7e786bbf790e3a0b9640390c0b712f6457c66a75337971ccb1b251f6551eecb5",
+      "input_tokens": 224,
+      "requested_max_new_tokens": 512,
+      "context_limit": 4096,
+      "fits_requested_budget": true
+    },
+    {
+      "queue_index": 24,
+      "source_path": "rearranging_kitchen_furniture/problem0.bddl",
+      "source_sha256": "39c12c14f027d2e24325843695acb36c9a05c2ece88223b408c2fe92166ce47c",
+      "input_tokens": 683,
+      "requested_max_new_tokens": 512,
+      "context_limit": 4096,
+      "fits_requested_budget": true
+    },
+    {
+      "queue_index": 25,
+      "source_path": "buying_postage_stamps/problem0.bddl",
+      "source_sha256": "c77addb82d0face68ebd89eab874fd550351227f3f64f712a7d45e6eebbb1018",
+      "input_tokens": 422,
+      "requested_max_new_tokens": 512,
+      "context_limit": 4096,
+      "fits_requested_budget": true
+    },
+    {
+      "queue_index": 26,
+      "source_path": "putting_bike_in_garage/problem0.bddl",
+      "source_sha256": "4626b6cec21111baa03645f27337d54391094b6715b00364afbfe721af5ed67c",
+      "input_tokens": 239,
+      "requested_max_new_tokens": 512,
+      "context_limit": 4096,
+      "fits_requested_budget": true
+    },
+    {
+      "queue_index": 27,
+      "source_path": "packing_car_for_trip/problem0.bddl",
+      "source_sha256": "a7fdbdd57bd7607e1753b5a577b7b7068efb1a689fb923cd5ed936aeff10f847",
+      "input_tokens": 3604,
+      "requested_max_new_tokens": 512,
+      "context_limit": 4096,
+      "fits_requested_budget": false
+    },
+    {
+      "queue_index": 28,
+      "source_path": "put_together_a_basic_pruning_kit/problem0.bddl",
+      "source_sha256": "36599882052a10aa3b79ddee6eb31e40ce1df2196529f70a9d59855d2dcf2256",
+      "input_tokens": 379,
+      "requested_max_new_tokens": 512,
+      "context_limit": 4096,
+      "fits_requested_budget": true
+    },
+    {
+      "queue_index": 29,
+      "source_path": "turn_off_a_normal_school_calculator/problem0.bddl",
+      "source_sha256": "c8c28795ddb0b68425d496071e8dd023520bd83fa6711518a8455806a5eb5d7d",
+      "input_tokens": 216,
+      "requested_max_new_tokens": 512,
+      "context_limit": 4096,
+      "fits_requested_budget": true
+    },
+    {
+      "queue_index": 30,
+      "source_path": "clearing_food_from_table_into_fridge/problem0.bddl",
+      "source_sha256": "840d8330b9a0e3d93f5d0f5ceb1880b4cd00c6fc44caac2eed002d9339f6b872",
+      "input_tokens": 1080,
+      "requested_max_new_tokens": 512,
+      "context_limit": 4096,
+      "fits_requested_budget": true
+    },
+    {
+      "queue_index": 31,
+      "source_path": "buying_cleaning_supplies/problem0.bddl",
+      "source_sha256": "b3f0e67d1d59df35fd6e32a0cdb053eb6383a6045f303a307740e6d66a536238",
+      "input_tokens": 1323,
+      "requested_max_new_tokens": 512,
+      "context_limit": 4096,
+      "fits_requested_budget": true
+    },
+    {
+      "queue_index": 32,
+      "source_path": "carrying_out_garden_furniture/problem0.bddl",
+      "source_sha256": "8da2796cbfd1724c32506ed4e65427fbee79a5026cef8d3c55a81312c100c1af",
+      "input_tokens": 319,
+      "requested_max_new_tokens": 512,
+      "context_limit": 4096,
+      "fits_requested_budget": true
+    },
+    {
+      "queue_index": 33,
+      "source_path": "taking_clothes_out_of_washer/problem0.bddl",
+      "source_sha256": "03be4a7032b7f81f23d44b83ca9b9cd42ae637ac24530e9685700faf160f2016",
+      "input_tokens": 812,
+      "requested_max_new_tokens": 512,
+      "context_limit": 4096,
+      "fits_requested_budget": true
+    },
+    {
+      "queue_index": 34,
+      "source_path": "putting_food_in_fridge/problem0.bddl",
+      "source_sha256": "fbd81b283bca9be3e3850b094e5e5c8cb3738064a6f70bf5df595e7eed779902",
+      "input_tokens": 1092,
+      "requested_max_new_tokens": 512,
+      "context_limit": 4096,
+      "fits_requested_budget": true
+    },
+    {
+      "queue_index": 35,
+      "source_path": "cleaning_parks/problem0.bddl",
+      "source_sha256": "f870f102319616f38767ad2dabf98679799cbce9e468d4e75d67b231b1aaedcc",
+      "input_tokens": 457,
+      "requested_max_new_tokens": 512,
+      "context_limit": 4096,
+      "fits_requested_budget": true
+    },
+    {
+      "queue_index": 36,
+      "source_path": "buy_a_keg/problem0.bddl",
+      "source_sha256": "7c08b65926078e30346572538aff17b91dfb0fdab6ec157e93b94d59dd484500",
+      "input_tokens": 322,
+      "requested_max_new_tokens": 512,
+      "context_limit": 4096,
+      "fits_requested_budget": true
+    },
+    {
+      "queue_index": 37,
+      "source_path": "taking_fish_out_of_freezer/problem0.bddl",
+      "source_sha256": "b80aafd55409f2fa2774b04ac37f0944a1674b34662d2a07302d87043cac9550",
+      "input_tokens": 479,
+      "requested_max_new_tokens": 512,
+      "context_limit": 4096,
+      "fits_requested_budget": true
+    },
+    {
+      "queue_index": 38,
+      "source_path": "bringing_glass_to_recycling/problem0.bddl",
+      "source_sha256": "049e713626c3a818ee081153d1c36980eb66c945230853dcc9faa90b61099809",
+      "input_tokens": 311,
+      "requested_max_new_tokens": 512,
+      "context_limit": 4096,
+      "fits_requested_budget": true
+    },
+    {
+      "queue_index": 39,
+      "source_path": "store_an_uncooked_turkey/problem0.bddl",
+      "source_sha256": "567b3cb0d457a53e0e6188658c836d1263a910940464d2682883f37c5f17d1aa",
+      "input_tokens": 365,
+      "requested_max_new_tokens": 512,
+      "context_limit": 4096,
+      "fits_requested_budget": true
+    },
+    {
+      "queue_index": 40,
+      "source_path": "buy_basic_garden_tools/problem0.bddl",
+      "source_sha256": "ee98394010207aa4d9dee86baaccdad6b2a4881ce42b3d2785a65020157e4dc2",
+      "input_tokens": 418,
+      "requested_max_new_tokens": 512,
+      "context_limit": 4096,
+      "fits_requested_budget": true
+    },
+    {
+      "queue_index": 41,
+      "source_path": "packing_art_supplies_into_car/problem0.bddl",
+      "source_sha256": "d5c64f6a916a8340a476bb23673c88eee002483e1976ad506231d9bd6f65dfb3",
+      "input_tokens": 474,
+      "requested_max_new_tokens": 512,
+      "context_limit": 4096,
+      "fits_requested_budget": true
+    },
+    {
+      "queue_index": 42,
+      "source_path": "unloading_groceries/problem0.bddl",
+      "source_sha256": "5c4566f49bf6bd0d1ca72ed2e0930c5535fda3250fa912538b488c9b3d3046ab",
+      "input_tokens": 638,
+      "requested_max_new_tokens": 512,
+      "context_limit": 4096,
+      "fits_requested_budget": true
+    },
+    {
+      "queue_index": 43,
+      "source_path": "dispose_of_batteries/problem0.bddl",
+      "source_sha256": "97cb15d185b2f9d64fde78905929a66598635b191b7d957083e578ecb7b29013",
+      "input_tokens": 452,
+      "requested_max_new_tokens": 512,
+      "context_limit": 4096,
+      "fits_requested_budget": true
+    },
+    {
+      "queue_index": 44,
+      "source_path": "putting_in_a_hot_tub/problem0.bddl",
+      "source_sha256": "70c377b71f7e565fec7d2bf4602dab690e9bc1802c051d37bdd604779670ef51",
+      "input_tokens": 247,
+      "requested_max_new_tokens": 512,
+      "context_limit": 4096,
+      "fits_requested_budget": true
+    },
+    {
+      "queue_index": 45,
+      "source_path": "putting_meal_in_fridge_at_work/problem0.bddl",
+      "source_sha256": "eafe1e1d50196658a17f673682dd2aaca862995741ebb8592d283afd81b165b8",
+      "input_tokens": 395,
+      "requested_max_new_tokens": 512,
+      "context_limit": 4096,
+      "fits_requested_budget": true
+    },
+    {
+      "queue_index": 46,
+      "source_path": "putting_dishes_away_after_cleaning/problem0.bddl",
+      "source_sha256": "9f4445356bd7f5da5047166efe639f88d6b23688f065659b3ec0a7a892367646",
+      "input_tokens": 1344,
+      "requested_max_new_tokens": 512,
+      "context_limit": 4096,
+      "fits_requested_budget": true
+    },
+    {
+      "queue_index": 47,
+      "source_path": "unloading_shopping_from_car/problem0.bddl",
+      "source_sha256": "fc46e1116bbb22cd956d5834bf5bbe306b6995e02a7a42c6f9c25fd0036e93df",
+      "input_tokens": 970,
+      "requested_max_new_tokens": 512,
+      "context_limit": 4096,
+      "fits_requested_budget": true
+    },
+    {
+      "queue_index": 48,
+      "source_path": "buy_a_good_avocado/problem0.bddl",
+      "source_sha256": "fc057033082dca585913eeec0e65cc6fa37a165d4d389bc4ea79bcf130e55828",
+      "input_tokens": 315,
+      "requested_max_new_tokens": 512,
+      "context_limit": 4096,
+      "fits_requested_budget": true
+    },
+    {
+      "queue_index": 49,
+      "source_path": "putting_away_tools/problem0.bddl",
+      "source_sha256": "af3f26e86bc07ae2aec4728288458f78591af05665e1ba1b817943d02e264440",
+      "input_tokens": 2530,
+      "requested_max_new_tokens": 512,
+      "context_limit": 4096,
+      "fits_requested_budget": true
+    },
+    {
+      "queue_index": 50,
+      "source_path": "preparing_lunch_box/problem0.bddl",
+      "source_sha256": "f1de2c856d25434295813ff1eec15246250057d85c06274a46b65b53c9212e28",
+      "input_tokens": 696,
+      "requested_max_new_tokens": 512,
+      "context_limit": 4096,
+      "fits_requested_budget": true
+    },
+    {
+      "queue_index": 51,
+      "source_path": "sorting_newspapers_for_recycling/problem0.bddl",
+      "source_sha256": "77be3cf6f46a93afe4f5ad2c693b21abd37760fb2b73e5254c188bffe351f260",
+      "input_tokens": 938,
+      "requested_max_new_tokens": 512,
+      "context_limit": 4096,
+      "fits_requested_budget": true
+    },
+    {
+      "queue_index": 52,
+      "source_path": "putting_dirty_dishes_in_sink/problem0.bddl",
+      "source_sha256": "d4ebcc9e444c6b9f448330623d0a4eaef0af1fc2fe8a650e2e8174c61200053b",
+      "input_tokens": 526,
+      "requested_max_new_tokens": 512,
+      "context_limit": 4096,
+      "fits_requested_budget": true
+    },
+    {
+      "queue_index": 53,
+      "source_path": "carrying_in_groceries/problem0.bddl",
+      "source_sha256": "ac2895980b3688800a188814b6d47f248ec74be2d779c1126cb27a0eff6ae236",
+      "input_tokens": 675,
+      "requested_max_new_tokens": 512,
+      "context_limit": 4096,
+      "fits_requested_budget": true
+    },
+    {
+      "queue_index": 54,
+      "source_path": "buy_pet_food_for_less/problem0.bddl",
+      "source_sha256": "ffdfc36e23a817f58ae3a1aabfcd7d95f6c4df567f82224ed9937cb93f659247",
+      "input_tokens": 782,
+      "requested_max_new_tokens": 512,
+      "context_limit": 4096,
+      "fits_requested_budget": true
+    },
+    {
+      "queue_index": 55,
+      "source_path": "distributing_event_T_shirts/problem0.bddl",
+      "source_sha256": "ca23c35c1a8e1c51039bd4e9435f2e115fd450346e0e72c7cbde12c9d8f4cdfb",
+      "input_tokens": 820,
+      "requested_max_new_tokens": 512,
+      "context_limit": 4096,
+      "fits_requested_budget": true
+    },
+    {
+      "queue_index": 56,
+      "source_path": "prepare_an_emergency_school_kit/problem0.bddl",
+      "source_sha256": "7f08d446b50865daa8c6d766824a43842001a9f32c3a3aeb71d47ee48972a905",
+      "input_tokens": 736,
+      "requested_max_new_tokens": 512,
+      "context_limit": 4096,
+      "fits_requested_budget": true
+    },
+    {
+      "queue_index": 57,
+      "source_path": "buy_salad_greens/problem0.bddl",
+      "source_sha256": "8f68ab04c2617b3d47bc1d20b5c490cf55c9acf9e3b9964abc2194be55b81752",
+      "input_tokens": 526,
+      "requested_max_new_tokens": 512,
+      "context_limit": 4096,
+      "fits_requested_budget": true
+    },
+    {
+      "queue_index": 58,
+      "source_path": "shopping_at_warehouse_stores/problem0.bddl",
+      "source_sha256": "34e4ef597f37a4c3014263f9830ed05fd4ecbd028dffd6b330d7fa76a5db7b82",
+      "input_tokens": 610,
+      "requested_max_new_tokens": 512,
+      "context_limit": 4096,
+      "fits_requested_budget": true
+    },
+    {
+      "queue_index": 59,
+      "source_path": "bringing_paper_to_recycling/problem0.bddl",
+      "source_sha256": "7482ea993cf43e69f61191108c181224229a5c0b14d86c2e639b35b9987e98d7",
+      "input_tokens": 400,
+      "requested_max_new_tokens": 512,
+      "context_limit": 4096,
+      "fits_requested_budget": true
+    },
+    {
+      "queue_index": 60,
+      "source_path": "taking_trash_outside/problem0.bddl",
+      "source_sha256": "863a28dcfa5f375c3c69325ce27de3fb746a25a34d4489a724e2e9bb70430abc",
+      "input_tokens": 333,
+      "requested_max_new_tokens": 512,
+      "context_limit": 4096,
+      "fits_requested_budget": true
+    },
+    {
+      "queue_index": 61,
+      "source_path": "make_the_ultimate_spa_basket/problem0.bddl",
+      "source_sha256": "5bbe2bee1ac8bf9dce01c63672ccf979d6cb916d5acc77327dcb573334d2b351",
+      "input_tokens": 460,
+      "requested_max_new_tokens": 512,
+      "context_limit": 4096,
+      "fits_requested_budget": true
+    },
+    {
+      "queue_index": 62,
+      "source_path": "organizing_school_stuff/problem0.bddl",
+      "source_sha256": "5118c0da1b73f21750fcafd0b2fb1c4859fb5f9cab539f5a62901c582ab183a7",
+      "input_tokens": 599,
+      "requested_max_new_tokens": 512,
+      "context_limit": 4096,
+      "fits_requested_budget": true
+    },
+    {
+      "queue_index": 63,
+      "source_path": "packing_fishing_gear_into_car/problem0.bddl",
+      "source_sha256": "c2aa6b33f023cd6a917a65b8c5d268e2c72fb646d7f4bcc22b657cd5870843a5",
+      "input_tokens": 472,
+      "requested_max_new_tokens": 512,
+      "context_limit": 4096,
+      "fits_requested_budget": true
+    },
+    {
+      "queue_index": 64,
+      "source_path": "throwing_out_used_napkins/problem0.bddl",
+      "source_sha256": "3768039b8e09f47fc2693bb0fe4ccf99e257ff8bb81075219758462e5cbae401",
+      "input_tokens": 326,
+      "requested_max_new_tokens": 512,
+      "context_limit": 4096,
+      "fits_requested_budget": true
+    },
+    {
+      "queue_index": 65,
+      "source_path": "store_firewood/problem0.bddl",
+      "source_sha256": "d8b514d97775420955ee3842c2ce60fe9dda644cd6517988fa0400cde158e054",
+      "input_tokens": 378,
+      "requested_max_new_tokens": 512,
+      "context_limit": 4096,
+      "fits_requested_budget": true
+    },
+    {
+      "queue_index": 66,
+      "source_path": "store_bobby_pins/problem0.bddl",
+      "source_sha256": "81b2716f113e628e7c7c8d710c9002f86a3ce0ca5bfd4913af5fff71cc537f2a",
+      "input_tokens": 419,
+      "requested_max_new_tokens": 512,
+      "context_limit": 4096,
+      "fits_requested_budget": true
+    },
+    {
+      "queue_index": 67,
+      "source_path": "make_rose_centerpieces/problem0.bddl",
+      "source_sha256": "e96f193f8d486ab3361f76334711a1b027981b605a299368d700d74e3195b304",
+      "input_tokens": 485,
+      "requested_max_new_tokens": 512,
+      "context_limit": 4096,
+      "fits_requested_budget": true
+    },
+    {
+      "queue_index": 68,
+      "source_path": "make_a_car_emergency_kit/problem0.bddl",
+      "source_sha256": "e5aca590550dbfd0b2afa49594b58852a9fca79b5a5148133f1d7f1ad738bd92",
+      "input_tokens": 527,
+      "requested_max_new_tokens": 512,
+      "context_limit": 4096,
+      "fits_requested_budget": true
+    },
+    {
+      "queue_index": 69,
+      "source_path": "boxing_books_up_for_storage/problem0.bddl",
+      "source_sha256": "f9390495b5f55154080f84da11282c8b8610f6eb20461796cd1ae804f17604f7",
+      "input_tokens": 626,
+      "requested_max_new_tokens": 512,
+      "context_limit": 4096,
+      "fits_requested_budget": true
+    },
+    {
+      "queue_index": 70,
+      "source_path": "picking_up_take_out_food/problem0.bddl",
+      "source_sha256": "7eeecc079b66d3e7eff84da124db97175ddee0cdc1a1cd7ac149412560097fe1",
+      "input_tokens": 326,
+      "requested_max_new_tokens": 512,
+      "context_limit": 4096,
+      "fits_requested_budget": true
+    },
+    {
+      "queue_index": 71,
+      "source_path": "place_houseplants_around_your_home/problem0.bddl",
+      "source_sha256": "8f7e109ab20314cd5e82776a320b0a0afa9b22adfdebc140ccf415b199a45f6b",
+      "input_tokens": 525,
+      "requested_max_new_tokens": 512,
+      "context_limit": 4096,
+      "fits_requested_budget": true
+    },
+    {
+      "queue_index": 72,
+      "source_path": "putting_away_cleaning_supplies/problem0.bddl",
+      "source_sha256": "d1ef7221969d2b8c8c36e496e7261b4dfffa8fb71eec12ee4b022071c76eca43",
+      "input_tokens": 611,
+      "requested_max_new_tokens": 512,
+      "context_limit": 4096,
+      "fits_requested_budget": true
+    },
+    {
+      "queue_index": 73,
+      "source_path": "organizing_art_supplies/problem0.bddl",
+      "source_sha256": "f9eb9644f8a873400d55c786ff916db6130715ab10fa5bda1379b201dfee1422",
+      "input_tokens": 536,
+      "requested_max_new_tokens": 512,
+      "context_limit": 4096,
+      "fits_requested_budget": true
+    },
+    {
+      "queue_index": 74,
+      "source_path": "collecting_wood/problem0.bddl",
+      "source_sha256": "8ecd5297d5fa44b534333f6a238511448bc2a8fbea8c1eb7892b4883f5013fbf",
+      "input_tokens": 271,
+      "requested_max_new_tokens": 512,
+      "context_limit": 4096,
+      "fits_requested_budget": true
+    },
+    {
+      "queue_index": 75,
+      "source_path": "store_daffodil_bulbs/problem0.bddl",
+      "source_sha256": "ea7bff143baddbb3bbf9cab3768c818bdc2503618b6fbaeb700fa05657145942",
+      "input_tokens": 564,
+      "requested_max_new_tokens": 512,
+      "context_limit": 4096,
+      "fits_requested_budget": true
+    },
+    {
+      "queue_index": 76,
+      "source_path": "tidying_bathroom/problem0.bddl",
+      "source_sha256": "e206c6fbed1117e4a434505af629782cebfdbdd420698c2f6a1eabcf3b7517a9",
+      "input_tokens": 531,
+      "requested_max_new_tokens": 512,
+      "context_limit": 4096,
+      "fits_requested_budget": true
+    },
+    {
+      "queue_index": 77,
+      "source_path": "getting_package_from_post_office/problem0.bddl",
+      "source_sha256": "83d16ad2dc4f823b3f7d5dcf18a40ec5d6203078126f447553f94ee20939f90d",
+      "input_tokens": 498,
+      "requested_max_new_tokens": 512,
+      "context_limit": 4096,
+      "fits_requested_budget": true
+    },
+    {
+      "queue_index": 78,
+      "source_path": "store_batteries/problem0.bddl",
+      "source_sha256": "df91a0f880215dff0d0137b409c406c79c6ef67efcf143bfabec19daf14add59",
+      "input_tokens": 637,
+      "requested_max_new_tokens": 512,
+      "context_limit": 4096,
+      "fits_requested_budget": true
+    },
+    {
+      "queue_index": 79,
+      "source_path": "packing_bags_or_suitcase/problem0.bddl",
+      "source_sha256": "9e16cc0a0056c5d7c981ff5007f52e9e9613af543f5c10956f0f1199abd2198f",
+      "input_tokens": 877,
+      "requested_max_new_tokens": 512,
+      "context_limit": 4096,
+      "fits_requested_budget": true
+    },
+    {
+      "queue_index": 80,
+      "source_path": "buy_eggs/problem0.bddl",
+      "source_sha256": "4188d2f129d159566c5dc3a9900c9443a931d2fa72fdde2f75efdf047137a018",
+      "input_tokens": 439,
+      "requested_max_new_tokens": 512,
+      "context_limit": 4096,
+      "fits_requested_budget": true
+    },
+    {
+      "queue_index": 81,
+      "source_path": "taking_clothes_out_of_the_dryer/problem0.bddl",
+      "source_sha256": "e02b6405bed736d830c62a8d75c8d664b79df99063526a69ce0b6af7a54a1b5f",
+      "input_tokens": 863,
+      "requested_max_new_tokens": 512,
+      "context_limit": 4096,
+      "fits_requested_budget": true
+    },
+    {
+      "queue_index": 82,
+      "source_path": "returning_consumer_goods/problem0.bddl",
+      "source_sha256": "2be69123448b5e881518502e6f8fbd153858f35e67a502121a590c7c3d15f044",
+      "input_tokens": 435,
+      "requested_max_new_tokens": 512,
+      "context_limit": 4096,
+      "fits_requested_budget": true
+    },
+    {
+      "queue_index": 83,
+      "source_path": "lighting_fireplace/problem0.bddl",
+      "source_sha256": "296bf9c06bc5240cdaa1bc00c4ef7224ab53f78508bbfbbd418b7a501431ba4a",
+      "input_tokens": 315,
+      "requested_max_new_tokens": 512,
+      "context_limit": 4096,
+      "fits_requested_budget": true
+    },
+    {
+      "queue_index": 84,
+      "source_path": "picking_up_litter/problem0.bddl",
+      "source_sha256": "92448ac1849d76ce69fb580774083d4cb32d9a2820fc4e59c58a7bc632bcf558",
+      "input_tokens": 668,
+      "requested_max_new_tokens": 512,
+      "context_limit": 4096,
+      "fits_requested_budget": true
+    },
+    {
+      "queue_index": 85,
+      "source_path": "paying_for_purchases/problem0.bddl",
+      "source_sha256": "3fe7a8a74b23fbe357e690481bb6e4256d0bc2c77da352446cd902cd178e537e",
+      "input_tokens": 344,
+      "requested_max_new_tokens": 512,
+      "context_limit": 4096,
+      "fits_requested_budget": true
+    },
+    {
+      "queue_index": 86,
+      "source_path": "store_beer/problem0.bddl",
+      "source_sha256": "3266f2381f2a3c949baeb637fedcc006cc5e03f40c5286fa9871b440c3d632d1",
+      "input_tokens": 543,
+      "requested_max_new_tokens": 512,
+      "context_limit": 4096,
+      "fits_requested_budget": true
+    },
+    {
+      "queue_index": 87,
+      "source_path": "buy_good_chocolate/problem0.bddl",
+      "source_sha256": "e5d3ce53fa425466c0e04c514b548142375ba55e4cec4d7ebf177028c939302f",
+      "input_tokens": 651,
+      "requested_max_new_tokens": 512,
+      "context_limit": 4096,
+      "fits_requested_budget": true
+    },
+    {
+      "queue_index": 88,
+      "source_path": "make_a_military_care_package/problem0.bddl",
+      "source_sha256": "f9f34ab5beeda2dda9d7824dc5fdd98c924de222470a27d9737ecdd16e131954",
+      "input_tokens": 984,
+      "requested_max_new_tokens": 512,
+      "context_limit": 4096,
+      "fits_requested_budget": true
+    },
+    {
+      "queue_index": 89,
+      "source_path": "organizing_office_documents/problem0.bddl",
+      "source_sha256": "27968645dbcce3c077a6517169d6ece3185aaa31fb64cf866114a7bd322ca2aa",
+      "input_tokens": 454,
+      "requested_max_new_tokens": 512,
+      "context_limit": 4096,
+      "fits_requested_budget": true
+    },
+    {
+      "queue_index": 90,
+      "source_path": "stock_a_bar/problem0.bddl",
+      "source_sha256": "0bb4421d5c90385139468644263e40ec56f73b06900e295e613c6b067d4c141c",
+      "input_tokens": 631,
+      "requested_max_new_tokens": 512,
+      "context_limit": 4096,
+      "fits_requested_budget": true
+    },
+    {
+      "queue_index": 91,
+      "source_path": "taking_clothes_off_of_the_drying_rack/problem0.bddl",
+      "source_sha256": "6ce422d47efbb27f4c81111093dbafc29b9ff25233b8ad2d7a9cceb66c8c96a5",
+      "input_tokens": 337,
+      "requested_max_new_tokens": 512,
+      "context_limit": 4096,
+      "fits_requested_budget": true
+    },
+    {
+      "queue_index": 92,
+      "source_path": "buy_food_for_a_party/problem0.bddl",
+      "source_sha256": "6cbe412c5ad958a59fd6fb69e7f957bedec65b572934e10b4996e6d8a6b82ce7",
+      "input_tokens": 1050,
+      "requested_max_new_tokens": 512,
+      "context_limit": 4096,
+      "fits_requested_budget": true
+    },
+    {
+      "queue_index": 93,
+      "source_path": "setting_up_room_for_games/problem0.bddl",
+      "source_sha256": "40ab9a466082342bc5ec0ebccd84c1e7d1765561dfe616ab40177ae60d9f83a7",
+      "input_tokens": 415,
+      "requested_max_new_tokens": 512,
+      "context_limit": 4096,
+      "fits_requested_budget": true
+    },
+    {
+      "queue_index": 94,
+      "source_path": "storing_food/problem0.bddl",
+      "source_sha256": "501ba590cc5699a4f89f20ed68d6ea7d3baccc7adbacd441999e86ed2b934ef3",
+      "input_tokens": 1530,
+      "requested_max_new_tokens": 512,
+      "context_limit": 4096,
+      "fits_requested_budget": true
+    },
+    {
+      "queue_index": 95,
+      "source_path": "organizing_file_cabinet/problem0.bddl",
+      "source_sha256": "75346b08e46b67d98660fda3197caef802d0412ea60008cd27634fe0cba2008d",
+      "input_tokens": 618,
+      "requested_max_new_tokens": 512,
+      "context_limit": 4096,
+      "fits_requested_budget": true
+    },
+    {
+      "queue_index": 96,
+      "source_path": "buy_a_belt/problem0.bddl",
+      "source_sha256": "2781952009cc5b4d18b7f5701e3dbb52b6eebc87c35ecf197c41261c713230b6",
+      "input_tokens": 322,
+      "requested_max_new_tokens": 512,
+      "context_limit": 4096,
+      "fits_requested_budget": true
+    },
+    {
+      "queue_index": 97,
+      "source_path": "pack_your_gym_bag/problem0.bddl",
+      "source_sha256": "3479ef0235a823a2c3e5a1d2560c7458f4411a77670ab3a649959c828cfc0fd1",
+      "input_tokens": 633,
+      "requested_max_new_tokens": 512,
+      "context_limit": 4096,
+      "fits_requested_budget": true
+    },
+    {
+      "queue_index": 98,
+      "source_path": "buy_boxes_for_packing/problem0.bddl",
+      "source_sha256": "705a2e4fc25c4cd593c41b760419768f56636f0bc71859aadcb8bbd5c413b8a9",
+      "input_tokens": 445,
+      "requested_max_new_tokens": 512,
+      "context_limit": 4096,
+      "fits_requested_budget": true
+    },
+    {
+      "queue_index": 99,
+      "source_path": "unpacking_suitcase/problem0.bddl",
+      "source_sha256": "7468292e8eeae6184192b4697937f288e6216e122b59c1e5d73ec904eb4093d5",
+      "input_tokens": 604,
+      "requested_max_new_tokens": 512,
+      "context_limit": 4096,
+      "fits_requested_budget": true
+    },
+    {
+      "queue_index": 100,
+      "source_path": "dispose_of_fireworks/problem0.bddl",
+      "source_sha256": "1d739c813cb1346b93a8adf1dc02d04100bef67ae74a6afaacb3dec844887d47",
+      "input_tokens": 460,
+      "requested_max_new_tokens": 512,
+      "context_limit": 4096,
+      "fits_requested_budget": true
+    },
+    {
+      "queue_index": 101,
+      "source_path": "packing_cleaning_suppies_into_car/problem0.bddl",
+      "source_sha256": "573953c1ace2855582c402f87b0b92339fadcf544e934bc091faf2bf6767532a",
+      "input_tokens": 471,
+      "requested_max_new_tokens": 512,
+      "context_limit": 4096,
+      "fits_requested_budget": true
+    },
+    {
+      "queue_index": 102,
+      "source_path": "moving_boxes_to_storage/problem0.bddl",
+      "source_sha256": "13c91058b0266345eec5a5019b3882f1a1ff794dec5643548b2d42927b700995",
+      "input_tokens": 417,
+      "requested_max_new_tokens": 512,
+      "context_limit": 4096,
+      "fits_requested_budget": true
+    },
+    {
+      "queue_index": 103,
+      "source_path": "dispose_of_paper/problem0.bddl",
+      "source_sha256": "508058386dda542d92a4981129d8ddb4a1790ddb8d958778bebd8d6860e73ad2",
+      "input_tokens": 513,
+      "requested_max_new_tokens": 512,
+      "context_limit": 4096,
+      "fits_requested_budget": true
+    },
+    {
+      "queue_index": 104,
+      "source_path": "organizing_boxes_in_garage/problem0.bddl",
+      "source_sha256": "735d30d9fdd1236d3176345da4bcf05e30326599d5aea4084b8215b5216c46a7",
+      "input_tokens": 1129,
+      "requested_max_new_tokens": 512,
+      "context_limit": 4096,
+      "fits_requested_budget": true
+    },
+    {
+      "queue_index": 105,
+      "source_path": "bringing_in_wood/problem0.bddl",
+      "source_sha256": "bf157bd45031dfe3db3054536bd76c861448498cb801a929f253927ad09706f0",
+      "input_tokens": 377,
+      "requested_max_new_tokens": 512,
+      "context_limit": 4096,
+      "fits_requested_budget": true
+    },
+    {
+      "queue_index": 106,
+      "source_path": "collecting_dishes_from_restaurant_tables/problem0.bddl",
+      "source_sha256": "fe64181b319f5d79426af4a358cddbb49dc2eb92c3f38ea9955cc868115c7888",
+      "input_tokens": 394,
+      "requested_max_new_tokens": 512,
+      "context_limit": 4096,
+      "fits_requested_budget": true
+    },
+    {
+      "queue_index": 107,
+      "source_path": "buy_school_supplies_for_high_school/problem0.bddl",
+      "source_sha256": "3905e273313747020ecfd07f9905c1cb254853f37181a9eec7791f55625a772f",
+      "input_tokens": 993,
+      "requested_max_new_tokens": 512,
+      "context_limit": 4096,
+      "fits_requested_budget": true
+    },
+    {
+      "queue_index": 108,
+      "source_path": "laying_out_snacks_at_work/problem0.bddl",
+      "source_sha256": "5dfbb2b0e3b38c743d5d1d6cc52fb4924a6b380196e326e875e44b9ce8cceed0",
+      "input_tokens": 381,
+      "requested_max_new_tokens": 512,
+      "context_limit": 4096,
+      "fits_requested_budget": true
+    },
+    {
+      "queue_index": 109,
+      "source_path": "dispose_of_a_pizza_box/problem0.bddl",
+      "source_sha256": "17589f6de9ee0e6728ac37f1ebcb7157a389f7645f1590792876b1b87eb25cad",
+      "input_tokens": 414,
+      "requested_max_new_tokens": 512,
+      "context_limit": 4096,
+      "fits_requested_budget": true
+    },
+    {
+      "queue_index": 110,
+      "source_path": "collecting_mail_from_the_letterbox/problem0.bddl",
+      "source_sha256": "7920702e024e174d32813c6049f971178ab8e1ecd11ca83c56e8365f211c2272",
+      "input_tokens": 287,
+      "requested_max_new_tokens": 512,
+      "context_limit": 4096,
+      "fits_requested_budget": true
+    },
+    {
+      "queue_index": 111,
+      "source_path": "picking_up_baggage/problem0.bddl",
+      "source_sha256": "41e815c8b30cebeb105eaec5fbd1096ffe2366bcae5711a4a1f430f059158781",
+      "input_tokens": 330,
+      "requested_max_new_tokens": 512,
+      "context_limit": 4096,
+      "fits_requested_budget": true
+    },
+    {
+      "queue_index": 112,
+      "source_path": "emptying_trash_cans/problem0.bddl",
+      "source_sha256": "d2a82a3531a39c9ca38ff0a67f203c6f31a483d3c26d3b327d307cbd9ae771b9",
+      "input_tokens": 2437,
+      "requested_max_new_tokens": 512,
+      "context_limit": 4096,
+      "fits_requested_budget": true
+    },
+    {
+      "queue_index": 113,
+      "source_path": "preparing_clothes_for_the_next_day/problem0.bddl",
+      "source_sha256": "2669a9617f090b8f8b59470a5f2a854f2f886e4914b310523dfd906f75894748",
+      "input_tokens": 567,
+      "requested_max_new_tokens": 512,
+      "context_limit": 4096,
+      "fits_requested_budget": true
+    },
+    {
+      "queue_index": 114,
+      "source_path": "buy_fish/problem0.bddl",
+      "source_sha256": "cfd49ac68c5d06ecdcd202155b778febb069404585717cb9504c0bed1ed24321",
+      "input_tokens": 342,
+      "requested_max_new_tokens": 512,
+      "context_limit": 4096,
+      "fits_requested_budget": true
+    },
+    {
+      "queue_index": 115,
+      "source_path": "dispose_of_glass/problem0.bddl",
+      "source_sha256": "ecbc44ca0272d8783dd1c2e9c9f44e341a5acb175463b1aa2e317329fc56417b",
+      "input_tokens": 497,
+      "requested_max_new_tokens": 512,
+      "context_limit": 4096,
+      "fits_requested_budget": true
+    },
+    {
+      "queue_index": 116,
+      "source_path": "buying_office_supplies/problem0.bddl",
+      "source_sha256": "072b607ac6191e231ee65b17fbad3bb000367138cf1daca850308608f1e75024",
+      "input_tokens": 530,
+      "requested_max_new_tokens": 512,
+      "context_limit": 4096,
+      "fits_requested_budget": true
+    },
+    {
+      "queue_index": 117,
+      "source_path": "recycling_newspapers/problem0.bddl",
+      "source_sha256": "2beaf9722dae8024d5609070e1b06deb92d646cfb5d46b6cdc360e25a46dedbf",
+      "input_tokens": 355,
+      "requested_max_new_tokens": 512,
+      "context_limit": 4096,
+      "fits_requested_budget": true
+    },
+    {
+      "queue_index": 118,
+      "source_path": "bringing_newspaper_in/problem0.bddl",
+      "source_sha256": "0d2de6e6109c653debab908ea91b4ea328aa991c5997ae38459548d326c69d72",
+      "input_tokens": 249,
+      "requested_max_new_tokens": 512,
+      "context_limit": 4096,
+      "fits_requested_budget": true
+    },
+    {
+      "queue_index": 119,
+      "source_path": "sorting_art_supplies/problem0.bddl",
+      "source_sha256": "5320322729b90441a0796ae3ee9616a6d216c70502c2e29b28791a344165c853",
+      "input_tokens": 1560,
+      "requested_max_new_tokens": 512,
+      "context_limit": 4096,
+      "fits_requested_budget": true
+    },
+    {
+      "queue_index": 120,
+      "source_path": "buy_a_air_conditioner/problem0.bddl",
+      "source_sha256": "5689b374d5739893f0f480ea3738d0cb835de785b9c838f903aea10c4918fb87",
+      "input_tokens": 320,
+      "requested_max_new_tokens": 512,
+      "context_limit": 4096,
+      "fits_requested_budget": true
+    },
+    {
+      "queue_index": 121,
+      "source_path": "packing_sports_equipment_into_car/problem0.bddl",
+      "source_sha256": "737bb95bcd225cf5f4ce5b64f90dfcf8a7c18c126cbba65c7af4d2657c887f89",
+      "input_tokens": 747,
+      "requested_max_new_tokens": 512,
+      "context_limit": 4096,
+      "fits_requested_budget": true
+    },
+    {
+      "queue_index": 122,
+      "source_path": "buy_alcohol/problem0.bddl",
+      "source_sha256": "d57f697b6379b87a5ef21f6eabdb6569c73a1eb75e2abb232de442902870b70a",
+      "input_tokens": 528,
+      "requested_max_new_tokens": 512,
+      "context_limit": 4096,
+      "fits_requested_budget": true
+    },
+    {
+      "queue_index": 123,
+      "source_path": "buy_dog_food/problem0.bddl",
+      "source_sha256": "d93163ec066377ab0cc8eb10e8614e2cce08b371db58802dd8034d7917934758",
+      "input_tokens": 346,
+      "requested_max_new_tokens": 512,
+      "context_limit": 4096,
+      "fits_requested_budget": true
+    },
+    {
+      "queue_index": 124,
+      "source_path": "taking_clothes_off_the_line/problem0.bddl",
+      "source_sha256": "263c1a1f80c17014be8f3f4ef00f04349b61c94594ca3611dc579db7ebfd3462",
+      "input_tokens": 571,
+      "requested_max_new_tokens": 512,
+      "context_limit": 4096,
+      "fits_requested_budget": true
+    },
+    {
+      "queue_index": 125,
+      "source_path": "put_together_a_scrapping_tool_kit/problem0.bddl",
+      "source_sha256": "938f2d5ac86543c4947da582a146738491252ca728f75985a6bf563b46c86307",
+      "input_tokens": 476,
+      "requested_max_new_tokens": 512,
+      "context_limit": 4096,
+      "fits_requested_budget": true
+    },
+    {
+      "queue_index": 126,
+      "source_path": "unpacking_hobby_equipment/problem0.bddl",
+      "source_sha256": "525ff4eaf76dce48e813a5ca194b6e77c94da72f45349e0ba27c9d93ccfb29fa",
+      "input_tokens": 831,
+      "requested_max_new_tokens": 512,
+      "context_limit": 4096,
+      "fits_requested_budget": true
+    },
+    {
+      "queue_index": 127,
+      "source_path": "collecting_childrens_toys/problem0.bddl",
+      "source_sha256": "5c7ffb5883b200455c3ac6838aaade37ef991ac48b67850b73ae5947f7a18bba",
+      "input_tokens": 1095,
+      "requested_max_new_tokens": 512,
+      "context_limit": 4096,
+      "fits_requested_budget": true
+    },
+    {
+      "queue_index": 128,
+      "source_path": "store_silver_coins/problem0.bddl",
+      "source_sha256": "aa9e56433fdd45b8c403cb2a738f6c17daafc7182b28929540e0a2d22a5238c5",
+      "input_tokens": 439,
+      "requested_max_new_tokens": 512,
+      "context_limit": 4096,
+      "fits_requested_budget": true
+    },
+    {
+      "queue_index": 129,
+      "source_path": "collecting_aluminum_cans/problem0.bddl",
+      "source_sha256": "150dad84ed3b27019fc5850af6946c2c5342be4600e98728ff131e4e71b4ccbd",
+      "input_tokens": 672,
+      "requested_max_new_tokens": 512,
+      "context_limit": 4096,
+      "fits_requested_budget": true
+    },
+    {
+      "queue_index": 130,
+      "source_path": "bringing_laundry/problem0.bddl",
+      "source_sha256": "afc2e48592745c561bf21e2c9f42c32c4a00608902cbd84ef3a140472acfd76c",
+      "input_tokens": 377,
+      "requested_max_new_tokens": 512,
+      "context_limit": 4096,
+      "fits_requested_budget": true
+    },
+    {
+      "queue_index": 131,
+      "source_path": "prepare_a_hanging_basket/problem0.bddl",
+      "source_sha256": "a638508b61bea046b65d4eb1a42353d1edbfdc2d8e5b4ab5c30c13eb638cbf3f",
+      "input_tokens": 437,
+      "requested_max_new_tokens": 512,
+      "context_limit": 4096,
+      "fits_requested_budget": true
+    },
+    {
+      "queue_index": 132,
+      "source_path": "putting_backpack_in_car_for_school/problem0.bddl",
+      "source_sha256": "9fef191b4e9447456ca72b65a0241469aaac46f8a662eacbf5338eb0542ff529",
+      "input_tokens": 308,
+      "requested_max_new_tokens": 512,
+      "context_limit": 4096,
+      "fits_requested_budget": true
+    },
+    {
+      "queue_index": 133,
+      "source_path": "picking_up_prescriptions/problem0.bddl",
+      "source_sha256": "58fd3b52eaf441c7cc9af226bd348e65625bef1a0afb77f3371bbb248e27e1a5",
+      "input_tokens": 611,
+      "requested_max_new_tokens": 512,
+      "context_limit": 4096,
+      "fits_requested_budget": true
+    },
+    {
+      "queue_index": 134,
+      "source_path": "picking_up_books_at_library/problem0.bddl",
+      "source_sha256": "38f28cae5aaa28f10a51290f715362c2674fc7a0fd33ee97e4399da856d93387",
+      "input_tokens": 467,
+      "requested_max_new_tokens": 512,
+      "context_limit": 4096,
+      "fits_requested_budget": true
+    },
+    {
+      "queue_index": 135,
+      "source_path": "putting_away_toys/problem0.bddl",
+      "source_sha256": "be5b2d620e15ed4ca414f9488c8e49476e141d289f5ee87983cdef1e710d8dd8",
+      "input_tokens": 1325,
+      "requested_max_new_tokens": 512,
+      "context_limit": 4096,
+      "fits_requested_budget": true
+    },
+    {
+      "queue_index": 136,
+      "source_path": "hoe_weeds/problem0.bddl",
+      "source_sha256": "3d61491a0fcbcba7a8608b31814c26fd2e8aed7cf7f7fa2e7a3d068cb7996681",
+      "input_tokens": 551,
+      "requested_max_new_tokens": 512,
+      "context_limit": 4096,
+      "fits_requested_budget": true
+    },
+    {
+      "queue_index": 137,
+      "source_path": "store_honey/problem0.bddl",
+      "source_sha256": "ee21ac0bcb27d37c33732529d8d79f0fb57bb9ca832218cd5b91efe114197f04",
+      "input_tokens": 282,
+      "requested_max_new_tokens": 512,
+      "context_limit": 4096,
+      "fits_requested_budget": true
+    },
+    {
+      "queue_index": 138,
+      "source_path": "clearing_table_after_supper/problem0.bddl",
+      "source_sha256": "492d2d45cc584732fc9c7a99c8a1029097460cfc4b70b5b5df8377c2fc87600c",
+      "input_tokens": 2846,
+      "requested_max_new_tokens": 512,
+      "context_limit": 4096,
+      "fits_requested_budget": true
+    },
+    {
+      "queue_index": 139,
+      "source_path": "picking_up_toys/problem0.bddl",
+      "source_sha256": "146aaa8e9d897202382adcacf142e74380776f1881edc27a6d72ca7b74275006",
+      "input_tokens": 643,
+      "requested_max_new_tokens": 512,
+      "context_limit": 4096,
+      "fits_requested_budget": true
+    },
+    {
+      "queue_index": 140,
+      "source_path": "preparing_food_for_a_fundraiser/problem0.bddl",
+      "source_sha256": "66734c8b1a446345bfcba7976520bec9e360854f3733039c1f5d757dae338491",
+      "input_tokens": 9955,
+      "requested_max_new_tokens": 512,
+      "context_limit": 4096,
+      "fits_requested_budget": false
+    },
+    {
+      "queue_index": 141,
+      "source_path": "buy_rechargeable_batteries/problem0.bddl",
+      "source_sha256": "b7d763e2f8514a47d688a04aca52a45d97953b5538358d008797c4ffef35d398",
+      "input_tokens": 666,
+      "requested_max_new_tokens": 512,
+      "context_limit": 4096,
+      "fits_requested_budget": true
+    },
+    {
+      "queue_index": 142,
+      "source_path": "packing_picnic_into_car/problem0.bddl",
+      "source_sha256": "601949ad65d9ae8ce90fd52eb0a44be967a574b89ac086867bc5606cb6cfec84",
+      "input_tokens": 1317,
+      "requested_max_new_tokens": 512,
+      "context_limit": 4096,
+      "fits_requested_budget": true
+    },
+    {
+      "queue_index": 143,
+      "source_path": "putting_leftovers_away/problem0.bddl",
+      "source_sha256": "7a47859abc13dff3fbe057f25571ab50edff91022739ddbd70a54f0983a5e221",
+      "input_tokens": 977,
+      "requested_max_new_tokens": 512,
+      "context_limit": 4096,
+      "fits_requested_budget": true
+    },
+    {
+      "queue_index": 144,
+      "source_path": "clearing_the_table_after_dinner/problem0.bddl",
+      "source_sha256": "305c38f5651e668b2db212bc3e4a5ff28344e7f1a77a7c5e0879a875b4fc2c9b",
+      "input_tokens": 1171,
+      "requested_max_new_tokens": 512,
+      "context_limit": 4096,
+      "fits_requested_budget": true
+    },
+    {
+      "queue_index": 145,
+      "source_path": "loading_the_dishwasher/problem0.bddl",
+      "source_sha256": "34c5fea65059fabc7268b297f0364d2ec96591b1a6fdf80ebe693246ed08ba77",
+      "input_tokens": 566,
+      "requested_max_new_tokens": 512,
+      "context_limit": 4096,
+      "fits_requested_budget": true
+    },
+    {
+      "queue_index": 146,
+      "source_path": "donating_toys/problem0.bddl",
+      "source_sha256": "bba36f36b3d33dab722b72bd4a5225dcdb46510b26f1b329579dcb7e14c451e3",
+      "input_tokens": 316,
+      "requested_max_new_tokens": 512,
+      "context_limit": 4096,
+      "fits_requested_budget": true
+    },
+    {
+      "queue_index": 147,
+      "source_path": "picking_vegetables_in_garden/problem0.bddl",
+      "source_sha256": "576a28dcd0fba3ba7ae19c4d686b512fe76ac483e9099d65ff91aa9acc5df32c",
+      "input_tokens": 1016,
+      "requested_max_new_tokens": 512,
+      "context_limit": 4096,
+      "fits_requested_budget": true
+    },
+    {
+      "queue_index": 148,
+      "source_path": "recycling_office_papers/problem0.bddl",
+      "source_sha256": "f7806427e2b5548512a6eb36323c26ae76fd4f61f0f371447878fc3127f44137",
+      "input_tokens": 319,
+      "requested_max_new_tokens": 512,
+      "context_limit": 4096,
+      "fits_requested_budget": true
+    },
+    {
+      "queue_index": 149,
+      "source_path": "picking_up_trash/problem0.bddl",
+      "source_sha256": "4dc802891cc16e91d2531d2b0c19e7bece663ddffd3c218112e3358f2dd459e4",
+      "input_tokens": 427,
+      "requested_max_new_tokens": 512,
+      "context_limit": 4096,
+      "fits_requested_budget": true
+    },
+    {
+      "queue_index": 150,
+      "source_path": "re_shelving_library_books/problem0.bddl",
+      "source_sha256": "e2e47f21381e576347339624bb2f773fed5dd1b44cf75ed75c2b0ab93b71ce29",
+      "input_tokens": 373,
+      "requested_max_new_tokens": 512,
+      "context_limit": 4096,
+      "fits_requested_budget": true
+    },
+    {
+      "queue_index": 151,
+      "source_path": "store_brownies/problem0.bddl",
+      "source_sha256": "77fd9c2301b35b85ab65d97209143d3dcc0a261c8a7f51a0bcafceef227f5d95",
+      "input_tokens": 723,
+      "requested_max_new_tokens": 512,
+      "context_limit": 4096,
+      "fits_requested_budget": true
+    },
+    {
+      "queue_index": 152,
+      "source_path": "store_tulip_bulbs/problem0.bddl",
+      "source_sha256": "f90527c4dde0e9348101be6c73dfdede2178ab7568b85ca81fc18f0c7065c53d",
+      "input_tokens": 446,
+      "requested_max_new_tokens": 512,
+      "context_limit": 4096,
+      "fits_requested_budget": true
+    },
+    {
+      "queue_index": 153,
+      "source_path": "packing_picnic_food_into_car/problem0.bddl",
+      "source_sha256": "3f76743710a95010c950de255839a9c111b2873d2880df55a3dfaadf19ce96dc",
+      "input_tokens": 1558,
+      "requested_max_new_tokens": 512,
+      "context_limit": 4096,
+      "fits_requested_budget": true
+    },
+    {
+      "queue_index": 154,
+      "source_path": "packing_recreational_vehicle_for_trip/problem0.bddl",
+      "source_sha256": "daab1e9ba437dc2e50dfb5994f2284fa672489fdff40ae311de252e28565bfb0",
+      "input_tokens": 813,
+      "requested_max_new_tokens": 512,
+      "context_limit": 4096,
+      "fits_requested_budget": true
+    },
+    {
+      "queue_index": 155,
+      "source_path": "clearing_table_after_snacks/problem0.bddl",
+      "source_sha256": "e9b8dc1936c2f1fa73b8004eaf3a18f9a046bdbb6af0dc4616e0ce222a77b994",
+      "input_tokens": 483,
+      "requested_max_new_tokens": 512,
+      "context_limit": 4096,
+      "fits_requested_budget": true
+    },
+    {
+      "queue_index": 156,
+      "source_path": "store_nuts/problem0.bddl",
+      "source_sha256": "9095609c7cb9ff9a3a8f9b9bffd279d401776215bbd60ea0af929029e25e22a9",
+      "input_tokens": 518,
+      "requested_max_new_tokens": 512,
+      "context_limit": 4096,
+      "fits_requested_budget": true
+    },
+    {
+      "queue_index": 157,
+      "source_path": "returning_videotapes_to_store/problem0.bddl",
+      "source_sha256": "ec98673fa0c18c9829dfb1ee3957d9577f2ab8b0ed0a480f05b34ea49ad68fce",
+      "input_tokens": 433,
+      "requested_max_new_tokens": 512,
+      "context_limit": 4096,
+      "fits_requested_budget": true
+    },
+    {
+      "queue_index": 158,
+      "source_path": "donating_clothing/problem0.bddl",
+      "source_sha256": "64e5fae99befd4fc46f174a640ded70b7239556ef2f0cac01c68b36c96f59a8f",
+      "input_tokens": 728,
+      "requested_max_new_tokens": 512,
+      "context_limit": 4096,
+      "fits_requested_budget": true
+    },
+    {
+      "queue_index": 159,
+      "source_path": "putting_wood_in_fireplace/problem0.bddl",
+      "source_sha256": "9e27aa533ce9aaa20abd7eec0518a9e4410088c4f5a010b3125f7181fe136d22",
+      "input_tokens": 249,
+      "requested_max_new_tokens": 512,
+      "context_limit": 4096,
+      "fits_requested_budget": true
+    },
+    {
+      "queue_index": 160,
+      "source_path": "setup_a_baby_crib/problem0.bddl",
+      "source_sha256": "5f258baac99250f8932fa0676e09455837e3427d87112c8028111dfd81e6d037",
+      "input_tokens": 417,
+      "requested_max_new_tokens": 512,
+      "context_limit": 4096,
+      "fits_requested_budget": true
+    },
+    {
+      "queue_index": 161,
+      "source_path": "composting_waste/problem0.bddl",
+      "source_sha256": "66663f3d27e4f38dd93d81097a5bb853919ae04208e17ad2f957a3727bba3f4e",
+      "input_tokens": 369,
+      "requested_max_new_tokens": 512,
+      "context_limit": 4096,
+      "fits_requested_budget": true
+    },
+    {
+      "queue_index": 162,
+      "source_path": "packing_hiking_equipment_into_car/problem0.bddl",
+      "source_sha256": "655dc78e2165619ed3660f16d31c77210fc03a976d10d52d3038d48d3ccb3667",
+      "input_tokens": 737,
+      "requested_max_new_tokens": 512,
+      "context_limit": 4096,
+      "fits_requested_budget": true
+    },
+    {
+      "queue_index": 163,
+      "source_path": "clean_up_broken_glass/problem0.bddl",
+      "source_sha256": "c06613f86a7afad2d04b71492389ab9bba157eeb75795204e1700b80030dfaac",
+      "input_tokens": 408,
+      "requested_max_new_tokens": 512,
+      "context_limit": 4096,
+      "fits_requested_budget": true
+    },
+    {
+      "queue_index": 164,
+      "source_path": "recycling_glass_bottles/problem0.bddl",
+      "source_sha256": "266d82127e3fc1071a873d7458dc3ddcb101579b74b0896c419f79abdb05a013",
+      "input_tokens": 375,
+      "requested_max_new_tokens": 512,
+      "context_limit": 4096,
+      "fits_requested_budget": true
+    },
+    {
+      "queue_index": 165,
+      "source_path": "disinfect_laundry/problem0.bddl",
+      "source_sha256": "3a9051db750a88f34ee83443244555d11d110313fa09dd540471bb1a3a15ace9",
+      "input_tokens": 480,
+      "requested_max_new_tokens": 512,
+      "context_limit": 4096,
+      "fits_requested_budget": true
+    },
+    {
+      "queue_index": 166,
+      "source_path": "putting_shopping_away/problem0.bddl",
+      "source_sha256": "ce010778c8e4c8ab0eabb04277e86c2ee7a75dd475cc34450261108274c7e9f9",
+      "input_tokens": 694,
+      "requested_max_new_tokens": 512,
+      "context_limit": 4096,
+      "fits_requested_budget": true
+    },
+    {
+      "queue_index": 167,
+      "source_path": "packing_documents_into_car/problem0.bddl",
+      "source_sha256": "cdb7c69bdff891deb6d3774b08d4df14a81706fa880557f29618254e81a3846d",
+      "input_tokens": 526,
+      "requested_max_new_tokens": 512,
+      "context_limit": 4096,
+      "fits_requested_budget": true
+    },
+    {
+      "queue_index": 168,
+      "source_path": "mailing_letters/problem0.bddl",
+      "source_sha256": "58ffaad25942b842210632d76deed3fdd1dc19ab4ed7c00d6cf082ab066dfc84",
+      "input_tokens": 426,
+      "requested_max_new_tokens": 512,
+      "context_limit": 4096,
+      "fits_requested_budget": true
+    },
+    {
+      "queue_index": 169,
+      "source_path": "store_produce/problem0.bddl",
+      "source_sha256": "4bf2ebf0fb3458f2607c7de72b38d0fb23e84505d142794d2b5e4bf190f88d20",
+      "input_tokens": 845,
+      "requested_max_new_tokens": 512,
+      "context_limit": 4096,
+      "fits_requested_budget": true
+    },
+    {
+      "queue_index": 170,
+      "source_path": "collecting_dishes_from_around_house/problem0.bddl",
+      "source_sha256": "07cca737d8d27feb04c42cd2028129384c43f3cf94d725f701e38d33fc16e0e1",
+      "input_tokens": 404,
+      "requested_max_new_tokens": 512,
+      "context_limit": 4096,
+      "fits_requested_budget": true
+    },
+    {
+      "queue_index": 171,
+      "source_path": "packing_hobby_equipment/problem0.bddl",
+      "source_sha256": "87e8b9567606a7f9c0179c8abe9bd5de3a809fa9b04fb605772736cba8ac1797",
+      "input_tokens": 539,
+      "requested_max_new_tokens": 512,
+      "context_limit": 4096,
+      "fits_requested_budget": true
+    },
+    {
+      "queue_index": 172,
+      "source_path": "buying_groceries_for_a_feast/problem0.bddl",
+      "source_sha256": "638235832376c7cec80e8dacc22ea53e86811b0711e10f9ef4b402d334001638",
+      "input_tokens": 917,
+      "requested_max_new_tokens": 512,
+      "context_limit": 4096,
+      "fits_requested_budget": true
+    }
+  ]
+}

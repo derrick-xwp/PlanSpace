@@ -1,0 +1,25 @@
+{
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["adjudicator_role", "packet_version", "decisions"],
+  "properties": {
+    "adjudicator_role": {"type": "string", "const": "independent_disagreement_adjudicator"},
+    "packet_version": {"type": "string", "const": "planspace-output-validity-adjudication-v0.1"},
+    "decisions": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["audit_id", "interface_compliant", "valid_at_declared_abstraction", "reasonable_high_level_behavior", "confidence", "rationale"],
+        "properties": {
+          "audit_id": {"type": "string"},
+          "interface_compliant": {"type": "string", "enum": ["yes", "no", "uncertain"]},
+          "valid_at_declared_abstraction": {"type": "string", "enum": ["yes", "no", "uncertain"]},
+          "reasonable_high_level_behavior": {"type": "string", "enum": ["yes", "no", "uncertain"]},
+          "confidence": {"type": "string", "enum": ["high", "medium", "low"]},
+          "rationale": {"type": "string"}
+        }
+      }
+    }
+  }
+}

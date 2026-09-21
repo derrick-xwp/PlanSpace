@@ -1,0 +1,23 @@
+{
+  "protocol_version": "planspace_pilot_v0.1",
+  "domain_version": "planspace_domain_v0.1",
+  "source_dataset": "BEHAVIOR-1K",
+  "source_version": "BEHAVIOR-1K_v3.9.2_b1979916ec1549b10a4e65e630bc6504a9af1b00",
+  "task_target": 20,
+  "problem_target": 1000,
+  "gate_a_task_count": 5,
+  "gate_a_problem_count": 100,
+  "max_plan_length": 16,
+  "max_cost_slack": 2,
+  "minimum_valid_plans_per_problem_when_available": 5,
+  "minimum_structured_negatives_per_problem_when_available": 5,
+  "random_seeds": [17, 31, 47],
+  "paper_metrics": [
+    "execution_validity",
+    "single_reference_false_rejection_rate",
+    "valid_class_coverage",
+    "partial_order_edge_f1",
+    "valid_topological_sort_rate",
+    "cost_regret"
+  ]
+}

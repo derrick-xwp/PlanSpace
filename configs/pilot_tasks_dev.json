@@ -1,0 +1,42 @@
+{
+  "status": "development_only_not_paper_dataset",
+  "source": {
+    "repository": "https://github.com/StanfordVL/bddl-100",
+    "archive_commit": "06bec10ca54c7f375a1f71da8b94f7e1896ff77a",
+    "archive_sha256": "40a3642451528cb617d03f20c3aa2eb4ad0024d9e7b4e73206b20a38c2c314e6",
+    "limitation": "This is a 100-task development snapshot and must be replaced by the frozen BEHAVIOR-1K source used for paper experiments."
+  },
+  "selection_principle": "Cover distinct dependency structures while limiting the first action domain to auditable transport, open and toggle effects.",
+  "tasks": [
+    {
+      "activity": "storing_food",
+      "sha256": "37a90d3a882c9803fd9855277b46a3d9bb4af3b786deabf227779baaf9e8ac0c",
+      "motif": "many independent object-transfer branches with a shared receptacle",
+      "reason": "Measures interleaving multiplicity and shared-resource serialization."
+    },
+    {
+      "activity": "organizing_file_cabinet",
+      "sha256": "c97c4d536350287e0b798eca13eab90e8fdfc8d91349994a33dd4fdb438335da",
+      "motif": "quantified multi-object goals with mixed initial locations",
+      "reason": "Tests quantifier grounding and partial goal satisfaction."
+    },
+    {
+      "activity": "installing_a_printer",
+      "sha256": "8022ed4c03e7a2e6f631842892836507fbfe777ae45a57eb9948b67f75fecee9",
+      "motif": "placement followed by device activation",
+      "reason": "Provides a short causal chain and a clean ordering test."
+    },
+    {
+      "activity": "opening_packages",
+      "sha256": "78ea396a2c20c083156d01f3416cd10591f3c2f3ccb81574e7227c97b5c3e15c",
+      "motif": "independent repeated open actions",
+      "reason": "Provides a near-factorial commutation family with simple semantics."
+    },
+    {
+      "activity": "moving_boxes_to_storage",
+      "sha256": "adf412e18c6d65c6cb8248d8f5ad1350bfc7b45a26dd1d2fb9158734bf70eadd",
+      "motif": "navigation and stacked placement dependency",
+      "reason": "Tests coupled movement and support ordering rather than pure permutation."
+    }
+  ]
+}

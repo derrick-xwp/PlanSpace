@@ -1,0 +1,95 @@
+{
+  "models": [
+    {
+      "model": "mistralai/Mistral-7B-Instruct-v0.3",
+      "n": 855,
+      "counts": {
+        "parsed": 737,
+        "exact": 571,
+        "multiset": 629,
+        "family": 593,
+        "archived_goal_valid": 643,
+        "valid_outside_family": 50,
+        "multiset_not_family": 36,
+        "family_not_valid": 0,
+        "valid_multiset_not_family": 31
+      }
+    },
+    {
+      "model": "allenai/OLMo-2-1124-7B-Instruct",
+      "n": 855,
+      "counts": {
+        "parsed": 135,
+        "exact": 47,
+        "multiset": 62,
+        "family": 47,
+        "archived_goal_valid": 48,
+        "valid_outside_family": 1,
+        "multiset_not_family": 15,
+        "family_not_valid": 0,
+        "valid_multiset_not_family": 1
+      }
+    },
+    {
+      "model": "microsoft/Phi-4-mini-instruct",
+      "n": 855,
+      "counts": {
+        "parsed": 176,
+        "exact": 59,
+        "multiset": 70,
+        "family": 64,
+        "archived_goal_valid": 65,
+        "valid_outside_family": 1,
+        "multiset_not_family": 6,
+        "family_not_valid": 0,
+        "valid_multiset_not_family": 0
+      }
+    },
+    {
+      "model": "Qwen/Qwen3-14B",
+      "n": 855,
+      "counts": {
+        "parsed": 848,
+        "exact": 685,
+        "multiset": 795,
+        "family": 723,
+        "archived_goal_valid": 810,
+        "valid_outside_family": 87,
+        "multiset_not_family": 72,
+        "family_not_valid": 0,
+        "valid_multiset_not_family": 67
+      }
+    },
+    {
+      "model": "Qwen/Qwen3-4B",
+      "n": 855,
+      "counts": {
+        "parsed": 850,
+        "exact": 646,
+        "multiset": 753,
+        "family": 681,
+        "archived_goal_valid": 795,
+        "valid_outside_family": 114,
+        "multiset_not_family": 72,
+        "family_not_valid": 0,
+        "valid_multiset_not_family": 71
+      }
+    },
+    {
+      "model": "Qwen/Qwen3-8B",
+      "n": 855,
+      "counts": {
+        "parsed": 752,
+        "exact": 561,
+        "multiset": 678,
+        "family": 602,
+        "archived_goal_valid": 708,
+        "valid_outside_family": 106,
+        "multiset_not_family": 76,
+        "family_not_valid": 0,
+        "valid_multiset_not_family": 64
+      }
+    }
+  ],
+  "boundary": "Structural labels recomputed; goal validity reused from archive, not independently validated."
+}

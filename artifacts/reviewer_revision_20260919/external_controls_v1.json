@@ -1,0 +1,2016 @@
+{
+  "summary": {
+    "tasks": 50,
+    "controls": 200,
+    "adapter_stages": {
+      "invalid_action": 50,
+      "precondition": 100,
+      "goal_miss": 50
+    },
+    "unclassified": [],
+    "disagreements": []
+  },
+  "rows": [
+    {
+      "domain": "blocksworld",
+      "task": 91,
+      "mutation": "illegal_parameter",
+      "adapter": false,
+      "adapter_stage": "invalid_action",
+      "val": false,
+      "val_stage": "execution_or_goal_rejection",
+      "returncode": 1
+    },
+    {
+      "domain": "blocksworld",
+      "task": 91,
+      "mutation": "precondition_probe",
+      "adapter": false,
+      "adapter_stage": "precondition",
+      "val": false,
+      "val_stage": "execution_or_goal_rejection",
+      "returncode": 1
+    },
+    {
+      "domain": "blocksworld",
+      "task": 91,
+      "mutation": "goal_deletion",
+      "adapter": false,
+      "adapter_stage": "goal_miss",
+      "val": false,
+      "val_stage": "execution_or_goal_rejection",
+      "returncode": 1
+    },
+    {
+      "domain": "blocksworld",
+      "task": 91,
+      "mutation": "repeat_final",
+      "adapter": false,
+      "adapter_stage": "precondition",
+      "val": false,
+      "val_stage": "execution_or_goal_rejection",
+      "returncode": 1
+    },
+    {
+      "domain": "logistics",
+      "task": 16,
+      "mutation": "illegal_parameter",
+      "adapter": false,
+      "adapter_stage": "invalid_action",
+      "val": false,
+      "val_stage": "execution_or_goal_rejection",
+      "returncode": 1
+    },
+    {
+      "domain": "logistics",
+      "task": 16,
+      "mutation": "precondition_probe",
+      "adapter": false,
+      "adapter_stage": "precondition",
+      "val": false,
+      "val_stage": "execution_or_goal_rejection",
+      "returncode": 1
+    },
+    {
+      "domain": "logistics",
+      "task": 16,
+      "mutation": "goal_deletion",
+      "adapter": false,
+      "adapter_stage": "goal_miss",
+      "val": false,
+      "val_stage": "execution_or_goal_rejection",
+      "returncode": 1
+    },
+    {
+      "domain": "logistics",
+      "task": 16,
+      "mutation": "repeat_final",
+      "adapter": false,
+      "adapter_stage": "precondition",
+      "val": false,
+      "val_stage": "execution_or_goal_rejection",
+      "returncode": 1
+    },
+    {
+      "domain": "blocksworld",
+      "task": 9,
+      "mutation": "illegal_parameter",
+      "adapter": false,
+      "adapter_stage": "invalid_action",
+      "val": false,
+      "val_stage": "execution_or_goal_rejection",
+      "returncode": 1
+    },
+    {
+      "domain": "blocksworld",
+      "task": 9,
+      "mutation": "precondition_probe",
+      "adapter": false,
+      "adapter_stage": "precondition",
+      "val": false,
+      "val_stage": "execution_or_goal_rejection",
+      "returncode": 1
+    },
+    {
+      "domain": "blocksworld",
+      "task": 9,
+      "mutation": "goal_deletion",
+      "adapter": false,
+      "adapter_stage": "goal_miss",
+      "val": false,
+      "val_stage": "execution_or_goal_rejection",
+      "returncode": 1
+    },
+    {
+      "domain": "blocksworld",
+      "task": 9,
+      "mutation": "repeat_final",
+      "adapter": false,
+      "adapter_stage": "precondition",
+      "val": false,
+      "val_stage": "execution_or_goal_rejection",
+      "returncode": 1
+    },
+    {
+      "domain": "logistics",
+      "task": 87,
+      "mutation": "illegal_parameter",
+      "adapter": false,
+      "adapter_stage": "invalid_action",
+      "val": false,
+      "val_stage": "execution_or_goal_rejection",
+      "returncode": 1
+    },
+    {
+      "domain": "logistics",
+      "task": 87,
+      "mutation": "precondition_probe",
+      "adapter": false,
+      "adapter_stage": "precondition",
+      "val": false,
+      "val_stage": "execution_or_goal_rejection",
+      "returncode": 1
+    },
+    {
+      "domain": "logistics",
+      "task": 87,
+      "mutation": "goal_deletion",
+      "adapter": false,
+      "adapter_stage": "goal_miss",
+      "val": false,
+      "val_stage": "execution_or_goal_rejection",
+      "returncode": 1
+    },
+    {
+      "domain": "logistics",
+      "task": 87,
+      "mutation": "repeat_final",
+      "adapter": false,
+      "adapter_stage": "precondition",
+      "val": false,
+      "val_stage": "execution_or_goal_rejection",
+      "returncode": 1
+    },
+    {
+      "domain": "blocksworld",
+      "task": 63,
+      "mutation": "illegal_parameter",
+      "adapter": false,
+      "adapter_stage": "invalid_action",
+      "val": false,
+      "val_stage": "execution_or_goal_rejection",
+      "returncode": 1
+    },
+    {
+      "domain": "blocksworld",
+      "task": 63,
+      "mutation": "precondition_probe",
+      "adapter": false,
+      "adapter_stage": "precondition",
+      "val": false,
+      "val_stage": "execution_or_goal_rejection",
+      "returncode": 1
+    },
+    {
+      "domain": "blocksworld",
+      "task": 63,
+      "mutation": "goal_deletion",
+      "adapter": false,
+      "adapter_stage": "goal_miss",
+      "val": false,
+      "val_stage": "execution_or_goal_rejection",
+      "returncode": 1
+    },
+    {
+      "domain": "blocksworld",
+      "task": 63,
+      "mutation": "repeat_final",
+      "adapter": false,
+      "adapter_stage": "precondition",
+      "val": false,
+      "val_stage": "execution_or_goal_rejection",
+      "returncode": 1
+    },
+    {
+      "domain": "blocksworld",
+      "task": 96,
+      "mutation": "illegal_parameter",
+      "adapter": false,
+      "adapter_stage": "invalid_action",
+      "val": false,
+      "val_stage": "execution_or_goal_rejection",
+      "returncode": 1
+    },
+    {
+      "domain": "blocksworld",
+      "task": 96,
+      "mutation": "precondition_probe",
+      "adapter": false,
+      "adapter_stage": "precondition",
+      "val": false,
+      "val_stage": "execution_or_goal_rejection",
+      "returncode": 1
+    },
+    {
+      "domain": "blocksworld",
+      "task": 96,
+      "mutation": "goal_deletion",
+      "adapter": false,
+      "adapter_stage": "goal_miss",
+      "val": false,
+      "val_stage": "execution_or_goal_rejection",
+      "returncode": 1
+    },
+    {
+      "domain": "blocksworld",
+      "task": 96,
+      "mutation": "repeat_final",
+      "adapter": false,
+      "adapter_stage": "precondition",
+      "val": false,
+      "val_stage": "execution_or_goal_rejection",
+      "returncode": 1
+    },
+    {
+      "domain": "blocksworld",
+      "task": 37,
+      "mutation": "illegal_parameter",
+      "adapter": false,
+      "adapter_stage": "invalid_action",
+      "val": false,
+      "val_stage": "execution_or_goal_rejection",
+      "returncode": 1
+    },
+    {
+      "domain": "blocksworld",
+      "task": 37,
+      "mutation": "precondition_probe",
+      "adapter": false,
+      "adapter_stage": "precondition",
+      "val": false,
+      "val_stage": "execution_or_goal_rejection",
+      "returncode": 1
+    },
+    {
+      "domain": "blocksworld",
+      "task": 37,
+      "mutation": "goal_deletion",
+      "adapter": false,
+      "adapter_stage": "goal_miss",
+      "val": false,
+      "val_stage": "execution_or_goal_rejection",
+      "returncode": 1
+    },
+    {
+      "domain": "blocksworld",
+      "task": 37,
+      "mutation": "repeat_final",
+      "adapter": false,
+      "adapter_stage": "precondition",
+      "val": false,
+      "val_stage": "execution_or_goal_rejection",
+      "returncode": 1
+    },
+    {
+      "domain": "blocksworld",
+      "task": 13,
+      "mutation": "illegal_parameter",
+      "adapter": false,
+      "adapter_stage": "invalid_action",
+      "val": false,
+      "val_stage": "execution_or_goal_rejection",
+      "returncode": 1
+    },
+    {
+      "domain": "blocksworld",
+      "task": 13,
+      "mutation": "precondition_probe",
+      "adapter": false,
+      "adapter_stage": "precondition",
+      "val": false,
+      "val_stage": "execution_or_goal_rejection",
+      "returncode": 1
+    },
+    {
+      "domain": "blocksworld",
+      "task": 13,
+      "mutation": "goal_deletion",
+      "adapter": false,
+      "adapter_stage": "goal_miss",
+      "val": false,
+      "val_stage": "execution_or_goal_rejection",
+      "returncode": 1
+    },
+    {
+      "domain": "blocksworld",
+      "task": 13,
+      "mutation": "repeat_final",
+      "adapter": false,
+      "adapter_stage": "precondition",
+      "val": false,
+      "val_stage": "execution_or_goal_rejection",
+      "returncode": 1
+    },
+    {
+      "domain": "blocksworld",
+      "task": 81,
+      "mutation": "illegal_parameter",
+      "adapter": false,
+      "adapter_stage": "invalid_action",
+      "val": false,
+      "val_stage": "execution_or_goal_rejection",
+      "returncode": 1
+    },
+    {
+      "domain": "blocksworld",
+      "task": 81,
+      "mutation": "precondition_probe",
+      "adapter": false,
+      "adapter_stage": "precondition",
+      "val": false,
+      "val_stage": "execution_or_goal_rejection",
+      "returncode": 1
+    },
+    {
+      "domain": "blocksworld",
+      "task": 81,
+      "mutation": "goal_deletion",
+      "adapter": false,
+      "adapter_stage": "goal_miss",
+      "val": false,
+      "val_stage": "execution_or_goal_rejection",
+      "returncode": 1
+    },
+    {
+      "domain": "blocksworld",
+      "task": 81,
+      "mutation": "repeat_final",
+      "adapter": false,
+      "adapter_stage": "precondition",
+      "val": false,
+      "val_stage": "execution_or_goal_rejection",
+      "returncode": 1
+    },
+    {
+      "domain": "logistics",
+      "task": 70,
+      "mutation": "illegal_parameter",
+      "adapter": false,
+      "adapter_stage": "invalid_action",
+      "val": false,
+      "val_stage": "execution_or_goal_rejection",
+      "returncode": 1
+    },
+    {
+      "domain": "logistics",
+      "task": 70,
+      "mutation": "precondition_probe",
+      "adapter": false,
+      "adapter_stage": "precondition",
+      "val": false,
+      "val_stage": "execution_or_goal_rejection",
+      "returncode": 1
+    },
+    {
+      "domain": "logistics",
+      "task": 70,
+      "mutation": "goal_deletion",
+      "adapter": false,
+      "adapter_stage": "goal_miss",
+      "val": false,
+      "val_stage": "execution_or_goal_rejection",
+      "returncode": 1
+    },
+    {
+      "domain": "logistics",
+      "task": 70,
+      "mutation": "repeat_final",
+      "adapter": false,
+      "adapter_stage": "precondition",
+      "val": false,
+      "val_stage": "execution_or_goal_rejection",
+      "returncode": 1
+    },
+    {
+      "domain": "logistics",
+      "task": 3,
+      "mutation": "illegal_parameter",
+      "adapter": false,
+      "adapter_stage": "invalid_action",
+      "val": false,
+      "val_stage": "execution_or_goal_rejection",
+      "returncode": 1
+    },
+    {
+      "domain": "logistics",
+      "task": 3,
+      "mutation": "precondition_probe",
+      "adapter": false,
+      "adapter_stage": "precondition",
+      "val": false,
+      "val_stage": "execution_or_goal_rejection",
+      "returncode": 1
+    },
+    {
+      "domain": "logistics",
+      "task": 3,
+      "mutation": "goal_deletion",
+      "adapter": false,
+      "adapter_stage": "goal_miss",
+      "val": false,
+      "val_stage": "execution_or_goal_rejection",
+      "returncode": 1
+    },
+    {
+      "domain": "logistics",
+      "task": 3,
+      "mutation": "repeat_final",
+      "adapter": false,
+      "adapter_stage": "precondition",
+      "val": false,
+      "val_stage": "execution_or_goal_rejection",
+      "returncode": 1
+    },
+    {
+      "domain": "blocksworld",
+      "task": 79,
+      "mutation": "illegal_parameter",
+      "adapter": false,
+      "adapter_stage": "invalid_action",
+      "val": false,
+      "val_stage": "execution_or_goal_rejection",
+      "returncode": 1
+    },
+    {
+      "domain": "blocksworld",
+      "task": 79,
+      "mutation": "precondition_probe",
+      "adapter": false,
+      "adapter_stage": "precondition",
+      "val": false,
+      "val_stage": "execution_or_goal_rejection",
+      "returncode": 1
+    },
+    {
+      "domain": "blocksworld",
+      "task": 79,
+      "mutation": "goal_deletion",
+      "adapter": false,
+      "adapter_stage": "goal_miss",
+      "val": false,
+      "val_stage": "execution_or_goal_rejection",
+      "returncode": 1
+    },
+    {
+      "domain": "blocksworld",
+      "task": 79,
+      "mutation": "repeat_final",
+      "adapter": false,
+      "adapter_stage": "precondition",
+      "val": false,
+      "val_stage": "execution_or_goal_rejection",
+      "returncode": 1
+    },
+    {
+      "domain": "logistics",
+      "task": 88,
+      "mutation": "illegal_parameter",
+      "adapter": false,
+      "adapter_stage": "invalid_action",
+      "val": false,
+      "val_stage": "execution_or_goal_rejection",
+      "returncode": 1
+    },
+    {
+      "domain": "logistics",
+      "task": 88,
+      "mutation": "precondition_probe",
+      "adapter": false,
+      "adapter_stage": "precondition",
+      "val": false,
+      "val_stage": "execution_or_goal_rejection",
+      "returncode": 1
+    },
+    {
+      "domain": "logistics",
+      "task": 88,
+      "mutation": "goal_deletion",
+      "adapter": false,
+      "adapter_stage": "goal_miss",
+      "val": false,
+      "val_stage": "execution_or_goal_rejection",
+      "returncode": 1
+    },
+    {
+      "domain": "logistics",
+      "task": 88,
+      "mutation": "repeat_final",
+      "adapter": false,
+      "adapter_stage": "precondition",
+      "val": false,
+      "val_stage": "execution_or_goal_rejection",
+      "returncode": 1
+    },
+    {
+      "domain": "blocksworld",
+      "task": 45,
+      "mutation": "illegal_parameter",
+      "adapter": false,
+      "adapter_stage": "invalid_action",
+      "val": false,
+      "val_stage": "execution_or_goal_rejection",
+      "returncode": 1
+    },
+    {
+      "domain": "blocksworld",
+      "task": 45,
+      "mutation": "precondition_probe",
+      "adapter": false,
+      "adapter_stage": "precondition",
+      "val": false,
+      "val_stage": "execution_or_goal_rejection",
+      "returncode": 1
+    },
+    {
+      "domain": "blocksworld",
+      "task": 45,
+      "mutation": "goal_deletion",
+      "adapter": false,
+      "adapter_stage": "goal_miss",
+      "val": false,
+      "val_stage": "execution_or_goal_rejection",
+      "returncode": 1
+    },
+    {
+      "domain": "blocksworld",
+      "task": 45,
+      "mutation": "repeat_final",
+      "adapter": false,
+      "adapter_stage": "precondition",
+      "val": false,
+      "val_stage": "execution_or_goal_rejection",
+      "returncode": 1
+    },
+    {
+      "domain": "logistics",
+      "task": 68,
+      "mutation": "illegal_parameter",
+      "adapter": false,
+      "adapter_stage": "invalid_action",
+      "val": false,
+      "val_stage": "execution_or_goal_rejection",
+      "returncode": 1
+    },
+    {
+      "domain": "logistics",
+      "task": 68,
+      "mutation": "precondition_probe",
+      "adapter": false,
+      "adapter_stage": "precondition",
+      "val": false,
+      "val_stage": "execution_or_goal_rejection",
+      "returncode": 1
+    },
+    {
+      "domain": "logistics",
+      "task": 68,
+      "mutation": "goal_deletion",
+      "adapter": false,
+      "adapter_stage": "goal_miss",
+      "val": false,
+      "val_stage": "execution_or_goal_rejection",
+      "returncode": 1
+    },
+    {
+      "domain": "logistics",
+      "task": 68,
+      "mutation": "repeat_final",
+      "adapter": false,
+      "adapter_stage": "precondition",
+      "val": false,
+      "val_stage": "execution_or_goal_rejection",
+      "returncode": 1
+    },
+    {
+      "domain": "logistics",
+      "task": 63,
+      "mutation": "illegal_parameter",
+      "adapter": false,
+      "adapter_stage": "invalid_action",
+      "val": false,
+      "val_stage": "execution_or_goal_rejection",
+      "returncode": 1
+    },
+    {
+      "domain": "logistics",
+      "task": 63,
+      "mutation": "precondition_probe",
+      "adapter": false,
+      "adapter_stage": "precondition",
+      "val": false,
+      "val_stage": "execution_or_goal_rejection",
+      "returncode": 1
+    },
+    {
+      "domain": "logistics",
+      "task": 63,
+      "mutation": "goal_deletion",
+      "adapter": false,
+      "adapter_stage": "goal_miss",
+      "val": false,
+      "val_stage": "execution_or_goal_rejection",
+      "returncode": 1
+    },
+    {
+      "domain": "logistics",
+      "task": 63,
+      "mutation": "repeat_final",
+      "adapter": false,
+      "adapter_stage": "precondition",
+      "val": false,
+      "val_stage": "execution_or_goal_rejection",
+      "returncode": 1
+    },
+    {
+      "domain": "blocksworld",
+      "task": 98,
+      "mutation": "illegal_parameter",
+      "adapter": false,
+      "adapter_stage": "invalid_action",
+      "val": false,
+      "val_stage": "execution_or_goal_rejection",
+      "returncode": 1
+    },
+    {
+      "domain": "blocksworld",
+      "task": 98,
+      "mutation": "precondition_probe",
+      "adapter": false,
+      "adapter_stage": "precondition",
+      "val": false,
+      "val_stage": "execution_or_goal_rejection",
+      "returncode": 1
+    },
+    {
+      "domain": "blocksworld",
+      "task": 98,
+      "mutation": "goal_deletion",
+      "adapter": false,
+      "adapter_stage": "goal_miss",
+      "val": false,
+      "val_stage": "execution_or_goal_rejection",
+      "returncode": 1
+    },
+    {
+      "domain": "blocksworld",
+      "task": 98,
+      "mutation": "repeat_final",
+      "adapter": false,
+      "adapter_stage": "precondition",
+      "val": false,
+      "val_stage": "execution_or_goal_rejection",
+      "returncode": 1
+    },
+    {
+      "domain": "blocksworld",
+      "task": 21,
+      "mutation": "illegal_parameter",
+      "adapter": false,
+      "adapter_stage": "invalid_action",
+      "val": false,
+      "val_stage": "execution_or_goal_rejection",
+      "returncode": 1
+    },
+    {
+      "domain": "blocksworld",
+      "task": 21,
+      "mutation": "precondition_probe",
+      "adapter": false,
+      "adapter_stage": "precondition",
+      "val": false,
+      "val_stage": "execution_or_goal_rejection",
+      "returncode": 1
+    },
+    {
+      "domain": "blocksworld",
+      "task": 21,
+      "mutation": "goal_deletion",
+      "adapter": false,
+      "adapter_stage": "goal_miss",
+      "val": false,
+      "val_stage": "execution_or_goal_rejection",
+      "returncode": 1
+    },
+    {
+      "domain": "blocksworld",
+      "task": 21,
+      "mutation": "repeat_final",
+      "adapter": false,
+      "adapter_stage": "precondition",
+      "val": false,
+      "val_stage": "execution_or_goal_rejection",
+      "returncode": 1
+    },
+    {
+      "domain": "blocksworld",
+      "task": 83,
+      "mutation": "illegal_parameter",
+      "adapter": false,
+      "adapter_stage": "invalid_action",
+      "val": false,
+      "val_stage": "execution_or_goal_rejection",
+      "returncode": 1
+    },
+    {
+      "domain": "blocksworld",
+      "task": 83,
+      "mutation": "precondition_probe",
+      "adapter": false,
+      "adapter_stage": "precondition",
+      "val": false,
+      "val_stage": "execution_or_goal_rejection",
+      "returncode": 1
+    },
+    {
+      "domain": "blocksworld",
+      "task": 83,
+      "mutation": "goal_deletion",
+      "adapter": false,
+      "adapter_stage": "goal_miss",
+      "val": false,
+      "val_stage": "execution_or_goal_rejection",
+      "returncode": 1
+    },
+    {
+      "domain": "blocksworld",
+      "task": 83,
+      "mutation": "repeat_final",
+      "adapter": false,
+      "adapter_stage": "precondition",
+      "val": false,
+      "val_stage": "execution_or_goal_rejection",
+      "returncode": 1
+    },
+    {
+      "domain": "blocksworld",
+      "task": 86,
+      "mutation": "illegal_parameter",
+      "adapter": false,
+      "adapter_stage": "invalid_action",
+      "val": false,
+      "val_stage": "execution_or_goal_rejection",
+      "returncode": 1
+    },
+    {
+      "domain": "blocksworld",
+      "task": 86,
+      "mutation": "precondition_probe",
+      "adapter": false,
+      "adapter_stage": "precondition",
+      "val": false,
+      "val_stage": "execution_or_goal_rejection",
+      "returncode": 1
+    },
+    {
+      "domain": "blocksworld",
+      "task": 86,
+      "mutation": "goal_deletion",
+      "adapter": false,
+      "adapter_stage": "goal_miss",
+      "val": false,
+      "val_stage": "execution_or_goal_rejection",
+      "returncode": 1
+    },
+    {
+      "domain": "blocksworld",
+      "task": 86,
+      "mutation": "repeat_final",
+      "adapter": false,
+      "adapter_stage": "precondition",
+      "val": false,
+      "val_stage": "execution_or_goal_rejection",
+      "returncode": 1
+    },
+    {
+      "domain": "logistics",
+      "task": 100,
+      "mutation": "illegal_parameter",
+      "adapter": false,
+      "adapter_stage": "invalid_action",
+      "val": false,
+      "val_stage": "execution_or_goal_rejection",
+      "returncode": 1
+    },
+    {
+      "domain": "logistics",
+      "task": 100,
+      "mutation": "precondition_probe",
+      "adapter": false,
+      "adapter_stage": "precondition",
+      "val": false,
+      "val_stage": "execution_or_goal_rejection",
+      "returncode": 1
+    },
+    {
+      "domain": "logistics",
+      "task": 100,
+      "mutation": "goal_deletion",
+      "adapter": false,
+      "adapter_stage": "goal_miss",
+      "val": false,
+      "val_stage": "execution_or_goal_rejection",
+      "returncode": 1
+    },
+    {
+      "domain": "logistics",
+      "task": 100,
+      "mutation": "repeat_final",
+      "adapter": false,
+      "adapter_stage": "precondition",
+      "val": false,
+      "val_stage": "execution_or_goal_rejection",
+      "returncode": 1
+    },
+    {
+      "domain": "logistics",
+      "task": 60,
+      "mutation": "illegal_parameter",
+      "adapter": false,
+      "adapter_stage": "invalid_action",
+      "val": false,
+      "val_stage": "execution_or_goal_rejection",
+      "returncode": 1
+    },
+    {
+      "domain": "logistics",
+      "task": 60,
+      "mutation": "precondition_probe",
+      "adapter": false,
+      "adapter_stage": "precondition",
+      "val": false,
+      "val_stage": "execution_or_goal_rejection",
+      "returncode": 1
+    },
+    {
+      "domain": "logistics",
+      "task": 60,
+      "mutation": "goal_deletion",
+      "adapter": false,
+      "adapter_stage": "goal_miss",
+      "val": false,
+      "val_stage": "execution_or_goal_rejection",
+      "returncode": 1
+    },
+    {
+      "domain": "logistics",
+      "task": 60,
+      "mutation": "repeat_final",
+      "adapter": false,
+      "adapter_stage": "precondition",
+      "val": false,
+      "val_stage": "execution_or_goal_rejection",
+      "returncode": 1
+    },
+    {
+      "domain": "blocksworld",
+      "task": 101,
+      "mutation": "illegal_parameter",
+      "adapter": false,
+      "adapter_stage": "invalid_action",
+      "val": false,
+      "val_stage": "execution_or_goal_rejection",
+      "returncode": 1
+    },
+    {
+      "domain": "blocksworld",
+      "task": 101,
+      "mutation": "precondition_probe",
+      "adapter": false,
+      "adapter_stage": "precondition",
+      "val": false,
+      "val_stage": "execution_or_goal_rejection",
+      "returncode": 1
+    },
+    {
+      "domain": "blocksworld",
+      "task": 101,
+      "mutation": "goal_deletion",
+      "adapter": false,
+      "adapter_stage": "goal_miss",
+      "val": false,
+      "val_stage": "execution_or_goal_rejection",
+      "returncode": 1
+    },
+    {
+      "domain": "blocksworld",
+      "task": 101,
+      "mutation": "repeat_final",
+      "adapter": false,
+      "adapter_stage": "precondition",
+      "val": false,
+      "val_stage": "execution_or_goal_rejection",
+      "returncode": 1
+    },
+    {
+      "domain": "blocksworld",
+      "task": 8,
+      "mutation": "illegal_parameter",
+      "adapter": false,
+      "adapter_stage": "invalid_action",
+      "val": false,
+      "val_stage": "execution_or_goal_rejection",
+      "returncode": 1
+    },
+    {
+      "domain": "blocksworld",
+      "task": 8,
+      "mutation": "precondition_probe",
+      "adapter": false,
+      "adapter_stage": "precondition",
+      "val": false,
+      "val_stage": "execution_or_goal_rejection",
+      "returncode": 1
+    },
+    {
+      "domain": "blocksworld",
+      "task": 8,
+      "mutation": "goal_deletion",
+      "adapter": false,
+      "adapter_stage": "goal_miss",
+      "val": false,
+      "val_stage": "execution_or_goal_rejection",
+      "returncode": 1
+    },
+    {
+      "domain": "blocksworld",
+      "task": 8,
+      "mutation": "repeat_final",
+      "adapter": false,
+      "adapter_stage": "precondition",
+      "val": false,
+      "val_stage": "execution_or_goal_rejection",
+      "returncode": 1
+    },
+    {
+      "domain": "logistics",
+      "task": 50,
+      "mutation": "illegal_parameter",
+      "adapter": false,
+      "adapter_stage": "invalid_action",
+      "val": false,
+      "val_stage": "execution_or_goal_rejection",
+      "returncode": 1
+    },
+    {
+      "domain": "logistics",
+      "task": 50,
+      "mutation": "precondition_probe",
+      "adapter": false,
+      "adapter_stage": "precondition",
+      "val": false,
+      "val_stage": "execution_or_goal_rejection",
+      "returncode": 1
+    },
+    {
+      "domain": "logistics",
+      "task": 50,
+      "mutation": "goal_deletion",
+      "adapter": false,
+      "adapter_stage": "goal_miss",
+      "val": false,
+      "val_stage": "execution_or_goal_rejection",
+      "returncode": 1
+    },
+    {
+      "domain": "logistics",
+      "task": 50,
+      "mutation": "repeat_final",
+      "adapter": false,
+      "adapter_stage": "precondition",
+      "val": false,
+      "val_stage": "execution_or_goal_rejection",
+      "returncode": 1
+    },
+    {
+      "domain": "logistics",
+      "task": 4,
+      "mutation": "illegal_parameter",
+      "adapter": false,
+      "adapter_stage": "invalid_action",
+      "val": false,
+      "val_stage": "execution_or_goal_rejection",
+      "returncode": 1
+    },
+    {
+      "domain": "logistics",
+      "task": 4,
+      "mutation": "precondition_probe",
+      "adapter": false,
+      "adapter_stage": "precondition",
+      "val": false,
+      "val_stage": "execution_or_goal_rejection",
+      "returncode": 1
+    },
+    {
+      "domain": "logistics",
+      "task": 4,
+      "mutation": "goal_deletion",
+      "adapter": false,
+      "adapter_stage": "goal_miss",
+      "val": false,
+      "val_stage": "execution_or_goal_rejection",
+      "returncode": 1
+    },
+    {
+      "domain": "logistics",
+      "task": 4,
+      "mutation": "repeat_final",
+      "adapter": false,
+      "adapter_stage": "precondition",
+      "val": false,
+      "val_stage": "execution_or_goal_rejection",
+      "returncode": 1
+    },
+    {
+      "domain": "logistics",
+      "task": 23,
+      "mutation": "illegal_parameter",
+      "adapter": false,
+      "adapter_stage": "invalid_action",
+      "val": false,
+      "val_stage": "execution_or_goal_rejection",
+      "returncode": 1
+    },
+    {
+      "domain": "logistics",
+      "task": 23,
+      "mutation": "precondition_probe",
+      "adapter": false,
+      "adapter_stage": "precondition",
+      "val": false,
+      "val_stage": "execution_or_goal_rejection",
+      "returncode": 1
+    },
+    {
+      "domain": "logistics",
+      "task": 23,
+      "mutation": "goal_deletion",
+      "adapter": false,
+      "adapter_stage": "goal_miss",
+      "val": false,
+      "val_stage": "execution_or_goal_rejection",
+      "returncode": 1
+    },
+    {
+      "domain": "logistics",
+      "task": 23,
+      "mutation": "repeat_final",
+      "adapter": false,
+      "adapter_stage": "precondition",
+      "val": false,
+      "val_stage": "execution_or_goal_rejection",
+      "returncode": 1
+    },
+    {
+      "domain": "blocksworld",
+      "task": 48,
+      "mutation": "illegal_parameter",
+      "adapter": false,
+      "adapter_stage": "invalid_action",
+      "val": false,
+      "val_stage": "execution_or_goal_rejection",
+      "returncode": 1
+    },
+    {
+      "domain": "blocksworld",
+      "task": 48,
+      "mutation": "precondition_probe",
+      "adapter": false,
+      "adapter_stage": "precondition",
+      "val": false,
+      "val_stage": "execution_or_goal_rejection",
+      "returncode": 1
+    },
+    {
+      "domain": "blocksworld",
+      "task": 48,
+      "mutation": "goal_deletion",
+      "adapter": false,
+      "adapter_stage": "goal_miss",
+      "val": false,
+      "val_stage": "execution_or_goal_rejection",
+      "returncode": 1
+    },
+    {
+      "domain": "blocksworld",
+      "task": 48,
+      "mutation": "repeat_final",
+      "adapter": false,
+      "adapter_stage": "precondition",
+      "val": false,
+      "val_stage": "execution_or_goal_rejection",
+      "returncode": 1
+    },
+    {
+      "domain": "logistics",
+      "task": 71,
+      "mutation": "illegal_parameter",
+      "adapter": false,
+      "adapter_stage": "invalid_action",
+      "val": false,
+      "val_stage": "execution_or_goal_rejection",
+      "returncode": 1
+    },
+    {
+      "domain": "logistics",
+      "task": 71,
+      "mutation": "precondition_probe",
+      "adapter": false,
+      "adapter_stage": "precondition",
+      "val": false,
+      "val_stage": "execution_or_goal_rejection",
+      "returncode": 1
+    },
+    {
+      "domain": "logistics",
+      "task": 71,
+      "mutation": "goal_deletion",
+      "adapter": false,
+      "adapter_stage": "goal_miss",
+      "val": false,
+      "val_stage": "execution_or_goal_rejection",
+      "returncode": 1
+    },
+    {
+      "domain": "logistics",
+      "task": 71,
+      "mutation": "repeat_final",
+      "adapter": false,
+      "adapter_stage": "precondition",
+      "val": false,
+      "val_stage": "execution_or_goal_rejection",
+      "returncode": 1
+    },
+    {
+      "domain": "blocksworld",
+      "task": 14,
+      "mutation": "illegal_parameter",
+      "adapter": false,
+      "adapter_stage": "invalid_action",
+      "val": false,
+      "val_stage": "execution_or_goal_rejection",
+      "returncode": 1
+    },
+    {
+      "domain": "blocksworld",
+      "task": 14,
+      "mutation": "precondition_probe",
+      "adapter": false,
+      "adapter_stage": "precondition",
+      "val": false,
+      "val_stage": "execution_or_goal_rejection",
+      "returncode": 1
+    },
+    {
+      "domain": "blocksworld",
+      "task": 14,
+      "mutation": "goal_deletion",
+      "adapter": false,
+      "adapter_stage": "goal_miss",
+      "val": false,
+      "val_stage": "execution_or_goal_rejection",
+      "returncode": 1
+    },
+    {
+      "domain": "blocksworld",
+      "task": 14,
+      "mutation": "repeat_final",
+      "adapter": false,
+      "adapter_stage": "precondition",
+      "val": false,
+      "val_stage": "execution_or_goal_rejection",
+      "returncode": 1
+    },
+    {
+      "domain": "blocksworld",
+      "task": 31,
+      "mutation": "illegal_parameter",
+      "adapter": false,
+      "adapter_stage": "invalid_action",
+      "val": false,
+      "val_stage": "execution_or_goal_rejection",
+      "returncode": 1
+    },
+    {
+      "domain": "blocksworld",
+      "task": 31,
+      "mutation": "precondition_probe",
+      "adapter": false,
+      "adapter_stage": "precondition",
+      "val": false,
+      "val_stage": "execution_or_goal_rejection",
+      "returncode": 1
+    },
+    {
+      "domain": "blocksworld",
+      "task": 31,
+      "mutation": "goal_deletion",
+      "adapter": false,
+      "adapter_stage": "goal_miss",
+      "val": false,
+      "val_stage": "execution_or_goal_rejection",
+      "returncode": 1
+    },
+    {
+      "domain": "blocksworld",
+      "task": 31,
+      "mutation": "repeat_final",
+      "adapter": false,
+      "adapter_stage": "precondition",
+      "val": false,
+      "val_stage": "execution_or_goal_rejection",
+      "returncode": 1
+    },
+    {
+      "domain": "logistics",
+      "task": 20,
+      "mutation": "illegal_parameter",
+      "adapter": false,
+      "adapter_stage": "invalid_action",
+      "val": false,
+      "val_stage": "execution_or_goal_rejection",
+      "returncode": 1
+    },
+    {
+      "domain": "logistics",
+      "task": 20,
+      "mutation": "precondition_probe",
+      "adapter": false,
+      "adapter_stage": "precondition",
+      "val": false,
+      "val_stage": "execution_or_goal_rejection",
+      "returncode": 1
+    },
+    {
+      "domain": "logistics",
+      "task": 20,
+      "mutation": "goal_deletion",
+      "adapter": false,
+      "adapter_stage": "goal_miss",
+      "val": false,
+      "val_stage": "execution_or_goal_rejection",
+      "returncode": 1
+    },
+    {
+      "domain": "logistics",
+      "task": 20,
+      "mutation": "repeat_final",
+      "adapter": false,
+      "adapter_stage": "precondition",
+      "val": false,
+      "val_stage": "execution_or_goal_rejection",
+      "returncode": 1
+    },
+    {
+      "domain": "logistics",
+      "task": 17,
+      "mutation": "illegal_parameter",
+      "adapter": false,
+      "adapter_stage": "invalid_action",
+      "val": false,
+      "val_stage": "execution_or_goal_rejection",
+      "returncode": 1
+    },
+    {
+      "domain": "logistics",
+      "task": 17,
+      "mutation": "precondition_probe",
+      "adapter": false,
+      "adapter_stage": "precondition",
+      "val": false,
+      "val_stage": "execution_or_goal_rejection",
+      "returncode": 1
+    },
+    {
+      "domain": "logistics",
+      "task": 17,
+      "mutation": "goal_deletion",
+      "adapter": false,
+      "adapter_stage": "goal_miss",
+      "val": false,
+      "val_stage": "execution_or_goal_rejection",
+      "returncode": 1
+    },
+    {
+      "domain": "logistics",
+      "task": 17,
+      "mutation": "repeat_final",
+      "adapter": false,
+      "adapter_stage": "precondition",
+      "val": false,
+      "val_stage": "execution_or_goal_rejection",
+      "returncode": 1
+    },
+    {
+      "domain": "logistics",
+      "task": 28,
+      "mutation": "illegal_parameter",
+      "adapter": false,
+      "adapter_stage": "invalid_action",
+      "val": false,
+      "val_stage": "execution_or_goal_rejection",
+      "returncode": 1
+    },
+    {
+      "domain": "logistics",
+      "task": 28,
+      "mutation": "precondition_probe",
+      "adapter": false,
+      "adapter_stage": "precondition",
+      "val": false,
+      "val_stage": "execution_or_goal_rejection",
+      "returncode": 1
+    },
+    {
+      "domain": "logistics",
+      "task": 28,
+      "mutation": "goal_deletion",
+      "adapter": false,
+      "adapter_stage": "goal_miss",
+      "val": false,
+      "val_stage": "execution_or_goal_rejection",
+      "returncode": 1
+    },
+    {
+      "domain": "logistics",
+      "task": 28,
+      "mutation": "repeat_final",
+      "adapter": false,
+      "adapter_stage": "precondition",
+      "val": false,
+      "val_stage": "execution_or_goal_rejection",
+      "returncode": 1
+    },
+    {
+      "domain": "logistics",
+      "task": 62,
+      "mutation": "illegal_parameter",
+      "adapter": false,
+      "adapter_stage": "invalid_action",
+      "val": false,
+      "val_stage": "execution_or_goal_rejection",
+      "returncode": 1
+    },
+    {
+      "domain": "logistics",
+      "task": 62,
+      "mutation": "precondition_probe",
+      "adapter": false,
+      "adapter_stage": "precondition",
+      "val": false,
+      "val_stage": "execution_or_goal_rejection",
+      "returncode": 1
+    },
+    {
+      "domain": "logistics",
+      "task": 62,
+      "mutation": "goal_deletion",
+      "adapter": false,
+      "adapter_stage": "goal_miss",
+      "val": false,
+      "val_stage": "execution_or_goal_rejection",
+      "returncode": 1
+    },
+    {
+      "domain": "logistics",
+      "task": 62,
+      "mutation": "repeat_final",
+      "adapter": false,
+      "adapter_stage": "precondition",
+      "val": false,
+      "val_stage": "execution_or_goal_rejection",
+      "returncode": 1
+    },
+    {
+      "domain": "logistics",
+      "task": 58,
+      "mutation": "illegal_parameter",
+      "adapter": false,
+      "adapter_stage": "invalid_action",
+      "val": false,
+      "val_stage": "execution_or_goal_rejection",
+      "returncode": 1
+    },
+    {
+      "domain": "logistics",
+      "task": 58,
+      "mutation": "precondition_probe",
+      "adapter": false,
+      "adapter_stage": "precondition",
+      "val": false,
+      "val_stage": "execution_or_goal_rejection",
+      "returncode": 1
+    },
+    {
+      "domain": "logistics",
+      "task": 58,
+      "mutation": "goal_deletion",
+      "adapter": false,
+      "adapter_stage": "goal_miss",
+      "val": false,
+      "val_stage": "execution_or_goal_rejection",
+      "returncode": 1
+    },
+    {
+      "domain": "logistics",
+      "task": 58,
+      "mutation": "repeat_final",
+      "adapter": false,
+      "adapter_stage": "precondition",
+      "val": false,
+      "val_stage": "execution_or_goal_rejection",
+      "returncode": 1
+    },
+    {
+      "domain": "blocksworld",
+      "task": 57,
+      "mutation": "illegal_parameter",
+      "adapter": false,
+      "adapter_stage": "invalid_action",
+      "val": false,
+      "val_stage": "execution_or_goal_rejection",
+      "returncode": 1
+    },
+    {
+      "domain": "blocksworld",
+      "task": 57,
+      "mutation": "precondition_probe",
+      "adapter": false,
+      "adapter_stage": "precondition",
+      "val": false,
+      "val_stage": "execution_or_goal_rejection",
+      "returncode": 1
+    },
+    {
+      "domain": "blocksworld",
+      "task": 57,
+      "mutation": "goal_deletion",
+      "adapter": false,
+      "adapter_stage": "goal_miss",
+      "val": false,
+      "val_stage": "execution_or_goal_rejection",
+      "returncode": 1
+    },
+    {
+      "domain": "blocksworld",
+      "task": 57,
+      "mutation": "repeat_final",
+      "adapter": false,
+      "adapter_stage": "precondition",
+      "val": false,
+      "val_stage": "execution_or_goal_rejection",
+      "returncode": 1
+    },
+    {
+      "domain": "logistics",
+      "task": 6,
+      "mutation": "illegal_parameter",
+      "adapter": false,
+      "adapter_stage": "invalid_action",
+      "val": false,
+      "val_stage": "execution_or_goal_rejection",
+      "returncode": 1
+    },
+    {
+      "domain": "logistics",
+      "task": 6,
+      "mutation": "precondition_probe",
+      "adapter": false,
+      "adapter_stage": "precondition",
+      "val": false,
+      "val_stage": "execution_or_goal_rejection",
+      "returncode": 1
+    },
+    {
+      "domain": "logistics",
+      "task": 6,
+      "mutation": "goal_deletion",
+      "adapter": false,
+      "adapter_stage": "goal_miss",
+      "val": false,
+      "val_stage": "execution_or_goal_rejection",
+      "returncode": 1
+    },
+    {
+      "domain": "logistics",
+      "task": 6,
+      "mutation": "repeat_final",
+      "adapter": false,
+      "adapter_stage": "precondition",
+      "val": false,
+      "val_stage": "execution_or_goal_rejection",
+      "returncode": 1
+    },
+    {
+      "domain": "logistics",
+      "task": 18,
+      "mutation": "illegal_parameter",
+      "adapter": false,
+      "adapter_stage": "invalid_action",
+      "val": false,
+      "val_stage": "execution_or_goal_rejection",
+      "returncode": 1
+    },
+    {
+      "domain": "logistics",
+      "task": 18,
+      "mutation": "precondition_probe",
+      "adapter": false,
+      "adapter_stage": "precondition",
+      "val": false,
+      "val_stage": "execution_or_goal_rejection",
+      "returncode": 1
+    },
+    {
+      "domain": "logistics",
+      "task": 18,
+      "mutation": "goal_deletion",
+      "adapter": false,
+      "adapter_stage": "goal_miss",
+      "val": false,
+      "val_stage": "execution_or_goal_rejection",
+      "returncode": 1
+    },
+    {
+      "domain": "logistics",
+      "task": 18,
+      "mutation": "repeat_final",
+      "adapter": false,
+      "adapter_stage": "precondition",
+      "val": false,
+      "val_stage": "execution_or_goal_rejection",
+      "returncode": 1
+    },
+    {
+      "domain": "blocksworld",
+      "task": 46,
+      "mutation": "illegal_parameter",
+      "adapter": false,
+      "adapter_stage": "invalid_action",
+      "val": false,
+      "val_stage": "execution_or_goal_rejection",
+      "returncode": 1
+    },
+    {
+      "domain": "blocksworld",
+      "task": 46,
+      "mutation": "precondition_probe",
+      "adapter": false,
+      "adapter_stage": "precondition",
+      "val": false,
+      "val_stage": "execution_or_goal_rejection",
+      "returncode": 1
+    },
+    {
+      "domain": "blocksworld",
+      "task": 46,
+      "mutation": "goal_deletion",
+      "adapter": false,
+      "adapter_stage": "goal_miss",
+      "val": false,
+      "val_stage": "execution_or_goal_rejection",
+      "returncode": 1
+    },
+    {
+      "domain": "blocksworld",
+      "task": 46,
+      "mutation": "repeat_final",
+      "adapter": false,
+      "adapter_stage": "precondition",
+      "val": false,
+      "val_stage": "execution_or_goal_rejection",
+      "returncode": 1
+    },
+    {
+      "domain": "blocksworld",
+      "task": 41,
+      "mutation": "illegal_parameter",
+      "adapter": false,
+      "adapter_stage": "invalid_action",
+      "val": false,
+      "val_stage": "execution_or_goal_rejection",
+      "returncode": 1
+    },
+    {
+      "domain": "blocksworld",
+      "task": 41,
+      "mutation": "precondition_probe",
+      "adapter": false,
+      "adapter_stage": "precondition",
+      "val": false,
+      "val_stage": "execution_or_goal_rejection",
+      "returncode": 1
+    },
+    {
+      "domain": "blocksworld",
+      "task": 41,
+      "mutation": "goal_deletion",
+      "adapter": false,
+      "adapter_stage": "goal_miss",
+      "val": false,
+      "val_stage": "execution_or_goal_rejection",
+      "returncode": 1
+    },
+    {
+      "domain": "blocksworld",
+      "task": 41,
+      "mutation": "repeat_final",
+      "adapter": false,
+      "adapter_stage": "precondition",
+      "val": false,
+      "val_stage": "execution_or_goal_rejection",
+      "returncode": 1
+    },
+    {
+      "domain": "blocksworld",
+      "task": 78,
+      "mutation": "illegal_parameter",
+      "adapter": false,
+      "adapter_stage": "invalid_action",
+      "val": false,
+      "val_stage": "execution_or_goal_rejection",
+      "returncode": 1
+    },
+    {
+      "domain": "blocksworld",
+      "task": 78,
+      "mutation": "precondition_probe",
+      "adapter": false,
+      "adapter_stage": "precondition",
+      "val": false,
+      "val_stage": "execution_or_goal_rejection",
+      "returncode": 1
+    },
+    {
+      "domain": "blocksworld",
+      "task": 78,
+      "mutation": "goal_deletion",
+      "adapter": false,
+      "adapter_stage": "goal_miss",
+      "val": false,
+      "val_stage": "execution_or_goal_rejection",
+      "returncode": 1
+    },
+    {
+      "domain": "blocksworld",
+      "task": 78,
+      "mutation": "repeat_final",
+      "adapter": false,
+      "adapter_stage": "precondition",
+      "val": false,
+      "val_stage": "execution_or_goal_rejection",
+      "returncode": 1
+    },
+    {
+      "domain": "logistics",
+      "task": 78,
+      "mutation": "illegal_parameter",
+      "adapter": false,
+      "adapter_stage": "invalid_action",
+      "val": false,
+      "val_stage": "execution_or_goal_rejection",
+      "returncode": 1
+    },
+    {
+      "domain": "logistics",
+      "task": 78,
+      "mutation": "precondition_probe",
+      "adapter": false,
+      "adapter_stage": "precondition",
+      "val": false,
+      "val_stage": "execution_or_goal_rejection",
+      "returncode": 1
+    },
+    {
+      "domain": "logistics",
+      "task": 78,
+      "mutation": "goal_deletion",
+      "adapter": false,
+      "adapter_stage": "goal_miss",
+      "val": false,
+      "val_stage": "execution_or_goal_rejection",
+      "returncode": 1
+    },
+    {
+      "domain": "logistics",
+      "task": 78,
+      "mutation": "repeat_final",
+      "adapter": false,
+      "adapter_stage": "precondition",
+      "val": false,
+      "val_stage": "execution_or_goal_rejection",
+      "returncode": 1
+    },
+    {
+      "domain": "logistics",
+      "task": 35,
+      "mutation": "illegal_parameter",
+      "adapter": false,
+      "adapter_stage": "invalid_action",
+      "val": false,
+      "val_stage": "execution_or_goal_rejection",
+      "returncode": 1
+    },
+    {
+      "domain": "logistics",
+      "task": 35,
+      "mutation": "precondition_probe",
+      "adapter": false,
+      "adapter_stage": "precondition",
+      "val": false,
+      "val_stage": "execution_or_goal_rejection",
+      "returncode": 1
+    },
+    {
+      "domain": "logistics",
+      "task": 35,
+      "mutation": "goal_deletion",
+      "adapter": false,
+      "adapter_stage": "goal_miss",
+      "val": false,
+      "val_stage": "execution_or_goal_rejection",
+      "returncode": 1
+    },
+    {
+      "domain": "logistics",
+      "task": 35,
+      "mutation": "repeat_final",
+      "adapter": false,
+      "adapter_stage": "precondition",
+      "val": false,
+      "val_stage": "execution_or_goal_rejection",
+      "returncode": 1
+    },
+    {
+      "domain": "blocksworld",
+      "task": 22,
+      "mutation": "illegal_parameter",
+      "adapter": false,
+      "adapter_stage": "invalid_action",
+      "val": false,
+      "val_stage": "execution_or_goal_rejection",
+      "returncode": 1
+    },
+    {
+      "domain": "blocksworld",
+      "task": 22,
+      "mutation": "precondition_probe",
+      "adapter": false,
+      "adapter_stage": "precondition",
+      "val": false,
+      "val_stage": "execution_or_goal_rejection",
+      "returncode": 1
+    },
+    {
+      "domain": "blocksworld",
+      "task": 22,
+      "mutation": "goal_deletion",
+      "adapter": false,
+      "adapter_stage": "goal_miss",
+      "val": false,
+      "val_stage": "execution_or_goal_rejection",
+      "returncode": 1
+    },
+    {
+      "domain": "blocksworld",
+      "task": 22,
+      "mutation": "repeat_final",
+      "adapter": false,
+      "adapter_stage": "precondition",
+      "val": false,
+      "val_stage": "execution_or_goal_rejection",
+      "returncode": 1
+    },
+    {
+      "domain": "blocksworld",
+      "task": 71,
+      "mutation": "illegal_parameter",
+      "adapter": false,
+      "adapter_stage": "invalid_action",
+      "val": false,
+      "val_stage": "execution_or_goal_rejection",
+      "returncode": 1
+    },
+    {
+      "domain": "blocksworld",
+      "task": 71,
+      "mutation": "precondition_probe",
+      "adapter": false,
+      "adapter_stage": "precondition",
+      "val": false,
+      "val_stage": "execution_or_goal_rejection",
+      "returncode": 1
+    },
+    {
+      "domain": "blocksworld",
+      "task": 71,
+      "mutation": "goal_deletion",
+      "adapter": false,
+      "adapter_stage": "goal_miss",
+      "val": false,
+      "val_stage": "execution_or_goal_rejection",
+      "returncode": 1
+    },
+    {
+      "domain": "blocksworld",
+      "task": 71,
+      "mutation": "repeat_final",
+      "adapter": false,
+      "adapter_stage": "precondition",
+      "val": false,
+      "val_stage": "execution_or_goal_rejection",
+      "returncode": 1
+    },
+    {
+      "domain": "blocksworld",
+      "task": 49,
+      "mutation": "illegal_parameter",
+      "adapter": false,
+      "adapter_stage": "invalid_action",
+      "val": false,
+      "val_stage": "execution_or_goal_rejection",
+      "returncode": 1
+    },
+    {
+      "domain": "blocksworld",
+      "task": 49,
+      "mutation": "precondition_probe",
+      "adapter": false,
+      "adapter_stage": "precondition",
+      "val": false,
+      "val_stage": "execution_or_goal_rejection",
+      "returncode": 1
+    },
+    {
+      "domain": "blocksworld",
+      "task": 49,
+      "mutation": "goal_deletion",
+      "adapter": false,
+      "adapter_stage": "goal_miss",
+      "val": false,
+      "val_stage": "execution_or_goal_rejection",
+      "returncode": 1
+    },
+    {
+      "domain": "blocksworld",
+      "task": 49,
+      "mutation": "repeat_final",
+      "adapter": false,
+      "adapter_stage": "precondition",
+      "val": false,
+      "val_stage": "execution_or_goal_rejection",
+      "returncode": 1
+    },
+    {
+      "domain": "blocksworld",
+      "task": 68,
+      "mutation": "illegal_parameter",
+      "adapter": false,
+      "adapter_stage": "invalid_action",
+      "val": false,
+      "val_stage": "execution_or_goal_rejection",
+      "returncode": 1
+    },
+    {
+      "domain": "blocksworld",
+      "task": 68,
+      "mutation": "precondition_probe",
+      "adapter": false,
+      "adapter_stage": "precondition",
+      "val": false,
+      "val_stage": "execution_or_goal_rejection",
+      "returncode": 1
+    },
+    {
+      "domain": "blocksworld",
+      "task": 68,
+      "mutation": "goal_deletion",
+      "adapter": false,
+      "adapter_stage": "goal_miss",
+      "val": false,
+      "val_stage": "execution_or_goal_rejection",
+      "returncode": 1
+    },
+    {
+      "domain": "blocksworld",
+      "task": 68,
+      "mutation": "repeat_final",
+      "adapter": false,
+      "adapter_stage": "precondition",
+      "val": false,
+      "val_stage": "execution_or_goal_rejection",
+      "returncode": 1
+    },
+    {
+      "domain": "blocksworld",
+      "task": 43,
+      "mutation": "illegal_parameter",
+      "adapter": false,
+      "adapter_stage": "invalid_action",
+      "val": false,
+      "val_stage": "execution_or_goal_rejection",
+      "returncode": 1
+    },
+    {
+      "domain": "blocksworld",
+      "task": 43,
+      "mutation": "precondition_probe",
+      "adapter": false,
+      "adapter_stage": "precondition",
+      "val": false,
+      "val_stage": "execution_or_goal_rejection",
+      "returncode": 1
+    },
+    {
+      "domain": "blocksworld",
+      "task": 43,
+      "mutation": "goal_deletion",
+      "adapter": false,
+      "adapter_stage": "goal_miss",
+      "val": false,
+      "val_stage": "execution_or_goal_rejection",
+      "returncode": 1
+    },
+    {
+      "domain": "blocksworld",
+      "task": 43,
+      "mutation": "repeat_final",
+      "adapter": false,
+      "adapter_stage": "precondition",
+      "val": false,
+      "val_stage": "execution_or_goal_rejection",
+      "returncode": 1
+    },
+    {
+      "domain": "blocksworld",
+      "task": 56,
+      "mutation": "illegal_parameter",
+      "adapter": false,
+      "adapter_stage": "invalid_action",
+      "val": false,
+      "val_stage": "execution_or_goal_rejection",
+      "returncode": 1
+    },
+    {
+      "domain": "blocksworld",
+      "task": 56,
+      "mutation": "precondition_probe",
+      "adapter": false,
+      "adapter_stage": "precondition",
+      "val": false,
+      "val_stage": "execution_or_goal_rejection",
+      "returncode": 1
+    },
+    {
+      "domain": "blocksworld",
+      "task": 56,
+      "mutation": "goal_deletion",
+      "adapter": false,
+      "adapter_stage": "goal_miss",
+      "val": false,
+      "val_stage": "execution_or_goal_rejection",
+      "returncode": 1
+    },
+    {
+      "domain": "blocksworld",
+      "task": 56,
+      "mutation": "repeat_final",
+      "adapter": false,
+      "adapter_stage": "precondition",
+      "val": false,
+      "val_stage": "execution_or_goal_rejection",
+      "returncode": 1
+    }
+  ],
+  "boundary": "Constructed verification probes, not naturally occurring error rates. Duplicate mutations are not assumed invalid; actual replay determines outcome."
+}

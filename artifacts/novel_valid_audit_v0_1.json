@@ -1,0 +1,229 @@
+{
+  "evidence_status": "pending_independent_novel_valid_review",
+  "packet_version": "planspace-novel-valid-audit-v0.1",
+  "source_files": [
+    "qwen3_8b_queue_100_enriched_v0_1.json",
+    "qwen3_4b_queue_100_enriched_v0_1.json",
+    "phi4_mini_queue_100_enriched_v0_1.json"
+  ],
+  "selection_rule": "Every sample with deterministic goal validity true and constructed partial-order-family membership false; exact duplicate task-plan pairs are merged.",
+  "total_occurrence_count": 10,
+  "unique_case_count": 2,
+  "model_occurrence_counts": {
+    "Qwen/Qwen3-4B": 5,
+    "Qwen/Qwen3-8B": 5
+  },
+  "allowed_classifications": [
+    "valid_novel_or_nonminimal_plan",
+    "constructed_family_coverage_miss",
+    "action_semantics_or_evaluator_issue",
+    "not_semantically_valid"
+  ],
+  "boundary": "Goal validity is relative to the declared high-level transition model. Human review must distinguish legitimate nonminimal behavior from family coverage or semantic errors.",
+  "cases": [
+    {
+      "audit_id": "novel-valid-001",
+      "source_path": "carrying_in_groceries/problem0.bddl",
+      "source_sha256": "ac2895980b3688800a188814b6d47f248ec74be2d779c1126cb27a0eff6ae236",
+      "plan": [
+        "open::electric_refrigerator.n.01_1",
+        "transfer::beefsteak_tomato.n.01_1::inside:sack.n.01_1->inside:electric_refrigerator.n.01_*",
+        "transfer::carton__of__milk.n.01_1::inside:sack.n.01_1->inside:electric_refrigerator.n.01_*",
+        "close::electric_refrigerator.n.01_1",
+        "close::car.n.01_1"
+      ],
+      "reference_plan": [
+        "open::electric_refrigerator.n.01_1",
+        "transfer::beefsteak_tomato.n.01_1::inside:sack.n.01_1->inside:electric_refrigerator.n.01_1",
+        "transfer::carton__of__milk.n.01_1::inside:sack.n.01_1->inside:electric_refrigerator.n.01_1",
+        "close::car.n.01_1",
+        "close::electric_refrigerator.n.01_1"
+      ],
+      "reference_plan_dags": [
+        {
+          "action_ids": [
+            "open::electric_refrigerator.n.01_1",
+            "transfer::beefsteak_tomato.n.01_1::inside:sack.n.01_1->inside:electric_refrigerator.n.01_1",
+            "transfer::carton__of__milk.n.01_1::inside:sack.n.01_1->inside:electric_refrigerator.n.01_1",
+            "close::car.n.01_1",
+            "close::electric_refrigerator.n.01_1"
+          ],
+          "partial_order_edges": [
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              2
+            ],
+            [
+              1,
+              4
+            ],
+            [
+              2,
+              4
+            ]
+          ],
+          "goals": [
+            [
+              "inside(beefsteak_tomato.n.01_1, electric_refrigerator.n.01_1)",
+              "inside(carton__of__milk.n.01_1, electric_refrigerator.n.01_1)",
+              "not_open(car.n.01_1)",
+              "not_open(electric_refrigerator.n.01_1)"
+            ]
+          ]
+        },
+        {
+          "action_ids": [
+            "transfer::beefsteak_tomato.n.01_1::inside:sack.n.01_1->inside:electric_refrigerator.n.01_*",
+            "transfer::carton__of__milk.n.01_1::inside:sack.n.01_1->inside:electric_refrigerator.n.01_*",
+            "close::car.n.01_1"
+          ],
+          "partial_order_edges": [],
+          "goals": [
+            [
+              "inside(beefsteak_tomato.n.01_1, electric_refrigerator.n.01_*)",
+              "inside(carton__of__milk.n.01_1, electric_refrigerator.n.01_*)",
+              "not_open(car.n.01_1)",
+              "not_open(electric_refrigerator.n.01_1)"
+            ]
+          ]
+        }
+      ],
+      "execution_result": {
+        "executable": true,
+        "goal_satisfied": true,
+        "valid": true,
+        "failure_step": null,
+        "failed_action_id": null,
+        "missing_preconditions": []
+      },
+      "occurrences": [
+        {
+          "model_id": "Qwen/Qwen3-8B",
+          "model_revision": "b968826d9c46dd6066d109eabc6255188de91218",
+          "sample_index": 0,
+          "seed": 20570914
+        },
+        {
+          "model_id": "Qwen/Qwen3-8B",
+          "model_revision": "b968826d9c46dd6066d109eabc6255188de91218",
+          "sample_index": 1,
+          "seed": 20570915
+        },
+        {
+          "model_id": "Qwen/Qwen3-8B",
+          "model_revision": "b968826d9c46dd6066d109eabc6255188de91218",
+          "sample_index": 2,
+          "seed": 20570916
+        },
+        {
+          "model_id": "Qwen/Qwen3-8B",
+          "model_revision": "b968826d9c46dd6066d109eabc6255188de91218",
+          "sample_index": 3,
+          "seed": 20570917
+        },
+        {
+          "model_id": "Qwen/Qwen3-8B",
+          "model_revision": "b968826d9c46dd6066d109eabc6255188de91218",
+          "sample_index": 4,
+          "seed": 20570918
+        }
+      ],
+      "review": {
+        "classification": null,
+        "semantically_valid_at_declared_abstraction": null,
+        "should_expand_constructed_family": null,
+        "reviewer": null,
+        "date": null,
+        "notes": null
+      }
+    },
+    {
+      "audit_id": "novel-valid-002",
+      "source_path": "getting_package_from_post_office/problem0.bddl",
+      "source_sha256": "83d16ad2dc4f823b3f7d5dcf18a40ec5d6203078126f447553f94ee20939f90d",
+      "plan": [
+        "transfer::package.n.02_1::inside:cabinet.n.01_1->ontop:desk.n.01_1",
+        "transfer::package.n.02_2::inside:cabinet.n.01_1->ontop:desk.n.01_1"
+      ],
+      "reference_plan": [
+        "transfer::package.n.02_1::inside:cabinet.n.01_1->ontop:desk.n.01_1"
+      ],
+      "reference_plan_dags": [
+        {
+          "action_ids": [
+            "transfer::package.n.02_1::inside:cabinet.n.01_1->ontop:desk.n.01_1"
+          ],
+          "partial_order_edges": [],
+          "goals": [
+            [
+              "ontop(package.n.02_1, desk.n.01_1)"
+            ]
+          ]
+        },
+        {
+          "action_ids": [
+            "transfer::package.n.02_2::inside:cabinet.n.01_1->ontop:desk.n.01_1"
+          ],
+          "partial_order_edges": [],
+          "goals": [
+            [
+              "ontop(package.n.02_2, desk.n.01_1)"
+            ]
+          ]
+        }
+      ],
+      "execution_result": {
+        "executable": true,
+        "goal_satisfied": true,
+        "valid": true,
+        "failure_step": null,
+        "failed_action_id": null,
+        "missing_preconditions": []
+      },
+      "occurrences": [
+        {
+          "model_id": "Qwen/Qwen3-4B",
+          "model_revision": "1cfa9a7208912126459214e8b04321603b3df60c",
+          "sample_index": 0,
+          "seed": 20950914
+        },
+        {
+          "model_id": "Qwen/Qwen3-4B",
+          "model_revision": "1cfa9a7208912126459214e8b04321603b3df60c",
+          "sample_index": 1,
+          "seed": 20950915
+        },
+        {
+          "model_id": "Qwen/Qwen3-4B",
+          "model_revision": "1cfa9a7208912126459214e8b04321603b3df60c",
+          "sample_index": 2,
+          "seed": 20950916
+        },
+        {
+          "model_id": "Qwen/Qwen3-4B",
+          "model_revision": "1cfa9a7208912126459214e8b04321603b3df60c",
+          "sample_index": 3,
+          "seed": 20950917
+        },
+        {
+          "model_id": "Qwen/Qwen3-4B",
+          "model_revision": "1cfa9a7208912126459214e8b04321603b3df60c",
+          "sample_index": 4,
+          "seed": 20950918
+        }
+      ],
+      "review": {
+        "classification": null,
+        "semantically_valid_at_declared_abstraction": null,
+        "should_expand_constructed_family": null,
+        "reviewer": null,
+        "date": null,
+        "notes": null
+      }
+    }
+  ]
+}

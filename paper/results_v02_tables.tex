@@ -1,0 +1,188 @@
+% Six-model v0.2 table blocks. This file intentionally contains no hand-entered
+% result values; every row is generated from artifacts by generate_v02_data.py.
+
+\newcommand{\VTwoStrictTable}{%
+\begin{table}[ht]
+\caption{Strict-interface results on the same \VTwoTaskCount{} tasks with
+\VTwoSamplesPerTask{} samples per
+task (\%). Parse and Exec. report interface and replay coverage; Goal requires
+an executable plan with a satisfied terminal goal. PO reports reference-family
+membership, with replay bounds described in Appendix~\ref{app:cap-cost}.
+FRR is exact-match rejection among goal-valid outputs; other rates use all outputs.}
+\label{tab:v02-models}
+\centering
+\small
+\setlength{\tabcolsep}{3.0pt}
+\begin{tabular}{lrrrrrr}
+\toprule
+Model & Parse & Exec. & Goal & PO & Exact & FRR \\
+\midrule
+\VTwoModelRows
+\bottomrule
+\end{tabular}
+\end{table}
+}
+
+\newcommand{\VTwoInterfaceTable}{%
+\begin{table}[ht]
+\caption{Pre-specified interface sensitivity on the same \VTwoOutputCount{} raw outputs
+(\%). Strict (S) uses exact action identifiers; normalized (N) removes only
+one literal \texttt{action\_id=} prefix while leaving the remaining plan
+unchanged.}
+\label{tab:v02-interface}
+\centering
+\small
+\setlength{\tabcolsep}{2.8pt}
+\begin{tabular}{lrrrrrr}
+\toprule
+Model & Parse-S & Parse-N & Goal-S & Goal-N & Exact-S & Exact-N \\
+\midrule
+\VTwoSensitivityRows
+\bottomrule
+\end{tabular}
+\end{table}
+}
+
+\newcommand{\VTwoQwenScaleTable}{%
+\begin{table}[ht]
+\caption{Within-family Qwen3 scaling under the identical prompt and decoding
+protocol (\%). These point estimates are interpreted together with the
+Holm-corrected paired tests in Table~\ref{tab:v02-pairs}.}
+\label{tab:v02-qwen-scale}
+\centering
+\small
+\begin{tabular}{lrrr}
+\toprule
+Model & Goal & PO & Exact \\
+\midrule
+\VTwoQwenScaleRows
+\bottomrule
+\end{tabular}
+\end{table}
+}
+
+\newcommand{\VTwoSelectedPairsTable}{%
+\begin{table}[t]
+\caption{Pre-specified paired contrasts in percentage points. Qwen pairs test
+within-family scaling; Mistral--OLMo compares two 7B cross-family checkpoints.
+Cells give left-minus-right effect [95\% task-bootstrap interval] and
+Holm-adjusted sign-flip $p$-value. Selection was frozen before Qwen3-14B was
+observed; all 15 pairs appear in Table~\ref{tab:v02-pairs}.}
+\label{tab:v02-selected-pairs}
+\centering
+\scriptsize
+\setlength{\tabcolsep}{1.6pt}
+\begin{tabular}{lrrrrrr}
+\toprule
+Pair & Exact & $p_H$ & PO & $p_H$ & Goal & $p_H$ \\
+\midrule
+\VTwoSelectedPairRows
+\bottomrule
+\end{tabular}
+\end{table}
+}
+
+\newcommand{\VTwoSamplingTable}{%
+\begin{table}[ht]
+\caption{Effect of the sampling budget under a frozen order of five seeds (\%).
+Goal@1 uses the first draw; Goal@5 credits a task when any of its five draws
+succeeds. Family coverage averages the fraction of constructed families reached.
+Regret measures normalized excess cost only among goal-valid outputs.}
+\label{tab:v02-diversity}
+\centering
+\small
+\setlength{\tabcolsep}{3.0pt}
+\begin{tabular}{lrrrr}
+\toprule
+Model & Goal@1 & Goal@5 & Family cov. & Regret \\
+\midrule
+\VTwoDiversityRows
+\bottomrule
+\end{tabular}
+\end{table}
+}
+
+\newcommand{\VTwoAppendixTables}{%
+\section{Complete Six-Model Results}
+\label{app:v02-complete}
+
+\paragraph{Failure accounting.}
+We assign each of the \VTwoOutputCount{} primary outputs to one terminal category:
+token-cap truncation, other parse failure, failed action precondition,
+executable goal miss, valid exact match, or valid non-reference plan. The
+per-model analysis records counts and task-bootstrap intervals, preserving
+the full output denominator. Metrics such as regret are computed on their
+declared conditional subsets and reported alongside full-denominator validity.
+
+\VTwoStrictTable
+
+\VTwoSamplingTable
+
+\begin{table}[h]
+\caption{Task-bootstrap estimates and 95\% intervals (percentage points).
+Intervals resample the \VTwoTaskCount{} tasks 10,000 times.}
+\label{tab:v02-cis}
+\centering
+\scriptsize
+\setlength{\tabcolsep}{2.5pt}
+\begin{tabular}{lrrrr}
+\toprule
+Model & Goal & PO & Exact & FRR \\
+\midrule
+\VTwoModelCIRows
+\bottomrule
+\end{tabular}
+\end{table}
+
+\begin{table}[h]
+\caption{All 15 paired model contrasts. Cells give left-minus-right effect
+[95\% task-bootstrap interval] in percentage points and Holm-adjusted
+sign-flip $p$-values, corrected separately within each metric family.}
+\label{tab:v02-pairs}
+\centering
+\scriptsize
+\setlength{\tabcolsep}{1.6pt}
+\begin{tabular}{lrrrrrr}
+\toprule
+Pair & Exact & $p_H$ & PO & $p_H$ & Goal & $p_H$ \\
+\midrule
+\VTwoAllPairRows
+\bottomrule
+\end{tabular}
+\end{table}
+
+\begin{table}[h]
+\caption{Goal validity (\%) within disjoint structural strata. Each denominator
+is five draws times the listed task count. The fixed assignment priority
+separates task structures within the supported suite.}
+\label{tab:v02-splits}
+\centering
+\scriptsize
+\setlength{\tabcolsep}{2.0pt}
+\begin{tabular}{lrrrrrrr}
+\toprule
+Split & Tasks & Q3-4B & Q3-8B & Q3-14B & Mistral & OLMo & Phi \\
+\midrule
+\VTwoStructuralSplitRows
+\bottomrule
+\end{tabular}
+\end{table}
+
+\begin{table}[h]
+\caption{Exploratory exact catalog-record projection (\%). The deterministic rule
+accepts only an exact action identifier, its declared prefix form, or an exact
+catalog record rendered in the prompt. Early OLMo outputs motivated this
+secondary analysis.}
+\label{tab:v02-catalog}
+\centering
+\scriptsize
+\setlength{\tabcolsep}{2.2pt}
+\begin{tabular}{lrrrrrr}
+\toprule
+Model & Parse-S & Parse-P & Goal-S & Goal-P & Exact-S & Exact-P \\
+\midrule
+\VTwoCatalogProjectionRows
+\bottomrule
+\end{tabular}
+\end{table}
+}

@@ -1,0 +1,15 @@
+\begin{table}[t]
+\centering\small
+\caption{Replay-cap resources on macOS arm64. Each row is one fresh, sequential process scanning 171 tasks and constructing 1,403 representatives, then checking the 1,034 originally capped representatives. All checked orders are valid. Wall time includes process startup and report writing; RSS is peak resident memory.}
+\label{tab:cap-resources}
+\begin{tabular}{rrrrr}
+\toprule
+Cap & Checked orders & Wall (s) & CPU (s) & RSS (MiB) \\
+\midrule
+100 & 103,400 & 14.48 & 14.06 & 28.08 \\
+500 & 517,000 & 46.46 & 45.05 & 27.22 \\
+1,000 & 1,034,000 & 92.51 & 89.97 & 25.58 \\
+2,000 & 2,019,008 & 194.44 & 183.71 & 25.30 \\
+\bottomrule
+\end{tabular}
+\end{table}

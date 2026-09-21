@@ -1,0 +1,2070 @@
+{
+  "evidence_status": "bounded_symbolic_family_coverage_pending_semantic_review",
+  "analysis_version": "planspace-bounded-family-coverage-v0.1",
+  "bounds": {
+    "max_actions": 12,
+    "max_reference_depth": 6,
+    "max_plans_per_search_or_family": 100000,
+    "path_policy": "first goal-reaching simple state paths"
+  },
+  "summary": {
+    "queue_task_count": 100,
+    "attempted_task_count": 75,
+    "exhaustively_analyzed_task_count": 75,
+    "excluded_task_count": 25,
+    "bounded_valid_plan_count": 3145,
+    "bounded_valid_plan_covered_count": 1965,
+    "micro_bounded_family_coverage": 0.6248012718600954,
+    "tasks_with_full_bounded_coverage": 53
+  },
+  "tasks": [
+    {
+      "max_depth": 2,
+      "expanded_nodes": 3,
+      "search_exhaustive": true,
+      "family_order_enumeration_exhaustive": true,
+      "bounded_valid_plan_count": 2,
+      "known_family_plan_count": 1,
+      "bounded_valid_plan_covered_count": 1,
+      "bounded_family_coverage": 0.5,
+      "bounded_valid_plans_outside_families_count": 1,
+      "outside_family_examples": [
+        [
+          "open::openable_window.n.01_2",
+          "open::openable_window.n.01_1"
+        ]
+      ],
+      "source_path": "opening_windows/problem0.bddl",
+      "action_count": 2
+    },
+    {
+      "max_depth": 3,
+      "expanded_nodes": 3,
+      "search_exhaustive": true,
+      "family_order_enumeration_exhaustive": true,
+      "bounded_valid_plan_count": 1,
+      "known_family_plan_count": 1,
+      "bounded_valid_plan_covered_count": 1,
+      "bounded_family_coverage": 1.0,
+      "bounded_valid_plans_outside_families_count": 0,
+      "outside_family_examples": [],
+      "source_path": "bringing_in_mail/problem0.bddl",
+      "action_count": 3
+    },
+    {
+      "max_depth": 6,
+      "expanded_nodes": 313,
+      "search_exhaustive": true,
+      "family_order_enumeration_exhaustive": true,
+      "bounded_valid_plan_count": 180,
+      "known_family_plan_count": 24,
+      "bounded_valid_plan_covered_count": 24,
+      "bounded_family_coverage": 0.13333333333333333,
+      "bounded_valid_plans_outside_families_count": 156,
+      "outside_family_examples": [
+        [
+          "open::carton.n.02_1",
+          "toggle_on::desktop_computer.n.01_1",
+          "transfer::monitor.n.04_1::ontop:floor.n.01_1->ontop:table.n.02_1",
+          "transfer::mouse.n.04_1::inside:carton.n.02_1->ontop:table.n.02_1",
+          "transfer::router.n.02_1::inside:carton.n.02_1->ontop:floor.n.01_1",
+          "transfer::table_lamp.n.01_1::ontop:carton.n.02_1->ontop:table.n.02_1"
+        ],
+        [
+          "open::carton.n.02_1",
+          "toggle_on::desktop_computer.n.01_1",
+          "transfer::monitor.n.04_1::ontop:floor.n.01_1->ontop:table.n.02_1",
+          "transfer::mouse.n.04_1::inside:carton.n.02_1->ontop:table.n.02_1",
+          "transfer::table_lamp.n.01_1::ontop:carton.n.02_1->ontop:table.n.02_1",
+          "transfer::router.n.02_1::inside:carton.n.02_1->ontop:floor.n.01_1"
+        ],
+        [
+          "open::carton.n.02_1",
+          "toggle_on::desktop_computer.n.01_1",
+          "transfer::monitor.n.04_1::ontop:floor.n.01_1->ontop:table.n.02_1",
+          "transfer::router.n.02_1::inside:carton.n.02_1->ontop:floor.n.01_1",
+          "transfer::mouse.n.04_1::inside:carton.n.02_1->ontop:table.n.02_1",
+          "transfer::table_lamp.n.01_1::ontop:carton.n.02_1->ontop:table.n.02_1"
+        ],
+        [
+          "open::carton.n.02_1",
+          "toggle_on::desktop_computer.n.01_1",
+          "transfer::monitor.n.04_1::ontop:floor.n.01_1->ontop:table.n.02_1",
+          "transfer::router.n.02_1::inside:carton.n.02_1->ontop:floor.n.01_1",
+          "transfer::table_lamp.n.01_1::ontop:carton.n.02_1->ontop:table.n.02_1",
+          "transfer::mouse.n.04_1::inside:carton.n.02_1->ontop:table.n.02_1"
+        ],
+        [
+          "open::carton.n.02_1",
+          "toggle_on::desktop_computer.n.01_1",
+          "transfer::monitor.n.04_1::ontop:floor.n.01_1->ontop:table.n.02_1",
+          "transfer::table_lamp.n.01_1::ontop:carton.n.02_1->ontop:table.n.02_1",
+          "transfer::mouse.n.04_1::inside:carton.n.02_1->ontop:table.n.02_1",
+          "transfer::router.n.02_1::inside:carton.n.02_1->ontop:floor.n.01_1"
+        ],
+        [
+          "open::carton.n.02_1",
+          "toggle_on::desktop_computer.n.01_1",
+          "transfer::monitor.n.04_1::ontop:floor.n.01_1->ontop:table.n.02_1",
+          "transfer::table_lamp.n.01_1::ontop:carton.n.02_1->ontop:table.n.02_1",
+          "transfer::router.n.02_1::inside:carton.n.02_1->ontop:floor.n.01_1",
+          "transfer::mouse.n.04_1::inside:carton.n.02_1->ontop:table.n.02_1"
+        ],
+        [
+          "open::carton.n.02_1",
+          "toggle_on::desktop_computer.n.01_1",
+          "transfer::mouse.n.04_1::inside:carton.n.02_1->ontop:table.n.02_1",
+          "transfer::monitor.n.04_1::ontop:floor.n.01_1->ontop:table.n.02_1",
+          "transfer::router.n.02_1::inside:carton.n.02_1->ontop:floor.n.01_1",
+          "transfer::table_lamp.n.01_1::ontop:carton.n.02_1->ontop:table.n.02_1"
+        ],
+        [
+          "open::carton.n.02_1",
+          "toggle_on::desktop_computer.n.01_1",
+          "transfer::mouse.n.04_1::inside:carton.n.02_1->ontop:table.n.02_1",
+          "transfer::monitor.n.04_1::ontop:floor.n.01_1->ontop:table.n.02_1",
+          "transfer::table_lamp.n.01_1::ontop:carton.n.02_1->ontop:table.n.02_1",
+          "transfer::router.n.02_1::inside:carton.n.02_1->ontop:floor.n.01_1"
+        ],
+        [
+          "open::carton.n.02_1",
+          "toggle_on::desktop_computer.n.01_1",
+          "transfer::mouse.n.04_1::inside:carton.n.02_1->ontop:table.n.02_1",
+          "transfer::router.n.02_1::inside:carton.n.02_1->ontop:floor.n.01_1",
+          "transfer::monitor.n.04_1::ontop:floor.n.01_1->ontop:table.n.02_1",
+          "transfer::table_lamp.n.01_1::ontop:carton.n.02_1->ontop:table.n.02_1"
+        ],
+        [
+          "open::carton.n.02_1",
+          "toggle_on::desktop_computer.n.01_1",
+          "transfer::mouse.n.04_1::inside:carton.n.02_1->ontop:table.n.02_1",
+          "transfer::router.n.02_1::inside:carton.n.02_1->ontop:floor.n.01_1",
+          "transfer::table_lamp.n.01_1::ontop:carton.n.02_1->ontop:table.n.02_1",
+          "transfer::monitor.n.04_1::ontop:floor.n.01_1->ontop:table.n.02_1"
+        ]
+      ],
+      "source_path": "set_up_a_home_office_in_your_garage/problem0.bddl",
+      "action_count": 6
+    },
+    {
+      "max_depth": 1,
+      "expanded_nodes": 1,
+      "search_exhaustive": true,
+      "family_order_enumeration_exhaustive": true,
+      "bounded_valid_plan_count": 1,
+      "known_family_plan_count": 1,
+      "bounded_valid_plan_covered_count": 1,
+      "bounded_family_coverage": 1.0,
+      "bounded_valid_plans_outside_families_count": 0,
+      "outside_family_examples": [],
+      "source_path": "turn_off_a_normal_school_calculator/problem0.bddl",
+      "action_count": 1
+    },
+    {
+      "max_depth": 3,
+      "expanded_nodes": 3,
+      "search_exhaustive": true,
+      "family_order_enumeration_exhaustive": true,
+      "bounded_valid_plan_count": 1,
+      "known_family_plan_count": 1,
+      "bounded_valid_plan_covered_count": 1,
+      "bounded_family_coverage": 1.0,
+      "bounded_valid_plans_outside_families_count": 0,
+      "outside_family_examples": [],
+      "source_path": "bringing_glass_to_recycling/problem0.bddl",
+      "action_count": 3
+    },
+    {
+      "max_depth": 5,
+      "expanded_nodes": 42,
+      "search_exhaustive": true,
+      "family_order_enumeration_exhaustive": true,
+      "bounded_valid_plan_count": 24,
+      "known_family_plan_count": 24,
+      "bounded_valid_plan_covered_count": 24,
+      "bounded_family_coverage": 1.0,
+      "bounded_valid_plans_outside_families_count": 0,
+      "outside_family_examples": [],
+      "source_path": "cleaning_up_branches_and_twigs/problem0.bddl",
+      "action_count": 5
+    },
+    {
+      "max_depth": 2,
+      "expanded_nodes": 5,
+      "search_exhaustive": true,
+      "family_order_enumeration_exhaustive": true,
+      "bounded_valid_plan_count": 4,
+      "known_family_plan_count": 2,
+      "bounded_valid_plan_covered_count": 2,
+      "bounded_family_coverage": 0.5,
+      "bounded_valid_plans_outside_families_count": 2,
+      "outside_family_examples": [
+        [
+          "transfer::storage_container.n.01_2::ontop:floor.n.01_1->ontop:floor.n.01_2",
+          "transfer::storage_container.n.01_1::ontop:floor.n.01_1->ontop:storage_container.n.01_2"
+        ],
+        [
+          "transfer::storage_container.n.01_2::ontop:floor.n.01_1->ontop:storage_container.n.01_1",
+          "transfer::storage_container.n.01_1::ontop:floor.n.01_1->ontop:floor.n.01_2"
+        ]
+      ],
+      "source_path": "moving_boxes_to_storage/problem0.bddl",
+      "action_count": 4
+    },
+    {
+      "max_depth": 3,
+      "expanded_nodes": 10,
+      "search_exhaustive": true,
+      "family_order_enumeration_exhaustive": true,
+      "bounded_valid_plan_count": 6,
+      "known_family_plan_count": 6,
+      "bounded_valid_plan_covered_count": 6,
+      "bounded_family_coverage": 1.0,
+      "bounded_valid_plans_outside_families_count": 0,
+      "outside_family_examples": [],
+      "source_path": "prepare_a_hanging_basket/problem0.bddl",
+      "action_count": 3
+    },
+    {
+      "max_depth": 2,
+      "expanded_nodes": 3,
+      "search_exhaustive": true,
+      "family_order_enumeration_exhaustive": true,
+      "bounded_valid_plan_count": 2,
+      "known_family_plan_count": 1,
+      "bounded_valid_plan_covered_count": 1,
+      "bounded_family_coverage": 0.5,
+      "bounded_valid_plans_outside_families_count": 1,
+      "outside_family_examples": [
+        [
+          "open::door.n.01_2",
+          "open::door.n.01_1"
+        ]
+      ],
+      "source_path": "opening_doors/problem0.bddl",
+      "action_count": 2
+    },
+    {
+      "max_depth": 4,
+      "expanded_nodes": 8,
+      "search_exhaustive": true,
+      "family_order_enumeration_exhaustive": true,
+      "bounded_valid_plan_count": 2,
+      "known_family_plan_count": 2,
+      "bounded_valid_plan_covered_count": 2,
+      "bounded_family_coverage": 1.0,
+      "bounded_valid_plans_outside_families_count": 0,
+      "outside_family_examples": [],
+      "source_path": "bringing_water/problem0.bddl",
+      "action_count": 4
+    },
+    {
+      "max_depth": 2,
+      "expanded_nodes": 3,
+      "search_exhaustive": true,
+      "family_order_enumeration_exhaustive": true,
+      "bounded_valid_plan_count": 2,
+      "known_family_plan_count": 1,
+      "bounded_valid_plan_covered_count": 1,
+      "bounded_family_coverage": 0.5,
+      "bounded_valid_plans_outside_families_count": 1,
+      "outside_family_examples": [
+        [
+          "toggle_on::printer.n.03_1",
+          "transfer::printer.n.03_1::ontop:floor.n.01_1->ontop:table.n.02_1"
+        ]
+      ],
+      "source_path": "installing_a_printer/problem0.bddl",
+      "action_count": 2
+    },
+    {
+      "max_depth": 1,
+      "expanded_nodes": 1,
+      "search_exhaustive": true,
+      "family_order_enumeration_exhaustive": true,
+      "bounded_valid_plan_count": 1,
+      "known_family_plan_count": 1,
+      "bounded_valid_plan_covered_count": 1,
+      "bounded_family_coverage": 1.0,
+      "bounded_valid_plans_outside_families_count": 0,
+      "outside_family_examples": [],
+      "source_path": "turning_on_radio/problem0.bddl",
+      "action_count": 1
+    },
+    {
+      "max_depth": 4,
+      "expanded_nodes": 7,
+      "search_exhaustive": true,
+      "family_order_enumeration_exhaustive": true,
+      "bounded_valid_plan_count": 3,
+      "known_family_plan_count": 1,
+      "bounded_valid_plan_covered_count": 1,
+      "bounded_family_coverage": 0.3333333333333333,
+      "bounded_valid_plans_outside_families_count": 2,
+      "outside_family_examples": [
+        [
+          "open::electric_refrigerator.n.01_1",
+          "open::pizza_box.n.01_1",
+          "transfer::pizza_box.n.01_1::inside:electric_refrigerator.n.01_1->inside:ashcan.n.01_1",
+          "transfer::half__pizza.n.01_1::inside:pizza_box.n.01_1->inside:ashcan.n.01_1"
+        ],
+        [
+          "open::electric_refrigerator.n.01_1",
+          "transfer::pizza_box.n.01_1::inside:electric_refrigerator.n.01_1->inside:ashcan.n.01_1",
+          "open::pizza_box.n.01_1",
+          "transfer::half__pizza.n.01_1::inside:pizza_box.n.01_1->inside:ashcan.n.01_1"
+        ]
+      ],
+      "source_path": "dispose_of_a_pizza_box/problem0.bddl",
+      "action_count": 4
+    },
+    {
+      "max_depth": 4,
+      "expanded_nodes": 41,
+      "search_exhaustive": true,
+      "family_order_enumeration_exhaustive": true,
+      "bounded_valid_plan_count": 24,
+      "known_family_plan_count": 24,
+      "bounded_valid_plan_covered_count": 24,
+      "bounded_family_coverage": 1.0,
+      "bounded_valid_plans_outside_families_count": 0,
+      "outside_family_examples": [],
+      "source_path": "make_a_car_emergency_kit/problem0.bddl",
+      "action_count": 4
+    },
+    {
+      "max_depth": 4,
+      "expanded_nodes": 41,
+      "search_exhaustive": true,
+      "family_order_enumeration_exhaustive": true,
+      "bounded_valid_plan_count": 24,
+      "known_family_plan_count": 24,
+      "bounded_valid_plan_covered_count": 24,
+      "bounded_family_coverage": 1.0,
+      "bounded_valid_plans_outside_families_count": 0,
+      "outside_family_examples": [],
+      "source_path": "dispose_of_fireworks/problem0.bddl",
+      "action_count": 4
+    },
+    {
+      "max_depth": 2,
+      "expanded_nodes": 4,
+      "search_exhaustive": true,
+      "family_order_enumeration_exhaustive": true,
+      "bounded_valid_plan_count": 4,
+      "known_family_plan_count": 2,
+      "bounded_valid_plan_covered_count": 2,
+      "bounded_family_coverage": 0.5,
+      "bounded_valid_plans_outside_families_count": 2,
+      "outside_family_examples": [
+        [
+          "toggle_on::facsimile.n.02_1",
+          "transfer::facsimile.n.02_1::ontop:floor.n.01_1->ontop:carrel.n.02_*"
+        ],
+        [
+          "toggle_on::facsimile.n.02_1",
+          "transfer::facsimile.n.02_1::ontop:floor.n.01_1->ontop:carrel.n.02_1"
+        ]
+      ],
+      "source_path": "installing_a_fax_machine/problem0.bddl",
+      "action_count": 3
+    },
+    {
+      "max_depth": 1,
+      "expanded_nodes": 1,
+      "search_exhaustive": true,
+      "family_order_enumeration_exhaustive": true,
+      "bounded_valid_plan_count": 1,
+      "known_family_plan_count": 1,
+      "bounded_valid_plan_covered_count": 1,
+      "bounded_family_coverage": 1.0,
+      "bounded_valid_plans_outside_families_count": 0,
+      "outside_family_examples": [],
+      "source_path": "turning_off_the_hot_tub/problem0.bddl",
+      "action_count": 1
+    },
+    {
+      "max_depth": 5,
+      "expanded_nodes": 206,
+      "search_exhaustive": true,
+      "family_order_enumeration_exhaustive": true,
+      "bounded_valid_plan_count": 120,
+      "known_family_plan_count": 120,
+      "bounded_valid_plan_covered_count": 120,
+      "bounded_family_coverage": 1.0,
+      "bounded_valid_plans_outside_families_count": 0,
+      "outside_family_examples": [],
+      "source_path": "preparing_clothes_for_the_next_day/problem0.bddl",
+      "action_count": 5
+    },
+    {
+      "max_depth": 5,
+      "expanded_nodes": 206,
+      "search_exhaustive": true,
+      "family_order_enumeration_exhaustive": true,
+      "bounded_valid_plan_count": 120,
+      "known_family_plan_count": 120,
+      "bounded_valid_plan_covered_count": 120,
+      "bounded_family_coverage": 1.0,
+      "bounded_valid_plans_outside_families_count": 0,
+      "outside_family_examples": [],
+      "source_path": "turning_out_all_lights_before_sleep/problem0.bddl",
+      "action_count": 5
+    },
+    {
+      "max_depth": 4,
+      "expanded_nodes": 41,
+      "search_exhaustive": true,
+      "family_order_enumeration_exhaustive": true,
+      "bounded_valid_plan_count": 24,
+      "known_family_plan_count": 24,
+      "bounded_valid_plan_covered_count": 24,
+      "bounded_family_coverage": 1.0,
+      "bounded_valid_plans_outside_families_count": 0,
+      "outside_family_examples": [],
+      "source_path": "pack_a_pencil_case/problem0.bddl",
+      "action_count": 4
+    },
+    {
+      "max_depth": 5,
+      "expanded_nodes": 1139,
+      "search_exhaustive": true,
+      "family_order_enumeration_exhaustive": true,
+      "bounded_valid_plan_count": 240,
+      "known_family_plan_count": 120,
+      "bounded_valid_plan_covered_count": 120,
+      "bounded_family_coverage": 0.5,
+      "bounded_valid_plans_outside_families_count": 120,
+      "outside_family_examples": [
+        [
+          "transfer::battery.n.02_1::inside:carton.n.02_1->ontop:bookcase.n.01_1",
+          "transfer::book.n.02_1::inside:carton.n.02_1->ontop:bookcase.n.01_1",
+          "transfer::laptop.n.01_1::inside:carton.n.02_1->ontop:bookcase.n.01_1",
+          "transfer::videodisk.n.01_2::inside:carton.n.02_1->ontop:bookcase.n.01_1",
+          "transfer::videodisk.n.01_1::inside:carton.n.02_1->ontop:videodisk.n.01_2"
+        ],
+        [
+          "transfer::battery.n.02_1::inside:carton.n.02_1->ontop:bookcase.n.01_1",
+          "transfer::book.n.02_1::inside:carton.n.02_1->ontop:bookcase.n.01_1",
+          "transfer::laptop.n.01_1::inside:carton.n.02_1->ontop:bookcase.n.01_1",
+          "transfer::videodisk.n.01_2::inside:carton.n.02_1->ontop:videodisk.n.01_1",
+          "transfer::videodisk.n.01_1::inside:carton.n.02_1->ontop:bookcase.n.01_1"
+        ],
+        [
+          "transfer::battery.n.02_1::inside:carton.n.02_1->ontop:bookcase.n.01_1",
+          "transfer::book.n.02_1::inside:carton.n.02_1->ontop:bookcase.n.01_1",
+          "transfer::videodisk.n.01_2::inside:carton.n.02_1->ontop:bookcase.n.01_1",
+          "transfer::laptop.n.01_1::inside:carton.n.02_1->ontop:bookcase.n.01_1",
+          "transfer::videodisk.n.01_1::inside:carton.n.02_1->ontop:videodisk.n.01_2"
+        ],
+        [
+          "transfer::battery.n.02_1::inside:carton.n.02_1->ontop:bookcase.n.01_1",
+          "transfer::book.n.02_1::inside:carton.n.02_1->ontop:bookcase.n.01_1",
+          "transfer::videodisk.n.01_2::inside:carton.n.02_1->ontop:bookcase.n.01_1",
+          "transfer::videodisk.n.01_1::inside:carton.n.02_1->ontop:videodisk.n.01_2",
+          "transfer::laptop.n.01_1::inside:carton.n.02_1->ontop:bookcase.n.01_1"
+        ],
+        [
+          "transfer::battery.n.02_1::inside:carton.n.02_1->ontop:bookcase.n.01_1",
+          "transfer::book.n.02_1::inside:carton.n.02_1->ontop:bookcase.n.01_1",
+          "transfer::videodisk.n.01_2::inside:carton.n.02_1->ontop:videodisk.n.01_1",
+          "transfer::laptop.n.01_1::inside:carton.n.02_1->ontop:bookcase.n.01_1",
+          "transfer::videodisk.n.01_1::inside:carton.n.02_1->ontop:bookcase.n.01_1"
+        ],
+        [
+          "transfer::battery.n.02_1::inside:carton.n.02_1->ontop:bookcase.n.01_1",
+          "transfer::book.n.02_1::inside:carton.n.02_1->ontop:bookcase.n.01_1",
+          "transfer::videodisk.n.01_2::inside:carton.n.02_1->ontop:videodisk.n.01_1",
+          "transfer::videodisk.n.01_1::inside:carton.n.02_1->ontop:bookcase.n.01_1",
+          "transfer::laptop.n.01_1::inside:carton.n.02_1->ontop:bookcase.n.01_1"
+        ],
+        [
+          "transfer::battery.n.02_1::inside:carton.n.02_1->ontop:bookcase.n.01_1",
+          "transfer::laptop.n.01_1::inside:carton.n.02_1->ontop:bookcase.n.01_1",
+          "transfer::book.n.02_1::inside:carton.n.02_1->ontop:bookcase.n.01_1",
+          "transfer::videodisk.n.01_2::inside:carton.n.02_1->ontop:bookcase.n.01_1",
+          "transfer::videodisk.n.01_1::inside:carton.n.02_1->ontop:videodisk.n.01_2"
+        ],
+        [
+          "transfer::battery.n.02_1::inside:carton.n.02_1->ontop:bookcase.n.01_1",
+          "transfer::laptop.n.01_1::inside:carton.n.02_1->ontop:bookcase.n.01_1",
+          "transfer::book.n.02_1::inside:carton.n.02_1->ontop:bookcase.n.01_1",
+          "transfer::videodisk.n.01_2::inside:carton.n.02_1->ontop:videodisk.n.01_1",
+          "transfer::videodisk.n.01_1::inside:carton.n.02_1->ontop:bookcase.n.01_1"
+        ],
+        [
+          "transfer::battery.n.02_1::inside:carton.n.02_1->ontop:bookcase.n.01_1",
+          "transfer::laptop.n.01_1::inside:carton.n.02_1->ontop:bookcase.n.01_1",
+          "transfer::videodisk.n.01_2::inside:carton.n.02_1->ontop:bookcase.n.01_1",
+          "transfer::book.n.02_1::inside:carton.n.02_1->ontop:bookcase.n.01_1",
+          "transfer::videodisk.n.01_1::inside:carton.n.02_1->ontop:videodisk.n.01_2"
+        ],
+        [
+          "transfer::battery.n.02_1::inside:carton.n.02_1->ontop:bookcase.n.01_1",
+          "transfer::laptop.n.01_1::inside:carton.n.02_1->ontop:bookcase.n.01_1",
+          "transfer::videodisk.n.01_2::inside:carton.n.02_1->ontop:bookcase.n.01_1",
+          "transfer::videodisk.n.01_1::inside:carton.n.02_1->ontop:videodisk.n.01_2",
+          "transfer::book.n.02_1::inside:carton.n.02_1->ontop:bookcase.n.01_1"
+        ]
+      ],
+      "source_path": "unpacking_hobby_equipment/problem0.bddl",
+      "action_count": 8
+    },
+    {
+      "max_depth": 4,
+      "expanded_nodes": 8,
+      "search_exhaustive": true,
+      "family_order_enumeration_exhaustive": true,
+      "bounded_valid_plan_count": 2,
+      "known_family_plan_count": 2,
+      "bounded_valid_plan_covered_count": 2,
+      "bounded_family_coverage": 1.0,
+      "bounded_valid_plans_outside_families_count": 0,
+      "outside_family_examples": [],
+      "source_path": "put_together_a_basic_pruning_kit/problem0.bddl",
+      "action_count": 4
+    },
+    {
+      "max_depth": 1,
+      "expanded_nodes": 1,
+      "search_exhaustive": true,
+      "family_order_enumeration_exhaustive": true,
+      "bounded_valid_plan_count": 1,
+      "known_family_plan_count": 1,
+      "bounded_valid_plan_covered_count": 1,
+      "bounded_family_coverage": 1.0,
+      "bounded_valid_plans_outside_families_count": 0,
+      "outside_family_examples": [],
+      "source_path": "turning_on_the_hot_tub/problem0.bddl",
+      "action_count": 1
+    },
+    {
+      "max_depth": 5,
+      "expanded_nodes": 116,
+      "search_exhaustive": true,
+      "family_order_enumeration_exhaustive": true,
+      "bounded_valid_plan_count": 6,
+      "known_family_plan_count": 4,
+      "bounded_valid_plan_covered_count": 4,
+      "bounded_family_coverage": 0.6666666666666666,
+      "bounded_valid_plans_outside_families_count": 2,
+      "outside_family_examples": [
+        [
+          "open::electric_refrigerator.n.01_1",
+          "transfer::beefsteak_tomato.n.01_1::inside:sack.n.01_1->inside:electric_refrigerator.n.01_1",
+          "transfer::carton__of__milk.n.01_1::inside:sack.n.01_1->inside:electric_refrigerator.n.01_1",
+          "close::electric_refrigerator.n.01_1",
+          "close::car.n.01_1"
+        ],
+        [
+          "open::electric_refrigerator.n.01_1",
+          "transfer::carton__of__milk.n.01_1::inside:sack.n.01_1->inside:electric_refrigerator.n.01_1",
+          "transfer::beefsteak_tomato.n.01_1::inside:sack.n.01_1->inside:electric_refrigerator.n.01_1",
+          "close::electric_refrigerator.n.01_1",
+          "close::car.n.01_1"
+        ]
+      ],
+      "source_path": "carrying_in_groceries/problem0.bddl",
+      "action_count": 8
+    },
+    {
+      "max_depth": 4,
+      "expanded_nodes": 11,
+      "search_exhaustive": true,
+      "family_order_enumeration_exhaustive": true,
+      "bounded_valid_plan_count": 6,
+      "known_family_plan_count": 6,
+      "bounded_valid_plan_covered_count": 6,
+      "bounded_family_coverage": 1.0,
+      "bounded_valid_plans_outside_families_count": 0,
+      "outside_family_examples": [],
+      "source_path": "cleaning_parks/problem0.bddl",
+      "action_count": 4
+    },
+    {
+      "max_depth": 2,
+      "expanded_nodes": 3,
+      "search_exhaustive": true,
+      "family_order_enumeration_exhaustive": true,
+      "bounded_valid_plan_count": 2,
+      "known_family_plan_count": 1,
+      "bounded_valid_plan_covered_count": 1,
+      "bounded_family_coverage": 0.5,
+      "bounded_valid_plans_outside_families_count": 1,
+      "outside_family_examples": [
+        [
+          "transfer::tortilla.n.01_2::ontop:countertop.n.01_1->ontop:tortilla.n.01_1",
+          "transfer::tortilla.n.01_1::ontop:countertop.n.01_1->ontop:plate.n.04_1"
+        ]
+      ],
+      "source_path": "fold_a_tortilla/problem0.bddl",
+      "action_count": 2
+    },
+    {
+      "max_depth": 5,
+      "expanded_nodes": 277,
+      "search_exhaustive": true,
+      "family_order_enumeration_exhaustive": true,
+      "bounded_valid_plan_count": 48,
+      "known_family_plan_count": 48,
+      "bounded_valid_plan_covered_count": 48,
+      "bounded_family_coverage": 1.0,
+      "bounded_valid_plans_outside_families_count": 0,
+      "outside_family_examples": [],
+      "source_path": "store_produce/problem0.bddl",
+      "action_count": 10
+    },
+    {
+      "max_depth": 5,
+      "expanded_nodes": 35,
+      "search_exhaustive": true,
+      "family_order_enumeration_exhaustive": true,
+      "bounded_valid_plan_count": 8,
+      "known_family_plan_count": 3,
+      "bounded_valid_plan_covered_count": 3,
+      "bounded_family_coverage": 0.375,
+      "bounded_valid_plans_outside_families_count": 5,
+      "outside_family_examples": [
+        [
+          "open::car.n.01_1",
+          "transfer::digital_camera.n.01_1::ontop:table.n.02_1->inside:container.n.01_1",
+          "transfer::container.n.01_1::ontop:floor.n.01_2->inside:car.n.01_1",
+          "transfer::tennis_racket.n.01_1::ontop:table.n.02_1->inside:car.n.01_1",
+          "close::car.n.01_1"
+        ],
+        [
+          "open::car.n.01_1",
+          "transfer::digital_camera.n.01_1::ontop:table.n.02_1->inside:container.n.01_1",
+          "transfer::tennis_racket.n.01_1::ontop:table.n.02_1->inside:car.n.01_1",
+          "transfer::container.n.01_1::ontop:floor.n.01_2->inside:car.n.01_1",
+          "close::car.n.01_1"
+        ],
+        [
+          "open::car.n.01_1",
+          "transfer::tennis_racket.n.01_1::ontop:table.n.02_1->inside:car.n.01_1",
+          "transfer::digital_camera.n.01_1::ontop:table.n.02_1->inside:container.n.01_1",
+          "transfer::container.n.01_1::ontop:floor.n.01_2->inside:car.n.01_1",
+          "close::car.n.01_1"
+        ],
+        [
+          "transfer::digital_camera.n.01_1::ontop:table.n.02_1->inside:container.n.01_1",
+          "open::car.n.01_1",
+          "transfer::container.n.01_1::ontop:floor.n.01_2->inside:car.n.01_1",
+          "transfer::tennis_racket.n.01_1::ontop:table.n.02_1->inside:car.n.01_1",
+          "close::car.n.01_1"
+        ],
+        [
+          "transfer::digital_camera.n.01_1::ontop:table.n.02_1->inside:container.n.01_1",
+          "open::car.n.01_1",
+          "transfer::tennis_racket.n.01_1::ontop:table.n.02_1->inside:car.n.01_1",
+          "transfer::container.n.01_1::ontop:floor.n.01_2->inside:car.n.01_1",
+          "close::car.n.01_1"
+        ]
+      ],
+      "source_path": "loading_the_car/problem0.bddl",
+      "action_count": 5
+    },
+    {
+      "max_depth": 4,
+      "expanded_nodes": 11,
+      "search_exhaustive": true,
+      "family_order_enumeration_exhaustive": true,
+      "bounded_valid_plan_count": 6,
+      "known_family_plan_count": 6,
+      "bounded_valid_plan_covered_count": 6,
+      "bounded_family_coverage": 1.0,
+      "bounded_valid_plans_outside_families_count": 0,
+      "outside_family_examples": [],
+      "source_path": "organizing_office_documents/problem0.bddl",
+      "action_count": 4
+    },
+    {
+      "max_depth": 2,
+      "expanded_nodes": 3,
+      "search_exhaustive": true,
+      "family_order_enumeration_exhaustive": true,
+      "bounded_valid_plan_count": 2,
+      "known_family_plan_count": 2,
+      "bounded_valid_plan_covered_count": 2,
+      "bounded_family_coverage": 1.0,
+      "bounded_valid_plans_outside_families_count": 0,
+      "outside_family_examples": [],
+      "source_path": "buy_a_air_conditioner/problem0.bddl",
+      "action_count": 2
+    },
+    {
+      "max_depth": 4,
+      "expanded_nodes": 11,
+      "search_exhaustive": true,
+      "family_order_enumeration_exhaustive": true,
+      "bounded_valid_plan_count": 6,
+      "known_family_plan_count": 6,
+      "bounded_valid_plan_covered_count": 6,
+      "bounded_family_coverage": 1.0,
+      "bounded_valid_plans_outside_families_count": 0,
+      "outside_family_examples": [],
+      "source_path": "packing_fishing_gear_into_car/problem0.bddl",
+      "action_count": 4
+    },
+    {
+      "max_depth": 5,
+      "expanded_nodes": 199,
+      "search_exhaustive": true,
+      "family_order_enumeration_exhaustive": true,
+      "bounded_valid_plan_count": 12,
+      "known_family_plan_count": 12,
+      "bounded_valid_plan_covered_count": 12,
+      "bounded_family_coverage": 1.0,
+      "bounded_valid_plans_outside_families_count": 0,
+      "outside_family_examples": [],
+      "source_path": "rearranging_kitchen_furniture/problem0.bddl",
+      "action_count": 10
+    },
+    {
+      "max_depth": 3,
+      "expanded_nodes": 10,
+      "search_exhaustive": true,
+      "family_order_enumeration_exhaustive": true,
+      "bounded_valid_plan_count": 6,
+      "known_family_plan_count": 6,
+      "bounded_valid_plan_covered_count": 6,
+      "bounded_family_coverage": 1.0,
+      "bounded_valid_plans_outside_families_count": 0,
+      "outside_family_examples": [],
+      "source_path": "returning_consumer_goods/problem0.bddl",
+      "action_count": 3
+    },
+    {
+      "max_depth": 3,
+      "expanded_nodes": 26,
+      "search_exhaustive": true,
+      "family_order_enumeration_exhaustive": true,
+      "bounded_valid_plan_count": 6,
+      "known_family_plan_count": 6,
+      "bounded_valid_plan_covered_count": 6,
+      "bounded_family_coverage": 1.0,
+      "bounded_valid_plans_outside_families_count": 0,
+      "outside_family_examples": [],
+      "source_path": "buy_boxes_for_packing/problem0.bddl",
+      "action_count": 5
+    },
+    {
+      "max_depth": 4,
+      "expanded_nodes": 9,
+      "search_exhaustive": true,
+      "family_order_enumeration_exhaustive": true,
+      "bounded_valid_plan_count": 4,
+      "known_family_plan_count": 2,
+      "bounded_valid_plan_covered_count": 2,
+      "bounded_family_coverage": 0.5,
+      "bounded_valid_plans_outside_families_count": 2,
+      "outside_family_examples": [
+        [
+          "open::recycling_bin.n.01_1",
+          "open::cabinet.n.01_1",
+          "transfer::carboy.n.01_1::inside:cabinet.n.01_1->inside:recycling_bin.n.01_1",
+          "transfer::carboy.n.01_2::inside:cabinet.n.01_1->inside:recycling_bin.n.01_1"
+        ],
+        [
+          "open::recycling_bin.n.01_1",
+          "open::cabinet.n.01_1",
+          "transfer::carboy.n.01_2::inside:cabinet.n.01_1->inside:recycling_bin.n.01_1",
+          "transfer::carboy.n.01_1::inside:cabinet.n.01_1->inside:recycling_bin.n.01_1"
+        ]
+      ],
+      "source_path": "recycling_glass_bottles/problem0.bddl",
+      "action_count": 4
+    },
+    {
+      "max_depth": 4,
+      "expanded_nodes": 8,
+      "search_exhaustive": true,
+      "family_order_enumeration_exhaustive": true,
+      "bounded_valid_plan_count": 2,
+      "known_family_plan_count": 2,
+      "bounded_valid_plan_covered_count": 2,
+      "bounded_family_coverage": 1.0,
+      "bounded_valid_plans_outside_families_count": 0,
+      "outside_family_examples": [],
+      "source_path": "bringing_paper_to_recycling/problem0.bddl",
+      "action_count": 4
+    },
+    {
+      "max_depth": 5,
+      "expanded_nodes": 206,
+      "search_exhaustive": true,
+      "family_order_enumeration_exhaustive": true,
+      "bounded_valid_plan_count": 120,
+      "known_family_plan_count": 24,
+      "bounded_valid_plan_covered_count": 24,
+      "bounded_family_coverage": 0.2,
+      "bounded_valid_plans_outside_families_count": 96,
+      "outside_family_examples": [
+        [
+          "transfer::carryall.n.01_1::ontop:floor.n.01_1->ontop:desk.n.01_1",
+          "transfer::glue_stick.n.01_1::ontop:desk.n.01_1->inside:carryall.n.01_1",
+          "transfer::marker.n.03_1::ontop:desk.n.01_1->inside:carryall.n.01_1",
+          "transfer::paintbrush.n.01_1::ontop:desk.n.01_1->inside:carryall.n.01_1",
+          "transfer::rubber_eraser.n.01_1::ontop:desk.n.01_1->inside:carryall.n.01_1"
+        ],
+        [
+          "transfer::carryall.n.01_1::ontop:floor.n.01_1->ontop:desk.n.01_1",
+          "transfer::glue_stick.n.01_1::ontop:desk.n.01_1->inside:carryall.n.01_1",
+          "transfer::marker.n.03_1::ontop:desk.n.01_1->inside:carryall.n.01_1",
+          "transfer::rubber_eraser.n.01_1::ontop:desk.n.01_1->inside:carryall.n.01_1",
+          "transfer::paintbrush.n.01_1::ontop:desk.n.01_1->inside:carryall.n.01_1"
+        ],
+        [
+          "transfer::carryall.n.01_1::ontop:floor.n.01_1->ontop:desk.n.01_1",
+          "transfer::glue_stick.n.01_1::ontop:desk.n.01_1->inside:carryall.n.01_1",
+          "transfer::paintbrush.n.01_1::ontop:desk.n.01_1->inside:carryall.n.01_1",
+          "transfer::marker.n.03_1::ontop:desk.n.01_1->inside:carryall.n.01_1",
+          "transfer::rubber_eraser.n.01_1::ontop:desk.n.01_1->inside:carryall.n.01_1"
+        ],
+        [
+          "transfer::carryall.n.01_1::ontop:floor.n.01_1->ontop:desk.n.01_1",
+          "transfer::glue_stick.n.01_1::ontop:desk.n.01_1->inside:carryall.n.01_1",
+          "transfer::paintbrush.n.01_1::ontop:desk.n.01_1->inside:carryall.n.01_1",
+          "transfer::rubber_eraser.n.01_1::ontop:desk.n.01_1->inside:carryall.n.01_1",
+          "transfer::marker.n.03_1::ontop:desk.n.01_1->inside:carryall.n.01_1"
+        ],
+        [
+          "transfer::carryall.n.01_1::ontop:floor.n.01_1->ontop:desk.n.01_1",
+          "transfer::glue_stick.n.01_1::ontop:desk.n.01_1->inside:carryall.n.01_1",
+          "transfer::rubber_eraser.n.01_1::ontop:desk.n.01_1->inside:carryall.n.01_1",
+          "transfer::marker.n.03_1::ontop:desk.n.01_1->inside:carryall.n.01_1",
+          "transfer::paintbrush.n.01_1::ontop:desk.n.01_1->inside:carryall.n.01_1"
+        ],
+        [
+          "transfer::carryall.n.01_1::ontop:floor.n.01_1->ontop:desk.n.01_1",
+          "transfer::glue_stick.n.01_1::ontop:desk.n.01_1->inside:carryall.n.01_1",
+          "transfer::rubber_eraser.n.01_1::ontop:desk.n.01_1->inside:carryall.n.01_1",
+          "transfer::paintbrush.n.01_1::ontop:desk.n.01_1->inside:carryall.n.01_1",
+          "transfer::marker.n.03_1::ontop:desk.n.01_1->inside:carryall.n.01_1"
+        ],
+        [
+          "transfer::carryall.n.01_1::ontop:floor.n.01_1->ontop:desk.n.01_1",
+          "transfer::marker.n.03_1::ontop:desk.n.01_1->inside:carryall.n.01_1",
+          "transfer::glue_stick.n.01_1::ontop:desk.n.01_1->inside:carryall.n.01_1",
+          "transfer::paintbrush.n.01_1::ontop:desk.n.01_1->inside:carryall.n.01_1",
+          "transfer::rubber_eraser.n.01_1::ontop:desk.n.01_1->inside:carryall.n.01_1"
+        ],
+        [
+          "transfer::carryall.n.01_1::ontop:floor.n.01_1->ontop:desk.n.01_1",
+          "transfer::marker.n.03_1::ontop:desk.n.01_1->inside:carryall.n.01_1",
+          "transfer::glue_stick.n.01_1::ontop:desk.n.01_1->inside:carryall.n.01_1",
+          "transfer::rubber_eraser.n.01_1::ontop:desk.n.01_1->inside:carryall.n.01_1",
+          "transfer::paintbrush.n.01_1::ontop:desk.n.01_1->inside:carryall.n.01_1"
+        ],
+        [
+          "transfer::carryall.n.01_1::ontop:floor.n.01_1->ontop:desk.n.01_1",
+          "transfer::marker.n.03_1::ontop:desk.n.01_1->inside:carryall.n.01_1",
+          "transfer::paintbrush.n.01_1::ontop:desk.n.01_1->inside:carryall.n.01_1",
+          "transfer::glue_stick.n.01_1::ontop:desk.n.01_1->inside:carryall.n.01_1",
+          "transfer::rubber_eraser.n.01_1::ontop:desk.n.01_1->inside:carryall.n.01_1"
+        ],
+        [
+          "transfer::carryall.n.01_1::ontop:floor.n.01_1->ontop:desk.n.01_1",
+          "transfer::marker.n.03_1::ontop:desk.n.01_1->inside:carryall.n.01_1",
+          "transfer::paintbrush.n.01_1::ontop:desk.n.01_1->inside:carryall.n.01_1",
+          "transfer::rubber_eraser.n.01_1::ontop:desk.n.01_1->inside:carryall.n.01_1",
+          "transfer::glue_stick.n.01_1::ontop:desk.n.01_1->inside:carryall.n.01_1"
+        ]
+      ],
+      "source_path": "organizing_art_supplies/problem0.bddl",
+      "action_count": 5
+    },
+    {
+      "max_depth": 4,
+      "expanded_nodes": 41,
+      "search_exhaustive": true,
+      "family_order_enumeration_exhaustive": true,
+      "bounded_valid_plan_count": 24,
+      "known_family_plan_count": 24,
+      "bounded_valid_plan_covered_count": 24,
+      "bounded_family_coverage": 1.0,
+      "bounded_valid_plans_outside_families_count": 0,
+      "outside_family_examples": [],
+      "source_path": "place_houseplants_around_your_home/problem0.bddl",
+      "action_count": 4
+    },
+    {
+      "max_depth": 5,
+      "expanded_nodes": 95,
+      "search_exhaustive": true,
+      "family_order_enumeration_exhaustive": true,
+      "bounded_valid_plan_count": 138,
+      "known_family_plan_count": 48,
+      "bounded_valid_plan_covered_count": 48,
+      "bounded_family_coverage": 0.34782608695652173,
+      "bounded_valid_plans_outside_families_count": 90,
+      "outside_family_examples": [
+        [
+          "open::cabinet.n.01_1",
+          "open::car.n.01_1",
+          "transfer::grocery.n.02_1::inside:car.n.01_1->ontop:floor.n.01_1",
+          "transfer::grocery.n.02_2::inside:car.n.01_1->ontop:floor.n.01_1",
+          "transfer::grocery.n.02_3::inside:car.n.01_1->ontop:floor.n.01_1"
+        ],
+        [
+          "open::cabinet.n.01_1",
+          "open::car.n.01_1",
+          "transfer::grocery.n.02_1::inside:car.n.01_1->ontop:floor.n.01_1",
+          "transfer::grocery.n.02_3::inside:car.n.01_1->ontop:floor.n.01_1",
+          "transfer::grocery.n.02_2::inside:car.n.01_1->ontop:floor.n.01_1"
+        ],
+        [
+          "open::cabinet.n.01_1",
+          "open::car.n.01_1",
+          "transfer::grocery.n.02_2::inside:car.n.01_1->ontop:floor.n.01_1",
+          "transfer::grocery.n.02_1::inside:car.n.01_1->ontop:floor.n.01_1",
+          "transfer::grocery.n.02_3::inside:car.n.01_1->ontop:floor.n.01_1"
+        ],
+        [
+          "open::cabinet.n.01_1",
+          "open::car.n.01_1",
+          "transfer::grocery.n.02_2::inside:car.n.01_1->ontop:floor.n.01_1",
+          "transfer::grocery.n.02_3::inside:car.n.01_1->ontop:floor.n.01_1",
+          "transfer::grocery.n.02_1::inside:car.n.01_1->ontop:floor.n.01_1"
+        ],
+        [
+          "open::cabinet.n.01_1",
+          "open::car.n.01_1",
+          "transfer::grocery.n.02_3::inside:car.n.01_1->ontop:floor.n.01_1",
+          "transfer::grocery.n.02_1::inside:car.n.01_1->ontop:floor.n.01_1",
+          "transfer::grocery.n.02_2::inside:car.n.01_1->ontop:floor.n.01_1"
+        ],
+        [
+          "open::cabinet.n.01_1",
+          "open::car.n.01_1",
+          "transfer::grocery.n.02_3::inside:car.n.01_1->ontop:floor.n.01_1",
+          "transfer::grocery.n.02_2::inside:car.n.01_1->ontop:floor.n.01_1",
+          "transfer::grocery.n.02_1::inside:car.n.01_1->ontop:floor.n.01_1"
+        ],
+        [
+          "open::car.n.01_1",
+          "open::cabinet.n.01_1",
+          "transfer::grocery.n.02_1::inside:car.n.01_1->inside:cabinet.n.01_1",
+          "transfer::grocery.n.02_2::inside:car.n.01_1->inside:cabinet.n.01_1",
+          "transfer::grocery.n.02_3::inside:car.n.01_1->inside:cabinet.n.01_1"
+        ],
+        [
+          "open::car.n.01_1",
+          "open::cabinet.n.01_1",
+          "transfer::grocery.n.02_1::inside:car.n.01_1->inside:cabinet.n.01_1",
+          "transfer::grocery.n.02_2::inside:car.n.01_1->inside:cabinet.n.01_1",
+          "transfer::grocery.n.02_3::inside:car.n.01_1->ontop:floor.n.01_1"
+        ],
+        [
+          "open::car.n.01_1",
+          "open::cabinet.n.01_1",
+          "transfer::grocery.n.02_1::inside:car.n.01_1->inside:cabinet.n.01_1",
+          "transfer::grocery.n.02_2::inside:car.n.01_1->ontop:floor.n.01_1",
+          "transfer::grocery.n.02_3::inside:car.n.01_1->inside:cabinet.n.01_1"
+        ],
+        [
+          "open::car.n.01_1",
+          "open::cabinet.n.01_1",
+          "transfer::grocery.n.02_1::inside:car.n.01_1->inside:cabinet.n.01_1",
+          "transfer::grocery.n.02_2::inside:car.n.01_1->ontop:floor.n.01_1",
+          "transfer::grocery.n.02_3::inside:car.n.01_1->ontop:floor.n.01_1"
+        ]
+      ],
+      "source_path": "unloading_shopping_from_car/problem0.bddl",
+      "action_count": 8
+    },
+    {
+      "max_depth": 2,
+      "expanded_nodes": 3,
+      "search_exhaustive": true,
+      "family_order_enumeration_exhaustive": true,
+      "bounded_valid_plan_count": 2,
+      "known_family_plan_count": 2,
+      "bounded_valid_plan_covered_count": 2,
+      "bounded_family_coverage": 1.0,
+      "bounded_valid_plans_outside_families_count": 0,
+      "outside_family_examples": [],
+      "source_path": "carrying_out_garden_furniture/problem0.bddl",
+      "action_count": 2
+    },
+    {
+      "max_depth": 2,
+      "expanded_nodes": 3,
+      "search_exhaustive": true,
+      "family_order_enumeration_exhaustive": true,
+      "bounded_valid_plan_count": 2,
+      "known_family_plan_count": 2,
+      "bounded_valid_plan_covered_count": 2,
+      "bounded_family_coverage": 1.0,
+      "bounded_valid_plans_outside_families_count": 0,
+      "outside_family_examples": [],
+      "source_path": "putting_wood_in_fireplace/problem0.bddl",
+      "action_count": 2
+    },
+    {
+      "max_depth": 4,
+      "expanded_nodes": 41,
+      "search_exhaustive": true,
+      "family_order_enumeration_exhaustive": true,
+      "bounded_valid_plan_count": 24,
+      "known_family_plan_count": 24,
+      "bounded_valid_plan_covered_count": 24,
+      "bounded_family_coverage": 1.0,
+      "bounded_valid_plans_outside_families_count": 0,
+      "outside_family_examples": [],
+      "source_path": "buying_office_supplies/problem0.bddl",
+      "action_count": 4
+    },
+    {
+      "max_depth": 5,
+      "expanded_nodes": 42,
+      "search_exhaustive": true,
+      "family_order_enumeration_exhaustive": true,
+      "bounded_valid_plan_count": 24,
+      "known_family_plan_count": 24,
+      "bounded_valid_plan_covered_count": 24,
+      "bounded_family_coverage": 1.0,
+      "bounded_valid_plans_outside_families_count": 0,
+      "outside_family_examples": [],
+      "source_path": "store_beer/problem0.bddl",
+      "action_count": 5
+    },
+    {
+      "max_depth": 4,
+      "expanded_nodes": 41,
+      "search_exhaustive": true,
+      "family_order_enumeration_exhaustive": true,
+      "bounded_valid_plan_count": 24,
+      "known_family_plan_count": 24,
+      "bounded_valid_plan_covered_count": 24,
+      "bounded_family_coverage": 1.0,
+      "bounded_valid_plans_outside_families_count": 0,
+      "outside_family_examples": [],
+      "source_path": "tidying_bathroom/problem0.bddl",
+      "action_count": 4
+    },
+    {
+      "max_depth": 3,
+      "expanded_nodes": 4,
+      "search_exhaustive": true,
+      "family_order_enumeration_exhaustive": true,
+      "bounded_valid_plan_count": 2,
+      "known_family_plan_count": 2,
+      "bounded_valid_plan_covered_count": 2,
+      "bounded_family_coverage": 1.0,
+      "bounded_valid_plans_outside_families_count": 0,
+      "outside_family_examples": [],
+      "source_path": "laying_out_snacks_at_work/problem0.bddl",
+      "action_count": 3
+    },
+    {
+      "max_depth": 2,
+      "expanded_nodes": 3,
+      "search_exhaustive": true,
+      "family_order_enumeration_exhaustive": true,
+      "bounded_valid_plan_count": 2,
+      "known_family_plan_count": 1,
+      "bounded_valid_plan_covered_count": 1,
+      "bounded_family_coverage": 0.5,
+      "bounded_valid_plans_outside_families_count": 1,
+      "outside_family_examples": [
+        [
+          "transfer::firewood.n.01_1::ontop:floor.n.01_1->ontop:wood_fireplace.n.01_1",
+          "transfer::cigar_lighter.n.01_1::ontop:floor.n.01_1->ontop:firewood.n.01_1"
+        ]
+      ],
+      "source_path": "lighting_fireplace/problem0.bddl",
+      "action_count": 2
+    },
+    {
+      "max_depth": 4,
+      "expanded_nodes": 11,
+      "search_exhaustive": true,
+      "family_order_enumeration_exhaustive": true,
+      "bounded_valid_plan_count": 6,
+      "known_family_plan_count": 6,
+      "bounded_valid_plan_covered_count": 6,
+      "bounded_family_coverage": 1.0,
+      "bounded_valid_plans_outside_families_count": 0,
+      "outside_family_examples": [],
+      "source_path": "setup_a_baby_crib/problem0.bddl",
+      "action_count": 4
+    },
+    {
+      "max_depth": 1,
+      "expanded_nodes": 1,
+      "search_exhaustive": true,
+      "family_order_enumeration_exhaustive": true,
+      "bounded_valid_plan_count": 1,
+      "known_family_plan_count": 1,
+      "bounded_valid_plan_covered_count": 1,
+      "bounded_family_coverage": 1.0,
+      "bounded_valid_plans_outside_families_count": 0,
+      "outside_family_examples": [],
+      "source_path": "bringing_newspaper_in/problem0.bddl",
+      "action_count": 1
+    },
+    {
+      "max_depth": 2,
+      "expanded_nodes": 3,
+      "search_exhaustive": true,
+      "family_order_enumeration_exhaustive": true,
+      "bounded_valid_plan_count": 2,
+      "known_family_plan_count": 2,
+      "bounded_valid_plan_covered_count": 2,
+      "bounded_family_coverage": 1.0,
+      "bounded_valid_plans_outside_families_count": 0,
+      "outside_family_examples": [],
+      "source_path": "taking_clothes_off_of_the_drying_rack/problem0.bddl",
+      "action_count": 2
+    },
+    {
+      "max_depth": 5,
+      "expanded_nodes": 206,
+      "search_exhaustive": true,
+      "family_order_enumeration_exhaustive": true,
+      "bounded_valid_plan_count": 120,
+      "known_family_plan_count": 120,
+      "bounded_valid_plan_covered_count": 120,
+      "bounded_family_coverage": 1.0,
+      "bounded_valid_plans_outside_families_count": 0,
+      "outside_family_examples": [],
+      "source_path": "shopping_at_warehouse_stores/problem0.bddl",
+      "action_count": 5
+    },
+    {
+      "max_depth": 4,
+      "expanded_nodes": 249,
+      "search_exhaustive": true,
+      "family_order_enumeration_exhaustive": true,
+      "bounded_valid_plan_count": 384,
+      "known_family_plan_count": 384,
+      "bounded_valid_plan_covered_count": 384,
+      "bounded_family_coverage": 1.0,
+      "bounded_valid_plans_outside_families_count": 0,
+      "outside_family_examples": [],
+      "source_path": "bag_groceries/problem0.bddl",
+      "action_count": 8
+    },
+    {
+      "max_depth": 5,
+      "expanded_nodes": 206,
+      "search_exhaustive": true,
+      "family_order_enumeration_exhaustive": true,
+      "bounded_valid_plan_count": 120,
+      "known_family_plan_count": 120,
+      "bounded_valid_plan_covered_count": 120,
+      "bounded_family_coverage": 1.0,
+      "bounded_valid_plans_outside_families_count": 0,
+      "outside_family_examples": [],
+      "source_path": "buy_good_chocolate/problem0.bddl",
+      "action_count": 5
+    },
+    {
+      "max_depth": 4,
+      "expanded_nodes": 41,
+      "search_exhaustive": true,
+      "family_order_enumeration_exhaustive": true,
+      "bounded_valid_plan_count": 24,
+      "known_family_plan_count": 24,
+      "bounded_valid_plan_covered_count": 24,
+      "bounded_family_coverage": 1.0,
+      "bounded_valid_plans_outside_families_count": 0,
+      "outside_family_examples": [],
+      "source_path": "buy_salad_greens/problem0.bddl",
+      "action_count": 4
+    },
+    {
+      "max_depth": 2,
+      "expanded_nodes": 3,
+      "search_exhaustive": true,
+      "family_order_enumeration_exhaustive": true,
+      "bounded_valid_plan_count": 2,
+      "known_family_plan_count": 2,
+      "bounded_valid_plan_covered_count": 2,
+      "bounded_family_coverage": 1.0,
+      "bounded_valid_plans_outside_families_count": 0,
+      "outside_family_examples": [],
+      "source_path": "getting_package_from_post_office/problem0.bddl",
+      "action_count": 4
+    },
+    {
+      "max_depth": 3,
+      "expanded_nodes": 10,
+      "search_exhaustive": true,
+      "family_order_enumeration_exhaustive": true,
+      "bounded_valid_plan_count": 6,
+      "known_family_plan_count": 6,
+      "bounded_valid_plan_covered_count": 6,
+      "bounded_family_coverage": 1.0,
+      "bounded_valid_plans_outside_families_count": 0,
+      "outside_family_examples": [],
+      "source_path": "re_shelving_library_books/problem0.bddl",
+      "action_count": 3
+    },
+    {
+      "max_depth": 5,
+      "expanded_nodes": 72,
+      "search_exhaustive": true,
+      "family_order_enumeration_exhaustive": true,
+      "bounded_valid_plan_count": 40,
+      "known_family_plan_count": 5,
+      "bounded_valid_plan_covered_count": 5,
+      "bounded_family_coverage": 0.125,
+      "bounded_valid_plans_outside_families_count": 35,
+      "outside_family_examples": [
+        [
+          "open::car.n.01_1",
+          "transfer::backpack.n.01_1::ontop:driveway.n.01_1->inside:car.n.01_1",
+          "transfer::car.n.01_1::inroom:garden->ontop:driveway.n.01_1",
+          "transfer::rag.n.01_1::ontop:floor.n.01_1->inside:backpack.n.01_1",
+          "transfer::scrub_brush.n.01_1::ontop:driveway.n.01_1->inside:car.n.01_1"
+        ],
+        [
+          "open::car.n.01_1",
+          "transfer::backpack.n.01_1::ontop:driveway.n.01_1->inside:car.n.01_1",
+          "transfer::car.n.01_1::inroom:garden->ontop:driveway.n.01_1",
+          "transfer::scrub_brush.n.01_1::ontop:driveway.n.01_1->inside:car.n.01_1",
+          "transfer::rag.n.01_1::ontop:floor.n.01_1->inside:backpack.n.01_1"
+        ],
+        [
+          "open::car.n.01_1",
+          "transfer::backpack.n.01_1::ontop:driveway.n.01_1->inside:car.n.01_1",
+          "transfer::rag.n.01_1::ontop:floor.n.01_1->inside:backpack.n.01_1",
+          "transfer::car.n.01_1::inroom:garden->ontop:driveway.n.01_1",
+          "transfer::scrub_brush.n.01_1::ontop:driveway.n.01_1->inside:car.n.01_1"
+        ],
+        [
+          "open::car.n.01_1",
+          "transfer::car.n.01_1::inroom:garden->ontop:driveway.n.01_1",
+          "transfer::backpack.n.01_1::ontop:driveway.n.01_1->inside:car.n.01_1",
+          "transfer::rag.n.01_1::ontop:floor.n.01_1->inside:backpack.n.01_1",
+          "transfer::scrub_brush.n.01_1::ontop:driveway.n.01_1->inside:car.n.01_1"
+        ],
+        [
+          "open::car.n.01_1",
+          "transfer::car.n.01_1::inroom:garden->ontop:driveway.n.01_1",
+          "transfer::backpack.n.01_1::ontop:driveway.n.01_1->inside:car.n.01_1",
+          "transfer::scrub_brush.n.01_1::ontop:driveway.n.01_1->inside:car.n.01_1",
+          "transfer::rag.n.01_1::ontop:floor.n.01_1->inside:backpack.n.01_1"
+        ],
+        [
+          "open::car.n.01_1",
+          "transfer::car.n.01_1::inroom:garden->ontop:driveway.n.01_1",
+          "transfer::rag.n.01_1::ontop:floor.n.01_1->inside:backpack.n.01_1",
+          "transfer::backpack.n.01_1::ontop:driveway.n.01_1->inside:car.n.01_1",
+          "transfer::scrub_brush.n.01_1::ontop:driveway.n.01_1->inside:car.n.01_1"
+        ],
+        [
+          "open::car.n.01_1",
+          "transfer::car.n.01_1::inroom:garden->ontop:driveway.n.01_1",
+          "transfer::rag.n.01_1::ontop:floor.n.01_1->inside:backpack.n.01_1",
+          "transfer::scrub_brush.n.01_1::ontop:driveway.n.01_1->inside:car.n.01_1",
+          "transfer::backpack.n.01_1::ontop:driveway.n.01_1->inside:car.n.01_1"
+        ],
+        [
+          "open::car.n.01_1",
+          "transfer::car.n.01_1::inroom:garden->ontop:driveway.n.01_1",
+          "transfer::scrub_brush.n.01_1::ontop:driveway.n.01_1->inside:car.n.01_1",
+          "transfer::backpack.n.01_1::ontop:driveway.n.01_1->inside:car.n.01_1",
+          "transfer::rag.n.01_1::ontop:floor.n.01_1->inside:backpack.n.01_1"
+        ],
+        [
+          "open::car.n.01_1",
+          "transfer::car.n.01_1::inroom:garden->ontop:driveway.n.01_1",
+          "transfer::scrub_brush.n.01_1::ontop:driveway.n.01_1->inside:car.n.01_1",
+          "transfer::rag.n.01_1::ontop:floor.n.01_1->inside:backpack.n.01_1",
+          "transfer::backpack.n.01_1::ontop:driveway.n.01_1->inside:car.n.01_1"
+        ],
+        [
+          "open::car.n.01_1",
+          "transfer::rag.n.01_1::ontop:floor.n.01_1->inside:backpack.n.01_1",
+          "transfer::backpack.n.01_1::ontop:driveway.n.01_1->inside:car.n.01_1",
+          "transfer::car.n.01_1::inroom:garden->ontop:driveway.n.01_1",
+          "transfer::scrub_brush.n.01_1::ontop:driveway.n.01_1->inside:car.n.01_1"
+        ]
+      ],
+      "source_path": "packing_cleaning_suppies_into_car/problem0.bddl",
+      "action_count": 5
+    },
+    {
+      "max_depth": 2,
+      "expanded_nodes": 3,
+      "search_exhaustive": true,
+      "family_order_enumeration_exhaustive": true,
+      "bounded_valid_plan_count": 2,
+      "known_family_plan_count": 2,
+      "bounded_valid_plan_covered_count": 2,
+      "bounded_family_coverage": 1.0,
+      "bounded_valid_plans_outside_families_count": 0,
+      "outside_family_examples": [],
+      "source_path": "taking_trash_outside/problem0.bddl",
+      "action_count": 2
+    },
+    {
+      "max_depth": 2,
+      "expanded_nodes": 3,
+      "search_exhaustive": true,
+      "family_order_enumeration_exhaustive": true,
+      "bounded_valid_plan_count": 2,
+      "known_family_plan_count": 2,
+      "bounded_valid_plan_covered_count": 2,
+      "bounded_family_coverage": 1.0,
+      "bounded_valid_plans_outside_families_count": 0,
+      "outside_family_examples": [],
+      "source_path": "composting_waste/problem0.bddl",
+      "action_count": 2
+    },
+    {
+      "max_depth": 4,
+      "expanded_nodes": 23,
+      "search_exhaustive": true,
+      "family_order_enumeration_exhaustive": true,
+      "bounded_valid_plan_count": 12,
+      "known_family_plan_count": 2,
+      "bounded_valid_plan_covered_count": 2,
+      "bounded_family_coverage": 0.16666666666666666,
+      "bounded_valid_plans_outside_families_count": 10,
+      "outside_family_examples": [
+        [
+          "open::cabinet.n.01_1",
+          "transfer::battery.n.02_1::ontop:desk.n.01_1->inside:ashcan.n.01_1",
+          "transfer::battery.n.02_2::ontop:desk.n.01_1->inside:ashcan.n.01_1",
+          "transfer::battery.n.02_3::ontop:cabinet.n.01_1->inside:ashcan.n.01_1"
+        ],
+        [
+          "open::cabinet.n.01_1",
+          "transfer::battery.n.02_1::ontop:desk.n.01_1->inside:ashcan.n.01_1",
+          "transfer::battery.n.02_3::ontop:cabinet.n.01_1->inside:ashcan.n.01_1",
+          "transfer::battery.n.02_2::ontop:desk.n.01_1->inside:ashcan.n.01_1"
+        ],
+        [
+          "open::cabinet.n.01_1",
+          "transfer::battery.n.02_2::ontop:desk.n.01_1->inside:ashcan.n.01_1",
+          "transfer::battery.n.02_1::ontop:desk.n.01_1->inside:ashcan.n.01_1",
+          "transfer::battery.n.02_3::ontop:cabinet.n.01_1->inside:ashcan.n.01_1"
+        ],
+        [
+          "open::cabinet.n.01_1",
+          "transfer::battery.n.02_2::ontop:desk.n.01_1->inside:ashcan.n.01_1",
+          "transfer::battery.n.02_3::ontop:cabinet.n.01_1->inside:ashcan.n.01_1",
+          "transfer::battery.n.02_1::ontop:desk.n.01_1->inside:ashcan.n.01_1"
+        ],
+        [
+          "open::cabinet.n.01_1",
+          "transfer::battery.n.02_3::ontop:cabinet.n.01_1->inside:ashcan.n.01_1",
+          "transfer::battery.n.02_1::ontop:desk.n.01_1->inside:ashcan.n.01_1",
+          "transfer::battery.n.02_2::ontop:desk.n.01_1->inside:ashcan.n.01_1"
+        ],
+        [
+          "open::cabinet.n.01_1",
+          "transfer::battery.n.02_3::ontop:cabinet.n.01_1->inside:ashcan.n.01_1",
+          "transfer::battery.n.02_2::ontop:desk.n.01_1->inside:ashcan.n.01_1",
+          "transfer::battery.n.02_1::ontop:desk.n.01_1->inside:ashcan.n.01_1"
+        ],
+        [
+          "transfer::battery.n.02_1::ontop:desk.n.01_1->inside:ashcan.n.01_1",
+          "open::cabinet.n.01_1",
+          "transfer::battery.n.02_2::ontop:desk.n.01_1->inside:ashcan.n.01_1",
+          "transfer::battery.n.02_3::ontop:cabinet.n.01_1->inside:ashcan.n.01_1"
+        ],
+        [
+          "transfer::battery.n.02_1::ontop:desk.n.01_1->inside:ashcan.n.01_1",
+          "open::cabinet.n.01_1",
+          "transfer::battery.n.02_3::ontop:cabinet.n.01_1->inside:ashcan.n.01_1",
+          "transfer::battery.n.02_2::ontop:desk.n.01_1->inside:ashcan.n.01_1"
+        ],
+        [
+          "transfer::battery.n.02_2::ontop:desk.n.01_1->inside:ashcan.n.01_1",
+          "open::cabinet.n.01_1",
+          "transfer::battery.n.02_1::ontop:desk.n.01_1->inside:ashcan.n.01_1",
+          "transfer::battery.n.02_3::ontop:cabinet.n.01_1->inside:ashcan.n.01_1"
+        ],
+        [
+          "transfer::battery.n.02_2::ontop:desk.n.01_1->inside:ashcan.n.01_1",
+          "open::cabinet.n.01_1",
+          "transfer::battery.n.02_3::ontop:cabinet.n.01_1->inside:ashcan.n.01_1",
+          "transfer::battery.n.02_1::ontop:desk.n.01_1->inside:ashcan.n.01_1"
+        ]
+      ],
+      "source_path": "dispose_of_batteries/problem0.bddl",
+      "action_count": 4
+    },
+    {
+      "max_depth": 6,
+      "expanded_nodes": 207,
+      "search_exhaustive": true,
+      "family_order_enumeration_exhaustive": true,
+      "bounded_valid_plan_count": 120,
+      "known_family_plan_count": 120,
+      "bounded_valid_plan_covered_count": 120,
+      "bounded_family_coverage": 1.0,
+      "bounded_valid_plans_outside_families_count": 0,
+      "outside_family_examples": [],
+      "source_path": "stock_a_bar/problem0.bddl",
+      "action_count": 6
+    },
+    {
+      "max_depth": 1,
+      "expanded_nodes": 1,
+      "search_exhaustive": true,
+      "family_order_enumeration_exhaustive": true,
+      "bounded_valid_plan_count": 1,
+      "known_family_plan_count": 1,
+      "bounded_valid_plan_covered_count": 1,
+      "bounded_family_coverage": 1.0,
+      "bounded_valid_plans_outside_families_count": 0,
+      "outside_family_examples": [],
+      "source_path": "putting_bike_in_garage/problem0.bddl",
+      "action_count": 1
+    },
+    {
+      "max_depth": 2,
+      "expanded_nodes": 3,
+      "search_exhaustive": true,
+      "family_order_enumeration_exhaustive": true,
+      "bounded_valid_plan_count": 2,
+      "known_family_plan_count": 2,
+      "bounded_valid_plan_covered_count": 2,
+      "bounded_family_coverage": 1.0,
+      "bounded_valid_plans_outside_families_count": 0,
+      "outside_family_examples": [],
+      "source_path": "buy_a_keg/problem0.bddl",
+      "action_count": 2
+    },
+    {
+      "max_depth": 5,
+      "expanded_nodes": 42,
+      "search_exhaustive": true,
+      "family_order_enumeration_exhaustive": true,
+      "bounded_valid_plan_count": 24,
+      "known_family_plan_count": 6,
+      "bounded_valid_plan_covered_count": 6,
+      "bounded_family_coverage": 0.25,
+      "bounded_valid_plans_outside_families_count": 18,
+      "outside_family_examples": [
+        [
+          "open::cabinet.n.01_1",
+          "transfer::rose.n.01_1::ontop:cabinet.n.01_1->inside:vase.n.01_1",
+          "transfer::rose.n.01_2::ontop:cabinet.n.01_1->inside:vase.n.01_1",
+          "transfer::vase.n.01_1::ontop:cabinet.n.01_1->ontop:coffee_table.n.01_1",
+          "transfer::rose.n.01_3::ontop:cabinet.n.01_1->inside:vase.n.01_1"
+        ],
+        [
+          "open::cabinet.n.01_1",
+          "transfer::rose.n.01_1::ontop:cabinet.n.01_1->inside:vase.n.01_1",
+          "transfer::rose.n.01_3::ontop:cabinet.n.01_1->inside:vase.n.01_1",
+          "transfer::vase.n.01_1::ontop:cabinet.n.01_1->ontop:coffee_table.n.01_1",
+          "transfer::rose.n.01_2::ontop:cabinet.n.01_1->inside:vase.n.01_1"
+        ],
+        [
+          "open::cabinet.n.01_1",
+          "transfer::rose.n.01_1::ontop:cabinet.n.01_1->inside:vase.n.01_1",
+          "transfer::vase.n.01_1::ontop:cabinet.n.01_1->ontop:coffee_table.n.01_1",
+          "transfer::rose.n.01_2::ontop:cabinet.n.01_1->inside:vase.n.01_1",
+          "transfer::rose.n.01_3::ontop:cabinet.n.01_1->inside:vase.n.01_1"
+        ],
+        [
+          "open::cabinet.n.01_1",
+          "transfer::rose.n.01_1::ontop:cabinet.n.01_1->inside:vase.n.01_1",
+          "transfer::vase.n.01_1::ontop:cabinet.n.01_1->ontop:coffee_table.n.01_1",
+          "transfer::rose.n.01_3::ontop:cabinet.n.01_1->inside:vase.n.01_1",
+          "transfer::rose.n.01_2::ontop:cabinet.n.01_1->inside:vase.n.01_1"
+        ],
+        [
+          "open::cabinet.n.01_1",
+          "transfer::rose.n.01_2::ontop:cabinet.n.01_1->inside:vase.n.01_1",
+          "transfer::rose.n.01_1::ontop:cabinet.n.01_1->inside:vase.n.01_1",
+          "transfer::vase.n.01_1::ontop:cabinet.n.01_1->ontop:coffee_table.n.01_1",
+          "transfer::rose.n.01_3::ontop:cabinet.n.01_1->inside:vase.n.01_1"
+        ],
+        [
+          "open::cabinet.n.01_1",
+          "transfer::rose.n.01_2::ontop:cabinet.n.01_1->inside:vase.n.01_1",
+          "transfer::rose.n.01_3::ontop:cabinet.n.01_1->inside:vase.n.01_1",
+          "transfer::vase.n.01_1::ontop:cabinet.n.01_1->ontop:coffee_table.n.01_1",
+          "transfer::rose.n.01_1::ontop:cabinet.n.01_1->inside:vase.n.01_1"
+        ],
+        [
+          "open::cabinet.n.01_1",
+          "transfer::rose.n.01_2::ontop:cabinet.n.01_1->inside:vase.n.01_1",
+          "transfer::vase.n.01_1::ontop:cabinet.n.01_1->ontop:coffee_table.n.01_1",
+          "transfer::rose.n.01_1::ontop:cabinet.n.01_1->inside:vase.n.01_1",
+          "transfer::rose.n.01_3::ontop:cabinet.n.01_1->inside:vase.n.01_1"
+        ],
+        [
+          "open::cabinet.n.01_1",
+          "transfer::rose.n.01_2::ontop:cabinet.n.01_1->inside:vase.n.01_1",
+          "transfer::vase.n.01_1::ontop:cabinet.n.01_1->ontop:coffee_table.n.01_1",
+          "transfer::rose.n.01_3::ontop:cabinet.n.01_1->inside:vase.n.01_1",
+          "transfer::rose.n.01_1::ontop:cabinet.n.01_1->inside:vase.n.01_1"
+        ],
+        [
+          "open::cabinet.n.01_1",
+          "transfer::rose.n.01_3::ontop:cabinet.n.01_1->inside:vase.n.01_1",
+          "transfer::rose.n.01_1::ontop:cabinet.n.01_1->inside:vase.n.01_1",
+          "transfer::vase.n.01_1::ontop:cabinet.n.01_1->ontop:coffee_table.n.01_1",
+          "transfer::rose.n.01_2::ontop:cabinet.n.01_1->inside:vase.n.01_1"
+        ],
+        [
+          "open::cabinet.n.01_1",
+          "transfer::rose.n.01_3::ontop:cabinet.n.01_1->inside:vase.n.01_1",
+          "transfer::rose.n.01_2::ontop:cabinet.n.01_1->inside:vase.n.01_1",
+          "transfer::vase.n.01_1::ontop:cabinet.n.01_1->ontop:coffee_table.n.01_1",
+          "transfer::rose.n.01_1::ontop:cabinet.n.01_1->inside:vase.n.01_1"
+        ]
+      ],
+      "source_path": "make_rose_centerpieces/problem0.bddl",
+      "action_count": 5
+    },
+    {
+      "max_depth": 2,
+      "expanded_nodes": 2,
+      "search_exhaustive": true,
+      "family_order_enumeration_exhaustive": true,
+      "bounded_valid_plan_count": 1,
+      "known_family_plan_count": 1,
+      "bounded_valid_plan_covered_count": 1,
+      "bounded_family_coverage": 1.0,
+      "bounded_valid_plans_outside_families_count": 0,
+      "outside_family_examples": [],
+      "source_path": "collecting_mail_from_the_letterbox/problem0.bddl",
+      "action_count": 2
+    },
+    {
+      "max_depth": 2,
+      "expanded_nodes": 3,
+      "search_exhaustive": true,
+      "family_order_enumeration_exhaustive": true,
+      "bounded_valid_plan_count": 2,
+      "known_family_plan_count": 1,
+      "bounded_valid_plan_covered_count": 1,
+      "bounded_family_coverage": 0.5,
+      "bounded_valid_plans_outside_families_count": 1,
+      "outside_family_examples": [
+        [
+          "transfer::shopping_basket.n.01_1::ontop:floor.n.01_1->ontop:checkout.n.03_1",
+          "transfer::money.n.01_1::inside:shopping_basket.n.01_1->ontop:checkout.n.03_1"
+        ]
+      ],
+      "source_path": "paying_for_purchases/problem0.bddl",
+      "action_count": 2
+    },
+    {
+      "max_depth": 6,
+      "expanded_nodes": 1237,
+      "search_exhaustive": true,
+      "family_order_enumeration_exhaustive": true,
+      "bounded_valid_plan_count": 720,
+      "known_family_plan_count": 120,
+      "bounded_valid_plan_covered_count": 120,
+      "bounded_family_coverage": 0.16666666666666666,
+      "bounded_valid_plans_outside_families_count": 600,
+      "outside_family_examples": [
+        [
+          "transfer::book.n.02_1::ontop:bed.n.01_1->inside:carryall.n.01_1",
+          "transfer::calculator.n.02_1::ontop:floor.n.01_1->inside:carryall.n.01_1",
+          "transfer::carryall.n.01_1::ontop:floor.n.01_1->ontop:bed.n.01_1",
+          "transfer::folder.n.02_1::ontop:bed.n.01_1->inside:carryall.n.01_1",
+          "transfer::pen.n.01_1::ontop:floor.n.01_1->inside:carryall.n.01_1",
+          "transfer::pencil.n.01_1::ontop:bed.n.01_1->inside:carryall.n.01_1"
+        ],
+        [
+          "transfer::book.n.02_1::ontop:bed.n.01_1->inside:carryall.n.01_1",
+          "transfer::calculator.n.02_1::ontop:floor.n.01_1->inside:carryall.n.01_1",
+          "transfer::carryall.n.01_1::ontop:floor.n.01_1->ontop:bed.n.01_1",
+          "transfer::folder.n.02_1::ontop:bed.n.01_1->inside:carryall.n.01_1",
+          "transfer::pencil.n.01_1::ontop:bed.n.01_1->inside:carryall.n.01_1",
+          "transfer::pen.n.01_1::ontop:floor.n.01_1->inside:carryall.n.01_1"
+        ],
+        [
+          "transfer::book.n.02_1::ontop:bed.n.01_1->inside:carryall.n.01_1",
+          "transfer::calculator.n.02_1::ontop:floor.n.01_1->inside:carryall.n.01_1",
+          "transfer::carryall.n.01_1::ontop:floor.n.01_1->ontop:bed.n.01_1",
+          "transfer::pen.n.01_1::ontop:floor.n.01_1->inside:carryall.n.01_1",
+          "transfer::folder.n.02_1::ontop:bed.n.01_1->inside:carryall.n.01_1",
+          "transfer::pencil.n.01_1::ontop:bed.n.01_1->inside:carryall.n.01_1"
+        ],
+        [
+          "transfer::book.n.02_1::ontop:bed.n.01_1->inside:carryall.n.01_1",
+          "transfer::calculator.n.02_1::ontop:floor.n.01_1->inside:carryall.n.01_1",
+          "transfer::carryall.n.01_1::ontop:floor.n.01_1->ontop:bed.n.01_1",
+          "transfer::pen.n.01_1::ontop:floor.n.01_1->inside:carryall.n.01_1",
+          "transfer::pencil.n.01_1::ontop:bed.n.01_1->inside:carryall.n.01_1",
+          "transfer::folder.n.02_1::ontop:bed.n.01_1->inside:carryall.n.01_1"
+        ],
+        [
+          "transfer::book.n.02_1::ontop:bed.n.01_1->inside:carryall.n.01_1",
+          "transfer::calculator.n.02_1::ontop:floor.n.01_1->inside:carryall.n.01_1",
+          "transfer::carryall.n.01_1::ontop:floor.n.01_1->ontop:bed.n.01_1",
+          "transfer::pencil.n.01_1::ontop:bed.n.01_1->inside:carryall.n.01_1",
+          "transfer::folder.n.02_1::ontop:bed.n.01_1->inside:carryall.n.01_1",
+          "transfer::pen.n.01_1::ontop:floor.n.01_1->inside:carryall.n.01_1"
+        ],
+        [
+          "transfer::book.n.02_1::ontop:bed.n.01_1->inside:carryall.n.01_1",
+          "transfer::calculator.n.02_1::ontop:floor.n.01_1->inside:carryall.n.01_1",
+          "transfer::carryall.n.01_1::ontop:floor.n.01_1->ontop:bed.n.01_1",
+          "transfer::pencil.n.01_1::ontop:bed.n.01_1->inside:carryall.n.01_1",
+          "transfer::pen.n.01_1::ontop:floor.n.01_1->inside:carryall.n.01_1",
+          "transfer::folder.n.02_1::ontop:bed.n.01_1->inside:carryall.n.01_1"
+        ],
+        [
+          "transfer::book.n.02_1::ontop:bed.n.01_1->inside:carryall.n.01_1",
+          "transfer::calculator.n.02_1::ontop:floor.n.01_1->inside:carryall.n.01_1",
+          "transfer::folder.n.02_1::ontop:bed.n.01_1->inside:carryall.n.01_1",
+          "transfer::carryall.n.01_1::ontop:floor.n.01_1->ontop:bed.n.01_1",
+          "transfer::pen.n.01_1::ontop:floor.n.01_1->inside:carryall.n.01_1",
+          "transfer::pencil.n.01_1::ontop:bed.n.01_1->inside:carryall.n.01_1"
+        ],
+        [
+          "transfer::book.n.02_1::ontop:bed.n.01_1->inside:carryall.n.01_1",
+          "transfer::calculator.n.02_1::ontop:floor.n.01_1->inside:carryall.n.01_1",
+          "transfer::folder.n.02_1::ontop:bed.n.01_1->inside:carryall.n.01_1",
+          "transfer::carryall.n.01_1::ontop:floor.n.01_1->ontop:bed.n.01_1",
+          "transfer::pencil.n.01_1::ontop:bed.n.01_1->inside:carryall.n.01_1",
+          "transfer::pen.n.01_1::ontop:floor.n.01_1->inside:carryall.n.01_1"
+        ],
+        [
+          "transfer::book.n.02_1::ontop:bed.n.01_1->inside:carryall.n.01_1",
+          "transfer::calculator.n.02_1::ontop:floor.n.01_1->inside:carryall.n.01_1",
+          "transfer::folder.n.02_1::ontop:bed.n.01_1->inside:carryall.n.01_1",
+          "transfer::pen.n.01_1::ontop:floor.n.01_1->inside:carryall.n.01_1",
+          "transfer::carryall.n.01_1::ontop:floor.n.01_1->ontop:bed.n.01_1",
+          "transfer::pencil.n.01_1::ontop:bed.n.01_1->inside:carryall.n.01_1"
+        ],
+        [
+          "transfer::book.n.02_1::ontop:bed.n.01_1->inside:carryall.n.01_1",
+          "transfer::calculator.n.02_1::ontop:floor.n.01_1->inside:carryall.n.01_1",
+          "transfer::folder.n.02_1::ontop:bed.n.01_1->inside:carryall.n.01_1",
+          "transfer::pencil.n.01_1::ontop:bed.n.01_1->inside:carryall.n.01_1",
+          "transfer::carryall.n.01_1::ontop:floor.n.01_1->ontop:bed.n.01_1",
+          "transfer::pen.n.01_1::ontop:floor.n.01_1->inside:carryall.n.01_1"
+        ]
+      ],
+      "source_path": "organizing_school_stuff/problem0.bddl",
+      "action_count": 6
+    },
+    {
+      "max_depth": 1,
+      "expanded_nodes": 1,
+      "search_exhaustive": true,
+      "family_order_enumeration_exhaustive": true,
+      "bounded_valid_plan_count": 1,
+      "known_family_plan_count": 1,
+      "bounded_valid_plan_covered_count": 1,
+      "bounded_family_coverage": 1.0,
+      "bounded_valid_plans_outside_families_count": 0,
+      "outside_family_examples": [],
+      "source_path": "putting_in_a_hot_tub/problem0.bddl",
+      "action_count": 1
+    },
+    {
+      "max_depth": 4,
+      "expanded_nodes": 23,
+      "search_exhaustive": true,
+      "family_order_enumeration_exhaustive": true,
+      "bounded_valid_plan_count": 12,
+      "known_family_plan_count": 2,
+      "bounded_valid_plan_covered_count": 2,
+      "bounded_family_coverage": 0.16666666666666666,
+      "bounded_valid_plans_outside_families_count": 10,
+      "outside_family_examples": [
+        [
+          "open::electric_refrigerator.n.01_1",
+          "transfer::tulip.n.01_1::ontop:countertop.n.01_1->inside:packing_box.n.02_1",
+          "transfer::packing_box.n.02_1::ontop:countertop.n.01_1->inside:electric_refrigerator.n.01_1",
+          "transfer::tulip.n.01_2::ontop:countertop.n.01_1->inside:packing_box.n.02_1"
+        ],
+        [
+          "open::electric_refrigerator.n.01_1",
+          "transfer::tulip.n.01_1::ontop:countertop.n.01_1->inside:packing_box.n.02_1",
+          "transfer::tulip.n.01_2::ontop:countertop.n.01_1->inside:packing_box.n.02_1",
+          "transfer::packing_box.n.02_1::ontop:countertop.n.01_1->inside:electric_refrigerator.n.01_1"
+        ],
+        [
+          "open::electric_refrigerator.n.01_1",
+          "transfer::tulip.n.01_2::ontop:countertop.n.01_1->inside:packing_box.n.02_1",
+          "transfer::packing_box.n.02_1::ontop:countertop.n.01_1->inside:electric_refrigerator.n.01_1",
+          "transfer::tulip.n.01_1::ontop:countertop.n.01_1->inside:packing_box.n.02_1"
+        ],
+        [
+          "open::electric_refrigerator.n.01_1",
+          "transfer::tulip.n.01_2::ontop:countertop.n.01_1->inside:packing_box.n.02_1",
+          "transfer::tulip.n.01_1::ontop:countertop.n.01_1->inside:packing_box.n.02_1",
+          "transfer::packing_box.n.02_1::ontop:countertop.n.01_1->inside:electric_refrigerator.n.01_1"
+        ],
+        [
+          "transfer::tulip.n.01_1::ontop:countertop.n.01_1->inside:packing_box.n.02_1",
+          "open::electric_refrigerator.n.01_1",
+          "transfer::packing_box.n.02_1::ontop:countertop.n.01_1->inside:electric_refrigerator.n.01_1",
+          "transfer::tulip.n.01_2::ontop:countertop.n.01_1->inside:packing_box.n.02_1"
+        ],
+        [
+          "transfer::tulip.n.01_1::ontop:countertop.n.01_1->inside:packing_box.n.02_1",
+          "open::electric_refrigerator.n.01_1",
+          "transfer::tulip.n.01_2::ontop:countertop.n.01_1->inside:packing_box.n.02_1",
+          "transfer::packing_box.n.02_1::ontop:countertop.n.01_1->inside:electric_refrigerator.n.01_1"
+        ],
+        [
+          "transfer::tulip.n.01_1::ontop:countertop.n.01_1->inside:packing_box.n.02_1",
+          "transfer::tulip.n.01_2::ontop:countertop.n.01_1->inside:packing_box.n.02_1",
+          "open::electric_refrigerator.n.01_1",
+          "transfer::packing_box.n.02_1::ontop:countertop.n.01_1->inside:electric_refrigerator.n.01_1"
+        ],
+        [
+          "transfer::tulip.n.01_2::ontop:countertop.n.01_1->inside:packing_box.n.02_1",
+          "open::electric_refrigerator.n.01_1",
+          "transfer::packing_box.n.02_1::ontop:countertop.n.01_1->inside:electric_refrigerator.n.01_1",
+          "transfer::tulip.n.01_1::ontop:countertop.n.01_1->inside:packing_box.n.02_1"
+        ],
+        [
+          "transfer::tulip.n.01_2::ontop:countertop.n.01_1->inside:packing_box.n.02_1",
+          "open::electric_refrigerator.n.01_1",
+          "transfer::tulip.n.01_1::ontop:countertop.n.01_1->inside:packing_box.n.02_1",
+          "transfer::packing_box.n.02_1::ontop:countertop.n.01_1->inside:electric_refrigerator.n.01_1"
+        ],
+        [
+          "transfer::tulip.n.01_2::ontop:countertop.n.01_1->inside:packing_box.n.02_1",
+          "transfer::tulip.n.01_1::ontop:countertop.n.01_1->inside:packing_box.n.02_1",
+          "open::electric_refrigerator.n.01_1",
+          "transfer::packing_box.n.02_1::ontop:countertop.n.01_1->inside:electric_refrigerator.n.01_1"
+        ]
+      ],
+      "source_path": "store_tulip_bulbs/problem0.bddl",
+      "action_count": 4
+    },
+    {
+      "max_depth": 1,
+      "expanded_nodes": 1,
+      "search_exhaustive": true,
+      "family_order_enumeration_exhaustive": true,
+      "bounded_valid_plan_count": 1,
+      "known_family_plan_count": 1,
+      "bounded_valid_plan_covered_count": 1,
+      "bounded_family_coverage": 1.0,
+      "bounded_valid_plans_outside_families_count": 0,
+      "outside_family_examples": [],
+      "source_path": "picking_up_take_out_food/problem0.bddl",
+      "action_count": 2
+    },
+    {
+      "max_depth": 2,
+      "expanded_nodes": 3,
+      "search_exhaustive": true,
+      "family_order_enumeration_exhaustive": true,
+      "bounded_valid_plan_count": 2,
+      "known_family_plan_count": 2,
+      "bounded_valid_plan_covered_count": 2,
+      "bounded_family_coverage": 1.0,
+      "bounded_valid_plans_outside_families_count": 0,
+      "outside_family_examples": [],
+      "source_path": "buy_a_belt/problem0.bddl",
+      "action_count": 2
+    },
+    {
+      "max_depth": 2,
+      "expanded_nodes": 3,
+      "search_exhaustive": true,
+      "family_order_enumeration_exhaustive": true,
+      "bounded_valid_plan_count": 2,
+      "known_family_plan_count": 2,
+      "bounded_valid_plan_covered_count": 2,
+      "bounded_family_coverage": 1.0,
+      "bounded_valid_plans_outside_families_count": 0,
+      "outside_family_examples": [],
+      "source_path": "buying_postage_stamps/problem0.bddl",
+      "action_count": 2
+    },
+    {
+      "max_depth": 1,
+      "expanded_nodes": 1,
+      "search_exhaustive": true,
+      "family_order_enumeration_exhaustive": true,
+      "bounded_valid_plan_count": 1,
+      "known_family_plan_count": 1,
+      "bounded_valid_plan_covered_count": 1,
+      "bounded_family_coverage": 1.0,
+      "bounded_valid_plans_outside_families_count": 0,
+      "outside_family_examples": [],
+      "source_path": "collecting_wood/problem0.bddl",
+      "action_count": 1
+    },
+    {
+      "max_depth": 4,
+      "expanded_nodes": 11,
+      "search_exhaustive": true,
+      "family_order_enumeration_exhaustive": true,
+      "bounded_valid_plan_count": 6,
+      "known_family_plan_count": 6,
+      "bounded_valid_plan_covered_count": 6,
+      "bounded_family_coverage": 1.0,
+      "bounded_valid_plans_outside_families_count": 0,
+      "outside_family_examples": [],
+      "source_path": "disinfect_laundry/problem0.bddl",
+      "action_count": 4
+    },
+    {
+      "max_depth": 6,
+      "expanded_nodes": 249,
+      "search_exhaustive": true,
+      "family_order_enumeration_exhaustive": true,
+      "bounded_valid_plan_count": 144,
+      "known_family_plan_count": 120,
+      "bounded_valid_plan_covered_count": 120,
+      "bounded_family_coverage": 0.8333333333333334,
+      "bounded_valid_plans_outside_families_count": 24,
+      "outside_family_examples": [
+        [
+          "transfer::marker.n.03_1::ontop:chair.n.01_1->ontop:table.n.02_1",
+          "open::cabinet.n.01_1",
+          "transfer::document.n.01_1::ontop:table.n.02_1->inside:cabinet.n.01_1",
+          "transfer::document.n.01_3::ontop:table.n.02_1->inside:cabinet.n.01_1",
+          "transfer::folder.n.02_1::ontop:table.n.02_1->inside:cabinet.n.01_1",
+          "transfer::folder.n.02_2::ontop:floor.n.01_1->inside:cabinet.n.01_1"
+        ],
+        [
+          "transfer::marker.n.03_1::ontop:chair.n.01_1->ontop:table.n.02_1",
+          "open::cabinet.n.01_1",
+          "transfer::document.n.01_1::ontop:table.n.02_1->inside:cabinet.n.01_1",
+          "transfer::document.n.01_3::ontop:table.n.02_1->inside:cabinet.n.01_1",
+          "transfer::folder.n.02_2::ontop:floor.n.01_1->inside:cabinet.n.01_1",
+          "transfer::folder.n.02_1::ontop:table.n.02_1->inside:cabinet.n.01_1"
+        ],
+        [
+          "transfer::marker.n.03_1::ontop:chair.n.01_1->ontop:table.n.02_1",
+          "open::cabinet.n.01_1",
+          "transfer::document.n.01_1::ontop:table.n.02_1->inside:cabinet.n.01_1",
+          "transfer::folder.n.02_1::ontop:table.n.02_1->inside:cabinet.n.01_1",
+          "transfer::document.n.01_3::ontop:table.n.02_1->inside:cabinet.n.01_1",
+          "transfer::folder.n.02_2::ontop:floor.n.01_1->inside:cabinet.n.01_1"
+        ],
+        [
+          "transfer::marker.n.03_1::ontop:chair.n.01_1->ontop:table.n.02_1",
+          "open::cabinet.n.01_1",
+          "transfer::document.n.01_1::ontop:table.n.02_1->inside:cabinet.n.01_1",
+          "transfer::folder.n.02_1::ontop:table.n.02_1->inside:cabinet.n.01_1",
+          "transfer::folder.n.02_2::ontop:floor.n.01_1->inside:cabinet.n.01_1",
+          "transfer::document.n.01_3::ontop:table.n.02_1->inside:cabinet.n.01_1"
+        ],
+        [
+          "transfer::marker.n.03_1::ontop:chair.n.01_1->ontop:table.n.02_1",
+          "open::cabinet.n.01_1",
+          "transfer::document.n.01_1::ontop:table.n.02_1->inside:cabinet.n.01_1",
+          "transfer::folder.n.02_2::ontop:floor.n.01_1->inside:cabinet.n.01_1",
+          "transfer::document.n.01_3::ontop:table.n.02_1->inside:cabinet.n.01_1",
+          "transfer::folder.n.02_1::ontop:table.n.02_1->inside:cabinet.n.01_1"
+        ],
+        [
+          "transfer::marker.n.03_1::ontop:chair.n.01_1->ontop:table.n.02_1",
+          "open::cabinet.n.01_1",
+          "transfer::document.n.01_1::ontop:table.n.02_1->inside:cabinet.n.01_1",
+          "transfer::folder.n.02_2::ontop:floor.n.01_1->inside:cabinet.n.01_1",
+          "transfer::folder.n.02_1::ontop:table.n.02_1->inside:cabinet.n.01_1",
+          "transfer::document.n.01_3::ontop:table.n.02_1->inside:cabinet.n.01_1"
+        ],
+        [
+          "transfer::marker.n.03_1::ontop:chair.n.01_1->ontop:table.n.02_1",
+          "open::cabinet.n.01_1",
+          "transfer::document.n.01_3::ontop:table.n.02_1->inside:cabinet.n.01_1",
+          "transfer::document.n.01_1::ontop:table.n.02_1->inside:cabinet.n.01_1",
+          "transfer::folder.n.02_1::ontop:table.n.02_1->inside:cabinet.n.01_1",
+          "transfer::folder.n.02_2::ontop:floor.n.01_1->inside:cabinet.n.01_1"
+        ],
+        [
+          "transfer::marker.n.03_1::ontop:chair.n.01_1->ontop:table.n.02_1",
+          "open::cabinet.n.01_1",
+          "transfer::document.n.01_3::ontop:table.n.02_1->inside:cabinet.n.01_1",
+          "transfer::document.n.01_1::ontop:table.n.02_1->inside:cabinet.n.01_1",
+          "transfer::folder.n.02_2::ontop:floor.n.01_1->inside:cabinet.n.01_1",
+          "transfer::folder.n.02_1::ontop:table.n.02_1->inside:cabinet.n.01_1"
+        ],
+        [
+          "transfer::marker.n.03_1::ontop:chair.n.01_1->ontop:table.n.02_1",
+          "open::cabinet.n.01_1",
+          "transfer::document.n.01_3::ontop:table.n.02_1->inside:cabinet.n.01_1",
+          "transfer::folder.n.02_1::ontop:table.n.02_1->inside:cabinet.n.01_1",
+          "transfer::document.n.01_1::ontop:table.n.02_1->inside:cabinet.n.01_1",
+          "transfer::folder.n.02_2::ontop:floor.n.01_1->inside:cabinet.n.01_1"
+        ],
+        [
+          "transfer::marker.n.03_1::ontop:chair.n.01_1->ontop:table.n.02_1",
+          "open::cabinet.n.01_1",
+          "transfer::document.n.01_3::ontop:table.n.02_1->inside:cabinet.n.01_1",
+          "transfer::folder.n.02_1::ontop:table.n.02_1->inside:cabinet.n.01_1",
+          "transfer::folder.n.02_2::ontop:floor.n.01_1->inside:cabinet.n.01_1",
+          "transfer::document.n.01_1::ontop:table.n.02_1->inside:cabinet.n.01_1"
+        ]
+      ],
+      "source_path": "organizing_file_cabinet/problem0.bddl",
+      "action_count": 6
+    },
+    {
+      "max_depth": 5,
+      "expanded_nodes": 206,
+      "search_exhaustive": true,
+      "family_order_enumeration_exhaustive": true,
+      "bounded_valid_plan_count": 120,
+      "known_family_plan_count": 120,
+      "bounded_valid_plan_covered_count": 120,
+      "bounded_family_coverage": 1.0,
+      "bounded_valid_plans_outside_families_count": 0,
+      "outside_family_examples": [],
+      "source_path": "hoe_weeds/problem0.bddl",
+      "action_count": 5
+    }
+  ],
+  "excluded_tasks": [
+    {
+      "source_path": "clean_up_your_desk/problem0.bddl",
+      "reason": "reference_depth_above_limit",
+      "action_count": 10,
+      "required_depth": 10
+    },
+    {
+      "source_path": "preparing_lunch_box/problem0.bddl",
+      "reason": "reference_depth_above_limit",
+      "action_count": 7,
+      "required_depth": 7
+    },
+    {
+      "source_path": "packing_moving_van/problem0.bddl",
+      "reason": "reference_depth_above_limit",
+      "action_count": 10,
+      "required_depth": 7
+    },
+    {
+      "source_path": "boxing_food_after_dinner/problem0.bddl",
+      "reason": "reference_depth_above_limit",
+      "action_count": 9,
+      "required_depth": 9
+    },
+    {
+      "source_path": "prepare_an_emergency_school_kit/problem0.bddl",
+      "reason": "reference_depth_above_limit",
+      "action_count": 8,
+      "required_depth": 8
+    },
+    {
+      "source_path": "packing_bags_or_suitcase/problem0.bddl",
+      "reason": "reference_depth_above_limit",
+      "action_count": 7,
+      "required_depth": 7
+    },
+    {
+      "source_path": "outfit_a_basic_toolbox/problem0.bddl",
+      "reason": "reference_depth_above_limit",
+      "action_count": 7,
+      "required_depth": 7
+    },
+    {
+      "source_path": "packing_hiking_equipment_into_car/problem0.bddl",
+      "reason": "reference_depth_above_limit",
+      "action_count": 8,
+      "required_depth": 8
+    },
+    {
+      "source_path": "clearing_food_from_table_into_fridge/problem0.bddl",
+      "reason": "reference_depth_above_limit",
+      "action_count": 10,
+      "required_depth": 8
+    },
+    {
+      "source_path": "putting_dishes_away_after_cleaning/problem0.bddl",
+      "reason": "action_count_above_limit",
+      "action_count": 20,
+      "required_depth": 10
+    },
+    {
+      "source_path": "sorting_newspapers_for_recycling/problem0.bddl",
+      "reason": "reference_depth_above_limit",
+      "action_count": 10,
+      "required_depth": 10
+    },
+    {
+      "source_path": "putting_food_in_fridge/problem0.bddl",
+      "reason": "reference_depth_above_limit",
+      "action_count": 12,
+      "required_depth": 12
+    },
+    {
+      "source_path": "packing_picnic_into_car/problem0.bddl",
+      "reason": "reference_depth_above_limit",
+      "action_count": 12,
+      "required_depth": 12
+    },
+    {
+      "source_path": "unloading_groceries/problem0.bddl",
+      "reason": "reference_depth_above_limit",
+      "action_count": 8,
+      "required_depth": 8
+    },
+    {
+      "source_path": "buying_cleaning_supplies/problem0.bddl",
+      "reason": "reference_depth_above_limit",
+      "action_count": 12,
+      "required_depth": 11
+    },
+    {
+      "source_path": "clearing_table_after_supper/problem0.bddl",
+      "reason": "action_count_above_limit",
+      "action_count": 19,
+      "required_depth": 16
+    },
+    {
+      "source_path": "clearing_the_table_after_dinner/problem0.bddl",
+      "reason": "action_count_above_limit",
+      "action_count": 14,
+      "required_depth": 7
+    },
+    {
+      "source_path": "buy_food_for_a_party/problem0.bddl",
+      "reason": "reference_depth_above_limit",
+      "action_count": 10,
+      "required_depth": 10
+    },
+    {
+      "source_path": "packing_recreational_vehicle_for_trip/problem0.bddl",
+      "reason": "reference_depth_above_limit",
+      "action_count": 8,
+      "required_depth": 8
+    },
+    {
+      "source_path": "taking_clothes_out_of_washer/problem0.bddl",
+      "reason": "reference_depth_above_limit",
+      "action_count": 8,
+      "required_depth": 8
+    },
+    {
+      "source_path": "putting_leftovers_away/problem0.bddl",
+      "reason": "reference_depth_above_limit",
+      "action_count": 9,
+      "required_depth": 9
+    },
+    {
+      "source_path": "picking_up_litter/problem0.bddl",
+      "reason": "reference_depth_above_limit",
+      "action_count": 7,
+      "required_depth": 7
+    },
+    {
+      "source_path": "make_a_military_care_package/problem0.bddl",
+      "reason": "reference_depth_above_limit",
+      "action_count": 10,
+      "required_depth": 10
+    },
+    {
+      "source_path": "packing_sports_equipment_into_car/problem0.bddl",
+      "reason": "reference_depth_above_limit",
+      "action_count": 8,
+      "required_depth": 8
+    },
+    {
+      "source_path": "buy_pet_food_for_less/problem0.bddl",
+      "reason": "reference_depth_above_limit",
+      "action_count": 7,
+      "required_depth": 7
+    }
+  ],
+  "boundary": "Completeness applies only to first goal-reaching simple symbolic paths within each reported depth bound. It neither covers arbitrary nonminimal loops nor validates the real-world faithfulness of the action abstraction."
+}

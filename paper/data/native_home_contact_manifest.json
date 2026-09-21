@@ -1,0 +1,168 @@
+{
+  "scope": "two selected native contact demonstrations in an adapted tabletop task; excluded from all frozen benchmark denominators",
+  "rendering": "offline Blender rendering of synchronized body poses without trajectory interpolation",
+  "retained_failed_pilot": "probe_A_01",
+  "passed_single_object_gate": "probe_A_02",
+  "rows": [
+    {
+      "run_id": "multi_A_01",
+      "condition": "A",
+      "count": 3,
+      "result_status": "PASS",
+      "environment_sha256": "5661397339f1c4cb0e601af815b1d477efbb75dfa3944b77384eeddd63d7b501",
+      "runner_sha256": "af61913208e4a0849490279e95d238e0a6d7eacc59f6af7d1ebb42e48dced524",
+      "source_hashes": {
+        "result.json": "3024b4a733ce52905afca7b40ccdcfd54f3b3d553a1cbc315aeefc7819139e04",
+        "states.json": "6b9ef56394ba8592e1f67c97abe96bd897a083c649804be043417c9d6ea8d8dc",
+        "contacts.json": "3ed046d0176cfbd20020c480231343d1ef97be7a99286ea664ff09f910d5fca7"
+      },
+      "audit": [
+        {
+          "object": "/World/Battery_0",
+          "settling_window_s": 3.09873300000001,
+          "settling_samples": 60,
+          "max_axis_range_m": 0.0,
+          "horizontal_error_m": 0.0029627314811626173,
+          "bilateral_contact_frames": 557,
+          "max_reported_penetration_m": 9.759973181644455e-05,
+          "latest_nonempty_contact_frame": 2761,
+          "latest_nonempty_contact_actors": [
+            "/World/Home/A_bottom/Cube_100"
+          ],
+          "target_support_contact_observed": true,
+          "terminal_pose_stable_and_inside_target": true,
+          "sleep_note": "Contact event streams may cease when the body sleeps; latest reported support is evidence before sleep, not a continuously sampled force."
+        },
+        {
+          "object": "/World/Battery_1",
+          "settling_window_s": 3.09873300000001,
+          "settling_samples": 60,
+          "max_axis_range_m": 0.0,
+          "horizontal_error_m": 0.004812768500932001,
+          "bilateral_contact_frames": 558,
+          "max_reported_penetration_m": 0.00010641381959430873,
+          "latest_nonempty_contact_frame": 4204,
+          "latest_nonempty_contact_actors": [
+            "/World/Home/A_bottom/Cube_100"
+          ],
+          "target_support_contact_observed": true,
+          "terminal_pose_stable_and_inside_target": true,
+          "sleep_note": "Contact event streams may cease when the body sleeps; latest reported support is evidence before sleep, not a continuously sampled force."
+        },
+        {
+          "object": "/World/Battery_2",
+          "settling_window_s": 3.09873300000001,
+          "settling_samples": 60,
+          "max_axis_range_m": 0.0,
+          "horizontal_error_m": 0.0028791272676032898,
+          "bilateral_contact_frames": 558,
+          "max_reported_penetration_m": 5.098107794765383e-05,
+          "latest_nonempty_contact_frame": 4052,
+          "latest_nonempty_contact_actors": [
+            "/World/Home/A_bottom/Cube_100"
+          ],
+          "target_support_contact_observed": true,
+          "terminal_pose_stable_and_inside_target": true,
+          "sleep_note": "Contact event streams may cease when the body sleeps; latest reported support is evidence before sleep, not a continuously sampled force."
+        }
+      ],
+      "selected_frames": [
+        {
+          "phase": "settle",
+          "frame": 240,
+          "timeline_s": 4.923901000000001
+        },
+        {
+          "phase": "lift",
+          "frame": 3720,
+          "timeline_s": 155.84773900000033
+        },
+        {
+          "phase": "settle_after_action",
+          "frame": 4560,
+          "timeline_s": 192.51018400000004
+        }
+      ]
+    },
+    {
+      "run_id": "multi_B_01",
+      "condition": "B",
+      "count": 3,
+      "result_status": "PASS",
+      "environment_sha256": "5661397339f1c4cb0e601af815b1d477efbb75dfa3944b77384eeddd63d7b501",
+      "runner_sha256": "af61913208e4a0849490279e95d238e0a6d7eacc59f6af7d1ebb42e48dced524",
+      "source_hashes": {
+        "result.json": "bd5fbbd56fda1d759172c4290830e9d3fe7272b1142cbef4d76252403b759471",
+        "states.json": "3efff5ffeb665245c970d619142090f1169f98b3c056cbbd128c47c958b02fc5",
+        "contacts.json": "923b7cfd4879c18f04bc12f043994272d03f9f1585942b450194739b55600fa9"
+      },
+      "audit": [
+        {
+          "object": "/World/Battery_0",
+          "settling_window_s": 2.7223949999999775,
+          "settling_samples": 60,
+          "max_axis_range_m": 0.0,
+          "horizontal_error_m": 0.008775076468594656,
+          "bilateral_contact_frames": 557,
+          "max_reported_penetration_m": 0.00010239029506919906,
+          "latest_nonempty_contact_frame": 2763,
+          "latest_nonempty_contact_actors": [
+            "/World/Home/B_bottom/Cube_105"
+          ],
+          "target_support_contact_observed": true,
+          "terminal_pose_stable_and_inside_target": true,
+          "sleep_note": "Contact event streams may cease when the body sleeps; latest reported support is evidence before sleep, not a continuously sampled force."
+        },
+        {
+          "object": "/World/Battery_1",
+          "settling_window_s": 2.7223949999999775,
+          "settling_samples": 60,
+          "max_axis_range_m": 0.0,
+          "horizontal_error_m": 0.00974436804436646,
+          "bilateral_contact_frames": 558,
+          "max_reported_penetration_m": 0.00010152285540243611,
+          "latest_nonempty_contact_frame": 4203,
+          "latest_nonempty_contact_actors": [
+            "/World/Home/B_bottom/Cube_105"
+          ],
+          "target_support_contact_observed": true,
+          "terminal_pose_stable_and_inside_target": true,
+          "sleep_note": "Contact event streams may cease when the body sleeps; latest reported support is evidence before sleep, not a continuously sampled force."
+        },
+        {
+          "object": "/World/Battery_2",
+          "settling_window_s": 2.7223949999999775,
+          "settling_samples": 60,
+          "max_axis_range_m": 0.0,
+          "horizontal_error_m": 0.00046728122607965814,
+          "bilateral_contact_frames": 558,
+          "max_reported_penetration_m": 2.5822506358963437e-05,
+          "latest_nonempty_contact_frame": 4052,
+          "latest_nonempty_contact_actors": [
+            "/World/Home/B_bottom/Cube_105"
+          ],
+          "target_support_contact_observed": true,
+          "terminal_pose_stable_and_inside_target": true,
+          "sleep_note": "Contact event streams may cease when the body sleeps; latest reported support is evidence before sleep, not a continuously sampled force."
+        }
+      ],
+      "selected_frames": [
+        {
+          "phase": "settle",
+          "frame": 240,
+          "timeline_s": 5.0272240000000075
+        },
+        {
+          "phase": "lift",
+          "frame": 3720,
+          "timeline_s": 158.23206099999982
+        },
+        {
+          "phase": "settle_after_action",
+          "frame": 4560,
+          "timeline_s": 193.5170849999998
+        }
+      ]
+    }
+  ]
+}

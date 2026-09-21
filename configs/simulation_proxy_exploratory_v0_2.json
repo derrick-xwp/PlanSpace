@@ -1,0 +1,64 @@
+{
+  "schema_version": "planspace.simulation_proxy_exploratory.v0.2",
+  "evidence_class": "post_outcome_exploratory_not_preregistered",
+  "supersedes": null,
+  "preserved_invalidated_batch": "pilot27_isaac45_proxy_v01_20260918",
+  "motivation": "Correct implementation defects documented by the immutable read-only audit; results may not replace or be pooled with the preregistered pilot.",
+  "simulator": {"name": "Isaac Sim", "version": "4.5.0", "physics_backend": "PhysX", "physics_hz": 60},
+  "controller": {
+    "required": "isaacsim.robot.manipulators.examples.franka.controllers.PickPlaceController",
+    "dynamic_fixed_joint_grasps_forbidden": true,
+    "controller_amendment_policy": "Any replacement requires a new exploratory protocol version before outcomes are observed.",
+    "transparent_wrapper_amendment_20260918": {
+      "reason": "Isaac 4.5 PickPlace event interpolation was observed to advance before this standalone Franka articulation was dynamically settled; the official controller and its RMPFlow core remain unchanged.",
+      "preopen_finger_joint_min_m": 0.035,
+      "preopen_required_stable_frames": 15,
+      "waypoint_position_error_max_m": 0.01,
+      "waypoint_orientation_error_max_rad": 0.15,
+      "waypoint_max_arm_joint_speed_rad_s": 0.05,
+      "waypoint_required_stable_frames": 15,
+      "fixed_descriptor_to_tool_quaternion_wxyz": [0.0, 0.0, 0.0, -1.0],
+      "outcome_status": "thresholds fixed before exploratory c19 execution",
+      "robot_base_position_world_m_amendment_before_c21": [-0.2, 0.0, 0.0],
+      "robot_base_position_world_m_amendment_before_c22": [-0.15, 0.0, 0.0],
+      "robot_base_amendment_reason": "The condition-invariant object target at world x about 0.25 entered a dynamically singular low pose relative to a base at x 0; shifting only the shared robot base makes relative x about 0.45 without changing task geometry or success predicates."
+      ,"shallow_grasp_target_tool_z_m_before_c24": 0.08
+      ,"shallow_grasp_reason": "The frozen base-grid dynamic probe validated 0.08 m as the lowest stable tool height; measured finger collision bottom is about 9.43 mm below tool center, leaving physical overlap with the 0.08 m lid top without an unstable deep insertion."
+      ,"articulation_drive_kd_multiplier_before_c32": 2.0
+      ,"articulation_drive_amendment_reason": "With strict pose satisfied under a fixed joint-position and zero-velocity target, PhysX arm-joint speeds remained about 0.12 rad/s; apply one shared damping multiplier without resetting measured state or changing the success gate."
+      ,"c32_outcome_and_withdrawal_before_c33": "c32 failed at the 0.13 m waypoint and increased measured maximum arm speed to about 0.211 rad/s; the 2x kd amendment is withdrawn for c33 and later runs."
+      ,"arm_actuator_max_velocity_rad_s_before_c33": 0.04
+      ,"arm_actuator_velocity_amendment_reason": "Apply the same real PhysX articulation maximum velocity to all seven Franka arm DOFs while retaining asset-authored finger limits. This changes neither pose/speed success thresholds nor task geometry, and is recorded before c33 outcome observation."
+      ,"wrapper_waypoint_max_frames_before_c34": 4800
+      ,"wrapper_timeout_amendment_reason": "c33 verified the 0.04 rad/s PhysX arm limit but exhausted the prior 1800-frame safe-above budget while still moving at that limit, without contacting the lid. Extend only the wait budget; all pose, orientation, speed, and stable-frame gates remain unchanged."
+      ,"lid_interaction_geometry_z_offset_m_before_c35": 0.02
+      ,"lid_geometry_before_after_c35": {"closed_lid_center_z_m":[0.05,0.07],"closed_lid_top_z_m":[0.08,0.10],"open_lid_center_z_m":[0.05,0.07],"support_and_parking_top_z_m":[0.02,0.04],"access_center_z_m":[0.05,0.07],"grasp_tool_target_z_m":[0.08,0.10]}
+      ,"lid_geometry_amendment_reason": "c34 strictly validated stable Franka convergence through tool z 0.10 m but not at 0.09 m. Raise the lid, its four supports, access prism, and parking pad together by 0.02 m so the unchanged upper-edge grasp geometry lies in the validated domain; retain all access, containment, stability, and terminal predicates."
+      ,"controller_event0_initialization_before_c36": "c35 exposed that jumping from a completed wrapper preposition directly to official PickPlaceController event 2 leaves its event-0 pick-anchor fields undefined. Before handoff, call the official public forward method once at event 0 without applying the returned redundant motion action, then continue at event 2. Controller core, scene, actions, and success gates are unchanged."
+      ,"lid_grasp_band_alignment_before_c37": {"measured_finger_center_offset_from_tool_m":0.018,"measured_finger_bottom_offset_from_tool_m":-0.009,"tool_grasp_target_z_m":0.10,"lid_center_z_m":[0.07,0.09],"lid_height_m":0.06,"lid_top_z_m":[0.10,0.12],"lid_bottom_z_m":[0.04,0.06],"support_and_parking_top_z_m":[0.04,0.06],"access_center_z_m":[0.07,0.09]}
+      ,"lid_grasp_band_alignment_reason": "c36 converged strictly at tool z 0.10 m but only contacted the lid's upper edge and lost it during event 4. Raise the unchanged 0.06 m lid and its support/access/parking assembly by 0.02 m so the measured finger collision band crosses the lid body while retaining the validated tool target, container semantics, and every terminal predicate."
+      ,"parking_release_alignment_before_c38": {"c37_measured_release_lid_center_z_m":0.1445,"open_lid_target_center_z_m":[0.09,0.145],"parking_support_top_z_m":[0.06,0.115],"parking_support_center_z_m":0.105,"parking_support_size_xy_m":[[0.08,0.08],[0.14,0.14]],"lid_size_xy_m":[0.04,0.04],"terminal_target_distance_tolerance_m":0.05}
+      ,"parking_release_alignment_reason": "c37 maintained a real dynamic grasp through transport but released the lid center at about z 0.1445, 54.5 mm above the former stable center. Raise the parking support and open target to the measured release plane. A 0.14 m square pad provides the frozen 0.05 m center tolerance plus the lid 0.02 m half-width; the dynamic target and unchanged terminal distance, access, lift, and stability predicates remain authoritative."
+    }
+  },
+  "scene_invariance": {
+    "blueprint_inputs": ["task source SHA-256", "seed", "union of reference, nonreference, and deleted actions"],
+    "condition_must_not_affect_geometry_or_initial_pose": true,
+    "same_task_seed_blueprint_sha256_must_match_across_three_conditions": true
+  },
+  "physical_proxies": {
+    "inside": "Four collision walls and a bottom form an open-top container; containment uses object AABB fully inside the measured interior volume.",
+    "ontop": "A raised collision support is instantiated; success requires object bottom above the support top and XY footprint overlap.",
+    "open": "A dynamic lid initially intersects the frozen access prism; success requires lid in its parking slot and zero lid/access AABB overlap.",
+    "close": "The same lid returns to the closed slot and overlaps the frozen access prism.",
+    "toggle_on": "A dynamic switch token moves from a labeled off fixture to a spatially distinct on fixture.",
+    "toggle_off": "The same token moves from the on fixture to the off fixture."
+  },
+  "evidence": {
+    "required": ["scene_blueprint.json", "result.json", "action_trace.json", "terminal.usda", "log"],
+    "terminal_stage_required": true,
+    "process_exit_zero_iff_result_status_pass": true,
+    "rgb_status": "independent_pending_channel"
+  },
+  "first_gate": "One task, all three conditions, seed 1001, explicitly non-formal exploratory dry-runs."
+}

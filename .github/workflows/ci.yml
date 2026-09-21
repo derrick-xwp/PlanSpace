@@ -1,0 +1,22 @@
+name: reviewer-artifact-checks
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Install test dependencies
+        run: python -m pip install -e '.[dev]'
+      - name: Verify release manifest
+        run: python scripts/verify_release_manifest.py
+      - name: Verify frozen six-model matrix
+        run: python -m scripts.verify_v09_context_release
+      - name: Run public tests
+        run: python -m pytest -q

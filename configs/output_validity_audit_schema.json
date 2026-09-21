@@ -1,0 +1,26 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "required": ["reviewer_role", "packet_version", "reviews"],
+  "properties": {
+    "reviewer_role": {"type": "string"},
+    "packet_version": {"type": "string", "const": "planspace-output-validity-v0.1"},
+    "reviews": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["audit_id", "interface_compliant", "valid_at_declared_abstraction", "reasonable_high_level_behavior", "confidence", "notes"],
+        "properties": {
+          "audit_id": {"type": "string"},
+          "interface_compliant": {"enum": ["yes", "no", "uncertain"]},
+          "valid_at_declared_abstraction": {"enum": ["yes", "no", "uncertain"]},
+          "reasonable_high_level_behavior": {"enum": ["yes", "no", "uncertain"]},
+          "confidence": {"enum": ["high", "medium", "low"]},
+          "notes": {"type": "string"}
+        },
+        "additionalProperties": false
+      }
+    }
+  },
+  "additionalProperties": false
+}

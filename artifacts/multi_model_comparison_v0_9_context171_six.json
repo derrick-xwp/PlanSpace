@@ -1,0 +1,567 @@
+{
+  "protocol_version": "planspace_text_plan_v0.6-v04-uniform-compact",
+  "generic_domain_version": "planspace_generic_household_v0.4-candidate",
+  "bootstrap": {
+    "unit": "paired task",
+    "trials": 10000,
+    "seed": 20260914
+  },
+  "paired_randomization": {
+    "unit": "paired task",
+    "trials": 10000,
+    "seed_offset": 100000,
+    "multiplicity": "Holm correction across all model pairs within each metric"
+  },
+  "aggregate": {
+    "Qwen/Qwen3-4B": {
+      "parse": 0.9941520467836257,
+      "executable": 0.9754385964912281,
+      "goal_valid": 0.9298245614035088,
+      "exact": 0.7555555555555555,
+      "partial_order": 0.7964912280701754,
+      "false_rejection_among_valid": 0.18742138364779873,
+      "single_sample_goal_valid": 0.9239766081871345,
+      "any_of_five_goal_valid": 0.9415204678362573,
+      "mean_reference_family_coverage": 0.7464364035087719,
+      "mean_normalized_cost_regret_among_valid": 0.030987321553359287
+    },
+    "microsoft/Phi-4-mini-instruct": {
+      "parse": 0.20584795321637428,
+      "executable": 0.09473684210526315,
+      "goal_valid": 0.07602339181286549,
+      "exact": 0.06900584795321638,
+      "partial_order": 0.07485380116959064,
+      "false_rejection_among_valid": 0.09230769230769231,
+      "single_sample_goal_valid": 0.07017543859649122,
+      "any_of_five_goal_valid": 0.23391812865497075,
+      "mean_reference_family_coverage": 0.2079906798245614,
+      "mean_normalized_cost_regret_among_valid": 0.002197802197802198
+    },
+    "mistralai/Mistral-7B-Instruct-v0.3": {
+      "parse": 0.8619883040935673,
+      "executable": 0.8081871345029239,
+      "goal_valid": 0.752046783625731,
+      "exact": 0.6678362573099416,
+      "partial_order": 0.6935672514619883,
+      "false_rejection_among_valid": 0.1119751166407465,
+      "single_sample_goal_valid": 0.7485380116959064,
+      "any_of_five_goal_valid": 0.8596491228070176,
+      "mean_reference_family_coverage": 0.7456825657894737,
+      "mean_normalized_cost_regret_among_valid": 0.020854624898170776
+    },
+    "allenai/OLMo-2-1124-7B-Instruct": {
+      "parse": 0.15789473684210525,
+      "executable": 0.06315789473684211,
+      "goal_valid": 0.056140350877192984,
+      "exact": 0.05497076023391813,
+      "partial_order": 0.05497076023391813,
+      "false_rejection_among_valid": 0.020833333333333332,
+      "single_sample_goal_valid": 0.04678362573099415,
+      "any_of_five_goal_valid": 0.08771929824561403,
+      "mean_reference_family_coverage": 0.07894736842105263,
+      "mean_normalized_cost_regret_among_valid": 0.005208333333333333
+    },
+    "Qwen/Qwen3-8B": {
+      "parse": 0.87953216374269,
+      "executable": 0.8608187134502924,
+      "goal_valid": 0.8280701754385965,
+      "exact": 0.656140350877193,
+      "partial_order": 0.704093567251462,
+      "false_rejection_among_valid": 0.2076271186440678,
+      "single_sample_goal_valid": 0.8187134502923976,
+      "any_of_five_goal_valid": 0.8771929824561403,
+      "mean_reference_family_coverage": 0.6908808479532164,
+      "mean_normalized_cost_regret_among_valid": 0.0323905927719487
+    },
+    "Qwen/Qwen3-14B": {
+      "parse": 0.991812865497076,
+      "executable": 0.9473684210526315,
+      "goal_valid": 0.9473684210526315,
+      "exact": 0.8011695906432749,
+      "partial_order": 0.8456140350877193,
+      "false_rejection_among_valid": 0.15432098765432098,
+      "single_sample_goal_valid": 0.9473684210526315,
+      "any_of_five_goal_valid": 0.9590643274853801,
+      "mean_reference_family_coverage": 0.7826663011695907,
+      "mean_normalized_cost_regret_among_valid": 0.015505584950029393
+    }
+  },
+  "rankings": {
+    "exact": [
+      "Qwen/Qwen3-14B",
+      "Qwen/Qwen3-4B",
+      "mistralai/Mistral-7B-Instruct-v0.3",
+      "Qwen/Qwen3-8B",
+      "microsoft/Phi-4-mini-instruct",
+      "allenai/OLMo-2-1124-7B-Instruct"
+    ],
+    "partial_order": [
+      "Qwen/Qwen3-14B",
+      "Qwen/Qwen3-4B",
+      "Qwen/Qwen3-8B",
+      "mistralai/Mistral-7B-Instruct-v0.3",
+      "microsoft/Phi-4-mini-instruct",
+      "allenai/OLMo-2-1124-7B-Instruct"
+    ],
+    "goal_valid": [
+      "Qwen/Qwen3-14B",
+      "Qwen/Qwen3-4B",
+      "Qwen/Qwen3-8B",
+      "mistralai/Mistral-7B-Instruct-v0.3",
+      "microsoft/Phi-4-mini-instruct",
+      "allenai/OLMo-2-1124-7B-Instruct"
+    ]
+  },
+  "paired_comparisons": [
+    {
+      "left_model": "Qwen/Qwen3-4B",
+      "right_model": "microsoft/Phi-4-mini-instruct",
+      "metric_differences": {
+        "exact": {
+          "estimate": 0.6865497076023392,
+          "ci95_low": 0.6222222222222222,
+          "ci95_high": 0.7473684210526316,
+          "paired_sign_flip_p_value": 9.999000099990002e-05,
+          "holm_adjusted_p_value": 0.0014998500149985003,
+          "holm_reject_0_05": true
+        },
+        "partial_order": {
+          "estimate": 0.7216374269005849,
+          "ci95_low": 0.657280701754386,
+          "ci95_high": 0.783625730994152,
+          "paired_sign_flip_p_value": 9.999000099990002e-05,
+          "holm_adjusted_p_value": 0.0014998500149985003,
+          "holm_reject_0_05": true
+        },
+        "goal_valid": {
+          "estimate": 0.8538011695906432,
+          "ci95_low": 0.8104970760233918,
+          "ci95_high": 0.8947368421052632,
+          "paired_sign_flip_p_value": 9.999000099990002e-05,
+          "holm_adjusted_p_value": 0.0014998500149985003,
+          "holm_reject_0_05": true
+        }
+      }
+    },
+    {
+      "left_model": "Qwen/Qwen3-4B",
+      "right_model": "mistralai/Mistral-7B-Instruct-v0.3",
+      "metric_differences": {
+        "exact": {
+          "estimate": 0.08771929824561403,
+          "ci95_low": 0.026900584795321637,
+          "ci95_high": 0.14736842105263157,
+          "paired_sign_flip_p_value": 0.0047995200479952005,
+          "holm_adjusted_p_value": 0.019198080191980802,
+          "holm_reject_0_05": true
+        },
+        "partial_order": {
+          "estimate": 0.10292397660818713,
+          "ci95_low": 0.04678362573099415,
+          "ci95_high": 0.1567251461988304,
+          "paired_sign_flip_p_value": 0.00039996000399960006,
+          "holm_adjusted_p_value": 0.001999800019998,
+          "holm_reject_0_05": true
+        },
+        "goal_valid": {
+          "estimate": 0.17777777777777776,
+          "ci95_low": 0.12280701754385964,
+          "ci95_high": 0.23391812865497075,
+          "paired_sign_flip_p_value": 9.999000099990002e-05,
+          "holm_adjusted_p_value": 0.0014998500149985003,
+          "holm_reject_0_05": true
+        }
+      }
+    },
+    {
+      "left_model": "Qwen/Qwen3-4B",
+      "right_model": "allenai/OLMo-2-1124-7B-Instruct",
+      "metric_differences": {
+        "exact": {
+          "estimate": 0.7005847953216374,
+          "ci95_low": 0.6315497076023392,
+          "ci95_high": 0.7672514619883041,
+          "paired_sign_flip_p_value": 9.999000099990002e-05,
+          "holm_adjusted_p_value": 0.0014998500149985003,
+          "holm_reject_0_05": true
+        },
+        "partial_order": {
+          "estimate": 0.7415204678362572,
+          "ci95_low": 0.673654970760234,
+          "ci95_high": 0.8058479532163744,
+          "paired_sign_flip_p_value": 9.999000099990002e-05,
+          "holm_adjusted_p_value": 0.0014998500149985003,
+          "holm_reject_0_05": true
+        },
+        "goal_valid": {
+          "estimate": 0.8736842105263158,
+          "ci95_low": 0.8245614035087719,
+          "ci95_high": 0.9192982456140351,
+          "paired_sign_flip_p_value": 9.999000099990002e-05,
+          "holm_adjusted_p_value": 0.0014998500149985003,
+          "holm_reject_0_05": true
+        }
+      }
+    },
+    {
+      "left_model": "Qwen/Qwen3-4B",
+      "right_model": "Qwen/Qwen3-8B",
+      "metric_differences": {
+        "exact": {
+          "estimate": 0.09941520467836257,
+          "ci95_low": 0.042105263157894736,
+          "ci95_high": 0.1590643274853801,
+          "paired_sign_flip_p_value": 0.000999900009999,
+          "holm_adjusted_p_value": 0.004999500049995,
+          "holm_reject_0_05": true
+        },
+        "partial_order": {
+          "estimate": 0.09239766081871345,
+          "ci95_low": 0.03625730994152047,
+          "ci95_high": 0.15204678362573099,
+          "paired_sign_flip_p_value": 0.0016998300169983002,
+          "holm_adjusted_p_value": 0.006799320067993201,
+          "holm_reject_0_05": true
+        },
+        "goal_valid": {
+          "estimate": 0.10175438596491228,
+          "ci95_low": 0.045614035087719294,
+          "ci95_high": 0.15909356725146157,
+          "paired_sign_flip_p_value": 0.0008999100089991,
+          "holm_adjusted_p_value": 0.0035996400359964,
+          "holm_reject_0_05": true
+        }
+      }
+    },
+    {
+      "left_model": "Qwen/Qwen3-4B",
+      "right_model": "Qwen/Qwen3-14B",
+      "metric_differences": {
+        "exact": {
+          "estimate": -0.045614035087719294,
+          "ci95_low": -0.10292397660818714,
+          "ci95_high": 0.010526315789473684,
+          "paired_sign_flip_p_value": 0.11758824117588242,
+          "holm_adjusted_p_value": 0.35276472352764726,
+          "holm_reject_0_05": false
+        },
+        "partial_order": {
+          "estimate": -0.04912280701754386,
+          "ci95_low": -0.10292397660818714,
+          "ci95_high": 0.004678362573099415,
+          "paired_sign_flip_p_value": 0.08709129087091291,
+          "holm_adjusted_p_value": 0.2612738726127387,
+          "holm_reject_0_05": false
+        },
+        "goal_valid": {
+          "estimate": -0.017543859649122806,
+          "ci95_low": -0.05730994152046784,
+          "ci95_high": 0.02222222222222222,
+          "paired_sign_flip_p_value": 0.42285771422857715,
+          "holm_adjusted_p_value": 0.5123487651234877,
+          "holm_reject_0_05": false
+        }
+      }
+    },
+    {
+      "left_model": "microsoft/Phi-4-mini-instruct",
+      "right_model": "mistralai/Mistral-7B-Instruct-v0.3",
+      "metric_differences": {
+        "exact": {
+          "estimate": -0.5988304093567252,
+          "ci95_low": -0.6654970760233918,
+          "ci95_high": -0.5321637426900585,
+          "paired_sign_flip_p_value": 9.999000099990002e-05,
+          "holm_adjusted_p_value": 0.0014998500149985003,
+          "holm_reject_0_05": true
+        },
+        "partial_order": {
+          "estimate": -0.6187134502923977,
+          "ci95_low": -0.6830409356725146,
+          "ci95_high": -0.5532163742690058,
+          "paired_sign_flip_p_value": 9.999000099990002e-05,
+          "holm_adjusted_p_value": 0.0014998500149985003,
+          "holm_reject_0_05": true
+        },
+        "goal_valid": {
+          "estimate": -0.6760233918128655,
+          "ci95_low": -0.7333333333333334,
+          "ci95_high": -0.616374269005848,
+          "paired_sign_flip_p_value": 9.999000099990002e-05,
+          "holm_adjusted_p_value": 0.0014998500149985003,
+          "holm_reject_0_05": true
+        }
+      }
+    },
+    {
+      "left_model": "microsoft/Phi-4-mini-instruct",
+      "right_model": "allenai/OLMo-2-1124-7B-Instruct",
+      "metric_differences": {
+        "exact": {
+          "estimate": 0.014035087719298248,
+          "ci95_low": -0.019883040935672513,
+          "ci95_high": 0.0456140350877193,
+          "paired_sign_flip_p_value": 0.45665433456654336,
+          "holm_adjusted_p_value": 0.9133086691330867,
+          "holm_reject_0_05": false
+        },
+        "partial_order": {
+          "estimate": 0.019883040935672516,
+          "ci95_low": -0.011695906432748537,
+          "ci95_high": 0.05146198830409357,
+          "paired_sign_flip_p_value": 0.2511748825117488,
+          "holm_adjusted_p_value": 0.5023497650234976,
+          "holm_reject_0_05": false
+        },
+        "goal_valid": {
+          "estimate": 0.019883040935672516,
+          "ci95_low": -0.012865497076023392,
+          "ci95_high": 0.05029239766081872,
+          "paired_sign_flip_p_value": 0.25617438256174385,
+          "holm_adjusted_p_value": 0.5123487651234877,
+          "holm_reject_0_05": false
+        }
+      }
+    },
+    {
+      "left_model": "microsoft/Phi-4-mini-instruct",
+      "right_model": "Qwen/Qwen3-8B",
+      "metric_differences": {
+        "exact": {
+          "estimate": -0.5871345029239766,
+          "ci95_low": -0.6538011695906433,
+          "ci95_high": -0.519298245614035,
+          "paired_sign_flip_p_value": 9.999000099990002e-05,
+          "holm_adjusted_p_value": 0.0014998500149985003,
+          "holm_reject_0_05": true
+        },
+        "partial_order": {
+          "estimate": -0.6292397660818713,
+          "ci95_low": -0.6935672514619883,
+          "ci95_high": -0.5625730994152047,
+          "paired_sign_flip_p_value": 9.999000099990002e-05,
+          "holm_adjusted_p_value": 0.0014998500149985003,
+          "holm_reject_0_05": true
+        },
+        "goal_valid": {
+          "estimate": -0.752046783625731,
+          "ci95_low": -0.8070175438596491,
+          "ci95_high": -0.6935672514619883,
+          "paired_sign_flip_p_value": 9.999000099990002e-05,
+          "holm_adjusted_p_value": 0.0014998500149985003,
+          "holm_reject_0_05": true
+        }
+      }
+    },
+    {
+      "left_model": "microsoft/Phi-4-mini-instruct",
+      "right_model": "Qwen/Qwen3-14B",
+      "metric_differences": {
+        "exact": {
+          "estimate": -0.7321637426900585,
+          "ci95_low": -0.7894736842105263,
+          "ci95_high": -0.6736842105263158,
+          "paired_sign_flip_p_value": 9.999000099990002e-05,
+          "holm_adjusted_p_value": 0.0014998500149985003,
+          "holm_reject_0_05": true
+        },
+        "partial_order": {
+          "estimate": -0.7707602339181288,
+          "ci95_low": -0.8210526315789474,
+          "ci95_high": -0.7146198830409357,
+          "paired_sign_flip_p_value": 9.999000099990002e-05,
+          "holm_adjusted_p_value": 0.0014998500149985003,
+          "holm_reject_0_05": true
+        },
+        "goal_valid": {
+          "estimate": -0.8713450292397661,
+          "ci95_low": -0.9076023391812865,
+          "ci95_high": -0.831578947368421,
+          "paired_sign_flip_p_value": 9.999000099990002e-05,
+          "holm_adjusted_p_value": 0.0014998500149985003,
+          "holm_reject_0_05": true
+        }
+      }
+    },
+    {
+      "left_model": "mistralai/Mistral-7B-Instruct-v0.3",
+      "right_model": "allenai/OLMo-2-1124-7B-Instruct",
+      "metric_differences": {
+        "exact": {
+          "estimate": 0.6128654970760233,
+          "ci95_low": 0.5415204678362573,
+          "ci95_high": 0.6818713450292397,
+          "paired_sign_flip_p_value": 9.999000099990002e-05,
+          "holm_adjusted_p_value": 0.0014998500149985003,
+          "holm_reject_0_05": true
+        },
+        "partial_order": {
+          "estimate": 0.6385964912280702,
+          "ci95_low": 0.5684210526315789,
+          "ci95_high": 0.7052631578947368,
+          "paired_sign_flip_p_value": 9.999000099990002e-05,
+          "holm_adjusted_p_value": 0.0014998500149985003,
+          "holm_reject_0_05": true
+        },
+        "goal_valid": {
+          "estimate": 0.695906432748538,
+          "ci95_low": 0.6280701754385966,
+          "ci95_high": 0.7578947368421052,
+          "paired_sign_flip_p_value": 9.999000099990002e-05,
+          "holm_adjusted_p_value": 0.0014998500149985003,
+          "holm_reject_0_05": true
+        }
+      }
+    },
+    {
+      "left_model": "mistralai/Mistral-7B-Instruct-v0.3",
+      "right_model": "Qwen/Qwen3-8B",
+      "metric_differences": {
+        "exact": {
+          "estimate": 0.01169590643274854,
+          "ci95_low": -0.0608187134502924,
+          "ci95_high": 0.08654970760233918,
+          "paired_sign_flip_p_value": 0.7815218478152185,
+          "holm_adjusted_p_value": 0.9133086691330867,
+          "holm_reject_0_05": false
+        },
+        "partial_order": {
+          "estimate": -0.01052631578947368,
+          "ci95_low": -0.08070175438596489,
+          "ci95_high": 0.0608187134502924,
+          "paired_sign_flip_p_value": 0.8021197880211979,
+          "holm_adjusted_p_value": 0.8021197880211979,
+          "holm_reject_0_05": false
+        },
+        "goal_valid": {
+          "estimate": -0.07602339181286549,
+          "ci95_low": -0.15087719298245614,
+          "ci95_high": -0.002339181286549701,
+          "paired_sign_flip_p_value": 0.051794820517948204,
+          "holm_adjusted_p_value": 0.1553844615538446,
+          "holm_reject_0_05": false
+        }
+      }
+    },
+    {
+      "left_model": "mistralai/Mistral-7B-Instruct-v0.3",
+      "right_model": "Qwen/Qwen3-14B",
+      "metric_differences": {
+        "exact": {
+          "estimate": -0.13333333333333333,
+          "ci95_low": -0.19181286549707602,
+          "ci95_high": -0.07485380116959063,
+          "paired_sign_flip_p_value": 9.999000099990002e-05,
+          "holm_adjusted_p_value": 0.0014998500149985003,
+          "holm_reject_0_05": true
+        },
+        "partial_order": {
+          "estimate": -0.15204678362573099,
+          "ci95_low": -0.20584795321637428,
+          "ci95_high": -0.10058479532163743,
+          "paired_sign_flip_p_value": 9.999000099990002e-05,
+          "holm_adjusted_p_value": 0.0014998500149985003,
+          "holm_reject_0_05": true
+        },
+        "goal_valid": {
+          "estimate": -0.19532163742690056,
+          "ci95_low": -0.24912280701754386,
+          "ci95_high": -0.143859649122807,
+          "paired_sign_flip_p_value": 9.999000099990002e-05,
+          "holm_adjusted_p_value": 0.0014998500149985003,
+          "holm_reject_0_05": true
+        }
+      }
+    },
+    {
+      "left_model": "allenai/OLMo-2-1124-7B-Instruct",
+      "right_model": "Qwen/Qwen3-8B",
+      "metric_differences": {
+        "exact": {
+          "estimate": -0.6011695906432748,
+          "ci95_low": -0.6713742690058478,
+          "ci95_high": -0.5274853801169591,
+          "paired_sign_flip_p_value": 9.999000099990002e-05,
+          "holm_adjusted_p_value": 0.0014998500149985003,
+          "holm_reject_0_05": true
+        },
+        "partial_order": {
+          "estimate": -0.6491228070175439,
+          "ci95_low": -0.7169883040935672,
+          "ci95_high": -0.5789473684210527,
+          "paired_sign_flip_p_value": 9.999000099990002e-05,
+          "holm_adjusted_p_value": 0.0014998500149985003,
+          "holm_reject_0_05": true
+        },
+        "goal_valid": {
+          "estimate": -0.7719298245614035,
+          "ci95_low": -0.830438596491228,
+          "ci95_high": -0.7087719298245614,
+          "paired_sign_flip_p_value": 9.999000099990002e-05,
+          "holm_adjusted_p_value": 0.0014998500149985003,
+          "holm_reject_0_05": true
+        }
+      }
+    },
+    {
+      "left_model": "allenai/OLMo-2-1124-7B-Instruct",
+      "right_model": "Qwen/Qwen3-14B",
+      "metric_differences": {
+        "exact": {
+          "estimate": -0.7461988304093566,
+          "ci95_low": -0.8093567251461988,
+          "ci95_high": -0.6818713450292397,
+          "paired_sign_flip_p_value": 9.999000099990002e-05,
+          "holm_adjusted_p_value": 0.0014998500149985003,
+          "holm_reject_0_05": true
+        },
+        "partial_order": {
+          "estimate": -0.7906432748538011,
+          "ci95_low": -0.8491228070175438,
+          "ci95_high": -0.7309941520467836,
+          "paired_sign_flip_p_value": 9.999000099990002e-05,
+          "holm_adjusted_p_value": 0.0014998500149985003,
+          "holm_reject_0_05": true
+        },
+        "goal_valid": {
+          "estimate": -0.8912280701754386,
+          "ci95_low": -0.9321637426900585,
+          "ci95_high": -0.8467836257309942,
+          "paired_sign_flip_p_value": 9.999000099990002e-05,
+          "holm_adjusted_p_value": 0.0014998500149985003,
+          "holm_reject_0_05": true
+        }
+      }
+    },
+    {
+      "left_model": "Qwen/Qwen3-8B",
+      "right_model": "Qwen/Qwen3-14B",
+      "metric_differences": {
+        "exact": {
+          "estimate": -0.14502923976608187,
+          "ci95_low": -0.21169590643274855,
+          "ci95_high": -0.0783625730994152,
+          "paired_sign_flip_p_value": 9.999000099990002e-05,
+          "holm_adjusted_p_value": 0.0014998500149985003,
+          "holm_reject_0_05": true
+        },
+        "partial_order": {
+          "estimate": -0.1415204678362573,
+          "ci95_low": -0.20818713450292398,
+          "ci95_high": -0.0783625730994152,
+          "paired_sign_flip_p_value": 9.999000099990002e-05,
+          "holm_adjusted_p_value": 0.0014998500149985003,
+          "holm_reject_0_05": true
+        },
+        "goal_valid": {
+          "estimate": -0.11929824561403508,
+          "ci95_low": -0.17894736842105263,
+          "ci95_high": -0.05964912280701754,
+          "paired_sign_flip_p_value": 9.999000099990002e-05,
+          "holm_adjusted_p_value": 0.0014998500149985003,
+          "holm_reject_0_05": true
+        }
+      }
+    }
+  ]
+}

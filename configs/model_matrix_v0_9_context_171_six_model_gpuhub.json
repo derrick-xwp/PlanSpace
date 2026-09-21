@@ -1,0 +1,81 @@
+{
+  "matrix_version": "planspace_model_matrix_v0.9_context_171_six_model",
+  "protocol_version": "planspace_text_plan_v0.6-v04-uniform-compact",
+  "queue": "artifacts/action_semantics_supported_queue_171_context_v0_1.json",
+  "task_count": 171,
+  "source_root": "external/behavior-1k/bddl/activity_definitions",
+  "generic_domain_version": "planspace_generic_household_v0.4-candidate",
+  "analysis_domain_audit": "artifacts/generic_domain_audit_175_v05.json",
+  "split_manifest": "artifacts/structural_splits_171_context_v0_1.json",
+  "artifact_suffix": "v0_9_context171_six",
+  "evidence_status": "v0_9_context_compatible_171_six_model_feasibility_filtered",
+  "prompt_template": "uniform_compact_action_catalog_v1",
+  "fit_context": false,
+  "decoding": {
+    "samples_per_task": 5,
+    "seed_base": 20260914,
+    "temperature": 0.7,
+    "top_p": 0.9,
+    "max_new_tokens": 512,
+    "enable_thinking": false
+  },
+  "models": [
+    {
+      "slug": "qwen3_4b",
+      "role": "same-family lower-scale expanded-coverage control",
+      "model_id": "Qwen/Qwen3-4B",
+      "revision": "1cfa9a7208912126459214e8b04321603b3df60c",
+      "local_dir": "Qwen3-4B",
+      "prompt_policy": "uniform_compact_action_catalog_v1"
+    },
+    {
+      "slug": "phi4_mini",
+      "role": "compact cross-family expanded-coverage control",
+      "model_id": "microsoft/Phi-4-mini-instruct",
+      "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+      "local_dir": "Phi-4-mini-instruct",
+      "prompt_policy": "uniform_compact_action_catalog_v1"
+    },
+    {
+      "slug": "mistral_7b",
+      "role": "cross-family 7B expanded-coverage control",
+      "model_id": "mistralai/Mistral-7B-Instruct-v0.3",
+      "revision": "c170c708c41dac9275d15a8fff4eca08d52bab71",
+      "local_dir": "Mistral-7B-Instruct-v0.3",
+      "ignore_patterns": [
+        "consolidated.safetensors"
+      ],
+      "prompt_policy": "uniform_compact_action_catalog_v1"
+    },
+    {
+      "slug": "olmo2_7b",
+      "role": "cross-family 7B expanded-coverage control",
+      "model_id": "allenai/OLMo-2-1124-7B-Instruct",
+      "revision": "470b1fba1ae01581f270116362ee4aa1b97f4c84",
+      "local_dir": "OLMo-2-1124-7B-Instruct",
+      "prompt_policy": "uniform_compact_action_catalog_v1"
+    },
+    {
+      "slug": "qwen3_8b",
+      "role": "primary mid-scale expanded-coverage model",
+      "model_id": "Qwen/Qwen3-8B",
+      "revision": "b968826d9c46dd6066d109eabc6255188de91218",
+      "local_dir": "Qwen3-8B",
+      "prompt_policy": "uniform_compact_action_catalog_v1"
+    },
+    {
+      "slug": "qwen3_14b",
+      "role": "same-family upper-scale expanded-coverage control",
+      "model_id": "Qwen/Qwen3-14B",
+      "revision": "40c069824f4251a91eefaf281ebe4c544efd3e18",
+      "local_dir": "Qwen3-14B",
+      "prompt_policy": "uniform_compact_action_catalog_v1"
+    }
+  ],
+  "feasibility_filter": {
+    "audit": "artifacts/prompt_context_compatibility_173_v0_1.json",
+    "audit_sha256": "94a278b2c72dc2d36d341745064187f8da908ac0b6439799d693bad1d4344384",
+    "rule": "retain iff frozen serialized chat plus the shared 512-token output budget fits the minimum checkpoint context window",
+    "decision_independent_of_model_outputs": true
+  }
+}

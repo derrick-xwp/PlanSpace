@@ -1,0 +1,17 @@
+{
+  "release": "reviewer-public-20260921",
+  "artifact_status": "frozen reviewer artifact",
+  "primary_run": "v0_9_context171_six",
+  "task_count": 171,
+  "model_count": 6,
+  "samples_per_task": 5,
+  "output_count": 5130,
+  "python": ">=3.9",
+  "primary_config": "configs/model_matrix_v0_9_context_171_six_model_gpuhub.json",
+  "primary_verifier": "python -m scripts.verify_v09_context_release",
+  "evidence_boundaries": [
+    "symbolic replay is not physical robot validation",
+    "internal AI-assisted audits are not independent human validation",
+    "the task set is filtered for action-model support and shared context fit"
+  ]
+}

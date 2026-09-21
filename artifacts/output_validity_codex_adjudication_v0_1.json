@@ -1,0 +1,190 @@
+{
+  "adjudicator_role": "independent_disagreement_adjudicator",
+  "packet_version": "planspace-output-validity-adjudication-v0.1",
+  "decisions": [
+    {
+      "audit_id": "output-validity-004",
+      "interface_compliant": "no",
+      "valid_at_declared_abstraction": "yes",
+      "reasonable_high_level_behavior": "yes",
+      "confidence": "high",
+      "rationale": "Markdown fences violate the literal JSON-only interface. The supplied parsed plan opens the cabinet before accessing its contents and achieves all three crib goals without violating declared constraints."
+    },
+    {
+      "audit_id": "output-validity-007",
+      "interface_compliant": "no",
+      "valid_at_declared_abstraction": "no",
+      "reasonable_high_level_behavior": "yes",
+      "confidence": "medium",
+      "rationale": "Malformed, truncated JSON and metadata-bearing entries provide no executable plan. Nevertheless, all four intended firework-to-ashcan transfers are discernible and match the supplied disposal intent; the evidence does not establish an additional household-level objection."
+    },
+    {
+      "audit_id": "output-validity-010",
+      "interface_compliant": "no",
+      "valid_at_declared_abstraction": "no",
+      "reasonable_high_level_behavior": "yes",
+      "confidence": "high",
+      "rationale": "Fences and the undeclared action_id= prefix violate the interface, leaving no executable declared action. The expressed hot-tub relocation matches the household goal; movement feasibility is outside scope."
+    },
+    {
+      "audit_id": "output-validity-015",
+      "interface_compliant": "no",
+      "valid_at_declared_abstraction": "no",
+      "reasonable_high_level_behavior": "yes",
+      "confidence": "high",
+      "rationale": "The fenced output uses undeclared prefixed identifiers and cannot execute as submitted. Its five clearly expressed transfers sensibly put every required grocery item at checkout."
+    },
+    {
+      "audit_id": "output-validity-021",
+      "interface_compliant": "no",
+      "valid_at_declared_abstraction": "no",
+      "reasonable_high_level_behavior": "yes",
+      "confidence": "high",
+      "rationale": "Fences and action_id= prefixes fail literal interface requirements and declared-action matching. The intended barrow and lawn-chair relocations correctly express both household goals."
+    },
+    {
+      "audit_id": "output-validity-024",
+      "interface_compliant": "no",
+      "valid_at_declared_abstraction": "no",
+      "reasonable_high_level_behavior": "yes",
+      "confidence": "medium",
+      "rationale": "Malformed JSON and embedded action metadata prevent execution. The discernible log_1 transfer is sensible and matches the supplied source expression, whose quantified body explicitly names log_1 rather than requiring all four logs."
+    },
+    {
+      "audit_id": "output-validity-041",
+      "interface_compliant": "no",
+      "valid_at_declared_abstraction": "no",
+      "reasonable_high_level_behavior": "yes",
+      "confidence": "medium",
+      "rationale": "The final comic-book identifier is undeclared, so the submitted plan is rejected. Its intended destinations coherently sort newspapers, magazines, mail, and the comic book; stack manipulation alone does not establish a household-intent loophole within the stated scope."
+    },
+    {
+      "audit_id": "output-validity-047",
+      "interface_compliant": "no",
+      "valid_at_declared_abstraction": "no",
+      "reasonable_high_level_behavior": "yes",
+      "confidence": "high",
+      "rationale": "Fences and undeclared action_id= prefixes prevent literal compliance and execution. The expressed behavior sensibly switches off all three switches and both lamps."
+    },
+    {
+      "audit_id": "output-validity-048",
+      "interface_compliant": "no",
+      "valid_at_declared_abstraction": "no",
+      "reasonable_high_level_behavior": "yes",
+      "confidence": "high",
+      "rationale": "The fenced, prefixed identifiers are not executable declared actions. The intended sequence brings both cartons and money to checkout; unnecessary carton opening does not make that household behavior clearly implausible."
+    },
+    {
+      "audit_id": "output-validity-050",
+      "interface_compliant": "no",
+      "valid_at_declared_abstraction": "no",
+      "reasonable_high_level_behavior": "no",
+      "confidence": "high",
+      "rationale": "Markdown fences violate the interface. The extracted actions can place both items in the bin, but leave it open, failing the explicit closure goal and the requested completed behavior."
+    },
+    {
+      "audit_id": "output-validity-051",
+      "interface_compliant": "no",
+      "valid_at_declared_abstraction": "no",
+      "reasonable_high_level_behavior": "yes",
+      "confidence": "high",
+      "rationale": "Although the outer JSON is valid, its metadata-bearing strings are not declared action identifiers. The clearly expressed barrow and chair transfers remain a sensible household solution, independently of that execution failure."
+    },
+    {
+      "audit_id": "output-validity-052",
+      "interface_compliant": "no",
+      "valid_at_declared_abstraction": "no",
+      "reasonable_high_level_behavior": "no",
+      "confidence": "high",
+      "rationale": "Fences violate the literal interface. The extracted plan stores the groceries but omits both required closing actions, leaving the cabinet and refrigerator open and the household task incomplete."
+    },
+    {
+      "audit_id": "output-validity-056",
+      "interface_compliant": "no",
+      "valid_at_declared_abstraction": "no",
+      "reasonable_high_level_behavior": "yes",
+      "confidence": "high",
+      "rationale": "The metadata-bearing action string does not match the declared identifier, so no executable plan is recovered. Its intended driveway-to-coffee-table newspaper transfer is complete and sensible at the household-intent layer."
+    },
+    {
+      "audit_id": "output-validity-066",
+      "interface_compliant": "no",
+      "valid_at_declared_abstraction": "no",
+      "reasonable_high_level_behavior": "no",
+      "confidence": "high",
+      "rationale": "Fences violate the interface. The first CLOSE requires an open car, but the car starts closed; the racket also requires opening, and the container is never loaded. These are substantive failures of the loading task."
+    },
+    {
+      "audit_id": "output-validity-077",
+      "interface_compliant": "no",
+      "valid_at_declared_abstraction": "no",
+      "reasonable_high_level_behavior": "no",
+      "confidence": "high",
+      "rationale": "Fences violate the interface. Step 2 reuses bowl_1's table location deleted by step 1; analogous duplicate transfers recur, and the catsup bottle is omitted. The sequence neither executes nor coherently completes table clearing."
+    },
+    {
+      "audit_id": "output-validity-079",
+      "interface_compliant": "yes",
+      "valid_at_declared_abstraction": "no",
+      "reasonable_high_level_behavior": "yes",
+      "confidence": "high",
+      "rationale": "The JSON and identifiers comply, and both actions are executable. The declared effects never establish direct inside(half__pizza, ashcan), so the compiled goal fails. Discarding the closed box containing the pizza nevertheless reasonably disposes of both at the household-intent layer."
+    },
+    {
+      "audit_id": "output-validity-082",
+      "interface_compliant": "yes",
+      "valid_at_declared_abstraction": "yes",
+      "reasonable_high_level_behavior": "yes",
+      "confidence": "high",
+      "rationale": "The declared transfers satisfy their preconditions and preserve an acyclic stack, reaching the first goal alternative. Stacking two containers and moving the stack is not clearly implausible household behavior; rejecting it would require unsupported grasping, stability, or motion assumptions."
+    },
+    {
+      "audit_id": "output-validity-084",
+      "interface_compliant": "no",
+      "valid_at_declared_abstraction": "yes",
+      "reasonable_high_level_behavior": "yes",
+      "confidence": "high",
+      "rationale": "Markdown fences fail the literal JSON-only interface. Independently, all seven supplied parsed transfers are executable, satisfy the declared constraints, and achieve the food-placement and payment goals sensibly."
+    },
+    {
+      "audit_id": "output-validity-092",
+      "interface_compliant": "yes",
+      "valid_at_declared_abstraction": "yes",
+      "reasonable_high_level_behavior": "yes",
+      "confidence": "high",
+      "rationale": "The compliant plan executes both declared actions and achieves placement and power goals. Powering on before placement is not clearly unreasonable on this evidence; toggled_on does not establish active printing or a prohibited relocation condition."
+    },
+    {
+      "audit_id": "output-validity-095",
+      "interface_compliant": "no",
+      "valid_at_declared_abstraction": "no",
+      "reasonable_high_level_behavior": "no",
+      "confidence": "high",
+      "rationale": "Fences violate the interface. The extracted sequence packs all five tools but leaves the toolbox open, failing an explicit compiled goal and omitting the requested final household state."
+    },
+    {
+      "audit_id": "output-validity-097",
+      "interface_compliant": "no",
+      "valid_at_declared_abstraction": "no",
+      "reasonable_high_level_behavior": "no",
+      "confidence": "high",
+      "rationale": "Fences violate literal compliance. The extracted actions deliver the mail but leave the mailbox open, so the explicit closure requirement and complete household intent remain unmet."
+    },
+    {
+      "audit_id": "output-validity-113",
+      "interface_compliant": "yes",
+      "valid_at_declared_abstraction": "no",
+      "reasonable_high_level_behavior": "yes",
+      "confidence": "medium",
+      "rationale": "The JSON uses declared identifiers, but the second OPEN fails because the first deleted not_open(carton). At the household-intent layer, that redundant opening does not create a semantic shortcut; the expressed setup otherwise covers all requested placements and computer activation."
+    },
+    {
+      "audit_id": "output-validity-120",
+      "interface_compliant": "no",
+      "valid_at_declared_abstraction": "no",
+      "reasonable_high_level_behavior": "no",
+      "confidence": "high",
+      "rationale": "Fences violate the interface. The wildcard-named cabinet is a declared symbolic object, but it starts closed and every selected transfer requires it open. Attempting to store all plates without opening it fails both symbolic execution and coherent household behavior."
+    }
+  ]
+}

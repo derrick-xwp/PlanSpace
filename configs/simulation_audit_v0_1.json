@@ -1,0 +1,100 @@
+{
+  "schema_version": "planspace.simulation_audit.v0.1",
+  "simulator": {
+    "name": "Isaac Sim",
+    "version": "4.0.0",
+    "physics_backend": "PhysX",
+    "device": "cuda:0",
+    "physics_dt_seconds": 0.016666666666666666,
+    "render_dt_seconds": 0.016666666666666666
+  },
+  "robot": {
+    "model": "Franka Emika Panda",
+    "mount": "fixed_base",
+    "controller": "Isaac Sim Franka PickPlaceController",
+    "state_source": "simulator_ground_truth"
+  },
+  "pilot": {
+    "selection_policy": "Select the first asset-instantiable candidate in each ordered stratum before observing rollout outcomes.",
+    "strata": [
+      {
+        "name": "goal_choice",
+        "ordered_candidates": [
+          "store_batteries",
+          "storing_food",
+          "sorting_art_supplies"
+        ]
+      },
+      {
+        "name": "long_horizon",
+        "ordered_candidates": [
+          "putting_shopping_away",
+          "clean_up_your_desk",
+          "putting_leftovers_away"
+        ]
+      },
+      {
+        "name": "operator_composition",
+        "ordered_candidates": [
+          "set_up_a_home_office_in_your_garage",
+          "bringing_water",
+          "bringing_glass_to_recycling"
+        ]
+      }
+    ],
+    "selected_tasks": [
+      {
+        "stratum": "goal_choice",
+        "activity": "store_batteries",
+        "positive_source": {
+          "kind": "validated_goal_family",
+          "reference_family_index": 1
+        }
+      },
+      {
+        "stratum": "long_horizon",
+        "activity": "putting_shopping_away",
+        "positive_source": {
+          "kind": "observed_model_output",
+          "sample_index": 0
+        }
+      },
+      {
+        "stratum": "operator_composition",
+        "activity": "set_up_a_home_office_in_your_garage",
+        "positive_source": {
+          "kind": "observed_model_output",
+          "sample_index": 0
+        }
+      }
+    ],
+    "conditions": [
+      "reference",
+      "replay_valid_nonreference",
+      "required_action_deletion"
+    ],
+    "seeds": [
+      1001,
+      1002,
+      1003
+    ],
+    "expected_rollouts": 27
+  },
+  "acceptance": {
+    "smoke": {
+      "minimum_lift_meters": 0.1,
+      "maximum_terminal_position_error_meters": 0.05,
+      "release_stability_seconds": 2.0,
+      "maximum_stable_linear_speed_mps": 0.01,
+      "require_rgb_evidence": true,
+      "require_trace_json": true
+    },
+    "pilot_expansion_gate": {
+      "minimum_reference_tasks_with_two_of_three_successes": 2,
+      "minimum_successful_nonreference_rollouts": 1,
+      "maximum_successful_deletion_controls": 0,
+      "require_failure_attribution": true
+    }
+  },
+  "claim_boundary": "Supports only a bounded fixed-simulator, fixed-controller manipulation audit; it is not full BEHAVIOR-1K physical validation or sim-to-real evidence."
+}

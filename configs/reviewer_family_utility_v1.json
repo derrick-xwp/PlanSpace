@@ -1,0 +1,24 @@
+{
+  "status": "frozen_before_heldout_perturbation_evaluation",
+  "version": "reviewer-family-utility-v1",
+  "source_split": "artifacts/reviewer_revision_20260919/input_freeze.json",
+  "source_matrix": "artifacts/reviewer_revision_20260919/fireplace_repair_verification.json",
+  "methods": ["random", "exact_diversity", "action_multiset_diversity", "known_relaxed_family_diversity"],
+  "selection_budget": 3,
+  "selection_seeds": [7, 19, 41],
+  "candidate_pool": "Each model/task's five draws, filtered by original goal replay; no other models, search solutions, or reference plans added.",
+  "selection_policy": "Shuffle valid sample indices with the fixed seed. Random takes the first up to three. Diversity variants first take one sample per distinct group in that order, then fill from remaining shuffled samples to the same budget. Do not inspect perturbation outcomes during selection.",
+  "exact_group": "Tuple of action IDs, preserving multiplicity and order.",
+  "multiset_group": "Sorted action-ID counts.",
+  "family_group": "Tuple of matched relaxed constructed family indices; all unmatched plans share an explicit unknown bucket, not a claim of equivalence.",
+  "perturbations": [
+    "One grounded transfer skill is unavailable.",
+    "All transfers to one destination are unavailable.",
+    "One grounded open skill is unavailable.",
+    "One grounded toggle skill is unavailable."
+  ],
+  "perturbation_selection": "For each type select the candidate with smallest SHA-256(task ID + type + candidate ID) from the problem's complete grounded action catalog, never from model outputs. If no eligible candidate exists, mark N/A. Original state and goal do not change; plans containing unavailable skills fail the perturbed availability contract.",
+  "metrics": ["Any selected plan remains executable and goal-valid", "Number of distinct successful plans selected", "Mean selected action count", "Applicable task-scenario coverage"],
+  "statistics": "Task-cluster bootstrap on held-out tasks, 10000 resamples; preserve all model/seed/scenario rows per task. Report differences to random with descriptive 95% intervals; do not treat repeated seeds or scenarios as independent tasks.",
+  "boundary": "Post-hoc symbolic skill-availability stress test, not physical robustness, model repair, or original-task accuracy. Family diversity need not outperform cheaper grouping; null results require reducing the claimed practical necessity of family membership. The task split is 36 development and 135 heldout; development sanity checks precede heldout execution."
+}

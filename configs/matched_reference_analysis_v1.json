@@ -1,0 +1,15 @@
+{
+  "analysis": "matched-reference post-hoc representation audit",
+  "domain": "domain-v2",
+  "reference_budgets": [1, 3, 5, "all"],
+  "selection_seeds": [7, 19, 41],
+  "selection": "Shuffle the archived, lexically ordered representatives with random.Random(seed), independently of outputs; take a nested prefix of min(k, available). Reuse exactly the same indices for all scoring rules.",
+  "rules": ["exact", "family", "relaxed", "multiset"],
+  "corpora": ["corrected 5130 natural outputs", "archived 591 search probes", "all distinct adjacent swaps of each task's designated reference"],
+  "control_policy": "Select the designated reference before reading outcomes. Enumerate every adjacent swap, omit the unchanged sequence and deduplicate per task. Replay supplies labels; no DAG-based filtering. Score controls against their single source reference.",
+  "bootstrap_trials": 10000,
+  "bootstrap_seed": 20260921,
+  "bootstrap_unit": "task; keep all model outputs and average reference-selection seeds within each task",
+  "purpose": "Separate the effect of adding references from the effect of relaxing their total orders. This is not a model-selection or physical-success experiment.",
+  "status": "Analysis design fixed before computing the new matched-reference results; existing outcomes and prior sensitivity findings are already known. Not a prospective preregistration."
+}

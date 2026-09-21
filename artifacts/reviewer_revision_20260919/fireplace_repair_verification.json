@@ -1,0 +1,61 @@
+{
+  "models": [
+    {
+      "model": "Qwen/Qwen3-4B",
+      "repair_valid": 5,
+      "n": 5,
+      "corrected_artifact": "artifacts/reviewer_revision_20260919/corrected_matrix_v1/qwen3_4b_enriched.json",
+      "sha256": "fa0c854278e25a65387a6ddafcc2690208df495576ba12c17e34e61bc9fb6794",
+      "old_prompt": "6af56052e435b8835fce3d7aff4bb3d5937e0a143eb95f0b21ea0e3e70557019",
+      "corrected_prompt": "9284d5a8a8c18a9f33c4d569a2e6fba594103d853a7f269f43848c9ff6dbf82a"
+    },
+    {
+      "model": "microsoft/Phi-4-mini-instruct",
+      "repair_valid": 0,
+      "n": 5,
+      "corrected_artifact": "artifacts/reviewer_revision_20260919/corrected_matrix_v1/phi4_mini_enriched.json",
+      "sha256": "05502687180097683a5c91874eaf1e9e152e0954c8409efa46f3a76fc5cc1cd0",
+      "old_prompt": "6af56052e435b8835fce3d7aff4bb3d5937e0a143eb95f0b21ea0e3e70557019",
+      "corrected_prompt": "9284d5a8a8c18a9f33c4d569a2e6fba594103d853a7f269f43848c9ff6dbf82a"
+    },
+    {
+      "model": "mistralai/Mistral-7B-Instruct-v0.3",
+      "repair_valid": 5,
+      "n": 5,
+      "corrected_artifact": "artifacts/reviewer_revision_20260919/corrected_matrix_v1/mistral_7b_enriched.json",
+      "sha256": "04e74cfbc8c8aa28c71f3548e9343361fae6d61a7d29353402f26e55feca704d",
+      "old_prompt": "6af56052e435b8835fce3d7aff4bb3d5937e0a143eb95f0b21ea0e3e70557019",
+      "corrected_prompt": "9284d5a8a8c18a9f33c4d569a2e6fba594103d853a7f269f43848c9ff6dbf82a"
+    },
+    {
+      "model": "allenai/OLMo-2-1124-7B-Instruct",
+      "repair_valid": 0,
+      "n": 5,
+      "corrected_artifact": "artifacts/reviewer_revision_20260919/corrected_matrix_v1/olmo2_7b_enriched.json",
+      "sha256": "ae1299fc1b97b841a59f0c03f1f3407c0df978d62bb05e378c8932820f48b922",
+      "old_prompt": "6af56052e435b8835fce3d7aff4bb3d5937e0a143eb95f0b21ea0e3e70557019",
+      "corrected_prompt": "9284d5a8a8c18a9f33c4d569a2e6fba594103d853a7f269f43848c9ff6dbf82a"
+    },
+    {
+      "model": "Qwen/Qwen3-8B",
+      "repair_valid": 5,
+      "n": 5,
+      "corrected_artifact": "artifacts/reviewer_revision_20260919/corrected_matrix_v1/qwen3_8b_enriched.json",
+      "sha256": "88b43d138244d6a69a4d6a56fbf492a42ced01459482a639e40bef32f068b307",
+      "old_prompt": "6af56052e435b8835fce3d7aff4bb3d5937e0a143eb95f0b21ea0e3e70557019",
+      "corrected_prompt": "9284d5a8a8c18a9f33c4d569a2e6fba594103d853a7f269f43848c9ff6dbf82a"
+    },
+    {
+      "model": "Qwen/Qwen3-14B",
+      "repair_valid": 5,
+      "n": 5,
+      "corrected_artifact": "artifacts/reviewer_revision_20260919/corrected_matrix_v1/qwen3_14b_enriched.json",
+      "sha256": "05a7a36be7781ec7148d44cb9afaad9a76cb2e5d7afc8afb5595fe4bcd71f948",
+      "old_prompt": "6af56052e435b8835fce3d7aff4bb3d5937e0a143eb95f0b21ea0e3e70557019",
+      "corrected_prompt": "9284d5a8a8c18a9f33c4d569a2e6fba594103d853a7f269f43848c9ff6dbf82a"
+    }
+  ],
+  "outputs": 30,
+  "archive_sha256": "aeeee54bc6493d5683e351c6323e7f594e39eeee8c6de17cdb0b521095c9aa72",
+  "boundary": "Task-consistent corrected track; not a hardware-controlled rerun."
+}

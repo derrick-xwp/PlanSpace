@@ -1,0 +1,77 @@
+{
+  "schema_version": "planspace.simulation_operator_mapping.v0.1",
+  "evidence_status": "frozen_before_first_simulator_rollout",
+  "scene_family": {
+    "name": "procedural_tabletop_proxy_v0.1",
+    "purpose": "Test plan ordering and alternative goal bindings under repeatable physical manipulation without claiming category-faithful BEHAVIOR assets.",
+    "geometry_source": "Procedural Isaac Sim cuboids and fixed supports only.",
+    "camera_policy": "One fixed camera transform and resolution for every condition within a task.",
+    "initialization": "Deterministic layout by task source hash with seed-specific XY jitter bounded to plus or minus 0.005 m."
+  },
+  "operator_mappings": {
+    "transfer": {
+      "controller_primitive": "Franka PickPlaceController grasp-lift-transport-release",
+      "physical_proxy": "A unique dynamic cuboid represents the transferred object; labeled support or containment slots represent source and target relations.",
+      "success_predicate": "Object center lies inside the frozen target slot tolerance after a two-second release-stability window.",
+      "maximum_xy_error_m": 0.04,
+      "maximum_z_error_m": 0.04,
+      "maximum_stable_linear_speed_mps": 0.01
+    },
+    "open": {
+      "controller_primitive": "Franka PickPlaceController removes a receptacle lid token to its open parking slot.",
+      "physical_proxy": "A dynamic lid cuboid physically blocks the receptacle access slot while closed.",
+      "success_predicate": "Lid token lies in the open parking slot and the access region is unobstructed."
+    },
+    "close": {
+      "controller_primitive": "Franka PickPlaceController returns the lid token to the closed slot.",
+      "physical_proxy": "The same dynamic lid cuboid used by open.",
+      "success_predicate": "Lid token lies in the closed slot within the frozen pose tolerance."
+    },
+    "toggle_on": {
+      "controller_primitive": "Franka PickPlaceController moves a switch token from the off slot to the on slot.",
+      "physical_proxy": "A dynamic switch cuboid with visibly distinct off and on fixtures.",
+      "success_predicate": "Switch token lies in the on slot within the frozen pose tolerance."
+    },
+    "toggle_off": {
+      "controller_primitive": "Franka PickPlaceController moves a switch token from the on slot to the off slot.",
+      "physical_proxy": "The same dynamic switch cuboid used by toggle_on.",
+      "success_predicate": "Switch token lies in the off slot within the frozen pose tolerance."
+    }
+  },
+  "execution_budget": {
+    "attempts_per_action": 1,
+    "maximum_physics_steps_per_action": 3000,
+    "physics_hz": 60,
+    "post_release_stability_steps": 120,
+    "manual_intervention": false,
+    "condition_specific_tuning": false
+  },
+  "rollout_success": {
+    "reference_and_nonreference": "Every listed action succeeds and every frozen terminal symbolic goal has a corresponding measured proxy predicate.",
+    "required_action_deletion": "Execute every listed action, then evaluate the unchanged full terminal goal; success is expected to be false.",
+    "asset_or_layout_failure": "Count as a failed rollout and preserve the failure; never replace the task."
+  },
+  "failure_taxonomy": [
+    "scene_instantiation",
+    "inverse_kinematics_or_controller",
+    "grasp",
+    "collision_or_displacement",
+    "action_timeout",
+    "release_instability",
+    "operator_proxy_mismatch",
+    "terminal_goal_mismatch"
+  ],
+  "evidence": {
+    "required_per_rollout": [
+      "result.json",
+      "action_trace.json",
+      "initial.png",
+      "diagnostic.png",
+      "terminal.png",
+      "rollout.mp4"
+    ],
+    "preserve_failures": true,
+    "screenshot_selection": "Use the frozen pilot anchors in stratum order; never replace a failed row with a successful task."
+  },
+  "claim_boundary": "This is a procedural proxy-scene manipulation audit of plan order and goal binding under one robot and controller. It is not BEHAVIOR-native asset execution, category-faithful manipulation, navigation, perception, sim-to-real evidence, or a population success estimate."
+}

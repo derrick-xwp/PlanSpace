@@ -1,0 +1,110 @@
+{
+  "models": [
+    {
+      "model": "Qwen/Qwen3-4B",
+      "scoring_field_differences": [],
+      "prefix_scoring_differences": [],
+      "corrected_sha256": "fa0c854278e25a65387a6ddafcc2690208df495576ba12c17e34e61bc9fb6794",
+      "generation_seconds_recomputed": 3519.8756033210084,
+      "legacy_generation_seconds_in_summary": 3512.6194288628176
+    },
+    {
+      "model": "microsoft/Phi-4-mini-instruct",
+      "scoring_field_differences": [],
+      "prefix_scoring_differences": [
+        [
+          "putting_wood_in_fireplace-0",
+          0,
+          [
+            false,
+            false,
+            false
+          ],
+          [
+            true,
+            true,
+            true
+          ]
+        ],
+        [
+          "putting_wood_in_fireplace-0",
+          1,
+          [
+            false,
+            false,
+            false
+          ],
+          [
+            true,
+            true,
+            true
+          ]
+        ],
+        [
+          "putting_wood_in_fireplace-0",
+          2,
+          [
+            false,
+            false,
+            false
+          ],
+          [
+            true,
+            true,
+            true
+          ]
+        ],
+        [
+          "putting_wood_in_fireplace-0",
+          4,
+          [
+            false,
+            false,
+            false
+          ],
+          [
+            true,
+            true,
+            true
+          ]
+        ]
+      ],
+      "corrected_sha256": "05502687180097683a5c91874eaf1e9e152e0954c8409efa46f3a76fc5cc1cd0",
+      "generation_seconds_recomputed": 2816.1185537697747,
+      "legacy_generation_seconds_in_summary": 2811.7860704110935
+    },
+    {
+      "model": "mistralai/Mistral-7B-Instruct-v0.3",
+      "scoring_field_differences": [],
+      "prefix_scoring_differences": [],
+      "corrected_sha256": "04e74cfbc8c8aa28c71f3548e9343361fae6d61a7d29353402f26e55feca704d",
+      "generation_seconds_recomputed": 3851.132087767124,
+      "legacy_generation_seconds_in_summary": 3845.637967530638
+    },
+    {
+      "model": "allenai/OLMo-2-1124-7B-Instruct",
+      "scoring_field_differences": [],
+      "prefix_scoring_differences": [],
+      "corrected_sha256": "ae1299fc1b97b841a59f0c03f1f3407c0df978d62bb05e378c8932820f48b922",
+      "generation_seconds_recomputed": 3064.254546810873,
+      "legacy_generation_seconds_in_summary": 3059.304810415022
+    },
+    {
+      "model": "Qwen/Qwen3-8B",
+      "scoring_field_differences": [],
+      "prefix_scoring_differences": [],
+      "corrected_sha256": "88b43d138244d6a69a4d6a56fbf492a42ced01459482a639e40bef32f068b307",
+      "generation_seconds_recomputed": 3817.2027247175574,
+      "legacy_generation_seconds_in_summary": 3811.200366258621
+    },
+    {
+      "model": "Qwen/Qwen3-14B",
+      "scoring_field_differences": [],
+      "prefix_scoring_differences": [],
+      "corrected_sha256": "05a7a36be7781ec7148d44cb9afaad9a76cb2e5d7afc8afb5595fe4bcd71f948",
+      "generation_seconds_recomputed": 6193.431517773308,
+      "legacy_generation_seconds_in_summary": 6184.625867758878
+    }
+  ],
+  "boundary": "Scoring equality does not establish equal runtime. Cost is symbolic action count, not GPU time."
+}

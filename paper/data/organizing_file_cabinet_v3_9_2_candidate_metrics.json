@@ -1,0 +1,1953 @@
+{
+  "evidence_status": "frozen_bddl_candidate_semantics_not_paper_evidence",
+  "activity": "organizing_file_cabinet",
+  "problem_id": "organizing_file_cabinet-0",
+  "source_sha256": "75346b08e46b67d98660fda3197caef802d0412ea60008cd27634fe0cba2008d",
+  "action_domain_version": "planspace_domain_v0.1-candidate",
+  "plan_count": 120,
+  "enumeration_unit": "simple_plan_sequences",
+  "plan_lengths": [
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5
+  ],
+  "completeness_status": "bounded_complete_simple_paths",
+  "search_bound": {
+    "max_depth": 5,
+    "max_cost": null
+  },
+  "single_reference_false_rejection_rate": 0.9916666666666667,
+  "families": [
+    {
+      "plan": [
+        "transfer::document.n.01_1::ontop:table.n.02_1->inside:cabinet.n.01_1",
+        "transfer::document.n.01_3::ontop:table.n.02_1->inside:cabinet.n.01_1",
+        "transfer::folder.n.02_1::ontop:table.n.02_1->inside:cabinet.n.01_1",
+        "transfer::folder.n.02_2::ontop:floor.n.01_1->inside:cabinet.n.01_1",
+        "transfer::marker.n.03_1::ontop:chair.n.01_1->ontop:table.n.02_1"
+      ],
+      "execution_valid": true,
+      "partial_order_edges": [],
+      "valid_topological_sorts": 120,
+      "total_topological_sorts": 120,
+      "topological_validation_status": "complete"
+    },
+    {
+      "plan": [
+        "transfer::document.n.01_1::ontop:table.n.02_1->inside:cabinet.n.01_1",
+        "transfer::document.n.01_3::ontop:table.n.02_1->inside:cabinet.n.01_1",
+        "transfer::folder.n.02_1::ontop:table.n.02_1->inside:cabinet.n.01_1",
+        "transfer::marker.n.03_1::ontop:chair.n.01_1->ontop:table.n.02_1",
+        "transfer::folder.n.02_2::ontop:floor.n.01_1->inside:cabinet.n.01_1"
+      ],
+      "execution_valid": true,
+      "partial_order_edges": [],
+      "valid_topological_sorts": 120,
+      "total_topological_sorts": 120,
+      "topological_validation_status": "complete"
+    },
+    {
+      "plan": [
+        "transfer::document.n.01_1::ontop:table.n.02_1->inside:cabinet.n.01_1",
+        "transfer::document.n.01_3::ontop:table.n.02_1->inside:cabinet.n.01_1",
+        "transfer::folder.n.02_2::ontop:floor.n.01_1->inside:cabinet.n.01_1",
+        "transfer::folder.n.02_1::ontop:table.n.02_1->inside:cabinet.n.01_1",
+        "transfer::marker.n.03_1::ontop:chair.n.01_1->ontop:table.n.02_1"
+      ],
+      "execution_valid": true,
+      "partial_order_edges": [],
+      "valid_topological_sorts": 120,
+      "total_topological_sorts": 120,
+      "topological_validation_status": "complete"
+    },
+    {
+      "plan": [
+        "transfer::document.n.01_1::ontop:table.n.02_1->inside:cabinet.n.01_1",
+        "transfer::document.n.01_3::ontop:table.n.02_1->inside:cabinet.n.01_1",
+        "transfer::folder.n.02_2::ontop:floor.n.01_1->inside:cabinet.n.01_1",
+        "transfer::marker.n.03_1::ontop:chair.n.01_1->ontop:table.n.02_1",
+        "transfer::folder.n.02_1::ontop:table.n.02_1->inside:cabinet.n.01_1"
+      ],
+      "execution_valid": true,
+      "partial_order_edges": [],
+      "valid_topological_sorts": 120,
+      "total_topological_sorts": 120,
+      "topological_validation_status": "complete"
+    },
+    {
+      "plan": [
+        "transfer::document.n.01_1::ontop:table.n.02_1->inside:cabinet.n.01_1",
+        "transfer::document.n.01_3::ontop:table.n.02_1->inside:cabinet.n.01_1",
+        "transfer::marker.n.03_1::ontop:chair.n.01_1->ontop:table.n.02_1",
+        "transfer::folder.n.02_1::ontop:table.n.02_1->inside:cabinet.n.01_1",
+        "transfer::folder.n.02_2::ontop:floor.n.01_1->inside:cabinet.n.01_1"
+      ],
+      "execution_valid": true,
+      "partial_order_edges": [],
+      "valid_topological_sorts": 120,
+      "total_topological_sorts": 120,
+      "topological_validation_status": "complete"
+    },
+    {
+      "plan": [
+        "transfer::document.n.01_1::ontop:table.n.02_1->inside:cabinet.n.01_1",
+        "transfer::document.n.01_3::ontop:table.n.02_1->inside:cabinet.n.01_1",
+        "transfer::marker.n.03_1::ontop:chair.n.01_1->ontop:table.n.02_1",
+        "transfer::folder.n.02_2::ontop:floor.n.01_1->inside:cabinet.n.01_1",
+        "transfer::folder.n.02_1::ontop:table.n.02_1->inside:cabinet.n.01_1"
+      ],
+      "execution_valid": true,
+      "partial_order_edges": [],
+      "valid_topological_sorts": 120,
+      "total_topological_sorts": 120,
+      "topological_validation_status": "complete"
+    },
+    {
+      "plan": [
+        "transfer::document.n.01_1::ontop:table.n.02_1->inside:cabinet.n.01_1",
+        "transfer::folder.n.02_1::ontop:table.n.02_1->inside:cabinet.n.01_1",
+        "transfer::document.n.01_3::ontop:table.n.02_1->inside:cabinet.n.01_1",
+        "transfer::folder.n.02_2::ontop:floor.n.01_1->inside:cabinet.n.01_1",
+        "transfer::marker.n.03_1::ontop:chair.n.01_1->ontop:table.n.02_1"
+      ],
+      "execution_valid": true,
+      "partial_order_edges": [],
+      "valid_topological_sorts": 120,
+      "total_topological_sorts": 120,
+      "topological_validation_status": "complete"
+    },
+    {
+      "plan": [
+        "transfer::document.n.01_1::ontop:table.n.02_1->inside:cabinet.n.01_1",
+        "transfer::folder.n.02_1::ontop:table.n.02_1->inside:cabinet.n.01_1",
+        "transfer::document.n.01_3::ontop:table.n.02_1->inside:cabinet.n.01_1",
+        "transfer::marker.n.03_1::ontop:chair.n.01_1->ontop:table.n.02_1",
+        "transfer::folder.n.02_2::ontop:floor.n.01_1->inside:cabinet.n.01_1"
+      ],
+      "execution_valid": true,
+      "partial_order_edges": [],
+      "valid_topological_sorts": 120,
+      "total_topological_sorts": 120,
+      "topological_validation_status": "complete"
+    },
+    {
+      "plan": [
+        "transfer::document.n.01_1::ontop:table.n.02_1->inside:cabinet.n.01_1",
+        "transfer::folder.n.02_1::ontop:table.n.02_1->inside:cabinet.n.01_1",
+        "transfer::folder.n.02_2::ontop:floor.n.01_1->inside:cabinet.n.01_1",
+        "transfer::document.n.01_3::ontop:table.n.02_1->inside:cabinet.n.01_1",
+        "transfer::marker.n.03_1::ontop:chair.n.01_1->ontop:table.n.02_1"
+      ],
+      "execution_valid": true,
+      "partial_order_edges": [],
+      "valid_topological_sorts": 120,
+      "total_topological_sorts": 120,
+      "topological_validation_status": "complete"
+    },
+    {
+      "plan": [
+        "transfer::document.n.01_1::ontop:table.n.02_1->inside:cabinet.n.01_1",
+        "transfer::folder.n.02_1::ontop:table.n.02_1->inside:cabinet.n.01_1",
+        "transfer::folder.n.02_2::ontop:floor.n.01_1->inside:cabinet.n.01_1",
+        "transfer::marker.n.03_1::ontop:chair.n.01_1->ontop:table.n.02_1",
+        "transfer::document.n.01_3::ontop:table.n.02_1->inside:cabinet.n.01_1"
+      ],
+      "execution_valid": true,
+      "partial_order_edges": [],
+      "valid_topological_sorts": 120,
+      "total_topological_sorts": 120,
+      "topological_validation_status": "complete"
+    },
+    {
+      "plan": [
+        "transfer::document.n.01_1::ontop:table.n.02_1->inside:cabinet.n.01_1",
+        "transfer::folder.n.02_1::ontop:table.n.02_1->inside:cabinet.n.01_1",
+        "transfer::marker.n.03_1::ontop:chair.n.01_1->ontop:table.n.02_1",
+        "transfer::document.n.01_3::ontop:table.n.02_1->inside:cabinet.n.01_1",
+        "transfer::folder.n.02_2::ontop:floor.n.01_1->inside:cabinet.n.01_1"
+      ],
+      "execution_valid": true,
+      "partial_order_edges": [],
+      "valid_topological_sorts": 120,
+      "total_topological_sorts": 120,
+      "topological_validation_status": "complete"
+    },
+    {
+      "plan": [
+        "transfer::document.n.01_1::ontop:table.n.02_1->inside:cabinet.n.01_1",
+        "transfer::folder.n.02_1::ontop:table.n.02_1->inside:cabinet.n.01_1",
+        "transfer::marker.n.03_1::ontop:chair.n.01_1->ontop:table.n.02_1",
+        "transfer::folder.n.02_2::ontop:floor.n.01_1->inside:cabinet.n.01_1",
+        "transfer::document.n.01_3::ontop:table.n.02_1->inside:cabinet.n.01_1"
+      ],
+      "execution_valid": true,
+      "partial_order_edges": [],
+      "valid_topological_sorts": 120,
+      "total_topological_sorts": 120,
+      "topological_validation_status": "complete"
+    },
+    {
+      "plan": [
+        "transfer::document.n.01_1::ontop:table.n.02_1->inside:cabinet.n.01_1",
+        "transfer::folder.n.02_2::ontop:floor.n.01_1->inside:cabinet.n.01_1",
+        "transfer::document.n.01_3::ontop:table.n.02_1->inside:cabinet.n.01_1",
+        "transfer::folder.n.02_1::ontop:table.n.02_1->inside:cabinet.n.01_1",
+        "transfer::marker.n.03_1::ontop:chair.n.01_1->ontop:table.n.02_1"
+      ],
+      "execution_valid": true,
+      "partial_order_edges": [],
+      "valid_topological_sorts": 120,
+      "total_topological_sorts": 120,
+      "topological_validation_status": "complete"
+    },
+    {
+      "plan": [
+        "transfer::document.n.01_1::ontop:table.n.02_1->inside:cabinet.n.01_1",
+        "transfer::folder.n.02_2::ontop:floor.n.01_1->inside:cabinet.n.01_1",
+        "transfer::document.n.01_3::ontop:table.n.02_1->inside:cabinet.n.01_1",
+        "transfer::marker.n.03_1::ontop:chair.n.01_1->ontop:table.n.02_1",
+        "transfer::folder.n.02_1::ontop:table.n.02_1->inside:cabinet.n.01_1"
+      ],
+      "execution_valid": true,
+      "partial_order_edges": [],
+      "valid_topological_sorts": 120,
+      "total_topological_sorts": 120,
+      "topological_validation_status": "complete"
+    },
+    {
+      "plan": [
+        "transfer::document.n.01_1::ontop:table.n.02_1->inside:cabinet.n.01_1",
+        "transfer::folder.n.02_2::ontop:floor.n.01_1->inside:cabinet.n.01_1",
+        "transfer::folder.n.02_1::ontop:table.n.02_1->inside:cabinet.n.01_1",
+        "transfer::document.n.01_3::ontop:table.n.02_1->inside:cabinet.n.01_1",
+        "transfer::marker.n.03_1::ontop:chair.n.01_1->ontop:table.n.02_1"
+      ],
+      "execution_valid": true,
+      "partial_order_edges": [],
+      "valid_topological_sorts": 120,
+      "total_topological_sorts": 120,
+      "topological_validation_status": "complete"
+    },
+    {
+      "plan": [
+        "transfer::document.n.01_1::ontop:table.n.02_1->inside:cabinet.n.01_1",
+        "transfer::folder.n.02_2::ontop:floor.n.01_1->inside:cabinet.n.01_1",
+        "transfer::folder.n.02_1::ontop:table.n.02_1->inside:cabinet.n.01_1",
+        "transfer::marker.n.03_1::ontop:chair.n.01_1->ontop:table.n.02_1",
+        "transfer::document.n.01_3::ontop:table.n.02_1->inside:cabinet.n.01_1"
+      ],
+      "execution_valid": true,
+      "partial_order_edges": [],
+      "valid_topological_sorts": 120,
+      "total_topological_sorts": 120,
+      "topological_validation_status": "complete"
+    },
+    {
+      "plan": [
+        "transfer::document.n.01_1::ontop:table.n.02_1->inside:cabinet.n.01_1",
+        "transfer::folder.n.02_2::ontop:floor.n.01_1->inside:cabinet.n.01_1",
+        "transfer::marker.n.03_1::ontop:chair.n.01_1->ontop:table.n.02_1",
+        "transfer::document.n.01_3::ontop:table.n.02_1->inside:cabinet.n.01_1",
+        "transfer::folder.n.02_1::ontop:table.n.02_1->inside:cabinet.n.01_1"
+      ],
+      "execution_valid": true,
+      "partial_order_edges": [],
+      "valid_topological_sorts": 120,
+      "total_topological_sorts": 120,
+      "topological_validation_status": "complete"
+    },
+    {
+      "plan": [
+        "transfer::document.n.01_1::ontop:table.n.02_1->inside:cabinet.n.01_1",
+        "transfer::folder.n.02_2::ontop:floor.n.01_1->inside:cabinet.n.01_1",
+        "transfer::marker.n.03_1::ontop:chair.n.01_1->ontop:table.n.02_1",
+        "transfer::folder.n.02_1::ontop:table.n.02_1->inside:cabinet.n.01_1",
+        "transfer::document.n.01_3::ontop:table.n.02_1->inside:cabinet.n.01_1"
+      ],
+      "execution_valid": true,
+      "partial_order_edges": [],
+      "valid_topological_sorts": 120,
+      "total_topological_sorts": 120,
+      "topological_validation_status": "complete"
+    },
+    {
+      "plan": [
+        "transfer::document.n.01_1::ontop:table.n.02_1->inside:cabinet.n.01_1",
+        "transfer::marker.n.03_1::ontop:chair.n.01_1->ontop:table.n.02_1",
+        "transfer::document.n.01_3::ontop:table.n.02_1->inside:cabinet.n.01_1",
+        "transfer::folder.n.02_1::ontop:table.n.02_1->inside:cabinet.n.01_1",
+        "transfer::folder.n.02_2::ontop:floor.n.01_1->inside:cabinet.n.01_1"
+      ],
+      "execution_valid": true,
+      "partial_order_edges": [],
+      "valid_topological_sorts": 120,
+      "total_topological_sorts": 120,
+      "topological_validation_status": "complete"
+    },
+    {
+      "plan": [
+        "transfer::document.n.01_1::ontop:table.n.02_1->inside:cabinet.n.01_1",
+        "transfer::marker.n.03_1::ontop:chair.n.01_1->ontop:table.n.02_1",
+        "transfer::document.n.01_3::ontop:table.n.02_1->inside:cabinet.n.01_1",
+        "transfer::folder.n.02_2::ontop:floor.n.01_1->inside:cabinet.n.01_1",
+        "transfer::folder.n.02_1::ontop:table.n.02_1->inside:cabinet.n.01_1"
+      ],
+      "execution_valid": true,
+      "partial_order_edges": [],
+      "valid_topological_sorts": 120,
+      "total_topological_sorts": 120,
+      "topological_validation_status": "complete"
+    },
+    {
+      "plan": [
+        "transfer::document.n.01_1::ontop:table.n.02_1->inside:cabinet.n.01_1",
+        "transfer::marker.n.03_1::ontop:chair.n.01_1->ontop:table.n.02_1",
+        "transfer::folder.n.02_1::ontop:table.n.02_1->inside:cabinet.n.01_1",
+        "transfer::document.n.01_3::ontop:table.n.02_1->inside:cabinet.n.01_1",
+        "transfer::folder.n.02_2::ontop:floor.n.01_1->inside:cabinet.n.01_1"
+      ],
+      "execution_valid": true,
+      "partial_order_edges": [],
+      "valid_topological_sorts": 120,
+      "total_topological_sorts": 120,
+      "topological_validation_status": "complete"
+    },
+    {
+      "plan": [
+        "transfer::document.n.01_1::ontop:table.n.02_1->inside:cabinet.n.01_1",
+        "transfer::marker.n.03_1::ontop:chair.n.01_1->ontop:table.n.02_1",
+        "transfer::folder.n.02_1::ontop:table.n.02_1->inside:cabinet.n.01_1",
+        "transfer::folder.n.02_2::ontop:floor.n.01_1->inside:cabinet.n.01_1",
+        "transfer::document.n.01_3::ontop:table.n.02_1->inside:cabinet.n.01_1"
+      ],
+      "execution_valid": true,
+      "partial_order_edges": [],
+      "valid_topological_sorts": 120,
+      "total_topological_sorts": 120,
+      "topological_validation_status": "complete"
+    },
+    {
+      "plan": [
+        "transfer::document.n.01_1::ontop:table.n.02_1->inside:cabinet.n.01_1",
+        "transfer::marker.n.03_1::ontop:chair.n.01_1->ontop:table.n.02_1",
+        "transfer::folder.n.02_2::ontop:floor.n.01_1->inside:cabinet.n.01_1",
+        "transfer::document.n.01_3::ontop:table.n.02_1->inside:cabinet.n.01_1",
+        "transfer::folder.n.02_1::ontop:table.n.02_1->inside:cabinet.n.01_1"
+      ],
+      "execution_valid": true,
+      "partial_order_edges": [],
+      "valid_topological_sorts": 120,
+      "total_topological_sorts": 120,
+      "topological_validation_status": "complete"
+    },
+    {
+      "plan": [
+        "transfer::document.n.01_1::ontop:table.n.02_1->inside:cabinet.n.01_1",
+        "transfer::marker.n.03_1::ontop:chair.n.01_1->ontop:table.n.02_1",
+        "transfer::folder.n.02_2::ontop:floor.n.01_1->inside:cabinet.n.01_1",
+        "transfer::folder.n.02_1::ontop:table.n.02_1->inside:cabinet.n.01_1",
+        "transfer::document.n.01_3::ontop:table.n.02_1->inside:cabinet.n.01_1"
+      ],
+      "execution_valid": true,
+      "partial_order_edges": [],
+      "valid_topological_sorts": 120,
+      "total_topological_sorts": 120,
+      "topological_validation_status": "complete"
+    },
+    {
+      "plan": [
+        "transfer::document.n.01_3::ontop:table.n.02_1->inside:cabinet.n.01_1",
+        "transfer::document.n.01_1::ontop:table.n.02_1->inside:cabinet.n.01_1",
+        "transfer::folder.n.02_1::ontop:table.n.02_1->inside:cabinet.n.01_1",
+        "transfer::folder.n.02_2::ontop:floor.n.01_1->inside:cabinet.n.01_1",
+        "transfer::marker.n.03_1::ontop:chair.n.01_1->ontop:table.n.02_1"
+      ],
+      "execution_valid": true,
+      "partial_order_edges": [],
+      "valid_topological_sorts": 120,
+      "total_topological_sorts": 120,
+      "topological_validation_status": "complete"
+    },
+    {
+      "plan": [
+        "transfer::document.n.01_3::ontop:table.n.02_1->inside:cabinet.n.01_1",
+        "transfer::document.n.01_1::ontop:table.n.02_1->inside:cabinet.n.01_1",
+        "transfer::folder.n.02_1::ontop:table.n.02_1->inside:cabinet.n.01_1",
+        "transfer::marker.n.03_1::ontop:chair.n.01_1->ontop:table.n.02_1",
+        "transfer::folder.n.02_2::ontop:floor.n.01_1->inside:cabinet.n.01_1"
+      ],
+      "execution_valid": true,
+      "partial_order_edges": [],
+      "valid_topological_sorts": 120,
+      "total_topological_sorts": 120,
+      "topological_validation_status": "complete"
+    },
+    {
+      "plan": [
+        "transfer::document.n.01_3::ontop:table.n.02_1->inside:cabinet.n.01_1",
+        "transfer::document.n.01_1::ontop:table.n.02_1->inside:cabinet.n.01_1",
+        "transfer::folder.n.02_2::ontop:floor.n.01_1->inside:cabinet.n.01_1",
+        "transfer::folder.n.02_1::ontop:table.n.02_1->inside:cabinet.n.01_1",
+        "transfer::marker.n.03_1::ontop:chair.n.01_1->ontop:table.n.02_1"
+      ],
+      "execution_valid": true,
+      "partial_order_edges": [],
+      "valid_topological_sorts": 120,
+      "total_topological_sorts": 120,
+      "topological_validation_status": "complete"
+    },
+    {
+      "plan": [
+        "transfer::document.n.01_3::ontop:table.n.02_1->inside:cabinet.n.01_1",
+        "transfer::document.n.01_1::ontop:table.n.02_1->inside:cabinet.n.01_1",
+        "transfer::folder.n.02_2::ontop:floor.n.01_1->inside:cabinet.n.01_1",
+        "transfer::marker.n.03_1::ontop:chair.n.01_1->ontop:table.n.02_1",
+        "transfer::folder.n.02_1::ontop:table.n.02_1->inside:cabinet.n.01_1"
+      ],
+      "execution_valid": true,
+      "partial_order_edges": [],
+      "valid_topological_sorts": 120,
+      "total_topological_sorts": 120,
+      "topological_validation_status": "complete"
+    },
+    {
+      "plan": [
+        "transfer::document.n.01_3::ontop:table.n.02_1->inside:cabinet.n.01_1",
+        "transfer::document.n.01_1::ontop:table.n.02_1->inside:cabinet.n.01_1",
+        "transfer::marker.n.03_1::ontop:chair.n.01_1->ontop:table.n.02_1",
+        "transfer::folder.n.02_1::ontop:table.n.02_1->inside:cabinet.n.01_1",
+        "transfer::folder.n.02_2::ontop:floor.n.01_1->inside:cabinet.n.01_1"
+      ],
+      "execution_valid": true,
+      "partial_order_edges": [],
+      "valid_topological_sorts": 120,
+      "total_topological_sorts": 120,
+      "topological_validation_status": "complete"
+    },
+    {
+      "plan": [
+        "transfer::document.n.01_3::ontop:table.n.02_1->inside:cabinet.n.01_1",
+        "transfer::document.n.01_1::ontop:table.n.02_1->inside:cabinet.n.01_1",
+        "transfer::marker.n.03_1::ontop:chair.n.01_1->ontop:table.n.02_1",
+        "transfer::folder.n.02_2::ontop:floor.n.01_1->inside:cabinet.n.01_1",
+        "transfer::folder.n.02_1::ontop:table.n.02_1->inside:cabinet.n.01_1"
+      ],
+      "execution_valid": true,
+      "partial_order_edges": [],
+      "valid_topological_sorts": 120,
+      "total_topological_sorts": 120,
+      "topological_validation_status": "complete"
+    },
+    {
+      "plan": [
+        "transfer::document.n.01_3::ontop:table.n.02_1->inside:cabinet.n.01_1",
+        "transfer::folder.n.02_1::ontop:table.n.02_1->inside:cabinet.n.01_1",
+        "transfer::document.n.01_1::ontop:table.n.02_1->inside:cabinet.n.01_1",
+        "transfer::folder.n.02_2::ontop:floor.n.01_1->inside:cabinet.n.01_1",
+        "transfer::marker.n.03_1::ontop:chair.n.01_1->ontop:table.n.02_1"
+      ],
+      "execution_valid": true,
+      "partial_order_edges": [],
+      "valid_topological_sorts": 120,
+      "total_topological_sorts": 120,
+      "topological_validation_status": "complete"
+    },
+    {
+      "plan": [
+        "transfer::document.n.01_3::ontop:table.n.02_1->inside:cabinet.n.01_1",
+        "transfer::folder.n.02_1::ontop:table.n.02_1->inside:cabinet.n.01_1",
+        "transfer::document.n.01_1::ontop:table.n.02_1->inside:cabinet.n.01_1",
+        "transfer::marker.n.03_1::ontop:chair.n.01_1->ontop:table.n.02_1",
+        "transfer::folder.n.02_2::ontop:floor.n.01_1->inside:cabinet.n.01_1"
+      ],
+      "execution_valid": true,
+      "partial_order_edges": [],
+      "valid_topological_sorts": 120,
+      "total_topological_sorts": 120,
+      "topological_validation_status": "complete"
+    },
+    {
+      "plan": [
+        "transfer::document.n.01_3::ontop:table.n.02_1->inside:cabinet.n.01_1",
+        "transfer::folder.n.02_1::ontop:table.n.02_1->inside:cabinet.n.01_1",
+        "transfer::folder.n.02_2::ontop:floor.n.01_1->inside:cabinet.n.01_1",
+        "transfer::document.n.01_1::ontop:table.n.02_1->inside:cabinet.n.01_1",
+        "transfer::marker.n.03_1::ontop:chair.n.01_1->ontop:table.n.02_1"
+      ],
+      "execution_valid": true,
+      "partial_order_edges": [],
+      "valid_topological_sorts": 120,
+      "total_topological_sorts": 120,
+      "topological_validation_status": "complete"
+    },
+    {
+      "plan": [
+        "transfer::document.n.01_3::ontop:table.n.02_1->inside:cabinet.n.01_1",
+        "transfer::folder.n.02_1::ontop:table.n.02_1->inside:cabinet.n.01_1",
+        "transfer::folder.n.02_2::ontop:floor.n.01_1->inside:cabinet.n.01_1",
+        "transfer::marker.n.03_1::ontop:chair.n.01_1->ontop:table.n.02_1",
+        "transfer::document.n.01_1::ontop:table.n.02_1->inside:cabinet.n.01_1"
+      ],
+      "execution_valid": true,
+      "partial_order_edges": [],
+      "valid_topological_sorts": 120,
+      "total_topological_sorts": 120,
+      "topological_validation_status": "complete"
+    },
+    {
+      "plan": [
+        "transfer::document.n.01_3::ontop:table.n.02_1->inside:cabinet.n.01_1",
+        "transfer::folder.n.02_1::ontop:table.n.02_1->inside:cabinet.n.01_1",
+        "transfer::marker.n.03_1::ontop:chair.n.01_1->ontop:table.n.02_1",
+        "transfer::document.n.01_1::ontop:table.n.02_1->inside:cabinet.n.01_1",
+        "transfer::folder.n.02_2::ontop:floor.n.01_1->inside:cabinet.n.01_1"
+      ],
+      "execution_valid": true,
+      "partial_order_edges": [],
+      "valid_topological_sorts": 120,
+      "total_topological_sorts": 120,
+      "topological_validation_status": "complete"
+    },
+    {
+      "plan": [
+        "transfer::document.n.01_3::ontop:table.n.02_1->inside:cabinet.n.01_1",
+        "transfer::folder.n.02_1::ontop:table.n.02_1->inside:cabinet.n.01_1",
+        "transfer::marker.n.03_1::ontop:chair.n.01_1->ontop:table.n.02_1",
+        "transfer::folder.n.02_2::ontop:floor.n.01_1->inside:cabinet.n.01_1",
+        "transfer::document.n.01_1::ontop:table.n.02_1->inside:cabinet.n.01_1"
+      ],
+      "execution_valid": true,
+      "partial_order_edges": [],
+      "valid_topological_sorts": 120,
+      "total_topological_sorts": 120,
+      "topological_validation_status": "complete"
+    },
+    {
+      "plan": [
+        "transfer::document.n.01_3::ontop:table.n.02_1->inside:cabinet.n.01_1",
+        "transfer::folder.n.02_2::ontop:floor.n.01_1->inside:cabinet.n.01_1",
+        "transfer::document.n.01_1::ontop:table.n.02_1->inside:cabinet.n.01_1",
+        "transfer::folder.n.02_1::ontop:table.n.02_1->inside:cabinet.n.01_1",
+        "transfer::marker.n.03_1::ontop:chair.n.01_1->ontop:table.n.02_1"
+      ],
+      "execution_valid": true,
+      "partial_order_edges": [],
+      "valid_topological_sorts": 120,
+      "total_topological_sorts": 120,
+      "topological_validation_status": "complete"
+    },
+    {
+      "plan": [
+        "transfer::document.n.01_3::ontop:table.n.02_1->inside:cabinet.n.01_1",
+        "transfer::folder.n.02_2::ontop:floor.n.01_1->inside:cabinet.n.01_1",
+        "transfer::document.n.01_1::ontop:table.n.02_1->inside:cabinet.n.01_1",
+        "transfer::marker.n.03_1::ontop:chair.n.01_1->ontop:table.n.02_1",
+        "transfer::folder.n.02_1::ontop:table.n.02_1->inside:cabinet.n.01_1"
+      ],
+      "execution_valid": true,
+      "partial_order_edges": [],
+      "valid_topological_sorts": 120,
+      "total_topological_sorts": 120,
+      "topological_validation_status": "complete"
+    },
+    {
+      "plan": [
+        "transfer::document.n.01_3::ontop:table.n.02_1->inside:cabinet.n.01_1",
+        "transfer::folder.n.02_2::ontop:floor.n.01_1->inside:cabinet.n.01_1",
+        "transfer::folder.n.02_1::ontop:table.n.02_1->inside:cabinet.n.01_1",
+        "transfer::document.n.01_1::ontop:table.n.02_1->inside:cabinet.n.01_1",
+        "transfer::marker.n.03_1::ontop:chair.n.01_1->ontop:table.n.02_1"
+      ],
+      "execution_valid": true,
+      "partial_order_edges": [],
+      "valid_topological_sorts": 120,
+      "total_topological_sorts": 120,
+      "topological_validation_status": "complete"
+    },
+    {
+      "plan": [
+        "transfer::document.n.01_3::ontop:table.n.02_1->inside:cabinet.n.01_1",
+        "transfer::folder.n.02_2::ontop:floor.n.01_1->inside:cabinet.n.01_1",
+        "transfer::folder.n.02_1::ontop:table.n.02_1->inside:cabinet.n.01_1",
+        "transfer::marker.n.03_1::ontop:chair.n.01_1->ontop:table.n.02_1",
+        "transfer::document.n.01_1::ontop:table.n.02_1->inside:cabinet.n.01_1"
+      ],
+      "execution_valid": true,
+      "partial_order_edges": [],
+      "valid_topological_sorts": 120,
+      "total_topological_sorts": 120,
+      "topological_validation_status": "complete"
+    },
+    {
+      "plan": [
+        "transfer::document.n.01_3::ontop:table.n.02_1->inside:cabinet.n.01_1",
+        "transfer::folder.n.02_2::ontop:floor.n.01_1->inside:cabinet.n.01_1",
+        "transfer::marker.n.03_1::ontop:chair.n.01_1->ontop:table.n.02_1",
+        "transfer::document.n.01_1::ontop:table.n.02_1->inside:cabinet.n.01_1",
+        "transfer::folder.n.02_1::ontop:table.n.02_1->inside:cabinet.n.01_1"
+      ],
+      "execution_valid": true,
+      "partial_order_edges": [],
+      "valid_topological_sorts": 120,
+      "total_topological_sorts": 120,
+      "topological_validation_status": "complete"
+    },
+    {
+      "plan": [
+        "transfer::document.n.01_3::ontop:table.n.02_1->inside:cabinet.n.01_1",
+        "transfer::folder.n.02_2::ontop:floor.n.01_1->inside:cabinet.n.01_1",
+        "transfer::marker.n.03_1::ontop:chair.n.01_1->ontop:table.n.02_1",
+        "transfer::folder.n.02_1::ontop:table.n.02_1->inside:cabinet.n.01_1",
+        "transfer::document.n.01_1::ontop:table.n.02_1->inside:cabinet.n.01_1"
+      ],
+      "execution_valid": true,
+      "partial_order_edges": [],
+      "valid_topological_sorts": 120,
+      "total_topological_sorts": 120,
+      "topological_validation_status": "complete"
+    },
+    {
+      "plan": [
+        "transfer::document.n.01_3::ontop:table.n.02_1->inside:cabinet.n.01_1",
+        "transfer::marker.n.03_1::ontop:chair.n.01_1->ontop:table.n.02_1",
+        "transfer::document.n.01_1::ontop:table.n.02_1->inside:cabinet.n.01_1",
+        "transfer::folder.n.02_1::ontop:table.n.02_1->inside:cabinet.n.01_1",
+        "transfer::folder.n.02_2::ontop:floor.n.01_1->inside:cabinet.n.01_1"
+      ],
+      "execution_valid": true,
+      "partial_order_edges": [],
+      "valid_topological_sorts": 120,
+      "total_topological_sorts": 120,
+      "topological_validation_status": "complete"
+    },
+    {
+      "plan": [
+        "transfer::document.n.01_3::ontop:table.n.02_1->inside:cabinet.n.01_1",
+        "transfer::marker.n.03_1::ontop:chair.n.01_1->ontop:table.n.02_1",
+        "transfer::document.n.01_1::ontop:table.n.02_1->inside:cabinet.n.01_1",
+        "transfer::folder.n.02_2::ontop:floor.n.01_1->inside:cabinet.n.01_1",
+        "transfer::folder.n.02_1::ontop:table.n.02_1->inside:cabinet.n.01_1"
+      ],
+      "execution_valid": true,
+      "partial_order_edges": [],
+      "valid_topological_sorts": 120,
+      "total_topological_sorts": 120,
+      "topological_validation_status": "complete"
+    },
+    {
+      "plan": [
+        "transfer::document.n.01_3::ontop:table.n.02_1->inside:cabinet.n.01_1",
+        "transfer::marker.n.03_1::ontop:chair.n.01_1->ontop:table.n.02_1",
+        "transfer::folder.n.02_1::ontop:table.n.02_1->inside:cabinet.n.01_1",
+        "transfer::document.n.01_1::ontop:table.n.02_1->inside:cabinet.n.01_1",
+        "transfer::folder.n.02_2::ontop:floor.n.01_1->inside:cabinet.n.01_1"
+      ],
+      "execution_valid": true,
+      "partial_order_edges": [],
+      "valid_topological_sorts": 120,
+      "total_topological_sorts": 120,
+      "topological_validation_status": "complete"
+    },
+    {
+      "plan": [
+        "transfer::document.n.01_3::ontop:table.n.02_1->inside:cabinet.n.01_1",
+        "transfer::marker.n.03_1::ontop:chair.n.01_1->ontop:table.n.02_1",
+        "transfer::folder.n.02_1::ontop:table.n.02_1->inside:cabinet.n.01_1",
+        "transfer::folder.n.02_2::ontop:floor.n.01_1->inside:cabinet.n.01_1",
+        "transfer::document.n.01_1::ontop:table.n.02_1->inside:cabinet.n.01_1"
+      ],
+      "execution_valid": true,
+      "partial_order_edges": [],
+      "valid_topological_sorts": 120,
+      "total_topological_sorts": 120,
+      "topological_validation_status": "complete"
+    },
+    {
+      "plan": [
+        "transfer::document.n.01_3::ontop:table.n.02_1->inside:cabinet.n.01_1",
+        "transfer::marker.n.03_1::ontop:chair.n.01_1->ontop:table.n.02_1",
+        "transfer::folder.n.02_2::ontop:floor.n.01_1->inside:cabinet.n.01_1",
+        "transfer::document.n.01_1::ontop:table.n.02_1->inside:cabinet.n.01_1",
+        "transfer::folder.n.02_1::ontop:table.n.02_1->inside:cabinet.n.01_1"
+      ],
+      "execution_valid": true,
+      "partial_order_edges": [],
+      "valid_topological_sorts": 120,
+      "total_topological_sorts": 120,
+      "topological_validation_status": "complete"
+    },
+    {
+      "plan": [
+        "transfer::document.n.01_3::ontop:table.n.02_1->inside:cabinet.n.01_1",
+        "transfer::marker.n.03_1::ontop:chair.n.01_1->ontop:table.n.02_1",
+        "transfer::folder.n.02_2::ontop:floor.n.01_1->inside:cabinet.n.01_1",
+        "transfer::folder.n.02_1::ontop:table.n.02_1->inside:cabinet.n.01_1",
+        "transfer::document.n.01_1::ontop:table.n.02_1->inside:cabinet.n.01_1"
+      ],
+      "execution_valid": true,
+      "partial_order_edges": [],
+      "valid_topological_sorts": 120,
+      "total_topological_sorts": 120,
+      "topological_validation_status": "complete"
+    },
+    {
+      "plan": [
+        "transfer::folder.n.02_1::ontop:table.n.02_1->inside:cabinet.n.01_1",
+        "transfer::document.n.01_1::ontop:table.n.02_1->inside:cabinet.n.01_1",
+        "transfer::document.n.01_3::ontop:table.n.02_1->inside:cabinet.n.01_1",
+        "transfer::folder.n.02_2::ontop:floor.n.01_1->inside:cabinet.n.01_1",
+        "transfer::marker.n.03_1::ontop:chair.n.01_1->ontop:table.n.02_1"
+      ],
+      "execution_valid": true,
+      "partial_order_edges": [],
+      "valid_topological_sorts": 120,
+      "total_topological_sorts": 120,
+      "topological_validation_status": "complete"
+    },
+    {
+      "plan": [
+        "transfer::folder.n.02_1::ontop:table.n.02_1->inside:cabinet.n.01_1",
+        "transfer::document.n.01_1::ontop:table.n.02_1->inside:cabinet.n.01_1",
+        "transfer::document.n.01_3::ontop:table.n.02_1->inside:cabinet.n.01_1",
+        "transfer::marker.n.03_1::ontop:chair.n.01_1->ontop:table.n.02_1",
+        "transfer::folder.n.02_2::ontop:floor.n.01_1->inside:cabinet.n.01_1"
+      ],
+      "execution_valid": true,
+      "partial_order_edges": [],
+      "valid_topological_sorts": 120,
+      "total_topological_sorts": 120,
+      "topological_validation_status": "complete"
+    },
+    {
+      "plan": [
+        "transfer::folder.n.02_1::ontop:table.n.02_1->inside:cabinet.n.01_1",
+        "transfer::document.n.01_1::ontop:table.n.02_1->inside:cabinet.n.01_1",
+        "transfer::folder.n.02_2::ontop:floor.n.01_1->inside:cabinet.n.01_1",
+        "transfer::document.n.01_3::ontop:table.n.02_1->inside:cabinet.n.01_1",
+        "transfer::marker.n.03_1::ontop:chair.n.01_1->ontop:table.n.02_1"
+      ],
+      "execution_valid": true,
+      "partial_order_edges": [],
+      "valid_topological_sorts": 120,
+      "total_topological_sorts": 120,
+      "topological_validation_status": "complete"
+    },
+    {
+      "plan": [
+        "transfer::folder.n.02_1::ontop:table.n.02_1->inside:cabinet.n.01_1",
+        "transfer::document.n.01_1::ontop:table.n.02_1->inside:cabinet.n.01_1",
+        "transfer::folder.n.02_2::ontop:floor.n.01_1->inside:cabinet.n.01_1",
+        "transfer::marker.n.03_1::ontop:chair.n.01_1->ontop:table.n.02_1",
+        "transfer::document.n.01_3::ontop:table.n.02_1->inside:cabinet.n.01_1"
+      ],
+      "execution_valid": true,
+      "partial_order_edges": [],
+      "valid_topological_sorts": 120,
+      "total_topological_sorts": 120,
+      "topological_validation_status": "complete"
+    },
+    {
+      "plan": [
+        "transfer::folder.n.02_1::ontop:table.n.02_1->inside:cabinet.n.01_1",
+        "transfer::document.n.01_1::ontop:table.n.02_1->inside:cabinet.n.01_1",
+        "transfer::marker.n.03_1::ontop:chair.n.01_1->ontop:table.n.02_1",
+        "transfer::document.n.01_3::ontop:table.n.02_1->inside:cabinet.n.01_1",
+        "transfer::folder.n.02_2::ontop:floor.n.01_1->inside:cabinet.n.01_1"
+      ],
+      "execution_valid": true,
+      "partial_order_edges": [],
+      "valid_topological_sorts": 120,
+      "total_topological_sorts": 120,
+      "topological_validation_status": "complete"
+    },
+    {
+      "plan": [
+        "transfer::folder.n.02_1::ontop:table.n.02_1->inside:cabinet.n.01_1",
+        "transfer::document.n.01_1::ontop:table.n.02_1->inside:cabinet.n.01_1",
+        "transfer::marker.n.03_1::ontop:chair.n.01_1->ontop:table.n.02_1",
+        "transfer::folder.n.02_2::ontop:floor.n.01_1->inside:cabinet.n.01_1",
+        "transfer::document.n.01_3::ontop:table.n.02_1->inside:cabinet.n.01_1"
+      ],
+      "execution_valid": true,
+      "partial_order_edges": [],
+      "valid_topological_sorts": 120,
+      "total_topological_sorts": 120,
+      "topological_validation_status": "complete"
+    },
+    {
+      "plan": [
+        "transfer::folder.n.02_1::ontop:table.n.02_1->inside:cabinet.n.01_1",
+        "transfer::document.n.01_3::ontop:table.n.02_1->inside:cabinet.n.01_1",
+        "transfer::document.n.01_1::ontop:table.n.02_1->inside:cabinet.n.01_1",
+        "transfer::folder.n.02_2::ontop:floor.n.01_1->inside:cabinet.n.01_1",
+        "transfer::marker.n.03_1::ontop:chair.n.01_1->ontop:table.n.02_1"
+      ],
+      "execution_valid": true,
+      "partial_order_edges": [],
+      "valid_topological_sorts": 120,
+      "total_topological_sorts": 120,
+      "topological_validation_status": "complete"
+    },
+    {
+      "plan": [
+        "transfer::folder.n.02_1::ontop:table.n.02_1->inside:cabinet.n.01_1",
+        "transfer::document.n.01_3::ontop:table.n.02_1->inside:cabinet.n.01_1",
+        "transfer::document.n.01_1::ontop:table.n.02_1->inside:cabinet.n.01_1",
+        "transfer::marker.n.03_1::ontop:chair.n.01_1->ontop:table.n.02_1",
+        "transfer::folder.n.02_2::ontop:floor.n.01_1->inside:cabinet.n.01_1"
+      ],
+      "execution_valid": true,
+      "partial_order_edges": [],
+      "valid_topological_sorts": 120,
+      "total_topological_sorts": 120,
+      "topological_validation_status": "complete"
+    },
+    {
+      "plan": [
+        "transfer::folder.n.02_1::ontop:table.n.02_1->inside:cabinet.n.01_1",
+        "transfer::document.n.01_3::ontop:table.n.02_1->inside:cabinet.n.01_1",
+        "transfer::folder.n.02_2::ontop:floor.n.01_1->inside:cabinet.n.01_1",
+        "transfer::document.n.01_1::ontop:table.n.02_1->inside:cabinet.n.01_1",
+        "transfer::marker.n.03_1::ontop:chair.n.01_1->ontop:table.n.02_1"
+      ],
+      "execution_valid": true,
+      "partial_order_edges": [],
+      "valid_topological_sorts": 120,
+      "total_topological_sorts": 120,
+      "topological_validation_status": "complete"
+    },
+    {
+      "plan": [
+        "transfer::folder.n.02_1::ontop:table.n.02_1->inside:cabinet.n.01_1",
+        "transfer::document.n.01_3::ontop:table.n.02_1->inside:cabinet.n.01_1",
+        "transfer::folder.n.02_2::ontop:floor.n.01_1->inside:cabinet.n.01_1",
+        "transfer::marker.n.03_1::ontop:chair.n.01_1->ontop:table.n.02_1",
+        "transfer::document.n.01_1::ontop:table.n.02_1->inside:cabinet.n.01_1"
+      ],
+      "execution_valid": true,
+      "partial_order_edges": [],
+      "valid_topological_sorts": 120,
+      "total_topological_sorts": 120,
+      "topological_validation_status": "complete"
+    },
+    {
+      "plan": [
+        "transfer::folder.n.02_1::ontop:table.n.02_1->inside:cabinet.n.01_1",
+        "transfer::document.n.01_3::ontop:table.n.02_1->inside:cabinet.n.01_1",
+        "transfer::marker.n.03_1::ontop:chair.n.01_1->ontop:table.n.02_1",
+        "transfer::document.n.01_1::ontop:table.n.02_1->inside:cabinet.n.01_1",
+        "transfer::folder.n.02_2::ontop:floor.n.01_1->inside:cabinet.n.01_1"
+      ],
+      "execution_valid": true,
+      "partial_order_edges": [],
+      "valid_topological_sorts": 120,
+      "total_topological_sorts": 120,
+      "topological_validation_status": "complete"
+    },
+    {
+      "plan": [
+        "transfer::folder.n.02_1::ontop:table.n.02_1->inside:cabinet.n.01_1",
+        "transfer::document.n.01_3::ontop:table.n.02_1->inside:cabinet.n.01_1",
+        "transfer::marker.n.03_1::ontop:chair.n.01_1->ontop:table.n.02_1",
+        "transfer::folder.n.02_2::ontop:floor.n.01_1->inside:cabinet.n.01_1",
+        "transfer::document.n.01_1::ontop:table.n.02_1->inside:cabinet.n.01_1"
+      ],
+      "execution_valid": true,
+      "partial_order_edges": [],
+      "valid_topological_sorts": 120,
+      "total_topological_sorts": 120,
+      "topological_validation_status": "complete"
+    },
+    {
+      "plan": [
+        "transfer::folder.n.02_1::ontop:table.n.02_1->inside:cabinet.n.01_1",
+        "transfer::folder.n.02_2::ontop:floor.n.01_1->inside:cabinet.n.01_1",
+        "transfer::document.n.01_1::ontop:table.n.02_1->inside:cabinet.n.01_1",
+        "transfer::document.n.01_3::ontop:table.n.02_1->inside:cabinet.n.01_1",
+        "transfer::marker.n.03_1::ontop:chair.n.01_1->ontop:table.n.02_1"
+      ],
+      "execution_valid": true,
+      "partial_order_edges": [],
+      "valid_topological_sorts": 120,
+      "total_topological_sorts": 120,
+      "topological_validation_status": "complete"
+    },
+    {
+      "plan": [
+        "transfer::folder.n.02_1::ontop:table.n.02_1->inside:cabinet.n.01_1",
+        "transfer::folder.n.02_2::ontop:floor.n.01_1->inside:cabinet.n.01_1",
+        "transfer::document.n.01_1::ontop:table.n.02_1->inside:cabinet.n.01_1",
+        "transfer::marker.n.03_1::ontop:chair.n.01_1->ontop:table.n.02_1",
+        "transfer::document.n.01_3::ontop:table.n.02_1->inside:cabinet.n.01_1"
+      ],
+      "execution_valid": true,
+      "partial_order_edges": [],
+      "valid_topological_sorts": 120,
+      "total_topological_sorts": 120,
+      "topological_validation_status": "complete"
+    },
+    {
+      "plan": [
+        "transfer::folder.n.02_1::ontop:table.n.02_1->inside:cabinet.n.01_1",
+        "transfer::folder.n.02_2::ontop:floor.n.01_1->inside:cabinet.n.01_1",
+        "transfer::document.n.01_3::ontop:table.n.02_1->inside:cabinet.n.01_1",
+        "transfer::document.n.01_1::ontop:table.n.02_1->inside:cabinet.n.01_1",
+        "transfer::marker.n.03_1::ontop:chair.n.01_1->ontop:table.n.02_1"
+      ],
+      "execution_valid": true,
+      "partial_order_edges": [],
+      "valid_topological_sorts": 120,
+      "total_topological_sorts": 120,
+      "topological_validation_status": "complete"
+    },
+    {
+      "plan": [
+        "transfer::folder.n.02_1::ontop:table.n.02_1->inside:cabinet.n.01_1",
+        "transfer::folder.n.02_2::ontop:floor.n.01_1->inside:cabinet.n.01_1",
+        "transfer::document.n.01_3::ontop:table.n.02_1->inside:cabinet.n.01_1",
+        "transfer::marker.n.03_1::ontop:chair.n.01_1->ontop:table.n.02_1",
+        "transfer::document.n.01_1::ontop:table.n.02_1->inside:cabinet.n.01_1"
+      ],
+      "execution_valid": true,
+      "partial_order_edges": [],
+      "valid_topological_sorts": 120,
+      "total_topological_sorts": 120,
+      "topological_validation_status": "complete"
+    },
+    {
+      "plan": [
+        "transfer::folder.n.02_1::ontop:table.n.02_1->inside:cabinet.n.01_1",
+        "transfer::folder.n.02_2::ontop:floor.n.01_1->inside:cabinet.n.01_1",
+        "transfer::marker.n.03_1::ontop:chair.n.01_1->ontop:table.n.02_1",
+        "transfer::document.n.01_1::ontop:table.n.02_1->inside:cabinet.n.01_1",
+        "transfer::document.n.01_3::ontop:table.n.02_1->inside:cabinet.n.01_1"
+      ],
+      "execution_valid": true,
+      "partial_order_edges": [],
+      "valid_topological_sorts": 120,
+      "total_topological_sorts": 120,
+      "topological_validation_status": "complete"
+    },
+    {
+      "plan": [
+        "transfer::folder.n.02_1::ontop:table.n.02_1->inside:cabinet.n.01_1",
+        "transfer::folder.n.02_2::ontop:floor.n.01_1->inside:cabinet.n.01_1",
+        "transfer::marker.n.03_1::ontop:chair.n.01_1->ontop:table.n.02_1",
+        "transfer::document.n.01_3::ontop:table.n.02_1->inside:cabinet.n.01_1",
+        "transfer::document.n.01_1::ontop:table.n.02_1->inside:cabinet.n.01_1"
+      ],
+      "execution_valid": true,
+      "partial_order_edges": [],
+      "valid_topological_sorts": 120,
+      "total_topological_sorts": 120,
+      "topological_validation_status": "complete"
+    },
+    {
+      "plan": [
+        "transfer::folder.n.02_1::ontop:table.n.02_1->inside:cabinet.n.01_1",
+        "transfer::marker.n.03_1::ontop:chair.n.01_1->ontop:table.n.02_1",
+        "transfer::document.n.01_1::ontop:table.n.02_1->inside:cabinet.n.01_1",
+        "transfer::document.n.01_3::ontop:table.n.02_1->inside:cabinet.n.01_1",
+        "transfer::folder.n.02_2::ontop:floor.n.01_1->inside:cabinet.n.01_1"
+      ],
+      "execution_valid": true,
+      "partial_order_edges": [],
+      "valid_topological_sorts": 120,
+      "total_topological_sorts": 120,
+      "topological_validation_status": "complete"
+    },
+    {
+      "plan": [
+        "transfer::folder.n.02_1::ontop:table.n.02_1->inside:cabinet.n.01_1",
+        "transfer::marker.n.03_1::ontop:chair.n.01_1->ontop:table.n.02_1",
+        "transfer::document.n.01_1::ontop:table.n.02_1->inside:cabinet.n.01_1",
+        "transfer::folder.n.02_2::ontop:floor.n.01_1->inside:cabinet.n.01_1",
+        "transfer::document.n.01_3::ontop:table.n.02_1->inside:cabinet.n.01_1"
+      ],
+      "execution_valid": true,
+      "partial_order_edges": [],
+      "valid_topological_sorts": 120,
+      "total_topological_sorts": 120,
+      "topological_validation_status": "complete"
+    },
+    {
+      "plan": [
+        "transfer::folder.n.02_1::ontop:table.n.02_1->inside:cabinet.n.01_1",
+        "transfer::marker.n.03_1::ontop:chair.n.01_1->ontop:table.n.02_1",
+        "transfer::document.n.01_3::ontop:table.n.02_1->inside:cabinet.n.01_1",
+        "transfer::document.n.01_1::ontop:table.n.02_1->inside:cabinet.n.01_1",
+        "transfer::folder.n.02_2::ontop:floor.n.01_1->inside:cabinet.n.01_1"
+      ],
+      "execution_valid": true,
+      "partial_order_edges": [],
+      "valid_topological_sorts": 120,
+      "total_topological_sorts": 120,
+      "topological_validation_status": "complete"
+    },
+    {
+      "plan": [
+        "transfer::folder.n.02_1::ontop:table.n.02_1->inside:cabinet.n.01_1",
+        "transfer::marker.n.03_1::ontop:chair.n.01_1->ontop:table.n.02_1",
+        "transfer::document.n.01_3::ontop:table.n.02_1->inside:cabinet.n.01_1",
+        "transfer::folder.n.02_2::ontop:floor.n.01_1->inside:cabinet.n.01_1",
+        "transfer::document.n.01_1::ontop:table.n.02_1->inside:cabinet.n.01_1"
+      ],
+      "execution_valid": true,
+      "partial_order_edges": [],
+      "valid_topological_sorts": 120,
+      "total_topological_sorts": 120,
+      "topological_validation_status": "complete"
+    },
+    {
+      "plan": [
+        "transfer::folder.n.02_1::ontop:table.n.02_1->inside:cabinet.n.01_1",
+        "transfer::marker.n.03_1::ontop:chair.n.01_1->ontop:table.n.02_1",
+        "transfer::folder.n.02_2::ontop:floor.n.01_1->inside:cabinet.n.01_1",
+        "transfer::document.n.01_1::ontop:table.n.02_1->inside:cabinet.n.01_1",
+        "transfer::document.n.01_3::ontop:table.n.02_1->inside:cabinet.n.01_1"
+      ],
+      "execution_valid": true,
+      "partial_order_edges": [],
+      "valid_topological_sorts": 120,
+      "total_topological_sorts": 120,
+      "topological_validation_status": "complete"
+    },
+    {
+      "plan": [
+        "transfer::folder.n.02_1::ontop:table.n.02_1->inside:cabinet.n.01_1",
+        "transfer::marker.n.03_1::ontop:chair.n.01_1->ontop:table.n.02_1",
+        "transfer::folder.n.02_2::ontop:floor.n.01_1->inside:cabinet.n.01_1",
+        "transfer::document.n.01_3::ontop:table.n.02_1->inside:cabinet.n.01_1",
+        "transfer::document.n.01_1::ontop:table.n.02_1->inside:cabinet.n.01_1"
+      ],
+      "execution_valid": true,
+      "partial_order_edges": [],
+      "valid_topological_sorts": 120,
+      "total_topological_sorts": 120,
+      "topological_validation_status": "complete"
+    },
+    {
+      "plan": [
+        "transfer::folder.n.02_2::ontop:floor.n.01_1->inside:cabinet.n.01_1",
+        "transfer::document.n.01_1::ontop:table.n.02_1->inside:cabinet.n.01_1",
+        "transfer::document.n.01_3::ontop:table.n.02_1->inside:cabinet.n.01_1",
+        "transfer::folder.n.02_1::ontop:table.n.02_1->inside:cabinet.n.01_1",
+        "transfer::marker.n.03_1::ontop:chair.n.01_1->ontop:table.n.02_1"
+      ],
+      "execution_valid": true,
+      "partial_order_edges": [],
+      "valid_topological_sorts": 120,
+      "total_topological_sorts": 120,
+      "topological_validation_status": "complete"
+    },
+    {
+      "plan": [
+        "transfer::folder.n.02_2::ontop:floor.n.01_1->inside:cabinet.n.01_1",
+        "transfer::document.n.01_1::ontop:table.n.02_1->inside:cabinet.n.01_1",
+        "transfer::document.n.01_3::ontop:table.n.02_1->inside:cabinet.n.01_1",
+        "transfer::marker.n.03_1::ontop:chair.n.01_1->ontop:table.n.02_1",
+        "transfer::folder.n.02_1::ontop:table.n.02_1->inside:cabinet.n.01_1"
+      ],
+      "execution_valid": true,
+      "partial_order_edges": [],
+      "valid_topological_sorts": 120,
+      "total_topological_sorts": 120,
+      "topological_validation_status": "complete"
+    },
+    {
+      "plan": [
+        "transfer::folder.n.02_2::ontop:floor.n.01_1->inside:cabinet.n.01_1",
+        "transfer::document.n.01_1::ontop:table.n.02_1->inside:cabinet.n.01_1",
+        "transfer::folder.n.02_1::ontop:table.n.02_1->inside:cabinet.n.01_1",
+        "transfer::document.n.01_3::ontop:table.n.02_1->inside:cabinet.n.01_1",
+        "transfer::marker.n.03_1::ontop:chair.n.01_1->ontop:table.n.02_1"
+      ],
+      "execution_valid": true,
+      "partial_order_edges": [],
+      "valid_topological_sorts": 120,
+      "total_topological_sorts": 120,
+      "topological_validation_status": "complete"
+    },
+    {
+      "plan": [
+        "transfer::folder.n.02_2::ontop:floor.n.01_1->inside:cabinet.n.01_1",
+        "transfer::document.n.01_1::ontop:table.n.02_1->inside:cabinet.n.01_1",
+        "transfer::folder.n.02_1::ontop:table.n.02_1->inside:cabinet.n.01_1",
+        "transfer::marker.n.03_1::ontop:chair.n.01_1->ontop:table.n.02_1",
+        "transfer::document.n.01_3::ontop:table.n.02_1->inside:cabinet.n.01_1"
+      ],
+      "execution_valid": true,
+      "partial_order_edges": [],
+      "valid_topological_sorts": 120,
+      "total_topological_sorts": 120,
+      "topological_validation_status": "complete"
+    },
+    {
+      "plan": [
+        "transfer::folder.n.02_2::ontop:floor.n.01_1->inside:cabinet.n.01_1",
+        "transfer::document.n.01_1::ontop:table.n.02_1->inside:cabinet.n.01_1",
+        "transfer::marker.n.03_1::ontop:chair.n.01_1->ontop:table.n.02_1",
+        "transfer::document.n.01_3::ontop:table.n.02_1->inside:cabinet.n.01_1",
+        "transfer::folder.n.02_1::ontop:table.n.02_1->inside:cabinet.n.01_1"
+      ],
+      "execution_valid": true,
+      "partial_order_edges": [],
+      "valid_topological_sorts": 120,
+      "total_topological_sorts": 120,
+      "topological_validation_status": "complete"
+    },
+    {
+      "plan": [
+        "transfer::folder.n.02_2::ontop:floor.n.01_1->inside:cabinet.n.01_1",
+        "transfer::document.n.01_1::ontop:table.n.02_1->inside:cabinet.n.01_1",
+        "transfer::marker.n.03_1::ontop:chair.n.01_1->ontop:table.n.02_1",
+        "transfer::folder.n.02_1::ontop:table.n.02_1->inside:cabinet.n.01_1",
+        "transfer::document.n.01_3::ontop:table.n.02_1->inside:cabinet.n.01_1"
+      ],
+      "execution_valid": true,
+      "partial_order_edges": [],
+      "valid_topological_sorts": 120,
+      "total_topological_sorts": 120,
+      "topological_validation_status": "complete"
+    },
+    {
+      "plan": [
+        "transfer::folder.n.02_2::ontop:floor.n.01_1->inside:cabinet.n.01_1",
+        "transfer::document.n.01_3::ontop:table.n.02_1->inside:cabinet.n.01_1",
+        "transfer::document.n.01_1::ontop:table.n.02_1->inside:cabinet.n.01_1",
+        "transfer::folder.n.02_1::ontop:table.n.02_1->inside:cabinet.n.01_1",
+        "transfer::marker.n.03_1::ontop:chair.n.01_1->ontop:table.n.02_1"
+      ],
+      "execution_valid": true,
+      "partial_order_edges": [],
+      "valid_topological_sorts": 120,
+      "total_topological_sorts": 120,
+      "topological_validation_status": "complete"
+    },
+    {
+      "plan": [
+        "transfer::folder.n.02_2::ontop:floor.n.01_1->inside:cabinet.n.01_1",
+        "transfer::document.n.01_3::ontop:table.n.02_1->inside:cabinet.n.01_1",
+        "transfer::document.n.01_1::ontop:table.n.02_1->inside:cabinet.n.01_1",
+        "transfer::marker.n.03_1::ontop:chair.n.01_1->ontop:table.n.02_1",
+        "transfer::folder.n.02_1::ontop:table.n.02_1->inside:cabinet.n.01_1"
+      ],
+      "execution_valid": true,
+      "partial_order_edges": [],
+      "valid_topological_sorts": 120,
+      "total_topological_sorts": 120,
+      "topological_validation_status": "complete"
+    },
+    {
+      "plan": [
+        "transfer::folder.n.02_2::ontop:floor.n.01_1->inside:cabinet.n.01_1",
+        "transfer::document.n.01_3::ontop:table.n.02_1->inside:cabinet.n.01_1",
+        "transfer::folder.n.02_1::ontop:table.n.02_1->inside:cabinet.n.01_1",
+        "transfer::document.n.01_1::ontop:table.n.02_1->inside:cabinet.n.01_1",
+        "transfer::marker.n.03_1::ontop:chair.n.01_1->ontop:table.n.02_1"
+      ],
+      "execution_valid": true,
+      "partial_order_edges": [],
+      "valid_topological_sorts": 120,
+      "total_topological_sorts": 120,
+      "topological_validation_status": "complete"
+    },
+    {
+      "plan": [
+        "transfer::folder.n.02_2::ontop:floor.n.01_1->inside:cabinet.n.01_1",
+        "transfer::document.n.01_3::ontop:table.n.02_1->inside:cabinet.n.01_1",
+        "transfer::folder.n.02_1::ontop:table.n.02_1->inside:cabinet.n.01_1",
+        "transfer::marker.n.03_1::ontop:chair.n.01_1->ontop:table.n.02_1",
+        "transfer::document.n.01_1::ontop:table.n.02_1->inside:cabinet.n.01_1"
+      ],
+      "execution_valid": true,
+      "partial_order_edges": [],
+      "valid_topological_sorts": 120,
+      "total_topological_sorts": 120,
+      "topological_validation_status": "complete"
+    },
+    {
+      "plan": [
+        "transfer::folder.n.02_2::ontop:floor.n.01_1->inside:cabinet.n.01_1",
+        "transfer::document.n.01_3::ontop:table.n.02_1->inside:cabinet.n.01_1",
+        "transfer::marker.n.03_1::ontop:chair.n.01_1->ontop:table.n.02_1",
+        "transfer::document.n.01_1::ontop:table.n.02_1->inside:cabinet.n.01_1",
+        "transfer::folder.n.02_1::ontop:table.n.02_1->inside:cabinet.n.01_1"
+      ],
+      "execution_valid": true,
+      "partial_order_edges": [],
+      "valid_topological_sorts": 120,
+      "total_topological_sorts": 120,
+      "topological_validation_status": "complete"
+    },
+    {
+      "plan": [
+        "transfer::folder.n.02_2::ontop:floor.n.01_1->inside:cabinet.n.01_1",
+        "transfer::document.n.01_3::ontop:table.n.02_1->inside:cabinet.n.01_1",
+        "transfer::marker.n.03_1::ontop:chair.n.01_1->ontop:table.n.02_1",
+        "transfer::folder.n.02_1::ontop:table.n.02_1->inside:cabinet.n.01_1",
+        "transfer::document.n.01_1::ontop:table.n.02_1->inside:cabinet.n.01_1"
+      ],
+      "execution_valid": true,
+      "partial_order_edges": [],
+      "valid_topological_sorts": 120,
+      "total_topological_sorts": 120,
+      "topological_validation_status": "complete"
+    },
+    {
+      "plan": [
+        "transfer::folder.n.02_2::ontop:floor.n.01_1->inside:cabinet.n.01_1",
+        "transfer::folder.n.02_1::ontop:table.n.02_1->inside:cabinet.n.01_1",
+        "transfer::document.n.01_1::ontop:table.n.02_1->inside:cabinet.n.01_1",
+        "transfer::document.n.01_3::ontop:table.n.02_1->inside:cabinet.n.01_1",
+        "transfer::marker.n.03_1::ontop:chair.n.01_1->ontop:table.n.02_1"
+      ],
+      "execution_valid": true,
+      "partial_order_edges": [],
+      "valid_topological_sorts": 120,
+      "total_topological_sorts": 120,
+      "topological_validation_status": "complete"
+    },
+    {
+      "plan": [
+        "transfer::folder.n.02_2::ontop:floor.n.01_1->inside:cabinet.n.01_1",
+        "transfer::folder.n.02_1::ontop:table.n.02_1->inside:cabinet.n.01_1",
+        "transfer::document.n.01_1::ontop:table.n.02_1->inside:cabinet.n.01_1",
+        "transfer::marker.n.03_1::ontop:chair.n.01_1->ontop:table.n.02_1",
+        "transfer::document.n.01_3::ontop:table.n.02_1->inside:cabinet.n.01_1"
+      ],
+      "execution_valid": true,
+      "partial_order_edges": [],
+      "valid_topological_sorts": 120,
+      "total_topological_sorts": 120,
+      "topological_validation_status": "complete"
+    },
+    {
+      "plan": [
+        "transfer::folder.n.02_2::ontop:floor.n.01_1->inside:cabinet.n.01_1",
+        "transfer::folder.n.02_1::ontop:table.n.02_1->inside:cabinet.n.01_1",
+        "transfer::document.n.01_3::ontop:table.n.02_1->inside:cabinet.n.01_1",
+        "transfer::document.n.01_1::ontop:table.n.02_1->inside:cabinet.n.01_1",
+        "transfer::marker.n.03_1::ontop:chair.n.01_1->ontop:table.n.02_1"
+      ],
+      "execution_valid": true,
+      "partial_order_edges": [],
+      "valid_topological_sorts": 120,
+      "total_topological_sorts": 120,
+      "topological_validation_status": "complete"
+    },
+    {
+      "plan": [
+        "transfer::folder.n.02_2::ontop:floor.n.01_1->inside:cabinet.n.01_1",
+        "transfer::folder.n.02_1::ontop:table.n.02_1->inside:cabinet.n.01_1",
+        "transfer::document.n.01_3::ontop:table.n.02_1->inside:cabinet.n.01_1",
+        "transfer::marker.n.03_1::ontop:chair.n.01_1->ontop:table.n.02_1",
+        "transfer::document.n.01_1::ontop:table.n.02_1->inside:cabinet.n.01_1"
+      ],
+      "execution_valid": true,
+      "partial_order_edges": [],
+      "valid_topological_sorts": 120,
+      "total_topological_sorts": 120,
+      "topological_validation_status": "complete"
+    },
+    {
+      "plan": [
+        "transfer::folder.n.02_2::ontop:floor.n.01_1->inside:cabinet.n.01_1",
+        "transfer::folder.n.02_1::ontop:table.n.02_1->inside:cabinet.n.01_1",
+        "transfer::marker.n.03_1::ontop:chair.n.01_1->ontop:table.n.02_1",
+        "transfer::document.n.01_1::ontop:table.n.02_1->inside:cabinet.n.01_1",
+        "transfer::document.n.01_3::ontop:table.n.02_1->inside:cabinet.n.01_1"
+      ],
+      "execution_valid": true,
+      "partial_order_edges": [],
+      "valid_topological_sorts": 120,
+      "total_topological_sorts": 120,
+      "topological_validation_status": "complete"
+    },
+    {
+      "plan": [
+        "transfer::folder.n.02_2::ontop:floor.n.01_1->inside:cabinet.n.01_1",
+        "transfer::folder.n.02_1::ontop:table.n.02_1->inside:cabinet.n.01_1",
+        "transfer::marker.n.03_1::ontop:chair.n.01_1->ontop:table.n.02_1",
+        "transfer::document.n.01_3::ontop:table.n.02_1->inside:cabinet.n.01_1",
+        "transfer::document.n.01_1::ontop:table.n.02_1->inside:cabinet.n.01_1"
+      ],
+      "execution_valid": true,
+      "partial_order_edges": [],
+      "valid_topological_sorts": 120,
+      "total_topological_sorts": 120,
+      "topological_validation_status": "complete"
+    },
+    {
+      "plan": [
+        "transfer::folder.n.02_2::ontop:floor.n.01_1->inside:cabinet.n.01_1",
+        "transfer::marker.n.03_1::ontop:chair.n.01_1->ontop:table.n.02_1",
+        "transfer::document.n.01_1::ontop:table.n.02_1->inside:cabinet.n.01_1",
+        "transfer::document.n.01_3::ontop:table.n.02_1->inside:cabinet.n.01_1",
+        "transfer::folder.n.02_1::ontop:table.n.02_1->inside:cabinet.n.01_1"
+      ],
+      "execution_valid": true,
+      "partial_order_edges": [],
+      "valid_topological_sorts": 120,
+      "total_topological_sorts": 120,
+      "topological_validation_status": "complete"
+    },
+    {
+      "plan": [
+        "transfer::folder.n.02_2::ontop:floor.n.01_1->inside:cabinet.n.01_1",
+        "transfer::marker.n.03_1::ontop:chair.n.01_1->ontop:table.n.02_1",
+        "transfer::document.n.01_1::ontop:table.n.02_1->inside:cabinet.n.01_1",
+        "transfer::folder.n.02_1::ontop:table.n.02_1->inside:cabinet.n.01_1",
+        "transfer::document.n.01_3::ontop:table.n.02_1->inside:cabinet.n.01_1"
+      ],
+      "execution_valid": true,
+      "partial_order_edges": [],
+      "valid_topological_sorts": 120,
+      "total_topological_sorts": 120,
+      "topological_validation_status": "complete"
+    },
+    {
+      "plan": [
+        "transfer::folder.n.02_2::ontop:floor.n.01_1->inside:cabinet.n.01_1",
+        "transfer::marker.n.03_1::ontop:chair.n.01_1->ontop:table.n.02_1",
+        "transfer::document.n.01_3::ontop:table.n.02_1->inside:cabinet.n.01_1",
+        "transfer::document.n.01_1::ontop:table.n.02_1->inside:cabinet.n.01_1",
+        "transfer::folder.n.02_1::ontop:table.n.02_1->inside:cabinet.n.01_1"
+      ],
+      "execution_valid": true,
+      "partial_order_edges": [],
+      "valid_topological_sorts": 120,
+      "total_topological_sorts": 120,
+      "topological_validation_status": "complete"
+    },
+    {
+      "plan": [
+        "transfer::folder.n.02_2::ontop:floor.n.01_1->inside:cabinet.n.01_1",
+        "transfer::marker.n.03_1::ontop:chair.n.01_1->ontop:table.n.02_1",
+        "transfer::document.n.01_3::ontop:table.n.02_1->inside:cabinet.n.01_1",
+        "transfer::folder.n.02_1::ontop:table.n.02_1->inside:cabinet.n.01_1",
+        "transfer::document.n.01_1::ontop:table.n.02_1->inside:cabinet.n.01_1"
+      ],
+      "execution_valid": true,
+      "partial_order_edges": [],
+      "valid_topological_sorts": 120,
+      "total_topological_sorts": 120,
+      "topological_validation_status": "complete"
+    },
+    {
+      "plan": [
+        "transfer::folder.n.02_2::ontop:floor.n.01_1->inside:cabinet.n.01_1",
+        "transfer::marker.n.03_1::ontop:chair.n.01_1->ontop:table.n.02_1",
+        "transfer::folder.n.02_1::ontop:table.n.02_1->inside:cabinet.n.01_1",
+        "transfer::document.n.01_1::ontop:table.n.02_1->inside:cabinet.n.01_1",
+        "transfer::document.n.01_3::ontop:table.n.02_1->inside:cabinet.n.01_1"
+      ],
+      "execution_valid": true,
+      "partial_order_edges": [],
+      "valid_topological_sorts": 120,
+      "total_topological_sorts": 120,
+      "topological_validation_status": "complete"
+    },
+    {
+      "plan": [
+        "transfer::folder.n.02_2::ontop:floor.n.01_1->inside:cabinet.n.01_1",
+        "transfer::marker.n.03_1::ontop:chair.n.01_1->ontop:table.n.02_1",
+        "transfer::folder.n.02_1::ontop:table.n.02_1->inside:cabinet.n.01_1",
+        "transfer::document.n.01_3::ontop:table.n.02_1->inside:cabinet.n.01_1",
+        "transfer::document.n.01_1::ontop:table.n.02_1->inside:cabinet.n.01_1"
+      ],
+      "execution_valid": true,
+      "partial_order_edges": [],
+      "valid_topological_sorts": 120,
+      "total_topological_sorts": 120,
+      "topological_validation_status": "complete"
+    },
+    {
+      "plan": [
+        "transfer::marker.n.03_1::ontop:chair.n.01_1->ontop:table.n.02_1",
+        "transfer::document.n.01_1::ontop:table.n.02_1->inside:cabinet.n.01_1",
+        "transfer::document.n.01_3::ontop:table.n.02_1->inside:cabinet.n.01_1",
+        "transfer::folder.n.02_1::ontop:table.n.02_1->inside:cabinet.n.01_1",
+        "transfer::folder.n.02_2::ontop:floor.n.01_1->inside:cabinet.n.01_1"
+      ],
+      "execution_valid": true,
+      "partial_order_edges": [],
+      "valid_topological_sorts": 120,
+      "total_topological_sorts": 120,
+      "topological_validation_status": "complete"
+    },
+    {
+      "plan": [
+        "transfer::marker.n.03_1::ontop:chair.n.01_1->ontop:table.n.02_1",
+        "transfer::document.n.01_1::ontop:table.n.02_1->inside:cabinet.n.01_1",
+        "transfer::document.n.01_3::ontop:table.n.02_1->inside:cabinet.n.01_1",
+        "transfer::folder.n.02_2::ontop:floor.n.01_1->inside:cabinet.n.01_1",
+        "transfer::folder.n.02_1::ontop:table.n.02_1->inside:cabinet.n.01_1"
+      ],
+      "execution_valid": true,
+      "partial_order_edges": [],
+      "valid_topological_sorts": 120,
+      "total_topological_sorts": 120,
+      "topological_validation_status": "complete"
+    },
+    {
+      "plan": [
+        "transfer::marker.n.03_1::ontop:chair.n.01_1->ontop:table.n.02_1",
+        "transfer::document.n.01_1::ontop:table.n.02_1->inside:cabinet.n.01_1",
+        "transfer::folder.n.02_1::ontop:table.n.02_1->inside:cabinet.n.01_1",
+        "transfer::document.n.01_3::ontop:table.n.02_1->inside:cabinet.n.01_1",
+        "transfer::folder.n.02_2::ontop:floor.n.01_1->inside:cabinet.n.01_1"
+      ],
+      "execution_valid": true,
+      "partial_order_edges": [],
+      "valid_topological_sorts": 120,
+      "total_topological_sorts": 120,
+      "topological_validation_status": "complete"
+    },
+    {
+      "plan": [
+        "transfer::marker.n.03_1::ontop:chair.n.01_1->ontop:table.n.02_1",
+        "transfer::document.n.01_1::ontop:table.n.02_1->inside:cabinet.n.01_1",
+        "transfer::folder.n.02_1::ontop:table.n.02_1->inside:cabinet.n.01_1",
+        "transfer::folder.n.02_2::ontop:floor.n.01_1->inside:cabinet.n.01_1",
+        "transfer::document.n.01_3::ontop:table.n.02_1->inside:cabinet.n.01_1"
+      ],
+      "execution_valid": true,
+      "partial_order_edges": [],
+      "valid_topological_sorts": 120,
+      "total_topological_sorts": 120,
+      "topological_validation_status": "complete"
+    },
+    {
+      "plan": [
+        "transfer::marker.n.03_1::ontop:chair.n.01_1->ontop:table.n.02_1",
+        "transfer::document.n.01_1::ontop:table.n.02_1->inside:cabinet.n.01_1",
+        "transfer::folder.n.02_2::ontop:floor.n.01_1->inside:cabinet.n.01_1",
+        "transfer::document.n.01_3::ontop:table.n.02_1->inside:cabinet.n.01_1",
+        "transfer::folder.n.02_1::ontop:table.n.02_1->inside:cabinet.n.01_1"
+      ],
+      "execution_valid": true,
+      "partial_order_edges": [],
+      "valid_topological_sorts": 120,
+      "total_topological_sorts": 120,
+      "topological_validation_status": "complete"
+    },
+    {
+      "plan": [
+        "transfer::marker.n.03_1::ontop:chair.n.01_1->ontop:table.n.02_1",
+        "transfer::document.n.01_1::ontop:table.n.02_1->inside:cabinet.n.01_1",
+        "transfer::folder.n.02_2::ontop:floor.n.01_1->inside:cabinet.n.01_1",
+        "transfer::folder.n.02_1::ontop:table.n.02_1->inside:cabinet.n.01_1",
+        "transfer::document.n.01_3::ontop:table.n.02_1->inside:cabinet.n.01_1"
+      ],
+      "execution_valid": true,
+      "partial_order_edges": [],
+      "valid_topological_sorts": 120,
+      "total_topological_sorts": 120,
+      "topological_validation_status": "complete"
+    },
+    {
+      "plan": [
+        "transfer::marker.n.03_1::ontop:chair.n.01_1->ontop:table.n.02_1",
+        "transfer::document.n.01_3::ontop:table.n.02_1->inside:cabinet.n.01_1",
+        "transfer::document.n.01_1::ontop:table.n.02_1->inside:cabinet.n.01_1",
+        "transfer::folder.n.02_1::ontop:table.n.02_1->inside:cabinet.n.01_1",
+        "transfer::folder.n.02_2::ontop:floor.n.01_1->inside:cabinet.n.01_1"
+      ],
+      "execution_valid": true,
+      "partial_order_edges": [],
+      "valid_topological_sorts": 120,
+      "total_topological_sorts": 120,
+      "topological_validation_status": "complete"
+    },
+    {
+      "plan": [
+        "transfer::marker.n.03_1::ontop:chair.n.01_1->ontop:table.n.02_1",
+        "transfer::document.n.01_3::ontop:table.n.02_1->inside:cabinet.n.01_1",
+        "transfer::document.n.01_1::ontop:table.n.02_1->inside:cabinet.n.01_1",
+        "transfer::folder.n.02_2::ontop:floor.n.01_1->inside:cabinet.n.01_1",
+        "transfer::folder.n.02_1::ontop:table.n.02_1->inside:cabinet.n.01_1"
+      ],
+      "execution_valid": true,
+      "partial_order_edges": [],
+      "valid_topological_sorts": 120,
+      "total_topological_sorts": 120,
+      "topological_validation_status": "complete"
+    },
+    {
+      "plan": [
+        "transfer::marker.n.03_1::ontop:chair.n.01_1->ontop:table.n.02_1",
+        "transfer::document.n.01_3::ontop:table.n.02_1->inside:cabinet.n.01_1",
+        "transfer::folder.n.02_1::ontop:table.n.02_1->inside:cabinet.n.01_1",
+        "transfer::document.n.01_1::ontop:table.n.02_1->inside:cabinet.n.01_1",
+        "transfer::folder.n.02_2::ontop:floor.n.01_1->inside:cabinet.n.01_1"
+      ],
+      "execution_valid": true,
+      "partial_order_edges": [],
+      "valid_topological_sorts": 120,
+      "total_topological_sorts": 120,
+      "topological_validation_status": "complete"
+    },
+    {
+      "plan": [
+        "transfer::marker.n.03_1::ontop:chair.n.01_1->ontop:table.n.02_1",
+        "transfer::document.n.01_3::ontop:table.n.02_1->inside:cabinet.n.01_1",
+        "transfer::folder.n.02_1::ontop:table.n.02_1->inside:cabinet.n.01_1",
+        "transfer::folder.n.02_2::ontop:floor.n.01_1->inside:cabinet.n.01_1",
+        "transfer::document.n.01_1::ontop:table.n.02_1->inside:cabinet.n.01_1"
+      ],
+      "execution_valid": true,
+      "partial_order_edges": [],
+      "valid_topological_sorts": 120,
+      "total_topological_sorts": 120,
+      "topological_validation_status": "complete"
+    },
+    {
+      "plan": [
+        "transfer::marker.n.03_1::ontop:chair.n.01_1->ontop:table.n.02_1",
+        "transfer::document.n.01_3::ontop:table.n.02_1->inside:cabinet.n.01_1",
+        "transfer::folder.n.02_2::ontop:floor.n.01_1->inside:cabinet.n.01_1",
+        "transfer::document.n.01_1::ontop:table.n.02_1->inside:cabinet.n.01_1",
+        "transfer::folder.n.02_1::ontop:table.n.02_1->inside:cabinet.n.01_1"
+      ],
+      "execution_valid": true,
+      "partial_order_edges": [],
+      "valid_topological_sorts": 120,
+      "total_topological_sorts": 120,
+      "topological_validation_status": "complete"
+    },
+    {
+      "plan": [
+        "transfer::marker.n.03_1::ontop:chair.n.01_1->ontop:table.n.02_1",
+        "transfer::document.n.01_3::ontop:table.n.02_1->inside:cabinet.n.01_1",
+        "transfer::folder.n.02_2::ontop:floor.n.01_1->inside:cabinet.n.01_1",
+        "transfer::folder.n.02_1::ontop:table.n.02_1->inside:cabinet.n.01_1",
+        "transfer::document.n.01_1::ontop:table.n.02_1->inside:cabinet.n.01_1"
+      ],
+      "execution_valid": true,
+      "partial_order_edges": [],
+      "valid_topological_sorts": 120,
+      "total_topological_sorts": 120,
+      "topological_validation_status": "complete"
+    },
+    {
+      "plan": [
+        "transfer::marker.n.03_1::ontop:chair.n.01_1->ontop:table.n.02_1",
+        "transfer::folder.n.02_1::ontop:table.n.02_1->inside:cabinet.n.01_1",
+        "transfer::document.n.01_1::ontop:table.n.02_1->inside:cabinet.n.01_1",
+        "transfer::document.n.01_3::ontop:table.n.02_1->inside:cabinet.n.01_1",
+        "transfer::folder.n.02_2::ontop:floor.n.01_1->inside:cabinet.n.01_1"
+      ],
+      "execution_valid": true,
+      "partial_order_edges": [],
+      "valid_topological_sorts": 120,
+      "total_topological_sorts": 120,
+      "topological_validation_status": "complete"
+    },
+    {
+      "plan": [
+        "transfer::marker.n.03_1::ontop:chair.n.01_1->ontop:table.n.02_1",
+        "transfer::folder.n.02_1::ontop:table.n.02_1->inside:cabinet.n.01_1",
+        "transfer::document.n.01_1::ontop:table.n.02_1->inside:cabinet.n.01_1",
+        "transfer::folder.n.02_2::ontop:floor.n.01_1->inside:cabinet.n.01_1",
+        "transfer::document.n.01_3::ontop:table.n.02_1->inside:cabinet.n.01_1"
+      ],
+      "execution_valid": true,
+      "partial_order_edges": [],
+      "valid_topological_sorts": 120,
+      "total_topological_sorts": 120,
+      "topological_validation_status": "complete"
+    },
+    {
+      "plan": [
+        "transfer::marker.n.03_1::ontop:chair.n.01_1->ontop:table.n.02_1",
+        "transfer::folder.n.02_1::ontop:table.n.02_1->inside:cabinet.n.01_1",
+        "transfer::document.n.01_3::ontop:table.n.02_1->inside:cabinet.n.01_1",
+        "transfer::document.n.01_1::ontop:table.n.02_1->inside:cabinet.n.01_1",
+        "transfer::folder.n.02_2::ontop:floor.n.01_1->inside:cabinet.n.01_1"
+      ],
+      "execution_valid": true,
+      "partial_order_edges": [],
+      "valid_topological_sorts": 120,
+      "total_topological_sorts": 120,
+      "topological_validation_status": "complete"
+    },
+    {
+      "plan": [
+        "transfer::marker.n.03_1::ontop:chair.n.01_1->ontop:table.n.02_1",
+        "transfer::folder.n.02_1::ontop:table.n.02_1->inside:cabinet.n.01_1",
+        "transfer::document.n.01_3::ontop:table.n.02_1->inside:cabinet.n.01_1",
+        "transfer::folder.n.02_2::ontop:floor.n.01_1->inside:cabinet.n.01_1",
+        "transfer::document.n.01_1::ontop:table.n.02_1->inside:cabinet.n.01_1"
+      ],
+      "execution_valid": true,
+      "partial_order_edges": [],
+      "valid_topological_sorts": 120,
+      "total_topological_sorts": 120,
+      "topological_validation_status": "complete"
+    },
+    {
+      "plan": [
+        "transfer::marker.n.03_1::ontop:chair.n.01_1->ontop:table.n.02_1",
+        "transfer::folder.n.02_1::ontop:table.n.02_1->inside:cabinet.n.01_1",
+        "transfer::folder.n.02_2::ontop:floor.n.01_1->inside:cabinet.n.01_1",
+        "transfer::document.n.01_1::ontop:table.n.02_1->inside:cabinet.n.01_1",
+        "transfer::document.n.01_3::ontop:table.n.02_1->inside:cabinet.n.01_1"
+      ],
+      "execution_valid": true,
+      "partial_order_edges": [],
+      "valid_topological_sorts": 120,
+      "total_topological_sorts": 120,
+      "topological_validation_status": "complete"
+    },
+    {
+      "plan": [
+        "transfer::marker.n.03_1::ontop:chair.n.01_1->ontop:table.n.02_1",
+        "transfer::folder.n.02_1::ontop:table.n.02_1->inside:cabinet.n.01_1",
+        "transfer::folder.n.02_2::ontop:floor.n.01_1->inside:cabinet.n.01_1",
+        "transfer::document.n.01_3::ontop:table.n.02_1->inside:cabinet.n.01_1",
+        "transfer::document.n.01_1::ontop:table.n.02_1->inside:cabinet.n.01_1"
+      ],
+      "execution_valid": true,
+      "partial_order_edges": [],
+      "valid_topological_sorts": 120,
+      "total_topological_sorts": 120,
+      "topological_validation_status": "complete"
+    },
+    {
+      "plan": [
+        "transfer::marker.n.03_1::ontop:chair.n.01_1->ontop:table.n.02_1",
+        "transfer::folder.n.02_2::ontop:floor.n.01_1->inside:cabinet.n.01_1",
+        "transfer::document.n.01_1::ontop:table.n.02_1->inside:cabinet.n.01_1",
+        "transfer::document.n.01_3::ontop:table.n.02_1->inside:cabinet.n.01_1",
+        "transfer::folder.n.02_1::ontop:table.n.02_1->inside:cabinet.n.01_1"
+      ],
+      "execution_valid": true,
+      "partial_order_edges": [],
+      "valid_topological_sorts": 120,
+      "total_topological_sorts": 120,
+      "topological_validation_status": "complete"
+    },
+    {
+      "plan": [
+        "transfer::marker.n.03_1::ontop:chair.n.01_1->ontop:table.n.02_1",
+        "transfer::folder.n.02_2::ontop:floor.n.01_1->inside:cabinet.n.01_1",
+        "transfer::document.n.01_1::ontop:table.n.02_1->inside:cabinet.n.01_1",
+        "transfer::folder.n.02_1::ontop:table.n.02_1->inside:cabinet.n.01_1",
+        "transfer::document.n.01_3::ontop:table.n.02_1->inside:cabinet.n.01_1"
+      ],
+      "execution_valid": true,
+      "partial_order_edges": [],
+      "valid_topological_sorts": 120,
+      "total_topological_sorts": 120,
+      "topological_validation_status": "complete"
+    },
+    {
+      "plan": [
+        "transfer::marker.n.03_1::ontop:chair.n.01_1->ontop:table.n.02_1",
+        "transfer::folder.n.02_2::ontop:floor.n.01_1->inside:cabinet.n.01_1",
+        "transfer::document.n.01_3::ontop:table.n.02_1->inside:cabinet.n.01_1",
+        "transfer::document.n.01_1::ontop:table.n.02_1->inside:cabinet.n.01_1",
+        "transfer::folder.n.02_1::ontop:table.n.02_1->inside:cabinet.n.01_1"
+      ],
+      "execution_valid": true,
+      "partial_order_edges": [],
+      "valid_topological_sorts": 120,
+      "total_topological_sorts": 120,
+      "topological_validation_status": "complete"
+    },
+    {
+      "plan": [
+        "transfer::marker.n.03_1::ontop:chair.n.01_1->ontop:table.n.02_1",
+        "transfer::folder.n.02_2::ontop:floor.n.01_1->inside:cabinet.n.01_1",
+        "transfer::document.n.01_3::ontop:table.n.02_1->inside:cabinet.n.01_1",
+        "transfer::folder.n.02_1::ontop:table.n.02_1->inside:cabinet.n.01_1",
+        "transfer::document.n.01_1::ontop:table.n.02_1->inside:cabinet.n.01_1"
+      ],
+      "execution_valid": true,
+      "partial_order_edges": [],
+      "valid_topological_sorts": 120,
+      "total_topological_sorts": 120,
+      "topological_validation_status": "complete"
+    },
+    {
+      "plan": [
+        "transfer::marker.n.03_1::ontop:chair.n.01_1->ontop:table.n.02_1",
+        "transfer::folder.n.02_2::ontop:floor.n.01_1->inside:cabinet.n.01_1",
+        "transfer::folder.n.02_1::ontop:table.n.02_1->inside:cabinet.n.01_1",
+        "transfer::document.n.01_1::ontop:table.n.02_1->inside:cabinet.n.01_1",
+        "transfer::document.n.01_3::ontop:table.n.02_1->inside:cabinet.n.01_1"
+      ],
+      "execution_valid": true,
+      "partial_order_edges": [],
+      "valid_topological_sorts": 120,
+      "total_topological_sorts": 120,
+      "topological_validation_status": "complete"
+    },
+    {
+      "plan": [
+        "transfer::marker.n.03_1::ontop:chair.n.01_1->ontop:table.n.02_1",
+        "transfer::folder.n.02_2::ontop:floor.n.01_1->inside:cabinet.n.01_1",
+        "transfer::folder.n.02_1::ontop:table.n.02_1->inside:cabinet.n.01_1",
+        "transfer::document.n.01_3::ontop:table.n.02_1->inside:cabinet.n.01_1",
+        "transfer::document.n.01_1::ontop:table.n.02_1->inside:cabinet.n.01_1"
+      ],
+      "execution_valid": true,
+      "partial_order_edges": [],
+      "valid_topological_sorts": 120,
+      "total_topological_sorts": 120,
+      "topological_validation_status": "complete"
+    }
+  ],
+  "structured_negative_count": 10,
+  "structured_negatives": [
+    {
+      "plan": [
+        "transfer::document.n.01_3::ontop:table.n.02_1->inside:cabinet.n.01_1",
+        "transfer::folder.n.02_1::ontop:table.n.02_1->inside:cabinet.n.01_1",
+        "transfer::folder.n.02_2::ontop:floor.n.01_1->inside:cabinet.n.01_1",
+        "transfer::marker.n.03_1::ontop:chair.n.01_1->ontop:table.n.02_1"
+      ],
+      "executable": true,
+      "goal_satisfied": false,
+      "failure_step": null,
+      "failed_action_id": null,
+      "missing_preconditions": []
+    },
+    {
+      "plan": [
+        "transfer::document.n.01_1::ontop:table.n.02_1->inside:cabinet.n.01_1",
+        "transfer::folder.n.02_1::ontop:table.n.02_1->inside:cabinet.n.01_1",
+        "transfer::folder.n.02_2::ontop:floor.n.01_1->inside:cabinet.n.01_1",
+        "transfer::marker.n.03_1::ontop:chair.n.01_1->ontop:table.n.02_1"
+      ],
+      "executable": true,
+      "goal_satisfied": false,
+      "failure_step": null,
+      "failed_action_id": null,
+      "missing_preconditions": []
+    },
+    {
+      "plan": [
+        "transfer::document.n.01_1::ontop:table.n.02_1->inside:cabinet.n.01_1",
+        "transfer::document.n.01_3::ontop:table.n.02_1->inside:cabinet.n.01_1",
+        "transfer::folder.n.02_2::ontop:floor.n.01_1->inside:cabinet.n.01_1",
+        "transfer::marker.n.03_1::ontop:chair.n.01_1->ontop:table.n.02_1"
+      ],
+      "executable": true,
+      "goal_satisfied": false,
+      "failure_step": null,
+      "failed_action_id": null,
+      "missing_preconditions": []
+    },
+    {
+      "plan": [
+        "transfer::document.n.01_1::ontop:table.n.02_1->inside:cabinet.n.01_1",
+        "transfer::document.n.01_3::ontop:table.n.02_1->inside:cabinet.n.01_1",
+        "transfer::folder.n.02_1::ontop:table.n.02_1->inside:cabinet.n.01_1",
+        "transfer::marker.n.03_1::ontop:chair.n.01_1->ontop:table.n.02_1"
+      ],
+      "executable": true,
+      "goal_satisfied": false,
+      "failure_step": null,
+      "failed_action_id": null,
+      "missing_preconditions": []
+    },
+    {
+      "plan": [
+        "transfer::document.n.01_1::ontop:table.n.02_1->inside:cabinet.n.01_1",
+        "transfer::document.n.01_3::ontop:table.n.02_1->inside:cabinet.n.01_1",
+        "transfer::folder.n.02_1::ontop:table.n.02_1->inside:cabinet.n.01_1",
+        "transfer::folder.n.02_2::ontop:floor.n.01_1->inside:cabinet.n.01_1"
+      ],
+      "executable": true,
+      "goal_satisfied": false,
+      "failure_step": null,
+      "failed_action_id": null,
+      "missing_preconditions": []
+    },
+    {
+      "plan": [
+        "transfer::document.n.01_3::ontop:table.n.02_1->inside:cabinet.n.01_1",
+        "transfer::folder.n.02_1::ontop:table.n.02_1->inside:cabinet.n.01_1",
+        "transfer::marker.n.03_1::ontop:chair.n.01_1->ontop:table.n.02_1",
+        "transfer::folder.n.02_2::ontop:floor.n.01_1->inside:cabinet.n.01_1"
+      ],
+      "executable": true,
+      "goal_satisfied": false,
+      "failure_step": null,
+      "failed_action_id": null,
+      "missing_preconditions": []
+    },
+    {
+      "plan": [
+        "transfer::document.n.01_1::ontop:table.n.02_1->inside:cabinet.n.01_1",
+        "transfer::folder.n.02_1::ontop:table.n.02_1->inside:cabinet.n.01_1",
+        "transfer::marker.n.03_1::ontop:chair.n.01_1->ontop:table.n.02_1",
+        "transfer::folder.n.02_2::ontop:floor.n.01_1->inside:cabinet.n.01_1"
+      ],
+      "executable": true,
+      "goal_satisfied": false,
+      "failure_step": null,
+      "failed_action_id": null,
+      "missing_preconditions": []
+    },
+    {
+      "plan": [
+        "transfer::document.n.01_1::ontop:table.n.02_1->inside:cabinet.n.01_1",
+        "transfer::document.n.01_3::ontop:table.n.02_1->inside:cabinet.n.01_1",
+        "transfer::marker.n.03_1::ontop:chair.n.01_1->ontop:table.n.02_1",
+        "transfer::folder.n.02_2::ontop:floor.n.01_1->inside:cabinet.n.01_1"
+      ],
+      "executable": true,
+      "goal_satisfied": false,
+      "failure_step": null,
+      "failed_action_id": null,
+      "missing_preconditions": []
+    },
+    {
+      "plan": [
+        "transfer::document.n.01_3::ontop:table.n.02_1->inside:cabinet.n.01_1",
+        "transfer::folder.n.02_2::ontop:floor.n.01_1->inside:cabinet.n.01_1",
+        "transfer::folder.n.02_1::ontop:table.n.02_1->inside:cabinet.n.01_1",
+        "transfer::marker.n.03_1::ontop:chair.n.01_1->ontop:table.n.02_1"
+      ],
+      "executable": true,
+      "goal_satisfied": false,
+      "failure_step": null,
+      "failed_action_id": null,
+      "missing_preconditions": []
+    },
+    {
+      "plan": [
+        "transfer::document.n.01_1::ontop:table.n.02_1->inside:cabinet.n.01_1",
+        "transfer::folder.n.02_2::ontop:floor.n.01_1->inside:cabinet.n.01_1",
+        "transfer::folder.n.02_1::ontop:table.n.02_1->inside:cabinet.n.01_1",
+        "transfer::marker.n.03_1::ontop:chair.n.01_1->ontop:table.n.02_1"
+      ],
+      "executable": true,
+      "goal_satisfied": false,
+      "failure_step": null,
+      "failed_action_id": null,
+      "missing_preconditions": []
+    }
+  ],
+  "audit_requirement": "manual trace review and action-semantic sign-off"
+}

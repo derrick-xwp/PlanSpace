@@ -1,0 +1,4791 @@
+{
+  "evidence_status": "frozen_bddl_candidate_semantics_not_paper_evidence",
+  "activity": "storing_food",
+  "problem_id": "storing_food-0",
+  "source_sha256": "501ba590cc5699a4f89f20ed68d6ea7d3baccc7adbacd441999e86ed2b934ef3",
+  "action_domain_version": "planspace_domain_v0.1-candidate",
+  "plan_count": 256,
+  "enumeration_unit": "unique_final_state_representatives",
+  "plan_lengths": [
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8
+  ],
+  "completeness_status": "bounded_complete_unique_states",
+  "search_bound": {
+    "max_depth": 8,
+    "max_cost": null
+  },
+  "single_reference_false_rejection_rate": 0.99609375,
+  "families": [
+    {
+      "plan": [
+        "store::bag__of__chips.n.01_1->cabinet.n.01_*",
+        "store::bag__of__chips.n.01_2->cabinet.n.01_*",
+        "store::bottle__of__olive_oil.n.01_1->cabinet.n.01_*",
+        "store::bottle__of__olive_oil.n.01_2->cabinet.n.01_*",
+        "store::box__of__oatmeal.n.01_1->cabinet.n.01_*",
+        "store::box__of__oatmeal.n.01_2->cabinet.n.01_*",
+        "store::jar__of__sugar.n.01_1->cabinet.n.01_*",
+        "store::jar__of__sugar.n.01_2->cabinet.n.01_*"
+      ],
+      "execution_valid": true,
+      "partial_order_edges": [],
+      "valid_topological_sorts": 1000,
+      "total_topological_sorts": 1000,
+      "topological_validation_status": "sampled"
+    },
+    {
+      "plan": [
+        "store::bag__of__chips.n.01_1->cabinet.n.01_*",
+        "store::bag__of__chips.n.01_2->cabinet.n.01_*",
+        "store::bottle__of__olive_oil.n.01_1->cabinet.n.01_*",
+        "store::bottle__of__olive_oil.n.01_2->cabinet.n.01_*",
+        "store::box__of__oatmeal.n.01_1->cabinet.n.01_*",
+        "store::box__of__oatmeal.n.01_2->cabinet.n.01_*",
+        "store::jar__of__sugar.n.01_1->cabinet.n.01_*",
+        "store::jar__of__sugar.n.01_2->cabinet.n.01_1"
+      ],
+      "execution_valid": true,
+      "partial_order_edges": [],
+      "valid_topological_sorts": 1000,
+      "total_topological_sorts": 1000,
+      "topological_validation_status": "sampled"
+    },
+    {
+      "plan": [
+        "store::bag__of__chips.n.01_1->cabinet.n.01_*",
+        "store::bag__of__chips.n.01_2->cabinet.n.01_*",
+        "store::bottle__of__olive_oil.n.01_1->cabinet.n.01_*",
+        "store::bottle__of__olive_oil.n.01_2->cabinet.n.01_*",
+        "store::box__of__oatmeal.n.01_1->cabinet.n.01_*",
+        "store::box__of__oatmeal.n.01_2->cabinet.n.01_*",
+        "store::jar__of__sugar.n.01_1->cabinet.n.01_1",
+        "store::jar__of__sugar.n.01_2->cabinet.n.01_*"
+      ],
+      "execution_valid": true,
+      "partial_order_edges": [],
+      "valid_topological_sorts": 1000,
+      "total_topological_sorts": 1000,
+      "topological_validation_status": "sampled"
+    },
+    {
+      "plan": [
+        "store::bag__of__chips.n.01_1->cabinet.n.01_*",
+        "store::bag__of__chips.n.01_2->cabinet.n.01_*",
+        "store::bottle__of__olive_oil.n.01_1->cabinet.n.01_*",
+        "store::bottle__of__olive_oil.n.01_2->cabinet.n.01_*",
+        "store::box__of__oatmeal.n.01_1->cabinet.n.01_*",
+        "store::box__of__oatmeal.n.01_2->cabinet.n.01_*",
+        "store::jar__of__sugar.n.01_1->cabinet.n.01_1",
+        "store::jar__of__sugar.n.01_2->cabinet.n.01_1"
+      ],
+      "execution_valid": true,
+      "partial_order_edges": [],
+      "valid_topological_sorts": 1000,
+      "total_topological_sorts": 1000,
+      "topological_validation_status": "sampled"
+    },
+    {
+      "plan": [
+        "store::bag__of__chips.n.01_1->cabinet.n.01_*",
+        "store::bag__of__chips.n.01_2->cabinet.n.01_*",
+        "store::bottle__of__olive_oil.n.01_1->cabinet.n.01_*",
+        "store::bottle__of__olive_oil.n.01_2->cabinet.n.01_*",
+        "store::box__of__oatmeal.n.01_1->cabinet.n.01_*",
+        "store::box__of__oatmeal.n.01_2->cabinet.n.01_1",
+        "store::jar__of__sugar.n.01_1->cabinet.n.01_*",
+        "store::jar__of__sugar.n.01_2->cabinet.n.01_*"
+      ],
+      "execution_valid": true,
+      "partial_order_edges": [],
+      "valid_topological_sorts": 1000,
+      "total_topological_sorts": 1000,
+      "topological_validation_status": "sampled"
+    },
+    {
+      "plan": [
+        "store::bag__of__chips.n.01_1->cabinet.n.01_*",
+        "store::bag__of__chips.n.01_2->cabinet.n.01_*",
+        "store::bottle__of__olive_oil.n.01_1->cabinet.n.01_*",
+        "store::bottle__of__olive_oil.n.01_2->cabinet.n.01_*",
+        "store::box__of__oatmeal.n.01_1->cabinet.n.01_*",
+        "store::box__of__oatmeal.n.01_2->cabinet.n.01_1",
+        "store::jar__of__sugar.n.01_1->cabinet.n.01_*",
+        "store::jar__of__sugar.n.01_2->cabinet.n.01_1"
+      ],
+      "execution_valid": true,
+      "partial_order_edges": [],
+      "valid_topological_sorts": 1000,
+      "total_topological_sorts": 1000,
+      "topological_validation_status": "sampled"
+    },
+    {
+      "plan": [
+        "store::bag__of__chips.n.01_1->cabinet.n.01_*",
+        "store::bag__of__chips.n.01_2->cabinet.n.01_*",
+        "store::bottle__of__olive_oil.n.01_1->cabinet.n.01_*",
+        "store::bottle__of__olive_oil.n.01_2->cabinet.n.01_*",
+        "store::box__of__oatmeal.n.01_1->cabinet.n.01_*",
+        "store::box__of__oatmeal.n.01_2->cabinet.n.01_1",
+        "store::jar__of__sugar.n.01_1->cabinet.n.01_1",
+        "store::jar__of__sugar.n.01_2->cabinet.n.01_*"
+      ],
+      "execution_valid": true,
+      "partial_order_edges": [],
+      "valid_topological_sorts": 1000,
+      "total_topological_sorts": 1000,
+      "topological_validation_status": "sampled"
+    },
+    {
+      "plan": [
+        "store::bag__of__chips.n.01_1->cabinet.n.01_*",
+        "store::bag__of__chips.n.01_2->cabinet.n.01_*",
+        "store::bottle__of__olive_oil.n.01_1->cabinet.n.01_*",
+        "store::bottle__of__olive_oil.n.01_2->cabinet.n.01_*",
+        "store::box__of__oatmeal.n.01_1->cabinet.n.01_*",
+        "store::box__of__oatmeal.n.01_2->cabinet.n.01_1",
+        "store::jar__of__sugar.n.01_1->cabinet.n.01_1",
+        "store::jar__of__sugar.n.01_2->cabinet.n.01_1"
+      ],
+      "execution_valid": true,
+      "partial_order_edges": [],
+      "valid_topological_sorts": 1000,
+      "total_topological_sorts": 1000,
+      "topological_validation_status": "sampled"
+    },
+    {
+      "plan": [
+        "store::bag__of__chips.n.01_1->cabinet.n.01_*",
+        "store::bag__of__chips.n.01_2->cabinet.n.01_*",
+        "store::bottle__of__olive_oil.n.01_1->cabinet.n.01_*",
+        "store::bottle__of__olive_oil.n.01_2->cabinet.n.01_*",
+        "store::box__of__oatmeal.n.01_1->cabinet.n.01_1",
+        "store::box__of__oatmeal.n.01_2->cabinet.n.01_*",
+        "store::jar__of__sugar.n.01_1->cabinet.n.01_*",
+        "store::jar__of__sugar.n.01_2->cabinet.n.01_*"
+      ],
+      "execution_valid": true,
+      "partial_order_edges": [],
+      "valid_topological_sorts": 1000,
+      "total_topological_sorts": 1000,
+      "topological_validation_status": "sampled"
+    },
+    {
+      "plan": [
+        "store::bag__of__chips.n.01_1->cabinet.n.01_*",
+        "store::bag__of__chips.n.01_2->cabinet.n.01_*",
+        "store::bottle__of__olive_oil.n.01_1->cabinet.n.01_*",
+        "store::bottle__of__olive_oil.n.01_2->cabinet.n.01_*",
+        "store::box__of__oatmeal.n.01_1->cabinet.n.01_1",
+        "store::box__of__oatmeal.n.01_2->cabinet.n.01_*",
+        "store::jar__of__sugar.n.01_1->cabinet.n.01_*",
+        "store::jar__of__sugar.n.01_2->cabinet.n.01_1"
+      ],
+      "execution_valid": true,
+      "partial_order_edges": [],
+      "valid_topological_sorts": 1000,
+      "total_topological_sorts": 1000,
+      "topological_validation_status": "sampled"
+    },
+    {
+      "plan": [
+        "store::bag__of__chips.n.01_1->cabinet.n.01_*",
+        "store::bag__of__chips.n.01_2->cabinet.n.01_*",
+        "store::bottle__of__olive_oil.n.01_1->cabinet.n.01_*",
+        "store::bottle__of__olive_oil.n.01_2->cabinet.n.01_*",
+        "store::box__of__oatmeal.n.01_1->cabinet.n.01_1",
+        "store::box__of__oatmeal.n.01_2->cabinet.n.01_*",
+        "store::jar__of__sugar.n.01_1->cabinet.n.01_1",
+        "store::jar__of__sugar.n.01_2->cabinet.n.01_*"
+      ],
+      "execution_valid": true,
+      "partial_order_edges": [],
+      "valid_topological_sorts": 1000,
+      "total_topological_sorts": 1000,
+      "topological_validation_status": "sampled"
+    },
+    {
+      "plan": [
+        "store::bag__of__chips.n.01_1->cabinet.n.01_*",
+        "store::bag__of__chips.n.01_2->cabinet.n.01_*",
+        "store::bottle__of__olive_oil.n.01_1->cabinet.n.01_*",
+        "store::bottle__of__olive_oil.n.01_2->cabinet.n.01_*",
+        "store::box__of__oatmeal.n.01_1->cabinet.n.01_1",
+        "store::box__of__oatmeal.n.01_2->cabinet.n.01_*",
+        "store::jar__of__sugar.n.01_1->cabinet.n.01_1",
+        "store::jar__of__sugar.n.01_2->cabinet.n.01_1"
+      ],
+      "execution_valid": true,
+      "partial_order_edges": [],
+      "valid_topological_sorts": 1000,
+      "total_topological_sorts": 1000,
+      "topological_validation_status": "sampled"
+    },
+    {
+      "plan": [
+        "store::bag__of__chips.n.01_1->cabinet.n.01_*",
+        "store::bag__of__chips.n.01_2->cabinet.n.01_*",
+        "store::bottle__of__olive_oil.n.01_1->cabinet.n.01_*",
+        "store::bottle__of__olive_oil.n.01_2->cabinet.n.01_*",
+        "store::box__of__oatmeal.n.01_1->cabinet.n.01_1",
+        "store::box__of__oatmeal.n.01_2->cabinet.n.01_1",
+        "store::jar__of__sugar.n.01_1->cabinet.n.01_*",
+        "store::jar__of__sugar.n.01_2->cabinet.n.01_*"
+      ],
+      "execution_valid": true,
+      "partial_order_edges": [],
+      "valid_topological_sorts": 1000,
+      "total_topological_sorts": 1000,
+      "topological_validation_status": "sampled"
+    },
+    {
+      "plan": [
+        "store::bag__of__chips.n.01_1->cabinet.n.01_*",
+        "store::bag__of__chips.n.01_2->cabinet.n.01_*",
+        "store::bottle__of__olive_oil.n.01_1->cabinet.n.01_*",
+        "store::bottle__of__olive_oil.n.01_2->cabinet.n.01_*",
+        "store::box__of__oatmeal.n.01_1->cabinet.n.01_1",
+        "store::box__of__oatmeal.n.01_2->cabinet.n.01_1",
+        "store::jar__of__sugar.n.01_1->cabinet.n.01_*",
+        "store::jar__of__sugar.n.01_2->cabinet.n.01_1"
+      ],
+      "execution_valid": true,
+      "partial_order_edges": [],
+      "valid_topological_sorts": 1000,
+      "total_topological_sorts": 1000,
+      "topological_validation_status": "sampled"
+    },
+    {
+      "plan": [
+        "store::bag__of__chips.n.01_1->cabinet.n.01_*",
+        "store::bag__of__chips.n.01_2->cabinet.n.01_*",
+        "store::bottle__of__olive_oil.n.01_1->cabinet.n.01_*",
+        "store::bottle__of__olive_oil.n.01_2->cabinet.n.01_*",
+        "store::box__of__oatmeal.n.01_1->cabinet.n.01_1",
+        "store::box__of__oatmeal.n.01_2->cabinet.n.01_1",
+        "store::jar__of__sugar.n.01_1->cabinet.n.01_1",
+        "store::jar__of__sugar.n.01_2->cabinet.n.01_*"
+      ],
+      "execution_valid": true,
+      "partial_order_edges": [],
+      "valid_topological_sorts": 1000,
+      "total_topological_sorts": 1000,
+      "topological_validation_status": "sampled"
+    },
+    {
+      "plan": [
+        "store::bag__of__chips.n.01_1->cabinet.n.01_*",
+        "store::bag__of__chips.n.01_2->cabinet.n.01_*",
+        "store::bottle__of__olive_oil.n.01_1->cabinet.n.01_*",
+        "store::bottle__of__olive_oil.n.01_2->cabinet.n.01_*",
+        "store::box__of__oatmeal.n.01_1->cabinet.n.01_1",
+        "store::box__of__oatmeal.n.01_2->cabinet.n.01_1",
+        "store::jar__of__sugar.n.01_1->cabinet.n.01_1",
+        "store::jar__of__sugar.n.01_2->cabinet.n.01_1"
+      ],
+      "execution_valid": true,
+      "partial_order_edges": [],
+      "valid_topological_sorts": 1000,
+      "total_topological_sorts": 1000,
+      "topological_validation_status": "sampled"
+    },
+    {
+      "plan": [
+        "store::bag__of__chips.n.01_1->cabinet.n.01_*",
+        "store::bag__of__chips.n.01_2->cabinet.n.01_*",
+        "store::bottle__of__olive_oil.n.01_1->cabinet.n.01_*",
+        "store::bottle__of__olive_oil.n.01_2->cabinet.n.01_1",
+        "store::box__of__oatmeal.n.01_1->cabinet.n.01_*",
+        "store::box__of__oatmeal.n.01_2->cabinet.n.01_*",
+        "store::jar__of__sugar.n.01_1->cabinet.n.01_*",
+        "store::jar__of__sugar.n.01_2->cabinet.n.01_*"
+      ],
+      "execution_valid": true,
+      "partial_order_edges": [],
+      "valid_topological_sorts": 1000,
+      "total_topological_sorts": 1000,
+      "topological_validation_status": "sampled"
+    },
+    {
+      "plan": [
+        "store::bag__of__chips.n.01_1->cabinet.n.01_*",
+        "store::bag__of__chips.n.01_2->cabinet.n.01_*",
+        "store::bottle__of__olive_oil.n.01_1->cabinet.n.01_*",
+        "store::bottle__of__olive_oil.n.01_2->cabinet.n.01_1",
+        "store::box__of__oatmeal.n.01_1->cabinet.n.01_*",
+        "store::box__of__oatmeal.n.01_2->cabinet.n.01_*",
+        "store::jar__of__sugar.n.01_1->cabinet.n.01_*",
+        "store::jar__of__sugar.n.01_2->cabinet.n.01_1"
+      ],
+      "execution_valid": true,
+      "partial_order_edges": [],
+      "valid_topological_sorts": 1000,
+      "total_topological_sorts": 1000,
+      "topological_validation_status": "sampled"
+    },
+    {
+      "plan": [
+        "store::bag__of__chips.n.01_1->cabinet.n.01_*",
+        "store::bag__of__chips.n.01_2->cabinet.n.01_*",
+        "store::bottle__of__olive_oil.n.01_1->cabinet.n.01_*",
+        "store::bottle__of__olive_oil.n.01_2->cabinet.n.01_1",
+        "store::box__of__oatmeal.n.01_1->cabinet.n.01_*",
+        "store::box__of__oatmeal.n.01_2->cabinet.n.01_*",
+        "store::jar__of__sugar.n.01_1->cabinet.n.01_1",
+        "store::jar__of__sugar.n.01_2->cabinet.n.01_*"
+      ],
+      "execution_valid": true,
+      "partial_order_edges": [],
+      "valid_topological_sorts": 1000,
+      "total_topological_sorts": 1000,
+      "topological_validation_status": "sampled"
+    },
+    {
+      "plan": [
+        "store::bag__of__chips.n.01_1->cabinet.n.01_*",
+        "store::bag__of__chips.n.01_2->cabinet.n.01_*",
+        "store::bottle__of__olive_oil.n.01_1->cabinet.n.01_*",
+        "store::bottle__of__olive_oil.n.01_2->cabinet.n.01_1",
+        "store::box__of__oatmeal.n.01_1->cabinet.n.01_*",
+        "store::box__of__oatmeal.n.01_2->cabinet.n.01_*",
+        "store::jar__of__sugar.n.01_1->cabinet.n.01_1",
+        "store::jar__of__sugar.n.01_2->cabinet.n.01_1"
+      ],
+      "execution_valid": true,
+      "partial_order_edges": [],
+      "valid_topological_sorts": 1000,
+      "total_topological_sorts": 1000,
+      "topological_validation_status": "sampled"
+    },
+    {
+      "plan": [
+        "store::bag__of__chips.n.01_1->cabinet.n.01_*",
+        "store::bag__of__chips.n.01_2->cabinet.n.01_*",
+        "store::bottle__of__olive_oil.n.01_1->cabinet.n.01_*",
+        "store::bottle__of__olive_oil.n.01_2->cabinet.n.01_1",
+        "store::box__of__oatmeal.n.01_1->cabinet.n.01_*",
+        "store::box__of__oatmeal.n.01_2->cabinet.n.01_1",
+        "store::jar__of__sugar.n.01_1->cabinet.n.01_*",
+        "store::jar__of__sugar.n.01_2->cabinet.n.01_*"
+      ],
+      "execution_valid": true,
+      "partial_order_edges": [],
+      "valid_topological_sorts": 1000,
+      "total_topological_sorts": 1000,
+      "topological_validation_status": "sampled"
+    },
+    {
+      "plan": [
+        "store::bag__of__chips.n.01_1->cabinet.n.01_*",
+        "store::bag__of__chips.n.01_2->cabinet.n.01_*",
+        "store::bottle__of__olive_oil.n.01_1->cabinet.n.01_*",
+        "store::bottle__of__olive_oil.n.01_2->cabinet.n.01_1",
+        "store::box__of__oatmeal.n.01_1->cabinet.n.01_*",
+        "store::box__of__oatmeal.n.01_2->cabinet.n.01_1",
+        "store::jar__of__sugar.n.01_1->cabinet.n.01_*",
+        "store::jar__of__sugar.n.01_2->cabinet.n.01_1"
+      ],
+      "execution_valid": true,
+      "partial_order_edges": [],
+      "valid_topological_sorts": 1000,
+      "total_topological_sorts": 1000,
+      "topological_validation_status": "sampled"
+    },
+    {
+      "plan": [
+        "store::bag__of__chips.n.01_1->cabinet.n.01_*",
+        "store::bag__of__chips.n.01_2->cabinet.n.01_*",
+        "store::bottle__of__olive_oil.n.01_1->cabinet.n.01_*",
+        "store::bottle__of__olive_oil.n.01_2->cabinet.n.01_1",
+        "store::box__of__oatmeal.n.01_1->cabinet.n.01_*",
+        "store::box__of__oatmeal.n.01_2->cabinet.n.01_1",
+        "store::jar__of__sugar.n.01_1->cabinet.n.01_1",
+        "store::jar__of__sugar.n.01_2->cabinet.n.01_*"
+      ],
+      "execution_valid": true,
+      "partial_order_edges": [],
+      "valid_topological_sorts": 1000,
+      "total_topological_sorts": 1000,
+      "topological_validation_status": "sampled"
+    },
+    {
+      "plan": [
+        "store::bag__of__chips.n.01_1->cabinet.n.01_*",
+        "store::bag__of__chips.n.01_2->cabinet.n.01_*",
+        "store::bottle__of__olive_oil.n.01_1->cabinet.n.01_*",
+        "store::bottle__of__olive_oil.n.01_2->cabinet.n.01_1",
+        "store::box__of__oatmeal.n.01_1->cabinet.n.01_*",
+        "store::box__of__oatmeal.n.01_2->cabinet.n.01_1",
+        "store::jar__of__sugar.n.01_1->cabinet.n.01_1",
+        "store::jar__of__sugar.n.01_2->cabinet.n.01_1"
+      ],
+      "execution_valid": true,
+      "partial_order_edges": [],
+      "valid_topological_sorts": 1000,
+      "total_topological_sorts": 1000,
+      "topological_validation_status": "sampled"
+    },
+    {
+      "plan": [
+        "store::bag__of__chips.n.01_1->cabinet.n.01_*",
+        "store::bag__of__chips.n.01_2->cabinet.n.01_*",
+        "store::bottle__of__olive_oil.n.01_1->cabinet.n.01_*",
+        "store::bottle__of__olive_oil.n.01_2->cabinet.n.01_1",
+        "store::box__of__oatmeal.n.01_1->cabinet.n.01_1",
+        "store::box__of__oatmeal.n.01_2->cabinet.n.01_*",
+        "store::jar__of__sugar.n.01_1->cabinet.n.01_*",
+        "store::jar__of__sugar.n.01_2->cabinet.n.01_*"
+      ],
+      "execution_valid": true,
+      "partial_order_edges": [],
+      "valid_topological_sorts": 1000,
+      "total_topological_sorts": 1000,
+      "topological_validation_status": "sampled"
+    },
+    {
+      "plan": [
+        "store::bag__of__chips.n.01_1->cabinet.n.01_*",
+        "store::bag__of__chips.n.01_2->cabinet.n.01_*",
+        "store::bottle__of__olive_oil.n.01_1->cabinet.n.01_*",
+        "store::bottle__of__olive_oil.n.01_2->cabinet.n.01_1",
+        "store::box__of__oatmeal.n.01_1->cabinet.n.01_1",
+        "store::box__of__oatmeal.n.01_2->cabinet.n.01_*",
+        "store::jar__of__sugar.n.01_1->cabinet.n.01_*",
+        "store::jar__of__sugar.n.01_2->cabinet.n.01_1"
+      ],
+      "execution_valid": true,
+      "partial_order_edges": [],
+      "valid_topological_sorts": 1000,
+      "total_topological_sorts": 1000,
+      "topological_validation_status": "sampled"
+    },
+    {
+      "plan": [
+        "store::bag__of__chips.n.01_1->cabinet.n.01_*",
+        "store::bag__of__chips.n.01_2->cabinet.n.01_*",
+        "store::bottle__of__olive_oil.n.01_1->cabinet.n.01_*",
+        "store::bottle__of__olive_oil.n.01_2->cabinet.n.01_1",
+        "store::box__of__oatmeal.n.01_1->cabinet.n.01_1",
+        "store::box__of__oatmeal.n.01_2->cabinet.n.01_*",
+        "store::jar__of__sugar.n.01_1->cabinet.n.01_1",
+        "store::jar__of__sugar.n.01_2->cabinet.n.01_*"
+      ],
+      "execution_valid": true,
+      "partial_order_edges": [],
+      "valid_topological_sorts": 1000,
+      "total_topological_sorts": 1000,
+      "topological_validation_status": "sampled"
+    },
+    {
+      "plan": [
+        "store::bag__of__chips.n.01_1->cabinet.n.01_*",
+        "store::bag__of__chips.n.01_2->cabinet.n.01_*",
+        "store::bottle__of__olive_oil.n.01_1->cabinet.n.01_*",
+        "store::bottle__of__olive_oil.n.01_2->cabinet.n.01_1",
+        "store::box__of__oatmeal.n.01_1->cabinet.n.01_1",
+        "store::box__of__oatmeal.n.01_2->cabinet.n.01_*",
+        "store::jar__of__sugar.n.01_1->cabinet.n.01_1",
+        "store::jar__of__sugar.n.01_2->cabinet.n.01_1"
+      ],
+      "execution_valid": true,
+      "partial_order_edges": [],
+      "valid_topological_sorts": 1000,
+      "total_topological_sorts": 1000,
+      "topological_validation_status": "sampled"
+    },
+    {
+      "plan": [
+        "store::bag__of__chips.n.01_1->cabinet.n.01_*",
+        "store::bag__of__chips.n.01_2->cabinet.n.01_*",
+        "store::bottle__of__olive_oil.n.01_1->cabinet.n.01_*",
+        "store::bottle__of__olive_oil.n.01_2->cabinet.n.01_1",
+        "store::box__of__oatmeal.n.01_1->cabinet.n.01_1",
+        "store::box__of__oatmeal.n.01_2->cabinet.n.01_1",
+        "store::jar__of__sugar.n.01_1->cabinet.n.01_*",
+        "store::jar__of__sugar.n.01_2->cabinet.n.01_*"
+      ],
+      "execution_valid": true,
+      "partial_order_edges": [],
+      "valid_topological_sorts": 1000,
+      "total_topological_sorts": 1000,
+      "topological_validation_status": "sampled"
+    },
+    {
+      "plan": [
+        "store::bag__of__chips.n.01_1->cabinet.n.01_*",
+        "store::bag__of__chips.n.01_2->cabinet.n.01_*",
+        "store::bottle__of__olive_oil.n.01_1->cabinet.n.01_*",
+        "store::bottle__of__olive_oil.n.01_2->cabinet.n.01_1",
+        "store::box__of__oatmeal.n.01_1->cabinet.n.01_1",
+        "store::box__of__oatmeal.n.01_2->cabinet.n.01_1",
+        "store::jar__of__sugar.n.01_1->cabinet.n.01_*",
+        "store::jar__of__sugar.n.01_2->cabinet.n.01_1"
+      ],
+      "execution_valid": true,
+      "partial_order_edges": [],
+      "valid_topological_sorts": 1000,
+      "total_topological_sorts": 1000,
+      "topological_validation_status": "sampled"
+    },
+    {
+      "plan": [
+        "store::bag__of__chips.n.01_1->cabinet.n.01_*",
+        "store::bag__of__chips.n.01_2->cabinet.n.01_*",
+        "store::bottle__of__olive_oil.n.01_1->cabinet.n.01_*",
+        "store::bottle__of__olive_oil.n.01_2->cabinet.n.01_1",
+        "store::box__of__oatmeal.n.01_1->cabinet.n.01_1",
+        "store::box__of__oatmeal.n.01_2->cabinet.n.01_1",
+        "store::jar__of__sugar.n.01_1->cabinet.n.01_1",
+        "store::jar__of__sugar.n.01_2->cabinet.n.01_*"
+      ],
+      "execution_valid": true,
+      "partial_order_edges": [],
+      "valid_topological_sorts": 1000,
+      "total_topological_sorts": 1000,
+      "topological_validation_status": "sampled"
+    },
+    {
+      "plan": [
+        "store::bag__of__chips.n.01_1->cabinet.n.01_*",
+        "store::bag__of__chips.n.01_2->cabinet.n.01_*",
+        "store::bottle__of__olive_oil.n.01_1->cabinet.n.01_*",
+        "store::bottle__of__olive_oil.n.01_2->cabinet.n.01_1",
+        "store::box__of__oatmeal.n.01_1->cabinet.n.01_1",
+        "store::box__of__oatmeal.n.01_2->cabinet.n.01_1",
+        "store::jar__of__sugar.n.01_1->cabinet.n.01_1",
+        "store::jar__of__sugar.n.01_2->cabinet.n.01_1"
+      ],
+      "execution_valid": true,
+      "partial_order_edges": [],
+      "valid_topological_sorts": 1000,
+      "total_topological_sorts": 1000,
+      "topological_validation_status": "sampled"
+    },
+    {
+      "plan": [
+        "store::bag__of__chips.n.01_1->cabinet.n.01_*",
+        "store::bag__of__chips.n.01_2->cabinet.n.01_*",
+        "store::bottle__of__olive_oil.n.01_1->cabinet.n.01_1",
+        "store::bottle__of__olive_oil.n.01_2->cabinet.n.01_*",
+        "store::box__of__oatmeal.n.01_1->cabinet.n.01_*",
+        "store::box__of__oatmeal.n.01_2->cabinet.n.01_*",
+        "store::jar__of__sugar.n.01_1->cabinet.n.01_*",
+        "store::jar__of__sugar.n.01_2->cabinet.n.01_*"
+      ],
+      "execution_valid": true,
+      "partial_order_edges": [],
+      "valid_topological_sorts": 1000,
+      "total_topological_sorts": 1000,
+      "topological_validation_status": "sampled"
+    },
+    {
+      "plan": [
+        "store::bag__of__chips.n.01_1->cabinet.n.01_*",
+        "store::bag__of__chips.n.01_2->cabinet.n.01_*",
+        "store::bottle__of__olive_oil.n.01_1->cabinet.n.01_1",
+        "store::bottle__of__olive_oil.n.01_2->cabinet.n.01_*",
+        "store::box__of__oatmeal.n.01_1->cabinet.n.01_*",
+        "store::box__of__oatmeal.n.01_2->cabinet.n.01_*",
+        "store::jar__of__sugar.n.01_1->cabinet.n.01_*",
+        "store::jar__of__sugar.n.01_2->cabinet.n.01_1"
+      ],
+      "execution_valid": true,
+      "partial_order_edges": [],
+      "valid_topological_sorts": 1000,
+      "total_topological_sorts": 1000,
+      "topological_validation_status": "sampled"
+    },
+    {
+      "plan": [
+        "store::bag__of__chips.n.01_1->cabinet.n.01_*",
+        "store::bag__of__chips.n.01_2->cabinet.n.01_*",
+        "store::bottle__of__olive_oil.n.01_1->cabinet.n.01_1",
+        "store::bottle__of__olive_oil.n.01_2->cabinet.n.01_*",
+        "store::box__of__oatmeal.n.01_1->cabinet.n.01_*",
+        "store::box__of__oatmeal.n.01_2->cabinet.n.01_*",
+        "store::jar__of__sugar.n.01_1->cabinet.n.01_1",
+        "store::jar__of__sugar.n.01_2->cabinet.n.01_*"
+      ],
+      "execution_valid": true,
+      "partial_order_edges": [],
+      "valid_topological_sorts": 1000,
+      "total_topological_sorts": 1000,
+      "topological_validation_status": "sampled"
+    },
+    {
+      "plan": [
+        "store::bag__of__chips.n.01_1->cabinet.n.01_*",
+        "store::bag__of__chips.n.01_2->cabinet.n.01_*",
+        "store::bottle__of__olive_oil.n.01_1->cabinet.n.01_1",
+        "store::bottle__of__olive_oil.n.01_2->cabinet.n.01_*",
+        "store::box__of__oatmeal.n.01_1->cabinet.n.01_*",
+        "store::box__of__oatmeal.n.01_2->cabinet.n.01_*",
+        "store::jar__of__sugar.n.01_1->cabinet.n.01_1",
+        "store::jar__of__sugar.n.01_2->cabinet.n.01_1"
+      ],
+      "execution_valid": true,
+      "partial_order_edges": [],
+      "valid_topological_sorts": 1000,
+      "total_topological_sorts": 1000,
+      "topological_validation_status": "sampled"
+    },
+    {
+      "plan": [
+        "store::bag__of__chips.n.01_1->cabinet.n.01_*",
+        "store::bag__of__chips.n.01_2->cabinet.n.01_*",
+        "store::bottle__of__olive_oil.n.01_1->cabinet.n.01_1",
+        "store::bottle__of__olive_oil.n.01_2->cabinet.n.01_*",
+        "store::box__of__oatmeal.n.01_1->cabinet.n.01_*",
+        "store::box__of__oatmeal.n.01_2->cabinet.n.01_1",
+        "store::jar__of__sugar.n.01_1->cabinet.n.01_*",
+        "store::jar__of__sugar.n.01_2->cabinet.n.01_*"
+      ],
+      "execution_valid": true,
+      "partial_order_edges": [],
+      "valid_topological_sorts": 1000,
+      "total_topological_sorts": 1000,
+      "topological_validation_status": "sampled"
+    },
+    {
+      "plan": [
+        "store::bag__of__chips.n.01_1->cabinet.n.01_*",
+        "store::bag__of__chips.n.01_2->cabinet.n.01_*",
+        "store::bottle__of__olive_oil.n.01_1->cabinet.n.01_1",
+        "store::bottle__of__olive_oil.n.01_2->cabinet.n.01_*",
+        "store::box__of__oatmeal.n.01_1->cabinet.n.01_*",
+        "store::box__of__oatmeal.n.01_2->cabinet.n.01_1",
+        "store::jar__of__sugar.n.01_1->cabinet.n.01_*",
+        "store::jar__of__sugar.n.01_2->cabinet.n.01_1"
+      ],
+      "execution_valid": true,
+      "partial_order_edges": [],
+      "valid_topological_sorts": 1000,
+      "total_topological_sorts": 1000,
+      "topological_validation_status": "sampled"
+    },
+    {
+      "plan": [
+        "store::bag__of__chips.n.01_1->cabinet.n.01_*",
+        "store::bag__of__chips.n.01_2->cabinet.n.01_*",
+        "store::bottle__of__olive_oil.n.01_1->cabinet.n.01_1",
+        "store::bottle__of__olive_oil.n.01_2->cabinet.n.01_*",
+        "store::box__of__oatmeal.n.01_1->cabinet.n.01_*",
+        "store::box__of__oatmeal.n.01_2->cabinet.n.01_1",
+        "store::jar__of__sugar.n.01_1->cabinet.n.01_1",
+        "store::jar__of__sugar.n.01_2->cabinet.n.01_*"
+      ],
+      "execution_valid": true,
+      "partial_order_edges": [],
+      "valid_topological_sorts": 1000,
+      "total_topological_sorts": 1000,
+      "topological_validation_status": "sampled"
+    },
+    {
+      "plan": [
+        "store::bag__of__chips.n.01_1->cabinet.n.01_*",
+        "store::bag__of__chips.n.01_2->cabinet.n.01_*",
+        "store::bottle__of__olive_oil.n.01_1->cabinet.n.01_1",
+        "store::bottle__of__olive_oil.n.01_2->cabinet.n.01_*",
+        "store::box__of__oatmeal.n.01_1->cabinet.n.01_*",
+        "store::box__of__oatmeal.n.01_2->cabinet.n.01_1",
+        "store::jar__of__sugar.n.01_1->cabinet.n.01_1",
+        "store::jar__of__sugar.n.01_2->cabinet.n.01_1"
+      ],
+      "execution_valid": true,
+      "partial_order_edges": [],
+      "valid_topological_sorts": 1000,
+      "total_topological_sorts": 1000,
+      "topological_validation_status": "sampled"
+    },
+    {
+      "plan": [
+        "store::bag__of__chips.n.01_1->cabinet.n.01_*",
+        "store::bag__of__chips.n.01_2->cabinet.n.01_*",
+        "store::bottle__of__olive_oil.n.01_1->cabinet.n.01_1",
+        "store::bottle__of__olive_oil.n.01_2->cabinet.n.01_*",
+        "store::box__of__oatmeal.n.01_1->cabinet.n.01_1",
+        "store::box__of__oatmeal.n.01_2->cabinet.n.01_*",
+        "store::jar__of__sugar.n.01_1->cabinet.n.01_*",
+        "store::jar__of__sugar.n.01_2->cabinet.n.01_*"
+      ],
+      "execution_valid": true,
+      "partial_order_edges": [],
+      "valid_topological_sorts": 1000,
+      "total_topological_sorts": 1000,
+      "topological_validation_status": "sampled"
+    },
+    {
+      "plan": [
+        "store::bag__of__chips.n.01_1->cabinet.n.01_*",
+        "store::bag__of__chips.n.01_2->cabinet.n.01_*",
+        "store::bottle__of__olive_oil.n.01_1->cabinet.n.01_1",
+        "store::bottle__of__olive_oil.n.01_2->cabinet.n.01_*",
+        "store::box__of__oatmeal.n.01_1->cabinet.n.01_1",
+        "store::box__of__oatmeal.n.01_2->cabinet.n.01_*",
+        "store::jar__of__sugar.n.01_1->cabinet.n.01_*",
+        "store::jar__of__sugar.n.01_2->cabinet.n.01_1"
+      ],
+      "execution_valid": true,
+      "partial_order_edges": [],
+      "valid_topological_sorts": 1000,
+      "total_topological_sorts": 1000,
+      "topological_validation_status": "sampled"
+    },
+    {
+      "plan": [
+        "store::bag__of__chips.n.01_1->cabinet.n.01_*",
+        "store::bag__of__chips.n.01_2->cabinet.n.01_*",
+        "store::bottle__of__olive_oil.n.01_1->cabinet.n.01_1",
+        "store::bottle__of__olive_oil.n.01_2->cabinet.n.01_*",
+        "store::box__of__oatmeal.n.01_1->cabinet.n.01_1",
+        "store::box__of__oatmeal.n.01_2->cabinet.n.01_*",
+        "store::jar__of__sugar.n.01_1->cabinet.n.01_1",
+        "store::jar__of__sugar.n.01_2->cabinet.n.01_*"
+      ],
+      "execution_valid": true,
+      "partial_order_edges": [],
+      "valid_topological_sorts": 1000,
+      "total_topological_sorts": 1000,
+      "topological_validation_status": "sampled"
+    },
+    {
+      "plan": [
+        "store::bag__of__chips.n.01_1->cabinet.n.01_*",
+        "store::bag__of__chips.n.01_2->cabinet.n.01_*",
+        "store::bottle__of__olive_oil.n.01_1->cabinet.n.01_1",
+        "store::bottle__of__olive_oil.n.01_2->cabinet.n.01_*",
+        "store::box__of__oatmeal.n.01_1->cabinet.n.01_1",
+        "store::box__of__oatmeal.n.01_2->cabinet.n.01_*",
+        "store::jar__of__sugar.n.01_1->cabinet.n.01_1",
+        "store::jar__of__sugar.n.01_2->cabinet.n.01_1"
+      ],
+      "execution_valid": true,
+      "partial_order_edges": [],
+      "valid_topological_sorts": 1000,
+      "total_topological_sorts": 1000,
+      "topological_validation_status": "sampled"
+    },
+    {
+      "plan": [
+        "store::bag__of__chips.n.01_1->cabinet.n.01_*",
+        "store::bag__of__chips.n.01_2->cabinet.n.01_*",
+        "store::bottle__of__olive_oil.n.01_1->cabinet.n.01_1",
+        "store::bottle__of__olive_oil.n.01_2->cabinet.n.01_*",
+        "store::box__of__oatmeal.n.01_1->cabinet.n.01_1",
+        "store::box__of__oatmeal.n.01_2->cabinet.n.01_1",
+        "store::jar__of__sugar.n.01_1->cabinet.n.01_*",
+        "store::jar__of__sugar.n.01_2->cabinet.n.01_*"
+      ],
+      "execution_valid": true,
+      "partial_order_edges": [],
+      "valid_topological_sorts": 1000,
+      "total_topological_sorts": 1000,
+      "topological_validation_status": "sampled"
+    },
+    {
+      "plan": [
+        "store::bag__of__chips.n.01_1->cabinet.n.01_*",
+        "store::bag__of__chips.n.01_2->cabinet.n.01_*",
+        "store::bottle__of__olive_oil.n.01_1->cabinet.n.01_1",
+        "store::bottle__of__olive_oil.n.01_2->cabinet.n.01_*",
+        "store::box__of__oatmeal.n.01_1->cabinet.n.01_1",
+        "store::box__of__oatmeal.n.01_2->cabinet.n.01_1",
+        "store::jar__of__sugar.n.01_1->cabinet.n.01_*",
+        "store::jar__of__sugar.n.01_2->cabinet.n.01_1"
+      ],
+      "execution_valid": true,
+      "partial_order_edges": [],
+      "valid_topological_sorts": 1000,
+      "total_topological_sorts": 1000,
+      "topological_validation_status": "sampled"
+    },
+    {
+      "plan": [
+        "store::bag__of__chips.n.01_1->cabinet.n.01_*",
+        "store::bag__of__chips.n.01_2->cabinet.n.01_*",
+        "store::bottle__of__olive_oil.n.01_1->cabinet.n.01_1",
+        "store::bottle__of__olive_oil.n.01_2->cabinet.n.01_*",
+        "store::box__of__oatmeal.n.01_1->cabinet.n.01_1",
+        "store::box__of__oatmeal.n.01_2->cabinet.n.01_1",
+        "store::jar__of__sugar.n.01_1->cabinet.n.01_1",
+        "store::jar__of__sugar.n.01_2->cabinet.n.01_*"
+      ],
+      "execution_valid": true,
+      "partial_order_edges": [],
+      "valid_topological_sorts": 1000,
+      "total_topological_sorts": 1000,
+      "topological_validation_status": "sampled"
+    },
+    {
+      "plan": [
+        "store::bag__of__chips.n.01_1->cabinet.n.01_*",
+        "store::bag__of__chips.n.01_2->cabinet.n.01_*",
+        "store::bottle__of__olive_oil.n.01_1->cabinet.n.01_1",
+        "store::bottle__of__olive_oil.n.01_2->cabinet.n.01_*",
+        "store::box__of__oatmeal.n.01_1->cabinet.n.01_1",
+        "store::box__of__oatmeal.n.01_2->cabinet.n.01_1",
+        "store::jar__of__sugar.n.01_1->cabinet.n.01_1",
+        "store::jar__of__sugar.n.01_2->cabinet.n.01_1"
+      ],
+      "execution_valid": true,
+      "partial_order_edges": [],
+      "valid_topological_sorts": 1000,
+      "total_topological_sorts": 1000,
+      "topological_validation_status": "sampled"
+    },
+    {
+      "plan": [
+        "store::bag__of__chips.n.01_1->cabinet.n.01_*",
+        "store::bag__of__chips.n.01_2->cabinet.n.01_*",
+        "store::bottle__of__olive_oil.n.01_1->cabinet.n.01_1",
+        "store::bottle__of__olive_oil.n.01_2->cabinet.n.01_1",
+        "store::box__of__oatmeal.n.01_1->cabinet.n.01_*",
+        "store::box__of__oatmeal.n.01_2->cabinet.n.01_*",
+        "store::jar__of__sugar.n.01_1->cabinet.n.01_*",
+        "store::jar__of__sugar.n.01_2->cabinet.n.01_*"
+      ],
+      "execution_valid": true,
+      "partial_order_edges": [],
+      "valid_topological_sorts": 1000,
+      "total_topological_sorts": 1000,
+      "topological_validation_status": "sampled"
+    },
+    {
+      "plan": [
+        "store::bag__of__chips.n.01_1->cabinet.n.01_*",
+        "store::bag__of__chips.n.01_2->cabinet.n.01_*",
+        "store::bottle__of__olive_oil.n.01_1->cabinet.n.01_1",
+        "store::bottle__of__olive_oil.n.01_2->cabinet.n.01_1",
+        "store::box__of__oatmeal.n.01_1->cabinet.n.01_*",
+        "store::box__of__oatmeal.n.01_2->cabinet.n.01_*",
+        "store::jar__of__sugar.n.01_1->cabinet.n.01_*",
+        "store::jar__of__sugar.n.01_2->cabinet.n.01_1"
+      ],
+      "execution_valid": true,
+      "partial_order_edges": [],
+      "valid_topological_sorts": 1000,
+      "total_topological_sorts": 1000,
+      "topological_validation_status": "sampled"
+    },
+    {
+      "plan": [
+        "store::bag__of__chips.n.01_1->cabinet.n.01_*",
+        "store::bag__of__chips.n.01_2->cabinet.n.01_*",
+        "store::bottle__of__olive_oil.n.01_1->cabinet.n.01_1",
+        "store::bottle__of__olive_oil.n.01_2->cabinet.n.01_1",
+        "store::box__of__oatmeal.n.01_1->cabinet.n.01_*",
+        "store::box__of__oatmeal.n.01_2->cabinet.n.01_*",
+        "store::jar__of__sugar.n.01_1->cabinet.n.01_1",
+        "store::jar__of__sugar.n.01_2->cabinet.n.01_*"
+      ],
+      "execution_valid": true,
+      "partial_order_edges": [],
+      "valid_topological_sorts": 1000,
+      "total_topological_sorts": 1000,
+      "topological_validation_status": "sampled"
+    },
+    {
+      "plan": [
+        "store::bag__of__chips.n.01_1->cabinet.n.01_*",
+        "store::bag__of__chips.n.01_2->cabinet.n.01_*",
+        "store::bottle__of__olive_oil.n.01_1->cabinet.n.01_1",
+        "store::bottle__of__olive_oil.n.01_2->cabinet.n.01_1",
+        "store::box__of__oatmeal.n.01_1->cabinet.n.01_*",
+        "store::box__of__oatmeal.n.01_2->cabinet.n.01_*",
+        "store::jar__of__sugar.n.01_1->cabinet.n.01_1",
+        "store::jar__of__sugar.n.01_2->cabinet.n.01_1"
+      ],
+      "execution_valid": true,
+      "partial_order_edges": [],
+      "valid_topological_sorts": 1000,
+      "total_topological_sorts": 1000,
+      "topological_validation_status": "sampled"
+    },
+    {
+      "plan": [
+        "store::bag__of__chips.n.01_1->cabinet.n.01_*",
+        "store::bag__of__chips.n.01_2->cabinet.n.01_*",
+        "store::bottle__of__olive_oil.n.01_1->cabinet.n.01_1",
+        "store::bottle__of__olive_oil.n.01_2->cabinet.n.01_1",
+        "store::box__of__oatmeal.n.01_1->cabinet.n.01_*",
+        "store::box__of__oatmeal.n.01_2->cabinet.n.01_1",
+        "store::jar__of__sugar.n.01_1->cabinet.n.01_*",
+        "store::jar__of__sugar.n.01_2->cabinet.n.01_*"
+      ],
+      "execution_valid": true,
+      "partial_order_edges": [],
+      "valid_topological_sorts": 1000,
+      "total_topological_sorts": 1000,
+      "topological_validation_status": "sampled"
+    },
+    {
+      "plan": [
+        "store::bag__of__chips.n.01_1->cabinet.n.01_*",
+        "store::bag__of__chips.n.01_2->cabinet.n.01_*",
+        "store::bottle__of__olive_oil.n.01_1->cabinet.n.01_1",
+        "store::bottle__of__olive_oil.n.01_2->cabinet.n.01_1",
+        "store::box__of__oatmeal.n.01_1->cabinet.n.01_*",
+        "store::box__of__oatmeal.n.01_2->cabinet.n.01_1",
+        "store::jar__of__sugar.n.01_1->cabinet.n.01_*",
+        "store::jar__of__sugar.n.01_2->cabinet.n.01_1"
+      ],
+      "execution_valid": true,
+      "partial_order_edges": [],
+      "valid_topological_sorts": 1000,
+      "total_topological_sorts": 1000,
+      "topological_validation_status": "sampled"
+    },
+    {
+      "plan": [
+        "store::bag__of__chips.n.01_1->cabinet.n.01_*",
+        "store::bag__of__chips.n.01_2->cabinet.n.01_*",
+        "store::bottle__of__olive_oil.n.01_1->cabinet.n.01_1",
+        "store::bottle__of__olive_oil.n.01_2->cabinet.n.01_1",
+        "store::box__of__oatmeal.n.01_1->cabinet.n.01_*",
+        "store::box__of__oatmeal.n.01_2->cabinet.n.01_1",
+        "store::jar__of__sugar.n.01_1->cabinet.n.01_1",
+        "store::jar__of__sugar.n.01_2->cabinet.n.01_*"
+      ],
+      "execution_valid": true,
+      "partial_order_edges": [],
+      "valid_topological_sorts": 1000,
+      "total_topological_sorts": 1000,
+      "topological_validation_status": "sampled"
+    },
+    {
+      "plan": [
+        "store::bag__of__chips.n.01_1->cabinet.n.01_*",
+        "store::bag__of__chips.n.01_2->cabinet.n.01_*",
+        "store::bottle__of__olive_oil.n.01_1->cabinet.n.01_1",
+        "store::bottle__of__olive_oil.n.01_2->cabinet.n.01_1",
+        "store::box__of__oatmeal.n.01_1->cabinet.n.01_*",
+        "store::box__of__oatmeal.n.01_2->cabinet.n.01_1",
+        "store::jar__of__sugar.n.01_1->cabinet.n.01_1",
+        "store::jar__of__sugar.n.01_2->cabinet.n.01_1"
+      ],
+      "execution_valid": true,
+      "partial_order_edges": [],
+      "valid_topological_sorts": 1000,
+      "total_topological_sorts": 1000,
+      "topological_validation_status": "sampled"
+    },
+    {
+      "plan": [
+        "store::bag__of__chips.n.01_1->cabinet.n.01_*",
+        "store::bag__of__chips.n.01_2->cabinet.n.01_*",
+        "store::bottle__of__olive_oil.n.01_1->cabinet.n.01_1",
+        "store::bottle__of__olive_oil.n.01_2->cabinet.n.01_1",
+        "store::box__of__oatmeal.n.01_1->cabinet.n.01_1",
+        "store::box__of__oatmeal.n.01_2->cabinet.n.01_*",
+        "store::jar__of__sugar.n.01_1->cabinet.n.01_*",
+        "store::jar__of__sugar.n.01_2->cabinet.n.01_*"
+      ],
+      "execution_valid": true,
+      "partial_order_edges": [],
+      "valid_topological_sorts": 1000,
+      "total_topological_sorts": 1000,
+      "topological_validation_status": "sampled"
+    },
+    {
+      "plan": [
+        "store::bag__of__chips.n.01_1->cabinet.n.01_*",
+        "store::bag__of__chips.n.01_2->cabinet.n.01_*",
+        "store::bottle__of__olive_oil.n.01_1->cabinet.n.01_1",
+        "store::bottle__of__olive_oil.n.01_2->cabinet.n.01_1",
+        "store::box__of__oatmeal.n.01_1->cabinet.n.01_1",
+        "store::box__of__oatmeal.n.01_2->cabinet.n.01_*",
+        "store::jar__of__sugar.n.01_1->cabinet.n.01_*",
+        "store::jar__of__sugar.n.01_2->cabinet.n.01_1"
+      ],
+      "execution_valid": true,
+      "partial_order_edges": [],
+      "valid_topological_sorts": 1000,
+      "total_topological_sorts": 1000,
+      "topological_validation_status": "sampled"
+    },
+    {
+      "plan": [
+        "store::bag__of__chips.n.01_1->cabinet.n.01_*",
+        "store::bag__of__chips.n.01_2->cabinet.n.01_*",
+        "store::bottle__of__olive_oil.n.01_1->cabinet.n.01_1",
+        "store::bottle__of__olive_oil.n.01_2->cabinet.n.01_1",
+        "store::box__of__oatmeal.n.01_1->cabinet.n.01_1",
+        "store::box__of__oatmeal.n.01_2->cabinet.n.01_*",
+        "store::jar__of__sugar.n.01_1->cabinet.n.01_1",
+        "store::jar__of__sugar.n.01_2->cabinet.n.01_*"
+      ],
+      "execution_valid": true,
+      "partial_order_edges": [],
+      "valid_topological_sorts": 1000,
+      "total_topological_sorts": 1000,
+      "topological_validation_status": "sampled"
+    },
+    {
+      "plan": [
+        "store::bag__of__chips.n.01_1->cabinet.n.01_*",
+        "store::bag__of__chips.n.01_2->cabinet.n.01_*",
+        "store::bottle__of__olive_oil.n.01_1->cabinet.n.01_1",
+        "store::bottle__of__olive_oil.n.01_2->cabinet.n.01_1",
+        "store::box__of__oatmeal.n.01_1->cabinet.n.01_1",
+        "store::box__of__oatmeal.n.01_2->cabinet.n.01_*",
+        "store::jar__of__sugar.n.01_1->cabinet.n.01_1",
+        "store::jar__of__sugar.n.01_2->cabinet.n.01_1"
+      ],
+      "execution_valid": true,
+      "partial_order_edges": [],
+      "valid_topological_sorts": 1000,
+      "total_topological_sorts": 1000,
+      "topological_validation_status": "sampled"
+    },
+    {
+      "plan": [
+        "store::bag__of__chips.n.01_1->cabinet.n.01_*",
+        "store::bag__of__chips.n.01_2->cabinet.n.01_*",
+        "store::bottle__of__olive_oil.n.01_1->cabinet.n.01_1",
+        "store::bottle__of__olive_oil.n.01_2->cabinet.n.01_1",
+        "store::box__of__oatmeal.n.01_1->cabinet.n.01_1",
+        "store::box__of__oatmeal.n.01_2->cabinet.n.01_1",
+        "store::jar__of__sugar.n.01_1->cabinet.n.01_*",
+        "store::jar__of__sugar.n.01_2->cabinet.n.01_*"
+      ],
+      "execution_valid": true,
+      "partial_order_edges": [],
+      "valid_topological_sorts": 1000,
+      "total_topological_sorts": 1000,
+      "topological_validation_status": "sampled"
+    },
+    {
+      "plan": [
+        "store::bag__of__chips.n.01_1->cabinet.n.01_*",
+        "store::bag__of__chips.n.01_2->cabinet.n.01_*",
+        "store::bottle__of__olive_oil.n.01_1->cabinet.n.01_1",
+        "store::bottle__of__olive_oil.n.01_2->cabinet.n.01_1",
+        "store::box__of__oatmeal.n.01_1->cabinet.n.01_1",
+        "store::box__of__oatmeal.n.01_2->cabinet.n.01_1",
+        "store::jar__of__sugar.n.01_1->cabinet.n.01_*",
+        "store::jar__of__sugar.n.01_2->cabinet.n.01_1"
+      ],
+      "execution_valid": true,
+      "partial_order_edges": [],
+      "valid_topological_sorts": 1000,
+      "total_topological_sorts": 1000,
+      "topological_validation_status": "sampled"
+    },
+    {
+      "plan": [
+        "store::bag__of__chips.n.01_1->cabinet.n.01_*",
+        "store::bag__of__chips.n.01_2->cabinet.n.01_*",
+        "store::bottle__of__olive_oil.n.01_1->cabinet.n.01_1",
+        "store::bottle__of__olive_oil.n.01_2->cabinet.n.01_1",
+        "store::box__of__oatmeal.n.01_1->cabinet.n.01_1",
+        "store::box__of__oatmeal.n.01_2->cabinet.n.01_1",
+        "store::jar__of__sugar.n.01_1->cabinet.n.01_1",
+        "store::jar__of__sugar.n.01_2->cabinet.n.01_*"
+      ],
+      "execution_valid": true,
+      "partial_order_edges": [],
+      "valid_topological_sorts": 1000,
+      "total_topological_sorts": 1000,
+      "topological_validation_status": "sampled"
+    },
+    {
+      "plan": [
+        "store::bag__of__chips.n.01_1->cabinet.n.01_*",
+        "store::bag__of__chips.n.01_2->cabinet.n.01_*",
+        "store::bottle__of__olive_oil.n.01_1->cabinet.n.01_1",
+        "store::bottle__of__olive_oil.n.01_2->cabinet.n.01_1",
+        "store::box__of__oatmeal.n.01_1->cabinet.n.01_1",
+        "store::box__of__oatmeal.n.01_2->cabinet.n.01_1",
+        "store::jar__of__sugar.n.01_1->cabinet.n.01_1",
+        "store::jar__of__sugar.n.01_2->cabinet.n.01_1"
+      ],
+      "execution_valid": true,
+      "partial_order_edges": [],
+      "valid_topological_sorts": 1000,
+      "total_topological_sorts": 1000,
+      "topological_validation_status": "sampled"
+    },
+    {
+      "plan": [
+        "store::bag__of__chips.n.01_1->cabinet.n.01_*",
+        "store::bag__of__chips.n.01_2->cabinet.n.01_1",
+        "store::bottle__of__olive_oil.n.01_1->cabinet.n.01_*",
+        "store::bottle__of__olive_oil.n.01_2->cabinet.n.01_*",
+        "store::box__of__oatmeal.n.01_1->cabinet.n.01_*",
+        "store::box__of__oatmeal.n.01_2->cabinet.n.01_*",
+        "store::jar__of__sugar.n.01_1->cabinet.n.01_*",
+        "store::jar__of__sugar.n.01_2->cabinet.n.01_*"
+      ],
+      "execution_valid": true,
+      "partial_order_edges": [],
+      "valid_topological_sorts": 1000,
+      "total_topological_sorts": 1000,
+      "topological_validation_status": "sampled"
+    },
+    {
+      "plan": [
+        "store::bag__of__chips.n.01_1->cabinet.n.01_*",
+        "store::bag__of__chips.n.01_2->cabinet.n.01_1",
+        "store::bottle__of__olive_oil.n.01_1->cabinet.n.01_*",
+        "store::bottle__of__olive_oil.n.01_2->cabinet.n.01_*",
+        "store::box__of__oatmeal.n.01_1->cabinet.n.01_*",
+        "store::box__of__oatmeal.n.01_2->cabinet.n.01_*",
+        "store::jar__of__sugar.n.01_1->cabinet.n.01_*",
+        "store::jar__of__sugar.n.01_2->cabinet.n.01_1"
+      ],
+      "execution_valid": true,
+      "partial_order_edges": [],
+      "valid_topological_sorts": 1000,
+      "total_topological_sorts": 1000,
+      "topological_validation_status": "sampled"
+    },
+    {
+      "plan": [
+        "store::bag__of__chips.n.01_1->cabinet.n.01_*",
+        "store::bag__of__chips.n.01_2->cabinet.n.01_1",
+        "store::bottle__of__olive_oil.n.01_1->cabinet.n.01_*",
+        "store::bottle__of__olive_oil.n.01_2->cabinet.n.01_*",
+        "store::box__of__oatmeal.n.01_1->cabinet.n.01_*",
+        "store::box__of__oatmeal.n.01_2->cabinet.n.01_*",
+        "store::jar__of__sugar.n.01_1->cabinet.n.01_1",
+        "store::jar__of__sugar.n.01_2->cabinet.n.01_*"
+      ],
+      "execution_valid": true,
+      "partial_order_edges": [],
+      "valid_topological_sorts": 1000,
+      "total_topological_sorts": 1000,
+      "topological_validation_status": "sampled"
+    },
+    {
+      "plan": [
+        "store::bag__of__chips.n.01_1->cabinet.n.01_*",
+        "store::bag__of__chips.n.01_2->cabinet.n.01_1",
+        "store::bottle__of__olive_oil.n.01_1->cabinet.n.01_*",
+        "store::bottle__of__olive_oil.n.01_2->cabinet.n.01_*",
+        "store::box__of__oatmeal.n.01_1->cabinet.n.01_*",
+        "store::box__of__oatmeal.n.01_2->cabinet.n.01_*",
+        "store::jar__of__sugar.n.01_1->cabinet.n.01_1",
+        "store::jar__of__sugar.n.01_2->cabinet.n.01_1"
+      ],
+      "execution_valid": true,
+      "partial_order_edges": [],
+      "valid_topological_sorts": 1000,
+      "total_topological_sorts": 1000,
+      "topological_validation_status": "sampled"
+    },
+    {
+      "plan": [
+        "store::bag__of__chips.n.01_1->cabinet.n.01_*",
+        "store::bag__of__chips.n.01_2->cabinet.n.01_1",
+        "store::bottle__of__olive_oil.n.01_1->cabinet.n.01_*",
+        "store::bottle__of__olive_oil.n.01_2->cabinet.n.01_*",
+        "store::box__of__oatmeal.n.01_1->cabinet.n.01_*",
+        "store::box__of__oatmeal.n.01_2->cabinet.n.01_1",
+        "store::jar__of__sugar.n.01_1->cabinet.n.01_*",
+        "store::jar__of__sugar.n.01_2->cabinet.n.01_*"
+      ],
+      "execution_valid": true,
+      "partial_order_edges": [],
+      "valid_topological_sorts": 1000,
+      "total_topological_sorts": 1000,
+      "topological_validation_status": "sampled"
+    },
+    {
+      "plan": [
+        "store::bag__of__chips.n.01_1->cabinet.n.01_*",
+        "store::bag__of__chips.n.01_2->cabinet.n.01_1",
+        "store::bottle__of__olive_oil.n.01_1->cabinet.n.01_*",
+        "store::bottle__of__olive_oil.n.01_2->cabinet.n.01_*",
+        "store::box__of__oatmeal.n.01_1->cabinet.n.01_*",
+        "store::box__of__oatmeal.n.01_2->cabinet.n.01_1",
+        "store::jar__of__sugar.n.01_1->cabinet.n.01_*",
+        "store::jar__of__sugar.n.01_2->cabinet.n.01_1"
+      ],
+      "execution_valid": true,
+      "partial_order_edges": [],
+      "valid_topological_sorts": 1000,
+      "total_topological_sorts": 1000,
+      "topological_validation_status": "sampled"
+    },
+    {
+      "plan": [
+        "store::bag__of__chips.n.01_1->cabinet.n.01_*",
+        "store::bag__of__chips.n.01_2->cabinet.n.01_1",
+        "store::bottle__of__olive_oil.n.01_1->cabinet.n.01_*",
+        "store::bottle__of__olive_oil.n.01_2->cabinet.n.01_*",
+        "store::box__of__oatmeal.n.01_1->cabinet.n.01_*",
+        "store::box__of__oatmeal.n.01_2->cabinet.n.01_1",
+        "store::jar__of__sugar.n.01_1->cabinet.n.01_1",
+        "store::jar__of__sugar.n.01_2->cabinet.n.01_*"
+      ],
+      "execution_valid": true,
+      "partial_order_edges": [],
+      "valid_topological_sorts": 1000,
+      "total_topological_sorts": 1000,
+      "topological_validation_status": "sampled"
+    },
+    {
+      "plan": [
+        "store::bag__of__chips.n.01_1->cabinet.n.01_*",
+        "store::bag__of__chips.n.01_2->cabinet.n.01_1",
+        "store::bottle__of__olive_oil.n.01_1->cabinet.n.01_*",
+        "store::bottle__of__olive_oil.n.01_2->cabinet.n.01_*",
+        "store::box__of__oatmeal.n.01_1->cabinet.n.01_*",
+        "store::box__of__oatmeal.n.01_2->cabinet.n.01_1",
+        "store::jar__of__sugar.n.01_1->cabinet.n.01_1",
+        "store::jar__of__sugar.n.01_2->cabinet.n.01_1"
+      ],
+      "execution_valid": true,
+      "partial_order_edges": [],
+      "valid_topological_sorts": 1000,
+      "total_topological_sorts": 1000,
+      "topological_validation_status": "sampled"
+    },
+    {
+      "plan": [
+        "store::bag__of__chips.n.01_1->cabinet.n.01_*",
+        "store::bag__of__chips.n.01_2->cabinet.n.01_1",
+        "store::bottle__of__olive_oil.n.01_1->cabinet.n.01_*",
+        "store::bottle__of__olive_oil.n.01_2->cabinet.n.01_*",
+        "store::box__of__oatmeal.n.01_1->cabinet.n.01_1",
+        "store::box__of__oatmeal.n.01_2->cabinet.n.01_*",
+        "store::jar__of__sugar.n.01_1->cabinet.n.01_*",
+        "store::jar__of__sugar.n.01_2->cabinet.n.01_*"
+      ],
+      "execution_valid": true,
+      "partial_order_edges": [],
+      "valid_topological_sorts": 1000,
+      "total_topological_sorts": 1000,
+      "topological_validation_status": "sampled"
+    },
+    {
+      "plan": [
+        "store::bag__of__chips.n.01_1->cabinet.n.01_*",
+        "store::bag__of__chips.n.01_2->cabinet.n.01_1",
+        "store::bottle__of__olive_oil.n.01_1->cabinet.n.01_*",
+        "store::bottle__of__olive_oil.n.01_2->cabinet.n.01_*",
+        "store::box__of__oatmeal.n.01_1->cabinet.n.01_1",
+        "store::box__of__oatmeal.n.01_2->cabinet.n.01_*",
+        "store::jar__of__sugar.n.01_1->cabinet.n.01_*",
+        "store::jar__of__sugar.n.01_2->cabinet.n.01_1"
+      ],
+      "execution_valid": true,
+      "partial_order_edges": [],
+      "valid_topological_sorts": 1000,
+      "total_topological_sorts": 1000,
+      "topological_validation_status": "sampled"
+    },
+    {
+      "plan": [
+        "store::bag__of__chips.n.01_1->cabinet.n.01_*",
+        "store::bag__of__chips.n.01_2->cabinet.n.01_1",
+        "store::bottle__of__olive_oil.n.01_1->cabinet.n.01_*",
+        "store::bottle__of__olive_oil.n.01_2->cabinet.n.01_*",
+        "store::box__of__oatmeal.n.01_1->cabinet.n.01_1",
+        "store::box__of__oatmeal.n.01_2->cabinet.n.01_*",
+        "store::jar__of__sugar.n.01_1->cabinet.n.01_1",
+        "store::jar__of__sugar.n.01_2->cabinet.n.01_*"
+      ],
+      "execution_valid": true,
+      "partial_order_edges": [],
+      "valid_topological_sorts": 1000,
+      "total_topological_sorts": 1000,
+      "topological_validation_status": "sampled"
+    },
+    {
+      "plan": [
+        "store::bag__of__chips.n.01_1->cabinet.n.01_*",
+        "store::bag__of__chips.n.01_2->cabinet.n.01_1",
+        "store::bottle__of__olive_oil.n.01_1->cabinet.n.01_*",
+        "store::bottle__of__olive_oil.n.01_2->cabinet.n.01_*",
+        "store::box__of__oatmeal.n.01_1->cabinet.n.01_1",
+        "store::box__of__oatmeal.n.01_2->cabinet.n.01_*",
+        "store::jar__of__sugar.n.01_1->cabinet.n.01_1",
+        "store::jar__of__sugar.n.01_2->cabinet.n.01_1"
+      ],
+      "execution_valid": true,
+      "partial_order_edges": [],
+      "valid_topological_sorts": 1000,
+      "total_topological_sorts": 1000,
+      "topological_validation_status": "sampled"
+    },
+    {
+      "plan": [
+        "store::bag__of__chips.n.01_1->cabinet.n.01_*",
+        "store::bag__of__chips.n.01_2->cabinet.n.01_1",
+        "store::bottle__of__olive_oil.n.01_1->cabinet.n.01_*",
+        "store::bottle__of__olive_oil.n.01_2->cabinet.n.01_*",
+        "store::box__of__oatmeal.n.01_1->cabinet.n.01_1",
+        "store::box__of__oatmeal.n.01_2->cabinet.n.01_1",
+        "store::jar__of__sugar.n.01_1->cabinet.n.01_*",
+        "store::jar__of__sugar.n.01_2->cabinet.n.01_*"
+      ],
+      "execution_valid": true,
+      "partial_order_edges": [],
+      "valid_topological_sorts": 1000,
+      "total_topological_sorts": 1000,
+      "topological_validation_status": "sampled"
+    },
+    {
+      "plan": [
+        "store::bag__of__chips.n.01_1->cabinet.n.01_*",
+        "store::bag__of__chips.n.01_2->cabinet.n.01_1",
+        "store::bottle__of__olive_oil.n.01_1->cabinet.n.01_*",
+        "store::bottle__of__olive_oil.n.01_2->cabinet.n.01_*",
+        "store::box__of__oatmeal.n.01_1->cabinet.n.01_1",
+        "store::box__of__oatmeal.n.01_2->cabinet.n.01_1",
+        "store::jar__of__sugar.n.01_1->cabinet.n.01_*",
+        "store::jar__of__sugar.n.01_2->cabinet.n.01_1"
+      ],
+      "execution_valid": true,
+      "partial_order_edges": [],
+      "valid_topological_sorts": 1000,
+      "total_topological_sorts": 1000,
+      "topological_validation_status": "sampled"
+    },
+    {
+      "plan": [
+        "store::bag__of__chips.n.01_1->cabinet.n.01_*",
+        "store::bag__of__chips.n.01_2->cabinet.n.01_1",
+        "store::bottle__of__olive_oil.n.01_1->cabinet.n.01_*",
+        "store::bottle__of__olive_oil.n.01_2->cabinet.n.01_*",
+        "store::box__of__oatmeal.n.01_1->cabinet.n.01_1",
+        "store::box__of__oatmeal.n.01_2->cabinet.n.01_1",
+        "store::jar__of__sugar.n.01_1->cabinet.n.01_1",
+        "store::jar__of__sugar.n.01_2->cabinet.n.01_*"
+      ],
+      "execution_valid": true,
+      "partial_order_edges": [],
+      "valid_topological_sorts": 1000,
+      "total_topological_sorts": 1000,
+      "topological_validation_status": "sampled"
+    },
+    {
+      "plan": [
+        "store::bag__of__chips.n.01_1->cabinet.n.01_*",
+        "store::bag__of__chips.n.01_2->cabinet.n.01_1",
+        "store::bottle__of__olive_oil.n.01_1->cabinet.n.01_*",
+        "store::bottle__of__olive_oil.n.01_2->cabinet.n.01_*",
+        "store::box__of__oatmeal.n.01_1->cabinet.n.01_1",
+        "store::box__of__oatmeal.n.01_2->cabinet.n.01_1",
+        "store::jar__of__sugar.n.01_1->cabinet.n.01_1",
+        "store::jar__of__sugar.n.01_2->cabinet.n.01_1"
+      ],
+      "execution_valid": true,
+      "partial_order_edges": [],
+      "valid_topological_sorts": 1000,
+      "total_topological_sorts": 1000,
+      "topological_validation_status": "sampled"
+    },
+    {
+      "plan": [
+        "store::bag__of__chips.n.01_1->cabinet.n.01_*",
+        "store::bag__of__chips.n.01_2->cabinet.n.01_1",
+        "store::bottle__of__olive_oil.n.01_1->cabinet.n.01_*",
+        "store::bottle__of__olive_oil.n.01_2->cabinet.n.01_1",
+        "store::box__of__oatmeal.n.01_1->cabinet.n.01_*",
+        "store::box__of__oatmeal.n.01_2->cabinet.n.01_*",
+        "store::jar__of__sugar.n.01_1->cabinet.n.01_*",
+        "store::jar__of__sugar.n.01_2->cabinet.n.01_*"
+      ],
+      "execution_valid": true,
+      "partial_order_edges": [],
+      "valid_topological_sorts": 1000,
+      "total_topological_sorts": 1000,
+      "topological_validation_status": "sampled"
+    },
+    {
+      "plan": [
+        "store::bag__of__chips.n.01_1->cabinet.n.01_*",
+        "store::bag__of__chips.n.01_2->cabinet.n.01_1",
+        "store::bottle__of__olive_oil.n.01_1->cabinet.n.01_*",
+        "store::bottle__of__olive_oil.n.01_2->cabinet.n.01_1",
+        "store::box__of__oatmeal.n.01_1->cabinet.n.01_*",
+        "store::box__of__oatmeal.n.01_2->cabinet.n.01_*",
+        "store::jar__of__sugar.n.01_1->cabinet.n.01_*",
+        "store::jar__of__sugar.n.01_2->cabinet.n.01_1"
+      ],
+      "execution_valid": true,
+      "partial_order_edges": [],
+      "valid_topological_sorts": 1000,
+      "total_topological_sorts": 1000,
+      "topological_validation_status": "sampled"
+    },
+    {
+      "plan": [
+        "store::bag__of__chips.n.01_1->cabinet.n.01_*",
+        "store::bag__of__chips.n.01_2->cabinet.n.01_1",
+        "store::bottle__of__olive_oil.n.01_1->cabinet.n.01_*",
+        "store::bottle__of__olive_oil.n.01_2->cabinet.n.01_1",
+        "store::box__of__oatmeal.n.01_1->cabinet.n.01_*",
+        "store::box__of__oatmeal.n.01_2->cabinet.n.01_*",
+        "store::jar__of__sugar.n.01_1->cabinet.n.01_1",
+        "store::jar__of__sugar.n.01_2->cabinet.n.01_*"
+      ],
+      "execution_valid": true,
+      "partial_order_edges": [],
+      "valid_topological_sorts": 1000,
+      "total_topological_sorts": 1000,
+      "topological_validation_status": "sampled"
+    },
+    {
+      "plan": [
+        "store::bag__of__chips.n.01_1->cabinet.n.01_*",
+        "store::bag__of__chips.n.01_2->cabinet.n.01_1",
+        "store::bottle__of__olive_oil.n.01_1->cabinet.n.01_*",
+        "store::bottle__of__olive_oil.n.01_2->cabinet.n.01_1",
+        "store::box__of__oatmeal.n.01_1->cabinet.n.01_*",
+        "store::box__of__oatmeal.n.01_2->cabinet.n.01_*",
+        "store::jar__of__sugar.n.01_1->cabinet.n.01_1",
+        "store::jar__of__sugar.n.01_2->cabinet.n.01_1"
+      ],
+      "execution_valid": true,
+      "partial_order_edges": [],
+      "valid_topological_sorts": 1000,
+      "total_topological_sorts": 1000,
+      "topological_validation_status": "sampled"
+    },
+    {
+      "plan": [
+        "store::bag__of__chips.n.01_1->cabinet.n.01_*",
+        "store::bag__of__chips.n.01_2->cabinet.n.01_1",
+        "store::bottle__of__olive_oil.n.01_1->cabinet.n.01_*",
+        "store::bottle__of__olive_oil.n.01_2->cabinet.n.01_1",
+        "store::box__of__oatmeal.n.01_1->cabinet.n.01_*",
+        "store::box__of__oatmeal.n.01_2->cabinet.n.01_1",
+        "store::jar__of__sugar.n.01_1->cabinet.n.01_*",
+        "store::jar__of__sugar.n.01_2->cabinet.n.01_*"
+      ],
+      "execution_valid": true,
+      "partial_order_edges": [],
+      "valid_topological_sorts": 1000,
+      "total_topological_sorts": 1000,
+      "topological_validation_status": "sampled"
+    },
+    {
+      "plan": [
+        "store::bag__of__chips.n.01_1->cabinet.n.01_*",
+        "store::bag__of__chips.n.01_2->cabinet.n.01_1",
+        "store::bottle__of__olive_oil.n.01_1->cabinet.n.01_*",
+        "store::bottle__of__olive_oil.n.01_2->cabinet.n.01_1",
+        "store::box__of__oatmeal.n.01_1->cabinet.n.01_*",
+        "store::box__of__oatmeal.n.01_2->cabinet.n.01_1",
+        "store::jar__of__sugar.n.01_1->cabinet.n.01_*",
+        "store::jar__of__sugar.n.01_2->cabinet.n.01_1"
+      ],
+      "execution_valid": true,
+      "partial_order_edges": [],
+      "valid_topological_sorts": 1000,
+      "total_topological_sorts": 1000,
+      "topological_validation_status": "sampled"
+    },
+    {
+      "plan": [
+        "store::bag__of__chips.n.01_1->cabinet.n.01_*",
+        "store::bag__of__chips.n.01_2->cabinet.n.01_1",
+        "store::bottle__of__olive_oil.n.01_1->cabinet.n.01_*",
+        "store::bottle__of__olive_oil.n.01_2->cabinet.n.01_1",
+        "store::box__of__oatmeal.n.01_1->cabinet.n.01_*",
+        "store::box__of__oatmeal.n.01_2->cabinet.n.01_1",
+        "store::jar__of__sugar.n.01_1->cabinet.n.01_1",
+        "store::jar__of__sugar.n.01_2->cabinet.n.01_*"
+      ],
+      "execution_valid": true,
+      "partial_order_edges": [],
+      "valid_topological_sorts": 1000,
+      "total_topological_sorts": 1000,
+      "topological_validation_status": "sampled"
+    },
+    {
+      "plan": [
+        "store::bag__of__chips.n.01_1->cabinet.n.01_*",
+        "store::bag__of__chips.n.01_2->cabinet.n.01_1",
+        "store::bottle__of__olive_oil.n.01_1->cabinet.n.01_*",
+        "store::bottle__of__olive_oil.n.01_2->cabinet.n.01_1",
+        "store::box__of__oatmeal.n.01_1->cabinet.n.01_*",
+        "store::box__of__oatmeal.n.01_2->cabinet.n.01_1",
+        "store::jar__of__sugar.n.01_1->cabinet.n.01_1",
+        "store::jar__of__sugar.n.01_2->cabinet.n.01_1"
+      ],
+      "execution_valid": true,
+      "partial_order_edges": [],
+      "valid_topological_sorts": 1000,
+      "total_topological_sorts": 1000,
+      "topological_validation_status": "sampled"
+    },
+    {
+      "plan": [
+        "store::bag__of__chips.n.01_1->cabinet.n.01_*",
+        "store::bag__of__chips.n.01_2->cabinet.n.01_1",
+        "store::bottle__of__olive_oil.n.01_1->cabinet.n.01_*",
+        "store::bottle__of__olive_oil.n.01_2->cabinet.n.01_1",
+        "store::box__of__oatmeal.n.01_1->cabinet.n.01_1",
+        "store::box__of__oatmeal.n.01_2->cabinet.n.01_*",
+        "store::jar__of__sugar.n.01_1->cabinet.n.01_*",
+        "store::jar__of__sugar.n.01_2->cabinet.n.01_*"
+      ],
+      "execution_valid": true,
+      "partial_order_edges": [],
+      "valid_topological_sorts": 1000,
+      "total_topological_sorts": 1000,
+      "topological_validation_status": "sampled"
+    },
+    {
+      "plan": [
+        "store::bag__of__chips.n.01_1->cabinet.n.01_*",
+        "store::bag__of__chips.n.01_2->cabinet.n.01_1",
+        "store::bottle__of__olive_oil.n.01_1->cabinet.n.01_*",
+        "store::bottle__of__olive_oil.n.01_2->cabinet.n.01_1",
+        "store::box__of__oatmeal.n.01_1->cabinet.n.01_1",
+        "store::box__of__oatmeal.n.01_2->cabinet.n.01_*",
+        "store::jar__of__sugar.n.01_1->cabinet.n.01_*",
+        "store::jar__of__sugar.n.01_2->cabinet.n.01_1"
+      ],
+      "execution_valid": true,
+      "partial_order_edges": [],
+      "valid_topological_sorts": 1000,
+      "total_topological_sorts": 1000,
+      "topological_validation_status": "sampled"
+    },
+    {
+      "plan": [
+        "store::bag__of__chips.n.01_1->cabinet.n.01_*",
+        "store::bag__of__chips.n.01_2->cabinet.n.01_1",
+        "store::bottle__of__olive_oil.n.01_1->cabinet.n.01_*",
+        "store::bottle__of__olive_oil.n.01_2->cabinet.n.01_1",
+        "store::box__of__oatmeal.n.01_1->cabinet.n.01_1",
+        "store::box__of__oatmeal.n.01_2->cabinet.n.01_*",
+        "store::jar__of__sugar.n.01_1->cabinet.n.01_1",
+        "store::jar__of__sugar.n.01_2->cabinet.n.01_*"
+      ],
+      "execution_valid": true,
+      "partial_order_edges": [],
+      "valid_topological_sorts": 1000,
+      "total_topological_sorts": 1000,
+      "topological_validation_status": "sampled"
+    },
+    {
+      "plan": [
+        "store::bag__of__chips.n.01_1->cabinet.n.01_*",
+        "store::bag__of__chips.n.01_2->cabinet.n.01_1",
+        "store::bottle__of__olive_oil.n.01_1->cabinet.n.01_*",
+        "store::bottle__of__olive_oil.n.01_2->cabinet.n.01_1",
+        "store::box__of__oatmeal.n.01_1->cabinet.n.01_1",
+        "store::box__of__oatmeal.n.01_2->cabinet.n.01_*",
+        "store::jar__of__sugar.n.01_1->cabinet.n.01_1",
+        "store::jar__of__sugar.n.01_2->cabinet.n.01_1"
+      ],
+      "execution_valid": true,
+      "partial_order_edges": [],
+      "valid_topological_sorts": 1000,
+      "total_topological_sorts": 1000,
+      "topological_validation_status": "sampled"
+    },
+    {
+      "plan": [
+        "store::bag__of__chips.n.01_1->cabinet.n.01_*",
+        "store::bag__of__chips.n.01_2->cabinet.n.01_1",
+        "store::bottle__of__olive_oil.n.01_1->cabinet.n.01_*",
+        "store::bottle__of__olive_oil.n.01_2->cabinet.n.01_1",
+        "store::box__of__oatmeal.n.01_1->cabinet.n.01_1",
+        "store::box__of__oatmeal.n.01_2->cabinet.n.01_1",
+        "store::jar__of__sugar.n.01_1->cabinet.n.01_*",
+        "store::jar__of__sugar.n.01_2->cabinet.n.01_*"
+      ],
+      "execution_valid": true,
+      "partial_order_edges": [],
+      "valid_topological_sorts": 1000,
+      "total_topological_sorts": 1000,
+      "topological_validation_status": "sampled"
+    },
+    {
+      "plan": [
+        "store::bag__of__chips.n.01_1->cabinet.n.01_*",
+        "store::bag__of__chips.n.01_2->cabinet.n.01_1",
+        "store::bottle__of__olive_oil.n.01_1->cabinet.n.01_*",
+        "store::bottle__of__olive_oil.n.01_2->cabinet.n.01_1",
+        "store::box__of__oatmeal.n.01_1->cabinet.n.01_1",
+        "store::box__of__oatmeal.n.01_2->cabinet.n.01_1",
+        "store::jar__of__sugar.n.01_1->cabinet.n.01_*",
+        "store::jar__of__sugar.n.01_2->cabinet.n.01_1"
+      ],
+      "execution_valid": true,
+      "partial_order_edges": [],
+      "valid_topological_sorts": 1000,
+      "total_topological_sorts": 1000,
+      "topological_validation_status": "sampled"
+    },
+    {
+      "plan": [
+        "store::bag__of__chips.n.01_1->cabinet.n.01_*",
+        "store::bag__of__chips.n.01_2->cabinet.n.01_1",
+        "store::bottle__of__olive_oil.n.01_1->cabinet.n.01_*",
+        "store::bottle__of__olive_oil.n.01_2->cabinet.n.01_1",
+        "store::box__of__oatmeal.n.01_1->cabinet.n.01_1",
+        "store::box__of__oatmeal.n.01_2->cabinet.n.01_1",
+        "store::jar__of__sugar.n.01_1->cabinet.n.01_1",
+        "store::jar__of__sugar.n.01_2->cabinet.n.01_*"
+      ],
+      "execution_valid": true,
+      "partial_order_edges": [],
+      "valid_topological_sorts": 1000,
+      "total_topological_sorts": 1000,
+      "topological_validation_status": "sampled"
+    },
+    {
+      "plan": [
+        "store::bag__of__chips.n.01_1->cabinet.n.01_*",
+        "store::bag__of__chips.n.01_2->cabinet.n.01_1",
+        "store::bottle__of__olive_oil.n.01_1->cabinet.n.01_*",
+        "store::bottle__of__olive_oil.n.01_2->cabinet.n.01_1",
+        "store::box__of__oatmeal.n.01_1->cabinet.n.01_1",
+        "store::box__of__oatmeal.n.01_2->cabinet.n.01_1",
+        "store::jar__of__sugar.n.01_1->cabinet.n.01_1",
+        "store::jar__of__sugar.n.01_2->cabinet.n.01_1"
+      ],
+      "execution_valid": true,
+      "partial_order_edges": [],
+      "valid_topological_sorts": 1000,
+      "total_topological_sorts": 1000,
+      "topological_validation_status": "sampled"
+    },
+    {
+      "plan": [
+        "store::bag__of__chips.n.01_1->cabinet.n.01_*",
+        "store::bag__of__chips.n.01_2->cabinet.n.01_1",
+        "store::bottle__of__olive_oil.n.01_1->cabinet.n.01_1",
+        "store::bottle__of__olive_oil.n.01_2->cabinet.n.01_*",
+        "store::box__of__oatmeal.n.01_1->cabinet.n.01_*",
+        "store::box__of__oatmeal.n.01_2->cabinet.n.01_*",
+        "store::jar__of__sugar.n.01_1->cabinet.n.01_*",
+        "store::jar__of__sugar.n.01_2->cabinet.n.01_*"
+      ],
+      "execution_valid": true,
+      "partial_order_edges": [],
+      "valid_topological_sorts": 1000,
+      "total_topological_sorts": 1000,
+      "topological_validation_status": "sampled"
+    },
+    {
+      "plan": [
+        "store::bag__of__chips.n.01_1->cabinet.n.01_*",
+        "store::bag__of__chips.n.01_2->cabinet.n.01_1",
+        "store::bottle__of__olive_oil.n.01_1->cabinet.n.01_1",
+        "store::bottle__of__olive_oil.n.01_2->cabinet.n.01_*",
+        "store::box__of__oatmeal.n.01_1->cabinet.n.01_*",
+        "store::box__of__oatmeal.n.01_2->cabinet.n.01_*",
+        "store::jar__of__sugar.n.01_1->cabinet.n.01_*",
+        "store::jar__of__sugar.n.01_2->cabinet.n.01_1"
+      ],
+      "execution_valid": true,
+      "partial_order_edges": [],
+      "valid_topological_sorts": 1000,
+      "total_topological_sorts": 1000,
+      "topological_validation_status": "sampled"
+    },
+    {
+      "plan": [
+        "store::bag__of__chips.n.01_1->cabinet.n.01_*",
+        "store::bag__of__chips.n.01_2->cabinet.n.01_1",
+        "store::bottle__of__olive_oil.n.01_1->cabinet.n.01_1",
+        "store::bottle__of__olive_oil.n.01_2->cabinet.n.01_*",
+        "store::box__of__oatmeal.n.01_1->cabinet.n.01_*",
+        "store::box__of__oatmeal.n.01_2->cabinet.n.01_*",
+        "store::jar__of__sugar.n.01_1->cabinet.n.01_1",
+        "store::jar__of__sugar.n.01_2->cabinet.n.01_*"
+      ],
+      "execution_valid": true,
+      "partial_order_edges": [],
+      "valid_topological_sorts": 1000,
+      "total_topological_sorts": 1000,
+      "topological_validation_status": "sampled"
+    },
+    {
+      "plan": [
+        "store::bag__of__chips.n.01_1->cabinet.n.01_*",
+        "store::bag__of__chips.n.01_2->cabinet.n.01_1",
+        "store::bottle__of__olive_oil.n.01_1->cabinet.n.01_1",
+        "store::bottle__of__olive_oil.n.01_2->cabinet.n.01_*",
+        "store::box__of__oatmeal.n.01_1->cabinet.n.01_*",
+        "store::box__of__oatmeal.n.01_2->cabinet.n.01_*",
+        "store::jar__of__sugar.n.01_1->cabinet.n.01_1",
+        "store::jar__of__sugar.n.01_2->cabinet.n.01_1"
+      ],
+      "execution_valid": true,
+      "partial_order_edges": [],
+      "valid_topological_sorts": 1000,
+      "total_topological_sorts": 1000,
+      "topological_validation_status": "sampled"
+    },
+    {
+      "plan": [
+        "store::bag__of__chips.n.01_1->cabinet.n.01_*",
+        "store::bag__of__chips.n.01_2->cabinet.n.01_1",
+        "store::bottle__of__olive_oil.n.01_1->cabinet.n.01_1",
+        "store::bottle__of__olive_oil.n.01_2->cabinet.n.01_*",
+        "store::box__of__oatmeal.n.01_1->cabinet.n.01_*",
+        "store::box__of__oatmeal.n.01_2->cabinet.n.01_1",
+        "store::jar__of__sugar.n.01_1->cabinet.n.01_*",
+        "store::jar__of__sugar.n.01_2->cabinet.n.01_*"
+      ],
+      "execution_valid": true,
+      "partial_order_edges": [],
+      "valid_topological_sorts": 1000,
+      "total_topological_sorts": 1000,
+      "topological_validation_status": "sampled"
+    },
+    {
+      "plan": [
+        "store::bag__of__chips.n.01_1->cabinet.n.01_*",
+        "store::bag__of__chips.n.01_2->cabinet.n.01_1",
+        "store::bottle__of__olive_oil.n.01_1->cabinet.n.01_1",
+        "store::bottle__of__olive_oil.n.01_2->cabinet.n.01_*",
+        "store::box__of__oatmeal.n.01_1->cabinet.n.01_*",
+        "store::box__of__oatmeal.n.01_2->cabinet.n.01_1",
+        "store::jar__of__sugar.n.01_1->cabinet.n.01_*",
+        "store::jar__of__sugar.n.01_2->cabinet.n.01_1"
+      ],
+      "execution_valid": true,
+      "partial_order_edges": [],
+      "valid_topological_sorts": 1000,
+      "total_topological_sorts": 1000,
+      "topological_validation_status": "sampled"
+    },
+    {
+      "plan": [
+        "store::bag__of__chips.n.01_1->cabinet.n.01_*",
+        "store::bag__of__chips.n.01_2->cabinet.n.01_1",
+        "store::bottle__of__olive_oil.n.01_1->cabinet.n.01_1",
+        "store::bottle__of__olive_oil.n.01_2->cabinet.n.01_*",
+        "store::box__of__oatmeal.n.01_1->cabinet.n.01_*",
+        "store::box__of__oatmeal.n.01_2->cabinet.n.01_1",
+        "store::jar__of__sugar.n.01_1->cabinet.n.01_1",
+        "store::jar__of__sugar.n.01_2->cabinet.n.01_*"
+      ],
+      "execution_valid": true,
+      "partial_order_edges": [],
+      "valid_topological_sorts": 1000,
+      "total_topological_sorts": 1000,
+      "topological_validation_status": "sampled"
+    },
+    {
+      "plan": [
+        "store::bag__of__chips.n.01_1->cabinet.n.01_*",
+        "store::bag__of__chips.n.01_2->cabinet.n.01_1",
+        "store::bottle__of__olive_oil.n.01_1->cabinet.n.01_1",
+        "store::bottle__of__olive_oil.n.01_2->cabinet.n.01_*",
+        "store::box__of__oatmeal.n.01_1->cabinet.n.01_*",
+        "store::box__of__oatmeal.n.01_2->cabinet.n.01_1",
+        "store::jar__of__sugar.n.01_1->cabinet.n.01_1",
+        "store::jar__of__sugar.n.01_2->cabinet.n.01_1"
+      ],
+      "execution_valid": true,
+      "partial_order_edges": [],
+      "valid_topological_sorts": 1000,
+      "total_topological_sorts": 1000,
+      "topological_validation_status": "sampled"
+    },
+    {
+      "plan": [
+        "store::bag__of__chips.n.01_1->cabinet.n.01_*",
+        "store::bag__of__chips.n.01_2->cabinet.n.01_1",
+        "store::bottle__of__olive_oil.n.01_1->cabinet.n.01_1",
+        "store::bottle__of__olive_oil.n.01_2->cabinet.n.01_*",
+        "store::box__of__oatmeal.n.01_1->cabinet.n.01_1",
+        "store::box__of__oatmeal.n.01_2->cabinet.n.01_*",
+        "store::jar__of__sugar.n.01_1->cabinet.n.01_*",
+        "store::jar__of__sugar.n.01_2->cabinet.n.01_*"
+      ],
+      "execution_valid": true,
+      "partial_order_edges": [],
+      "valid_topological_sorts": 1000,
+      "total_topological_sorts": 1000,
+      "topological_validation_status": "sampled"
+    },
+    {
+      "plan": [
+        "store::bag__of__chips.n.01_1->cabinet.n.01_*",
+        "store::bag__of__chips.n.01_2->cabinet.n.01_1",
+        "store::bottle__of__olive_oil.n.01_1->cabinet.n.01_1",
+        "store::bottle__of__olive_oil.n.01_2->cabinet.n.01_*",
+        "store::box__of__oatmeal.n.01_1->cabinet.n.01_1",
+        "store::box__of__oatmeal.n.01_2->cabinet.n.01_*",
+        "store::jar__of__sugar.n.01_1->cabinet.n.01_*",
+        "store::jar__of__sugar.n.01_2->cabinet.n.01_1"
+      ],
+      "execution_valid": true,
+      "partial_order_edges": [],
+      "valid_topological_sorts": 1000,
+      "total_topological_sorts": 1000,
+      "topological_validation_status": "sampled"
+    },
+    {
+      "plan": [
+        "store::bag__of__chips.n.01_1->cabinet.n.01_*",
+        "store::bag__of__chips.n.01_2->cabinet.n.01_1",
+        "store::bottle__of__olive_oil.n.01_1->cabinet.n.01_1",
+        "store::bottle__of__olive_oil.n.01_2->cabinet.n.01_*",
+        "store::box__of__oatmeal.n.01_1->cabinet.n.01_1",
+        "store::box__of__oatmeal.n.01_2->cabinet.n.01_*",
+        "store::jar__of__sugar.n.01_1->cabinet.n.01_1",
+        "store::jar__of__sugar.n.01_2->cabinet.n.01_*"
+      ],
+      "execution_valid": true,
+      "partial_order_edges": [],
+      "valid_topological_sorts": 1000,
+      "total_topological_sorts": 1000,
+      "topological_validation_status": "sampled"
+    },
+    {
+      "plan": [
+        "store::bag__of__chips.n.01_1->cabinet.n.01_*",
+        "store::bag__of__chips.n.01_2->cabinet.n.01_1",
+        "store::bottle__of__olive_oil.n.01_1->cabinet.n.01_1",
+        "store::bottle__of__olive_oil.n.01_2->cabinet.n.01_*",
+        "store::box__of__oatmeal.n.01_1->cabinet.n.01_1",
+        "store::box__of__oatmeal.n.01_2->cabinet.n.01_*",
+        "store::jar__of__sugar.n.01_1->cabinet.n.01_1",
+        "store::jar__of__sugar.n.01_2->cabinet.n.01_1"
+      ],
+      "execution_valid": true,
+      "partial_order_edges": [],
+      "valid_topological_sorts": 1000,
+      "total_topological_sorts": 1000,
+      "topological_validation_status": "sampled"
+    },
+    {
+      "plan": [
+        "store::bag__of__chips.n.01_1->cabinet.n.01_*",
+        "store::bag__of__chips.n.01_2->cabinet.n.01_1",
+        "store::bottle__of__olive_oil.n.01_1->cabinet.n.01_1",
+        "store::bottle__of__olive_oil.n.01_2->cabinet.n.01_*",
+        "store::box__of__oatmeal.n.01_1->cabinet.n.01_1",
+        "store::box__of__oatmeal.n.01_2->cabinet.n.01_1",
+        "store::jar__of__sugar.n.01_1->cabinet.n.01_*",
+        "store::jar__of__sugar.n.01_2->cabinet.n.01_*"
+      ],
+      "execution_valid": true,
+      "partial_order_edges": [],
+      "valid_topological_sorts": 1000,
+      "total_topological_sorts": 1000,
+      "topological_validation_status": "sampled"
+    },
+    {
+      "plan": [
+        "store::bag__of__chips.n.01_1->cabinet.n.01_*",
+        "store::bag__of__chips.n.01_2->cabinet.n.01_1",
+        "store::bottle__of__olive_oil.n.01_1->cabinet.n.01_1",
+        "store::bottle__of__olive_oil.n.01_2->cabinet.n.01_*",
+        "store::box__of__oatmeal.n.01_1->cabinet.n.01_1",
+        "store::box__of__oatmeal.n.01_2->cabinet.n.01_1",
+        "store::jar__of__sugar.n.01_1->cabinet.n.01_*",
+        "store::jar__of__sugar.n.01_2->cabinet.n.01_1"
+      ],
+      "execution_valid": true,
+      "partial_order_edges": [],
+      "valid_topological_sorts": 1000,
+      "total_topological_sorts": 1000,
+      "topological_validation_status": "sampled"
+    },
+    {
+      "plan": [
+        "store::bag__of__chips.n.01_1->cabinet.n.01_*",
+        "store::bag__of__chips.n.01_2->cabinet.n.01_1",
+        "store::bottle__of__olive_oil.n.01_1->cabinet.n.01_1",
+        "store::bottle__of__olive_oil.n.01_2->cabinet.n.01_*",
+        "store::box__of__oatmeal.n.01_1->cabinet.n.01_1",
+        "store::box__of__oatmeal.n.01_2->cabinet.n.01_1",
+        "store::jar__of__sugar.n.01_1->cabinet.n.01_1",
+        "store::jar__of__sugar.n.01_2->cabinet.n.01_*"
+      ],
+      "execution_valid": true,
+      "partial_order_edges": [],
+      "valid_topological_sorts": 1000,
+      "total_topological_sorts": 1000,
+      "topological_validation_status": "sampled"
+    },
+    {
+      "plan": [
+        "store::bag__of__chips.n.01_1->cabinet.n.01_*",
+        "store::bag__of__chips.n.01_2->cabinet.n.01_1",
+        "store::bottle__of__olive_oil.n.01_1->cabinet.n.01_1",
+        "store::bottle__of__olive_oil.n.01_2->cabinet.n.01_*",
+        "store::box__of__oatmeal.n.01_1->cabinet.n.01_1",
+        "store::box__of__oatmeal.n.01_2->cabinet.n.01_1",
+        "store::jar__of__sugar.n.01_1->cabinet.n.01_1",
+        "store::jar__of__sugar.n.01_2->cabinet.n.01_1"
+      ],
+      "execution_valid": true,
+      "partial_order_edges": [],
+      "valid_topological_sorts": 1000,
+      "total_topological_sorts": 1000,
+      "topological_validation_status": "sampled"
+    },
+    {
+      "plan": [
+        "store::bag__of__chips.n.01_1->cabinet.n.01_*",
+        "store::bag__of__chips.n.01_2->cabinet.n.01_1",
+        "store::bottle__of__olive_oil.n.01_1->cabinet.n.01_1",
+        "store::bottle__of__olive_oil.n.01_2->cabinet.n.01_1",
+        "store::box__of__oatmeal.n.01_1->cabinet.n.01_*",
+        "store::box__of__oatmeal.n.01_2->cabinet.n.01_*",
+        "store::jar__of__sugar.n.01_1->cabinet.n.01_*",
+        "store::jar__of__sugar.n.01_2->cabinet.n.01_*"
+      ],
+      "execution_valid": true,
+      "partial_order_edges": [],
+      "valid_topological_sorts": 1000,
+      "total_topological_sorts": 1000,
+      "topological_validation_status": "sampled"
+    },
+    {
+      "plan": [
+        "store::bag__of__chips.n.01_1->cabinet.n.01_*",
+        "store::bag__of__chips.n.01_2->cabinet.n.01_1",
+        "store::bottle__of__olive_oil.n.01_1->cabinet.n.01_1",
+        "store::bottle__of__olive_oil.n.01_2->cabinet.n.01_1",
+        "store::box__of__oatmeal.n.01_1->cabinet.n.01_*",
+        "store::box__of__oatmeal.n.01_2->cabinet.n.01_*",
+        "store::jar__of__sugar.n.01_1->cabinet.n.01_*",
+        "store::jar__of__sugar.n.01_2->cabinet.n.01_1"
+      ],
+      "execution_valid": true,
+      "partial_order_edges": [],
+      "valid_topological_sorts": 1000,
+      "total_topological_sorts": 1000,
+      "topological_validation_status": "sampled"
+    },
+    {
+      "plan": [
+        "store::bag__of__chips.n.01_1->cabinet.n.01_*",
+        "store::bag__of__chips.n.01_2->cabinet.n.01_1",
+        "store::bottle__of__olive_oil.n.01_1->cabinet.n.01_1",
+        "store::bottle__of__olive_oil.n.01_2->cabinet.n.01_1",
+        "store::box__of__oatmeal.n.01_1->cabinet.n.01_*",
+        "store::box__of__oatmeal.n.01_2->cabinet.n.01_*",
+        "store::jar__of__sugar.n.01_1->cabinet.n.01_1",
+        "store::jar__of__sugar.n.01_2->cabinet.n.01_*"
+      ],
+      "execution_valid": true,
+      "partial_order_edges": [],
+      "valid_topological_sorts": 1000,
+      "total_topological_sorts": 1000,
+      "topological_validation_status": "sampled"
+    },
+    {
+      "plan": [
+        "store::bag__of__chips.n.01_1->cabinet.n.01_*",
+        "store::bag__of__chips.n.01_2->cabinet.n.01_1",
+        "store::bottle__of__olive_oil.n.01_1->cabinet.n.01_1",
+        "store::bottle__of__olive_oil.n.01_2->cabinet.n.01_1",
+        "store::box__of__oatmeal.n.01_1->cabinet.n.01_*",
+        "store::box__of__oatmeal.n.01_2->cabinet.n.01_*",
+        "store::jar__of__sugar.n.01_1->cabinet.n.01_1",
+        "store::jar__of__sugar.n.01_2->cabinet.n.01_1"
+      ],
+      "execution_valid": true,
+      "partial_order_edges": [],
+      "valid_topological_sorts": 1000,
+      "total_topological_sorts": 1000,
+      "topological_validation_status": "sampled"
+    },
+    {
+      "plan": [
+        "store::bag__of__chips.n.01_1->cabinet.n.01_*",
+        "store::bag__of__chips.n.01_2->cabinet.n.01_1",
+        "store::bottle__of__olive_oil.n.01_1->cabinet.n.01_1",
+        "store::bottle__of__olive_oil.n.01_2->cabinet.n.01_1",
+        "store::box__of__oatmeal.n.01_1->cabinet.n.01_*",
+        "store::box__of__oatmeal.n.01_2->cabinet.n.01_1",
+        "store::jar__of__sugar.n.01_1->cabinet.n.01_*",
+        "store::jar__of__sugar.n.01_2->cabinet.n.01_*"
+      ],
+      "execution_valid": true,
+      "partial_order_edges": [],
+      "valid_topological_sorts": 1000,
+      "total_topological_sorts": 1000,
+      "topological_validation_status": "sampled"
+    },
+    {
+      "plan": [
+        "store::bag__of__chips.n.01_1->cabinet.n.01_*",
+        "store::bag__of__chips.n.01_2->cabinet.n.01_1",
+        "store::bottle__of__olive_oil.n.01_1->cabinet.n.01_1",
+        "store::bottle__of__olive_oil.n.01_2->cabinet.n.01_1",
+        "store::box__of__oatmeal.n.01_1->cabinet.n.01_*",
+        "store::box__of__oatmeal.n.01_2->cabinet.n.01_1",
+        "store::jar__of__sugar.n.01_1->cabinet.n.01_*",
+        "store::jar__of__sugar.n.01_2->cabinet.n.01_1"
+      ],
+      "execution_valid": true,
+      "partial_order_edges": [],
+      "valid_topological_sorts": 1000,
+      "total_topological_sorts": 1000,
+      "topological_validation_status": "sampled"
+    },
+    {
+      "plan": [
+        "store::bag__of__chips.n.01_1->cabinet.n.01_*",
+        "store::bag__of__chips.n.01_2->cabinet.n.01_1",
+        "store::bottle__of__olive_oil.n.01_1->cabinet.n.01_1",
+        "store::bottle__of__olive_oil.n.01_2->cabinet.n.01_1",
+        "store::box__of__oatmeal.n.01_1->cabinet.n.01_*",
+        "store::box__of__oatmeal.n.01_2->cabinet.n.01_1",
+        "store::jar__of__sugar.n.01_1->cabinet.n.01_1",
+        "store::jar__of__sugar.n.01_2->cabinet.n.01_*"
+      ],
+      "execution_valid": true,
+      "partial_order_edges": [],
+      "valid_topological_sorts": 1000,
+      "total_topological_sorts": 1000,
+      "topological_validation_status": "sampled"
+    },
+    {
+      "plan": [
+        "store::bag__of__chips.n.01_1->cabinet.n.01_*",
+        "store::bag__of__chips.n.01_2->cabinet.n.01_1",
+        "store::bottle__of__olive_oil.n.01_1->cabinet.n.01_1",
+        "store::bottle__of__olive_oil.n.01_2->cabinet.n.01_1",
+        "store::box__of__oatmeal.n.01_1->cabinet.n.01_*",
+        "store::box__of__oatmeal.n.01_2->cabinet.n.01_1",
+        "store::jar__of__sugar.n.01_1->cabinet.n.01_1",
+        "store::jar__of__sugar.n.01_2->cabinet.n.01_1"
+      ],
+      "execution_valid": true,
+      "partial_order_edges": [],
+      "valid_topological_sorts": 1000,
+      "total_topological_sorts": 1000,
+      "topological_validation_status": "sampled"
+    },
+    {
+      "plan": [
+        "store::bag__of__chips.n.01_1->cabinet.n.01_*",
+        "store::bag__of__chips.n.01_2->cabinet.n.01_1",
+        "store::bottle__of__olive_oil.n.01_1->cabinet.n.01_1",
+        "store::bottle__of__olive_oil.n.01_2->cabinet.n.01_1",
+        "store::box__of__oatmeal.n.01_1->cabinet.n.01_1",
+        "store::box__of__oatmeal.n.01_2->cabinet.n.01_*",
+        "store::jar__of__sugar.n.01_1->cabinet.n.01_*",
+        "store::jar__of__sugar.n.01_2->cabinet.n.01_*"
+      ],
+      "execution_valid": true,
+      "partial_order_edges": [],
+      "valid_topological_sorts": 1000,
+      "total_topological_sorts": 1000,
+      "topological_validation_status": "sampled"
+    },
+    {
+      "plan": [
+        "store::bag__of__chips.n.01_1->cabinet.n.01_*",
+        "store::bag__of__chips.n.01_2->cabinet.n.01_1",
+        "store::bottle__of__olive_oil.n.01_1->cabinet.n.01_1",
+        "store::bottle__of__olive_oil.n.01_2->cabinet.n.01_1",
+        "store::box__of__oatmeal.n.01_1->cabinet.n.01_1",
+        "store::box__of__oatmeal.n.01_2->cabinet.n.01_*",
+        "store::jar__of__sugar.n.01_1->cabinet.n.01_*",
+        "store::jar__of__sugar.n.01_2->cabinet.n.01_1"
+      ],
+      "execution_valid": true,
+      "partial_order_edges": [],
+      "valid_topological_sorts": 1000,
+      "total_topological_sorts": 1000,
+      "topological_validation_status": "sampled"
+    },
+    {
+      "plan": [
+        "store::bag__of__chips.n.01_1->cabinet.n.01_*",
+        "store::bag__of__chips.n.01_2->cabinet.n.01_1",
+        "store::bottle__of__olive_oil.n.01_1->cabinet.n.01_1",
+        "store::bottle__of__olive_oil.n.01_2->cabinet.n.01_1",
+        "store::box__of__oatmeal.n.01_1->cabinet.n.01_1",
+        "store::box__of__oatmeal.n.01_2->cabinet.n.01_*",
+        "store::jar__of__sugar.n.01_1->cabinet.n.01_1",
+        "store::jar__of__sugar.n.01_2->cabinet.n.01_*"
+      ],
+      "execution_valid": true,
+      "partial_order_edges": [],
+      "valid_topological_sorts": 1000,
+      "total_topological_sorts": 1000,
+      "topological_validation_status": "sampled"
+    },
+    {
+      "plan": [
+        "store::bag__of__chips.n.01_1->cabinet.n.01_*",
+        "store::bag__of__chips.n.01_2->cabinet.n.01_1",
+        "store::bottle__of__olive_oil.n.01_1->cabinet.n.01_1",
+        "store::bottle__of__olive_oil.n.01_2->cabinet.n.01_1",
+        "store::box__of__oatmeal.n.01_1->cabinet.n.01_1",
+        "store::box__of__oatmeal.n.01_2->cabinet.n.01_*",
+        "store::jar__of__sugar.n.01_1->cabinet.n.01_1",
+        "store::jar__of__sugar.n.01_2->cabinet.n.01_1"
+      ],
+      "execution_valid": true,
+      "partial_order_edges": [],
+      "valid_topological_sorts": 1000,
+      "total_topological_sorts": 1000,
+      "topological_validation_status": "sampled"
+    },
+    {
+      "plan": [
+        "store::bag__of__chips.n.01_1->cabinet.n.01_*",
+        "store::bag__of__chips.n.01_2->cabinet.n.01_1",
+        "store::bottle__of__olive_oil.n.01_1->cabinet.n.01_1",
+        "store::bottle__of__olive_oil.n.01_2->cabinet.n.01_1",
+        "store::box__of__oatmeal.n.01_1->cabinet.n.01_1",
+        "store::box__of__oatmeal.n.01_2->cabinet.n.01_1",
+        "store::jar__of__sugar.n.01_1->cabinet.n.01_*",
+        "store::jar__of__sugar.n.01_2->cabinet.n.01_*"
+      ],
+      "execution_valid": true,
+      "partial_order_edges": [],
+      "valid_topological_sorts": 1000,
+      "total_topological_sorts": 1000,
+      "topological_validation_status": "sampled"
+    },
+    {
+      "plan": [
+        "store::bag__of__chips.n.01_1->cabinet.n.01_*",
+        "store::bag__of__chips.n.01_2->cabinet.n.01_1",
+        "store::bottle__of__olive_oil.n.01_1->cabinet.n.01_1",
+        "store::bottle__of__olive_oil.n.01_2->cabinet.n.01_1",
+        "store::box__of__oatmeal.n.01_1->cabinet.n.01_1",
+        "store::box__of__oatmeal.n.01_2->cabinet.n.01_1",
+        "store::jar__of__sugar.n.01_1->cabinet.n.01_*",
+        "store::jar__of__sugar.n.01_2->cabinet.n.01_1"
+      ],
+      "execution_valid": true,
+      "partial_order_edges": [],
+      "valid_topological_sorts": 1000,
+      "total_topological_sorts": 1000,
+      "topological_validation_status": "sampled"
+    },
+    {
+      "plan": [
+        "store::bag__of__chips.n.01_1->cabinet.n.01_*",
+        "store::bag__of__chips.n.01_2->cabinet.n.01_1",
+        "store::bottle__of__olive_oil.n.01_1->cabinet.n.01_1",
+        "store::bottle__of__olive_oil.n.01_2->cabinet.n.01_1",
+        "store::box__of__oatmeal.n.01_1->cabinet.n.01_1",
+        "store::box__of__oatmeal.n.01_2->cabinet.n.01_1",
+        "store::jar__of__sugar.n.01_1->cabinet.n.01_1",
+        "store::jar__of__sugar.n.01_2->cabinet.n.01_*"
+      ],
+      "execution_valid": true,
+      "partial_order_edges": [],
+      "valid_topological_sorts": 1000,
+      "total_topological_sorts": 1000,
+      "topological_validation_status": "sampled"
+    },
+    {
+      "plan": [
+        "store::bag__of__chips.n.01_1->cabinet.n.01_*",
+        "store::bag__of__chips.n.01_2->cabinet.n.01_1",
+        "store::bottle__of__olive_oil.n.01_1->cabinet.n.01_1",
+        "store::bottle__of__olive_oil.n.01_2->cabinet.n.01_1",
+        "store::box__of__oatmeal.n.01_1->cabinet.n.01_1",
+        "store::box__of__oatmeal.n.01_2->cabinet.n.01_1",
+        "store::jar__of__sugar.n.01_1->cabinet.n.01_1",
+        "store::jar__of__sugar.n.01_2->cabinet.n.01_1"
+      ],
+      "execution_valid": true,
+      "partial_order_edges": [],
+      "valid_topological_sorts": 1000,
+      "total_topological_sorts": 1000,
+      "topological_validation_status": "sampled"
+    },
+    {
+      "plan": [
+        "store::bag__of__chips.n.01_1->cabinet.n.01_1",
+        "store::bag__of__chips.n.01_2->cabinet.n.01_*",
+        "store::bottle__of__olive_oil.n.01_1->cabinet.n.01_*",
+        "store::bottle__of__olive_oil.n.01_2->cabinet.n.01_*",
+        "store::box__of__oatmeal.n.01_1->cabinet.n.01_*",
+        "store::box__of__oatmeal.n.01_2->cabinet.n.01_*",
+        "store::jar__of__sugar.n.01_1->cabinet.n.01_*",
+        "store::jar__of__sugar.n.01_2->cabinet.n.01_*"
+      ],
+      "execution_valid": true,
+      "partial_order_edges": [],
+      "valid_topological_sorts": 1000,
+      "total_topological_sorts": 1000,
+      "topological_validation_status": "sampled"
+    },
+    {
+      "plan": [
+        "store::bag__of__chips.n.01_1->cabinet.n.01_1",
+        "store::bag__of__chips.n.01_2->cabinet.n.01_*",
+        "store::bottle__of__olive_oil.n.01_1->cabinet.n.01_*",
+        "store::bottle__of__olive_oil.n.01_2->cabinet.n.01_*",
+        "store::box__of__oatmeal.n.01_1->cabinet.n.01_*",
+        "store::box__of__oatmeal.n.01_2->cabinet.n.01_*",
+        "store::jar__of__sugar.n.01_1->cabinet.n.01_*",
+        "store::jar__of__sugar.n.01_2->cabinet.n.01_1"
+      ],
+      "execution_valid": true,
+      "partial_order_edges": [],
+      "valid_topological_sorts": 1000,
+      "total_topological_sorts": 1000,
+      "topological_validation_status": "sampled"
+    },
+    {
+      "plan": [
+        "store::bag__of__chips.n.01_1->cabinet.n.01_1",
+        "store::bag__of__chips.n.01_2->cabinet.n.01_*",
+        "store::bottle__of__olive_oil.n.01_1->cabinet.n.01_*",
+        "store::bottle__of__olive_oil.n.01_2->cabinet.n.01_*",
+        "store::box__of__oatmeal.n.01_1->cabinet.n.01_*",
+        "store::box__of__oatmeal.n.01_2->cabinet.n.01_*",
+        "store::jar__of__sugar.n.01_1->cabinet.n.01_1",
+        "store::jar__of__sugar.n.01_2->cabinet.n.01_*"
+      ],
+      "execution_valid": true,
+      "partial_order_edges": [],
+      "valid_topological_sorts": 1000,
+      "total_topological_sorts": 1000,
+      "topological_validation_status": "sampled"
+    },
+    {
+      "plan": [
+        "store::bag__of__chips.n.01_1->cabinet.n.01_1",
+        "store::bag__of__chips.n.01_2->cabinet.n.01_*",
+        "store::bottle__of__olive_oil.n.01_1->cabinet.n.01_*",
+        "store::bottle__of__olive_oil.n.01_2->cabinet.n.01_*",
+        "store::box__of__oatmeal.n.01_1->cabinet.n.01_*",
+        "store::box__of__oatmeal.n.01_2->cabinet.n.01_*",
+        "store::jar__of__sugar.n.01_1->cabinet.n.01_1",
+        "store::jar__of__sugar.n.01_2->cabinet.n.01_1"
+      ],
+      "execution_valid": true,
+      "partial_order_edges": [],
+      "valid_topological_sorts": 1000,
+      "total_topological_sorts": 1000,
+      "topological_validation_status": "sampled"
+    },
+    {
+      "plan": [
+        "store::bag__of__chips.n.01_1->cabinet.n.01_1",
+        "store::bag__of__chips.n.01_2->cabinet.n.01_*",
+        "store::bottle__of__olive_oil.n.01_1->cabinet.n.01_*",
+        "store::bottle__of__olive_oil.n.01_2->cabinet.n.01_*",
+        "store::box__of__oatmeal.n.01_1->cabinet.n.01_*",
+        "store::box__of__oatmeal.n.01_2->cabinet.n.01_1",
+        "store::jar__of__sugar.n.01_1->cabinet.n.01_*",
+        "store::jar__of__sugar.n.01_2->cabinet.n.01_*"
+      ],
+      "execution_valid": true,
+      "partial_order_edges": [],
+      "valid_topological_sorts": 1000,
+      "total_topological_sorts": 1000,
+      "topological_validation_status": "sampled"
+    },
+    {
+      "plan": [
+        "store::bag__of__chips.n.01_1->cabinet.n.01_1",
+        "store::bag__of__chips.n.01_2->cabinet.n.01_*",
+        "store::bottle__of__olive_oil.n.01_1->cabinet.n.01_*",
+        "store::bottle__of__olive_oil.n.01_2->cabinet.n.01_*",
+        "store::box__of__oatmeal.n.01_1->cabinet.n.01_*",
+        "store::box__of__oatmeal.n.01_2->cabinet.n.01_1",
+        "store::jar__of__sugar.n.01_1->cabinet.n.01_*",
+        "store::jar__of__sugar.n.01_2->cabinet.n.01_1"
+      ],
+      "execution_valid": true,
+      "partial_order_edges": [],
+      "valid_topological_sorts": 1000,
+      "total_topological_sorts": 1000,
+      "topological_validation_status": "sampled"
+    },
+    {
+      "plan": [
+        "store::bag__of__chips.n.01_1->cabinet.n.01_1",
+        "store::bag__of__chips.n.01_2->cabinet.n.01_*",
+        "store::bottle__of__olive_oil.n.01_1->cabinet.n.01_*",
+        "store::bottle__of__olive_oil.n.01_2->cabinet.n.01_*",
+        "store::box__of__oatmeal.n.01_1->cabinet.n.01_*",
+        "store::box__of__oatmeal.n.01_2->cabinet.n.01_1",
+        "store::jar__of__sugar.n.01_1->cabinet.n.01_1",
+        "store::jar__of__sugar.n.01_2->cabinet.n.01_*"
+      ],
+      "execution_valid": true,
+      "partial_order_edges": [],
+      "valid_topological_sorts": 1000,
+      "total_topological_sorts": 1000,
+      "topological_validation_status": "sampled"
+    },
+    {
+      "plan": [
+        "store::bag__of__chips.n.01_1->cabinet.n.01_1",
+        "store::bag__of__chips.n.01_2->cabinet.n.01_*",
+        "store::bottle__of__olive_oil.n.01_1->cabinet.n.01_*",
+        "store::bottle__of__olive_oil.n.01_2->cabinet.n.01_*",
+        "store::box__of__oatmeal.n.01_1->cabinet.n.01_*",
+        "store::box__of__oatmeal.n.01_2->cabinet.n.01_1",
+        "store::jar__of__sugar.n.01_1->cabinet.n.01_1",
+        "store::jar__of__sugar.n.01_2->cabinet.n.01_1"
+      ],
+      "execution_valid": true,
+      "partial_order_edges": [],
+      "valid_topological_sorts": 1000,
+      "total_topological_sorts": 1000,
+      "topological_validation_status": "sampled"
+    },
+    {
+      "plan": [
+        "store::bag__of__chips.n.01_1->cabinet.n.01_1",
+        "store::bag__of__chips.n.01_2->cabinet.n.01_*",
+        "store::bottle__of__olive_oil.n.01_1->cabinet.n.01_*",
+        "store::bottle__of__olive_oil.n.01_2->cabinet.n.01_*",
+        "store::box__of__oatmeal.n.01_1->cabinet.n.01_1",
+        "store::box__of__oatmeal.n.01_2->cabinet.n.01_*",
+        "store::jar__of__sugar.n.01_1->cabinet.n.01_*",
+        "store::jar__of__sugar.n.01_2->cabinet.n.01_*"
+      ],
+      "execution_valid": true,
+      "partial_order_edges": [],
+      "valid_topological_sorts": 1000,
+      "total_topological_sorts": 1000,
+      "topological_validation_status": "sampled"
+    },
+    {
+      "plan": [
+        "store::bag__of__chips.n.01_1->cabinet.n.01_1",
+        "store::bag__of__chips.n.01_2->cabinet.n.01_*",
+        "store::bottle__of__olive_oil.n.01_1->cabinet.n.01_*",
+        "store::bottle__of__olive_oil.n.01_2->cabinet.n.01_*",
+        "store::box__of__oatmeal.n.01_1->cabinet.n.01_1",
+        "store::box__of__oatmeal.n.01_2->cabinet.n.01_*",
+        "store::jar__of__sugar.n.01_1->cabinet.n.01_*",
+        "store::jar__of__sugar.n.01_2->cabinet.n.01_1"
+      ],
+      "execution_valid": true,
+      "partial_order_edges": [],
+      "valid_topological_sorts": 1000,
+      "total_topological_sorts": 1000,
+      "topological_validation_status": "sampled"
+    },
+    {
+      "plan": [
+        "store::bag__of__chips.n.01_1->cabinet.n.01_1",
+        "store::bag__of__chips.n.01_2->cabinet.n.01_*",
+        "store::bottle__of__olive_oil.n.01_1->cabinet.n.01_*",
+        "store::bottle__of__olive_oil.n.01_2->cabinet.n.01_*",
+        "store::box__of__oatmeal.n.01_1->cabinet.n.01_1",
+        "store::box__of__oatmeal.n.01_2->cabinet.n.01_*",
+        "store::jar__of__sugar.n.01_1->cabinet.n.01_1",
+        "store::jar__of__sugar.n.01_2->cabinet.n.01_*"
+      ],
+      "execution_valid": true,
+      "partial_order_edges": [],
+      "valid_topological_sorts": 1000,
+      "total_topological_sorts": 1000,
+      "topological_validation_status": "sampled"
+    },
+    {
+      "plan": [
+        "store::bag__of__chips.n.01_1->cabinet.n.01_1",
+        "store::bag__of__chips.n.01_2->cabinet.n.01_*",
+        "store::bottle__of__olive_oil.n.01_1->cabinet.n.01_*",
+        "store::bottle__of__olive_oil.n.01_2->cabinet.n.01_*",
+        "store::box__of__oatmeal.n.01_1->cabinet.n.01_1",
+        "store::box__of__oatmeal.n.01_2->cabinet.n.01_*",
+        "store::jar__of__sugar.n.01_1->cabinet.n.01_1",
+        "store::jar__of__sugar.n.01_2->cabinet.n.01_1"
+      ],
+      "execution_valid": true,
+      "partial_order_edges": [],
+      "valid_topological_sorts": 1000,
+      "total_topological_sorts": 1000,
+      "topological_validation_status": "sampled"
+    },
+    {
+      "plan": [
+        "store::bag__of__chips.n.01_1->cabinet.n.01_1",
+        "store::bag__of__chips.n.01_2->cabinet.n.01_*",
+        "store::bottle__of__olive_oil.n.01_1->cabinet.n.01_*",
+        "store::bottle__of__olive_oil.n.01_2->cabinet.n.01_*",
+        "store::box__of__oatmeal.n.01_1->cabinet.n.01_1",
+        "store::box__of__oatmeal.n.01_2->cabinet.n.01_1",
+        "store::jar__of__sugar.n.01_1->cabinet.n.01_*",
+        "store::jar__of__sugar.n.01_2->cabinet.n.01_*"
+      ],
+      "execution_valid": true,
+      "partial_order_edges": [],
+      "valid_topological_sorts": 1000,
+      "total_topological_sorts": 1000,
+      "topological_validation_status": "sampled"
+    },
+    {
+      "plan": [
+        "store::bag__of__chips.n.01_1->cabinet.n.01_1",
+        "store::bag__of__chips.n.01_2->cabinet.n.01_*",
+        "store::bottle__of__olive_oil.n.01_1->cabinet.n.01_*",
+        "store::bottle__of__olive_oil.n.01_2->cabinet.n.01_*",
+        "store::box__of__oatmeal.n.01_1->cabinet.n.01_1",
+        "store::box__of__oatmeal.n.01_2->cabinet.n.01_1",
+        "store::jar__of__sugar.n.01_1->cabinet.n.01_*",
+        "store::jar__of__sugar.n.01_2->cabinet.n.01_1"
+      ],
+      "execution_valid": true,
+      "partial_order_edges": [],
+      "valid_topological_sorts": 1000,
+      "total_topological_sorts": 1000,
+      "topological_validation_status": "sampled"
+    },
+    {
+      "plan": [
+        "store::bag__of__chips.n.01_1->cabinet.n.01_1",
+        "store::bag__of__chips.n.01_2->cabinet.n.01_*",
+        "store::bottle__of__olive_oil.n.01_1->cabinet.n.01_*",
+        "store::bottle__of__olive_oil.n.01_2->cabinet.n.01_*",
+        "store::box__of__oatmeal.n.01_1->cabinet.n.01_1",
+        "store::box__of__oatmeal.n.01_2->cabinet.n.01_1",
+        "store::jar__of__sugar.n.01_1->cabinet.n.01_1",
+        "store::jar__of__sugar.n.01_2->cabinet.n.01_*"
+      ],
+      "execution_valid": true,
+      "partial_order_edges": [],
+      "valid_topological_sorts": 1000,
+      "total_topological_sorts": 1000,
+      "topological_validation_status": "sampled"
+    },
+    {
+      "plan": [
+        "store::bag__of__chips.n.01_1->cabinet.n.01_1",
+        "store::bag__of__chips.n.01_2->cabinet.n.01_*",
+        "store::bottle__of__olive_oil.n.01_1->cabinet.n.01_*",
+        "store::bottle__of__olive_oil.n.01_2->cabinet.n.01_*",
+        "store::box__of__oatmeal.n.01_1->cabinet.n.01_1",
+        "store::box__of__oatmeal.n.01_2->cabinet.n.01_1",
+        "store::jar__of__sugar.n.01_1->cabinet.n.01_1",
+        "store::jar__of__sugar.n.01_2->cabinet.n.01_1"
+      ],
+      "execution_valid": true,
+      "partial_order_edges": [],
+      "valid_topological_sorts": 1000,
+      "total_topological_sorts": 1000,
+      "topological_validation_status": "sampled"
+    },
+    {
+      "plan": [
+        "store::bag__of__chips.n.01_1->cabinet.n.01_1",
+        "store::bag__of__chips.n.01_2->cabinet.n.01_*",
+        "store::bottle__of__olive_oil.n.01_1->cabinet.n.01_*",
+        "store::bottle__of__olive_oil.n.01_2->cabinet.n.01_1",
+        "store::box__of__oatmeal.n.01_1->cabinet.n.01_*",
+        "store::box__of__oatmeal.n.01_2->cabinet.n.01_*",
+        "store::jar__of__sugar.n.01_1->cabinet.n.01_*",
+        "store::jar__of__sugar.n.01_2->cabinet.n.01_*"
+      ],
+      "execution_valid": true,
+      "partial_order_edges": [],
+      "valid_topological_sorts": 1000,
+      "total_topological_sorts": 1000,
+      "topological_validation_status": "sampled"
+    },
+    {
+      "plan": [
+        "store::bag__of__chips.n.01_1->cabinet.n.01_1",
+        "store::bag__of__chips.n.01_2->cabinet.n.01_*",
+        "store::bottle__of__olive_oil.n.01_1->cabinet.n.01_*",
+        "store::bottle__of__olive_oil.n.01_2->cabinet.n.01_1",
+        "store::box__of__oatmeal.n.01_1->cabinet.n.01_*",
+        "store::box__of__oatmeal.n.01_2->cabinet.n.01_*",
+        "store::jar__of__sugar.n.01_1->cabinet.n.01_*",
+        "store::jar__of__sugar.n.01_2->cabinet.n.01_1"
+      ],
+      "execution_valid": true,
+      "partial_order_edges": [],
+      "valid_topological_sorts": 1000,
+      "total_topological_sorts": 1000,
+      "topological_validation_status": "sampled"
+    },
+    {
+      "plan": [
+        "store::bag__of__chips.n.01_1->cabinet.n.01_1",
+        "store::bag__of__chips.n.01_2->cabinet.n.01_*",
+        "store::bottle__of__olive_oil.n.01_1->cabinet.n.01_*",
+        "store::bottle__of__olive_oil.n.01_2->cabinet.n.01_1",
+        "store::box__of__oatmeal.n.01_1->cabinet.n.01_*",
+        "store::box__of__oatmeal.n.01_2->cabinet.n.01_*",
+        "store::jar__of__sugar.n.01_1->cabinet.n.01_1",
+        "store::jar__of__sugar.n.01_2->cabinet.n.01_*"
+      ],
+      "execution_valid": true,
+      "partial_order_edges": [],
+      "valid_topological_sorts": 1000,
+      "total_topological_sorts": 1000,
+      "topological_validation_status": "sampled"
+    },
+    {
+      "plan": [
+        "store::bag__of__chips.n.01_1->cabinet.n.01_1",
+        "store::bag__of__chips.n.01_2->cabinet.n.01_*",
+        "store::bottle__of__olive_oil.n.01_1->cabinet.n.01_*",
+        "store::bottle__of__olive_oil.n.01_2->cabinet.n.01_1",
+        "store::box__of__oatmeal.n.01_1->cabinet.n.01_*",
+        "store::box__of__oatmeal.n.01_2->cabinet.n.01_*",
+        "store::jar__of__sugar.n.01_1->cabinet.n.01_1",
+        "store::jar__of__sugar.n.01_2->cabinet.n.01_1"
+      ],
+      "execution_valid": true,
+      "partial_order_edges": [],
+      "valid_topological_sorts": 1000,
+      "total_topological_sorts": 1000,
+      "topological_validation_status": "sampled"
+    },
+    {
+      "plan": [
+        "store::bag__of__chips.n.01_1->cabinet.n.01_1",
+        "store::bag__of__chips.n.01_2->cabinet.n.01_*",
+        "store::bottle__of__olive_oil.n.01_1->cabinet.n.01_*",
+        "store::bottle__of__olive_oil.n.01_2->cabinet.n.01_1",
+        "store::box__of__oatmeal.n.01_1->cabinet.n.01_*",
+        "store::box__of__oatmeal.n.01_2->cabinet.n.01_1",
+        "store::jar__of__sugar.n.01_1->cabinet.n.01_*",
+        "store::jar__of__sugar.n.01_2->cabinet.n.01_*"
+      ],
+      "execution_valid": true,
+      "partial_order_edges": [],
+      "valid_topological_sorts": 1000,
+      "total_topological_sorts": 1000,
+      "topological_validation_status": "sampled"
+    },
+    {
+      "plan": [
+        "store::bag__of__chips.n.01_1->cabinet.n.01_1",
+        "store::bag__of__chips.n.01_2->cabinet.n.01_*",
+        "store::bottle__of__olive_oil.n.01_1->cabinet.n.01_*",
+        "store::bottle__of__olive_oil.n.01_2->cabinet.n.01_1",
+        "store::box__of__oatmeal.n.01_1->cabinet.n.01_*",
+        "store::box__of__oatmeal.n.01_2->cabinet.n.01_1",
+        "store::jar__of__sugar.n.01_1->cabinet.n.01_*",
+        "store::jar__of__sugar.n.01_2->cabinet.n.01_1"
+      ],
+      "execution_valid": true,
+      "partial_order_edges": [],
+      "valid_topological_sorts": 1000,
+      "total_topological_sorts": 1000,
+      "topological_validation_status": "sampled"
+    },
+    {
+      "plan": [
+        "store::bag__of__chips.n.01_1->cabinet.n.01_1",
+        "store::bag__of__chips.n.01_2->cabinet.n.01_*",
+        "store::bottle__of__olive_oil.n.01_1->cabinet.n.01_*",
+        "store::bottle__of__olive_oil.n.01_2->cabinet.n.01_1",
+        "store::box__of__oatmeal.n.01_1->cabinet.n.01_*",
+        "store::box__of__oatmeal.n.01_2->cabinet.n.01_1",
+        "store::jar__of__sugar.n.01_1->cabinet.n.01_1",
+        "store::jar__of__sugar.n.01_2->cabinet.n.01_*"
+      ],
+      "execution_valid": true,
+      "partial_order_edges": [],
+      "valid_topological_sorts": 1000,
+      "total_topological_sorts": 1000,
+      "topological_validation_status": "sampled"
+    },
+    {
+      "plan": [
+        "store::bag__of__chips.n.01_1->cabinet.n.01_1",
+        "store::bag__of__chips.n.01_2->cabinet.n.01_*",
+        "store::bottle__of__olive_oil.n.01_1->cabinet.n.01_*",
+        "store::bottle__of__olive_oil.n.01_2->cabinet.n.01_1",
+        "store::box__of__oatmeal.n.01_1->cabinet.n.01_*",
+        "store::box__of__oatmeal.n.01_2->cabinet.n.01_1",
+        "store::jar__of__sugar.n.01_1->cabinet.n.01_1",
+        "store::jar__of__sugar.n.01_2->cabinet.n.01_1"
+      ],
+      "execution_valid": true,
+      "partial_order_edges": [],
+      "valid_topological_sorts": 1000,
+      "total_topological_sorts": 1000,
+      "topological_validation_status": "sampled"
+    },
+    {
+      "plan": [
+        "store::bag__of__chips.n.01_1->cabinet.n.01_1",
+        "store::bag__of__chips.n.01_2->cabinet.n.01_*",
+        "store::bottle__of__olive_oil.n.01_1->cabinet.n.01_*",
+        "store::bottle__of__olive_oil.n.01_2->cabinet.n.01_1",
+        "store::box__of__oatmeal.n.01_1->cabinet.n.01_1",
+        "store::box__of__oatmeal.n.01_2->cabinet.n.01_*",
+        "store::jar__of__sugar.n.01_1->cabinet.n.01_*",
+        "store::jar__of__sugar.n.01_2->cabinet.n.01_*"
+      ],
+      "execution_valid": true,
+      "partial_order_edges": [],
+      "valid_topological_sorts": 1000,
+      "total_topological_sorts": 1000,
+      "topological_validation_status": "sampled"
+    },
+    {
+      "plan": [
+        "store::bag__of__chips.n.01_1->cabinet.n.01_1",
+        "store::bag__of__chips.n.01_2->cabinet.n.01_*",
+        "store::bottle__of__olive_oil.n.01_1->cabinet.n.01_*",
+        "store::bottle__of__olive_oil.n.01_2->cabinet.n.01_1",
+        "store::box__of__oatmeal.n.01_1->cabinet.n.01_1",
+        "store::box__of__oatmeal.n.01_2->cabinet.n.01_*",
+        "store::jar__of__sugar.n.01_1->cabinet.n.01_*",
+        "store::jar__of__sugar.n.01_2->cabinet.n.01_1"
+      ],
+      "execution_valid": true,
+      "partial_order_edges": [],
+      "valid_topological_sorts": 1000,
+      "total_topological_sorts": 1000,
+      "topological_validation_status": "sampled"
+    },
+    {
+      "plan": [
+        "store::bag__of__chips.n.01_1->cabinet.n.01_1",
+        "store::bag__of__chips.n.01_2->cabinet.n.01_*",
+        "store::bottle__of__olive_oil.n.01_1->cabinet.n.01_*",
+        "store::bottle__of__olive_oil.n.01_2->cabinet.n.01_1",
+        "store::box__of__oatmeal.n.01_1->cabinet.n.01_1",
+        "store::box__of__oatmeal.n.01_2->cabinet.n.01_*",
+        "store::jar__of__sugar.n.01_1->cabinet.n.01_1",
+        "store::jar__of__sugar.n.01_2->cabinet.n.01_*"
+      ],
+      "execution_valid": true,
+      "partial_order_edges": [],
+      "valid_topological_sorts": 1000,
+      "total_topological_sorts": 1000,
+      "topological_validation_status": "sampled"
+    },
+    {
+      "plan": [
+        "store::bag__of__chips.n.01_1->cabinet.n.01_1",
+        "store::bag__of__chips.n.01_2->cabinet.n.01_*",
+        "store::bottle__of__olive_oil.n.01_1->cabinet.n.01_*",
+        "store::bottle__of__olive_oil.n.01_2->cabinet.n.01_1",
+        "store::box__of__oatmeal.n.01_1->cabinet.n.01_1",
+        "store::box__of__oatmeal.n.01_2->cabinet.n.01_*",
+        "store::jar__of__sugar.n.01_1->cabinet.n.01_1",
+        "store::jar__of__sugar.n.01_2->cabinet.n.01_1"
+      ],
+      "execution_valid": true,
+      "partial_order_edges": [],
+      "valid_topological_sorts": 1000,
+      "total_topological_sorts": 1000,
+      "topological_validation_status": "sampled"
+    },
+    {
+      "plan": [
+        "store::bag__of__chips.n.01_1->cabinet.n.01_1",
+        "store::bag__of__chips.n.01_2->cabinet.n.01_*",
+        "store::bottle__of__olive_oil.n.01_1->cabinet.n.01_*",
+        "store::bottle__of__olive_oil.n.01_2->cabinet.n.01_1",
+        "store::box__of__oatmeal.n.01_1->cabinet.n.01_1",
+        "store::box__of__oatmeal.n.01_2->cabinet.n.01_1",
+        "store::jar__of__sugar.n.01_1->cabinet.n.01_*",
+        "store::jar__of__sugar.n.01_2->cabinet.n.01_*"
+      ],
+      "execution_valid": true,
+      "partial_order_edges": [],
+      "valid_topological_sorts": 1000,
+      "total_topological_sorts": 1000,
+      "topological_validation_status": "sampled"
+    },
+    {
+      "plan": [
+        "store::bag__of__chips.n.01_1->cabinet.n.01_1",
+        "store::bag__of__chips.n.01_2->cabinet.n.01_*",
+        "store::bottle__of__olive_oil.n.01_1->cabinet.n.01_*",
+        "store::bottle__of__olive_oil.n.01_2->cabinet.n.01_1",
+        "store::box__of__oatmeal.n.01_1->cabinet.n.01_1",
+        "store::box__of__oatmeal.n.01_2->cabinet.n.01_1",
+        "store::jar__of__sugar.n.01_1->cabinet.n.01_*",
+        "store::jar__of__sugar.n.01_2->cabinet.n.01_1"
+      ],
+      "execution_valid": true,
+      "partial_order_edges": [],
+      "valid_topological_sorts": 1000,
+      "total_topological_sorts": 1000,
+      "topological_validation_status": "sampled"
+    },
+    {
+      "plan": [
+        "store::bag__of__chips.n.01_1->cabinet.n.01_1",
+        "store::bag__of__chips.n.01_2->cabinet.n.01_*",
+        "store::bottle__of__olive_oil.n.01_1->cabinet.n.01_*",
+        "store::bottle__of__olive_oil.n.01_2->cabinet.n.01_1",
+        "store::box__of__oatmeal.n.01_1->cabinet.n.01_1",
+        "store::box__of__oatmeal.n.01_2->cabinet.n.01_1",
+        "store::jar__of__sugar.n.01_1->cabinet.n.01_1",
+        "store::jar__of__sugar.n.01_2->cabinet.n.01_*"
+      ],
+      "execution_valid": true,
+      "partial_order_edges": [],
+      "valid_topological_sorts": 1000,
+      "total_topological_sorts": 1000,
+      "topological_validation_status": "sampled"
+    },
+    {
+      "plan": [
+        "store::bag__of__chips.n.01_1->cabinet.n.01_1",
+        "store::bag__of__chips.n.01_2->cabinet.n.01_*",
+        "store::bottle__of__olive_oil.n.01_1->cabinet.n.01_*",
+        "store::bottle__of__olive_oil.n.01_2->cabinet.n.01_1",
+        "store::box__of__oatmeal.n.01_1->cabinet.n.01_1",
+        "store::box__of__oatmeal.n.01_2->cabinet.n.01_1",
+        "store::jar__of__sugar.n.01_1->cabinet.n.01_1",
+        "store::jar__of__sugar.n.01_2->cabinet.n.01_1"
+      ],
+      "execution_valid": true,
+      "partial_order_edges": [],
+      "valid_topological_sorts": 1000,
+      "total_topological_sorts": 1000,
+      "topological_validation_status": "sampled"
+    },
+    {
+      "plan": [
+        "store::bag__of__chips.n.01_1->cabinet.n.01_1",
+        "store::bag__of__chips.n.01_2->cabinet.n.01_*",
+        "store::bottle__of__olive_oil.n.01_1->cabinet.n.01_1",
+        "store::bottle__of__olive_oil.n.01_2->cabinet.n.01_*",
+        "store::box__of__oatmeal.n.01_1->cabinet.n.01_*",
+        "store::box__of__oatmeal.n.01_2->cabinet.n.01_*",
+        "store::jar__of__sugar.n.01_1->cabinet.n.01_*",
+        "store::jar__of__sugar.n.01_2->cabinet.n.01_*"
+      ],
+      "execution_valid": true,
+      "partial_order_edges": [],
+      "valid_topological_sorts": 1000,
+      "total_topological_sorts": 1000,
+      "topological_validation_status": "sampled"
+    },
+    {
+      "plan": [
+        "store::bag__of__chips.n.01_1->cabinet.n.01_1",
+        "store::bag__of__chips.n.01_2->cabinet.n.01_*",
+        "store::bottle__of__olive_oil.n.01_1->cabinet.n.01_1",
+        "store::bottle__of__olive_oil.n.01_2->cabinet.n.01_*",
+        "store::box__of__oatmeal.n.01_1->cabinet.n.01_*",
+        "store::box__of__oatmeal.n.01_2->cabinet.n.01_*",
+        "store::jar__of__sugar.n.01_1->cabinet.n.01_*",
+        "store::jar__of__sugar.n.01_2->cabinet.n.01_1"
+      ],
+      "execution_valid": true,
+      "partial_order_edges": [],
+      "valid_topological_sorts": 1000,
+      "total_topological_sorts": 1000,
+      "topological_validation_status": "sampled"
+    },
+    {
+      "plan": [
+        "store::bag__of__chips.n.01_1->cabinet.n.01_1",
+        "store::bag__of__chips.n.01_2->cabinet.n.01_*",
+        "store::bottle__of__olive_oil.n.01_1->cabinet.n.01_1",
+        "store::bottle__of__olive_oil.n.01_2->cabinet.n.01_*",
+        "store::box__of__oatmeal.n.01_1->cabinet.n.01_*",
+        "store::box__of__oatmeal.n.01_2->cabinet.n.01_*",
+        "store::jar__of__sugar.n.01_1->cabinet.n.01_1",
+        "store::jar__of__sugar.n.01_2->cabinet.n.01_*"
+      ],
+      "execution_valid": true,
+      "partial_order_edges": [],
+      "valid_topological_sorts": 1000,
+      "total_topological_sorts": 1000,
+      "topological_validation_status": "sampled"
+    },
+    {
+      "plan": [
+        "store::bag__of__chips.n.01_1->cabinet.n.01_1",
+        "store::bag__of__chips.n.01_2->cabinet.n.01_*",
+        "store::bottle__of__olive_oil.n.01_1->cabinet.n.01_1",
+        "store::bottle__of__olive_oil.n.01_2->cabinet.n.01_*",
+        "store::box__of__oatmeal.n.01_1->cabinet.n.01_*",
+        "store::box__of__oatmeal.n.01_2->cabinet.n.01_*",
+        "store::jar__of__sugar.n.01_1->cabinet.n.01_1",
+        "store::jar__of__sugar.n.01_2->cabinet.n.01_1"
+      ],
+      "execution_valid": true,
+      "partial_order_edges": [],
+      "valid_topological_sorts": 1000,
+      "total_topological_sorts": 1000,
+      "topological_validation_status": "sampled"
+    },
+    {
+      "plan": [
+        "store::bag__of__chips.n.01_1->cabinet.n.01_1",
+        "store::bag__of__chips.n.01_2->cabinet.n.01_*",
+        "store::bottle__of__olive_oil.n.01_1->cabinet.n.01_1",
+        "store::bottle__of__olive_oil.n.01_2->cabinet.n.01_*",
+        "store::box__of__oatmeal.n.01_1->cabinet.n.01_*",
+        "store::box__of__oatmeal.n.01_2->cabinet.n.01_1",
+        "store::jar__of__sugar.n.01_1->cabinet.n.01_*",
+        "store::jar__of__sugar.n.01_2->cabinet.n.01_*"
+      ],
+      "execution_valid": true,
+      "partial_order_edges": [],
+      "valid_topological_sorts": 1000,
+      "total_topological_sorts": 1000,
+      "topological_validation_status": "sampled"
+    },
+    {
+      "plan": [
+        "store::bag__of__chips.n.01_1->cabinet.n.01_1",
+        "store::bag__of__chips.n.01_2->cabinet.n.01_*",
+        "store::bottle__of__olive_oil.n.01_1->cabinet.n.01_1",
+        "store::bottle__of__olive_oil.n.01_2->cabinet.n.01_*",
+        "store::box__of__oatmeal.n.01_1->cabinet.n.01_*",
+        "store::box__of__oatmeal.n.01_2->cabinet.n.01_1",
+        "store::jar__of__sugar.n.01_1->cabinet.n.01_*",
+        "store::jar__of__sugar.n.01_2->cabinet.n.01_1"
+      ],
+      "execution_valid": true,
+      "partial_order_edges": [],
+      "valid_topological_sorts": 1000,
+      "total_topological_sorts": 1000,
+      "topological_validation_status": "sampled"
+    },
+    {
+      "plan": [
+        "store::bag__of__chips.n.01_1->cabinet.n.01_1",
+        "store::bag__of__chips.n.01_2->cabinet.n.01_*",
+        "store::bottle__of__olive_oil.n.01_1->cabinet.n.01_1",
+        "store::bottle__of__olive_oil.n.01_2->cabinet.n.01_*",
+        "store::box__of__oatmeal.n.01_1->cabinet.n.01_*",
+        "store::box__of__oatmeal.n.01_2->cabinet.n.01_1",
+        "store::jar__of__sugar.n.01_1->cabinet.n.01_1",
+        "store::jar__of__sugar.n.01_2->cabinet.n.01_*"
+      ],
+      "execution_valid": true,
+      "partial_order_edges": [],
+      "valid_topological_sorts": 1000,
+      "total_topological_sorts": 1000,
+      "topological_validation_status": "sampled"
+    },
+    {
+      "plan": [
+        "store::bag__of__chips.n.01_1->cabinet.n.01_1",
+        "store::bag__of__chips.n.01_2->cabinet.n.01_*",
+        "store::bottle__of__olive_oil.n.01_1->cabinet.n.01_1",
+        "store::bottle__of__olive_oil.n.01_2->cabinet.n.01_*",
+        "store::box__of__oatmeal.n.01_1->cabinet.n.01_*",
+        "store::box__of__oatmeal.n.01_2->cabinet.n.01_1",
+        "store::jar__of__sugar.n.01_1->cabinet.n.01_1",
+        "store::jar__of__sugar.n.01_2->cabinet.n.01_1"
+      ],
+      "execution_valid": true,
+      "partial_order_edges": [],
+      "valid_topological_sorts": 1000,
+      "total_topological_sorts": 1000,
+      "topological_validation_status": "sampled"
+    },
+    {
+      "plan": [
+        "store::bag__of__chips.n.01_1->cabinet.n.01_1",
+        "store::bag__of__chips.n.01_2->cabinet.n.01_*",
+        "store::bottle__of__olive_oil.n.01_1->cabinet.n.01_1",
+        "store::bottle__of__olive_oil.n.01_2->cabinet.n.01_*",
+        "store::box__of__oatmeal.n.01_1->cabinet.n.01_1",
+        "store::box__of__oatmeal.n.01_2->cabinet.n.01_*",
+        "store::jar__of__sugar.n.01_1->cabinet.n.01_*",
+        "store::jar__of__sugar.n.01_2->cabinet.n.01_*"
+      ],
+      "execution_valid": true,
+      "partial_order_edges": [],
+      "valid_topological_sorts": 1000,
+      "total_topological_sorts": 1000,
+      "topological_validation_status": "sampled"
+    },
+    {
+      "plan": [
+        "store::bag__of__chips.n.01_1->cabinet.n.01_1",
+        "store::bag__of__chips.n.01_2->cabinet.n.01_*",
+        "store::bottle__of__olive_oil.n.01_1->cabinet.n.01_1",
+        "store::bottle__of__olive_oil.n.01_2->cabinet.n.01_*",
+        "store::box__of__oatmeal.n.01_1->cabinet.n.01_1",
+        "store::box__of__oatmeal.n.01_2->cabinet.n.01_*",
+        "store::jar__of__sugar.n.01_1->cabinet.n.01_*",
+        "store::jar__of__sugar.n.01_2->cabinet.n.01_1"
+      ],
+      "execution_valid": true,
+      "partial_order_edges": [],
+      "valid_topological_sorts": 1000,
+      "total_topological_sorts": 1000,
+      "topological_validation_status": "sampled"
+    },
+    {
+      "plan": [
+        "store::bag__of__chips.n.01_1->cabinet.n.01_1",
+        "store::bag__of__chips.n.01_2->cabinet.n.01_*",
+        "store::bottle__of__olive_oil.n.01_1->cabinet.n.01_1",
+        "store::bottle__of__olive_oil.n.01_2->cabinet.n.01_*",
+        "store::box__of__oatmeal.n.01_1->cabinet.n.01_1",
+        "store::box__of__oatmeal.n.01_2->cabinet.n.01_*",
+        "store::jar__of__sugar.n.01_1->cabinet.n.01_1",
+        "store::jar__of__sugar.n.01_2->cabinet.n.01_*"
+      ],
+      "execution_valid": true,
+      "partial_order_edges": [],
+      "valid_topological_sorts": 1000,
+      "total_topological_sorts": 1000,
+      "topological_validation_status": "sampled"
+    },
+    {
+      "plan": [
+        "store::bag__of__chips.n.01_1->cabinet.n.01_1",
+        "store::bag__of__chips.n.01_2->cabinet.n.01_*",
+        "store::bottle__of__olive_oil.n.01_1->cabinet.n.01_1",
+        "store::bottle__of__olive_oil.n.01_2->cabinet.n.01_*",
+        "store::box__of__oatmeal.n.01_1->cabinet.n.01_1",
+        "store::box__of__oatmeal.n.01_2->cabinet.n.01_*",
+        "store::jar__of__sugar.n.01_1->cabinet.n.01_1",
+        "store::jar__of__sugar.n.01_2->cabinet.n.01_1"
+      ],
+      "execution_valid": true,
+      "partial_order_edges": [],
+      "valid_topological_sorts": 1000,
+      "total_topological_sorts": 1000,
+      "topological_validation_status": "sampled"
+    },
+    {
+      "plan": [
+        "store::bag__of__chips.n.01_1->cabinet.n.01_1",
+        "store::bag__of__chips.n.01_2->cabinet.n.01_*",
+        "store::bottle__of__olive_oil.n.01_1->cabinet.n.01_1",
+        "store::bottle__of__olive_oil.n.01_2->cabinet.n.01_*",
+        "store::box__of__oatmeal.n.01_1->cabinet.n.01_1",
+        "store::box__of__oatmeal.n.01_2->cabinet.n.01_1",
+        "store::jar__of__sugar.n.01_1->cabinet.n.01_*",
+        "store::jar__of__sugar.n.01_2->cabinet.n.01_*"
+      ],
+      "execution_valid": true,
+      "partial_order_edges": [],
+      "valid_topological_sorts": 1000,
+      "total_topological_sorts": 1000,
+      "topological_validation_status": "sampled"
+    },
+    {
+      "plan": [
+        "store::bag__of__chips.n.01_1->cabinet.n.01_1",
+        "store::bag__of__chips.n.01_2->cabinet.n.01_*",
+        "store::bottle__of__olive_oil.n.01_1->cabinet.n.01_1",
+        "store::bottle__of__olive_oil.n.01_2->cabinet.n.01_*",
+        "store::box__of__oatmeal.n.01_1->cabinet.n.01_1",
+        "store::box__of__oatmeal.n.01_2->cabinet.n.01_1",
+        "store::jar__of__sugar.n.01_1->cabinet.n.01_*",
+        "store::jar__of__sugar.n.01_2->cabinet.n.01_1"
+      ],
+      "execution_valid": true,
+      "partial_order_edges": [],
+      "valid_topological_sorts": 1000,
+      "total_topological_sorts": 1000,
+      "topological_validation_status": "sampled"
+    },
+    {
+      "plan": [
+        "store::bag__of__chips.n.01_1->cabinet.n.01_1",
+        "store::bag__of__chips.n.01_2->cabinet.n.01_*",
+        "store::bottle__of__olive_oil.n.01_1->cabinet.n.01_1",
+        "store::bottle__of__olive_oil.n.01_2->cabinet.n.01_*",
+        "store::box__of__oatmeal.n.01_1->cabinet.n.01_1",
+        "store::box__of__oatmeal.n.01_2->cabinet.n.01_1",
+        "store::jar__of__sugar.n.01_1->cabinet.n.01_1",
+        "store::jar__of__sugar.n.01_2->cabinet.n.01_*"
+      ],
+      "execution_valid": true,
+      "partial_order_edges": [],
+      "valid_topological_sorts": 1000,
+      "total_topological_sorts": 1000,
+      "topological_validation_status": "sampled"
+    },
+    {
+      "plan": [
+        "store::bag__of__chips.n.01_1->cabinet.n.01_1",
+        "store::bag__of__chips.n.01_2->cabinet.n.01_*",
+        "store::bottle__of__olive_oil.n.01_1->cabinet.n.01_1",
+        "store::bottle__of__olive_oil.n.01_2->cabinet.n.01_*",
+        "store::box__of__oatmeal.n.01_1->cabinet.n.01_1",
+        "store::box__of__oatmeal.n.01_2->cabinet.n.01_1",
+        "store::jar__of__sugar.n.01_1->cabinet.n.01_1",
+        "store::jar__of__sugar.n.01_2->cabinet.n.01_1"
+      ],
+      "execution_valid": true,
+      "partial_order_edges": [],
+      "valid_topological_sorts": 1000,
+      "total_topological_sorts": 1000,
+      "topological_validation_status": "sampled"
+    },
+    {
+      "plan": [
+        "store::bag__of__chips.n.01_1->cabinet.n.01_1",
+        "store::bag__of__chips.n.01_2->cabinet.n.01_*",
+        "store::bottle__of__olive_oil.n.01_1->cabinet.n.01_1",
+        "store::bottle__of__olive_oil.n.01_2->cabinet.n.01_1",
+        "store::box__of__oatmeal.n.01_1->cabinet.n.01_*",
+        "store::box__of__oatmeal.n.01_2->cabinet.n.01_*",
+        "store::jar__of__sugar.n.01_1->cabinet.n.01_*",
+        "store::jar__of__sugar.n.01_2->cabinet.n.01_*"
+      ],
+      "execution_valid": true,
+      "partial_order_edges": [],
+      "valid_topological_sorts": 1000,
+      "total_topological_sorts": 1000,
+      "topological_validation_status": "sampled"
+    },
+    {
+      "plan": [
+        "store::bag__of__chips.n.01_1->cabinet.n.01_1",
+        "store::bag__of__chips.n.01_2->cabinet.n.01_*",
+        "store::bottle__of__olive_oil.n.01_1->cabinet.n.01_1",
+        "store::bottle__of__olive_oil.n.01_2->cabinet.n.01_1",
+        "store::box__of__oatmeal.n.01_1->cabinet.n.01_*",
+        "store::box__of__oatmeal.n.01_2->cabinet.n.01_*",
+        "store::jar__of__sugar.n.01_1->cabinet.n.01_*",
+        "store::jar__of__sugar.n.01_2->cabinet.n.01_1"
+      ],
+      "execution_valid": true,
+      "partial_order_edges": [],
+      "valid_topological_sorts": 1000,
+      "total_topological_sorts": 1000,
+      "topological_validation_status": "sampled"
+    },
+    {
+      "plan": [
+        "store::bag__of__chips.n.01_1->cabinet.n.01_1",
+        "store::bag__of__chips.n.01_2->cabinet.n.01_*",
+        "store::bottle__of__olive_oil.n.01_1->cabinet.n.01_1",
+        "store::bottle__of__olive_oil.n.01_2->cabinet.n.01_1",
+        "store::box__of__oatmeal.n.01_1->cabinet.n.01_*",
+        "store::box__of__oatmeal.n.01_2->cabinet.n.01_*",
+        "store::jar__of__sugar.n.01_1->cabinet.n.01_1",
+        "store::jar__of__sugar.n.01_2->cabinet.n.01_*"
+      ],
+      "execution_valid": true,
+      "partial_order_edges": [],
+      "valid_topological_sorts": 1000,
+      "total_topological_sorts": 1000,
+      "topological_validation_status": "sampled"
+    },
+    {
+      "plan": [
+        "store::bag__of__chips.n.01_1->cabinet.n.01_1",
+        "store::bag__of__chips.n.01_2->cabinet.n.01_*",
+        "store::bottle__of__olive_oil.n.01_1->cabinet.n.01_1",
+        "store::bottle__of__olive_oil.n.01_2->cabinet.n.01_1",
+        "store::box__of__oatmeal.n.01_1->cabinet.n.01_*",
+        "store::box__of__oatmeal.n.01_2->cabinet.n.01_*",
+        "store::jar__of__sugar.n.01_1->cabinet.n.01_1",
+        "store::jar__of__sugar.n.01_2->cabinet.n.01_1"
+      ],
+      "execution_valid": true,
+      "partial_order_edges": [],
+      "valid_topological_sorts": 1000,
+      "total_topological_sorts": 1000,
+      "topological_validation_status": "sampled"
+    },
+    {
+      "plan": [
+        "store::bag__of__chips.n.01_1->cabinet.n.01_1",
+        "store::bag__of__chips.n.01_2->cabinet.n.01_*",
+        "store::bottle__of__olive_oil.n.01_1->cabinet.n.01_1",
+        "store::bottle__of__olive_oil.n.01_2->cabinet.n.01_1",
+        "store::box__of__oatmeal.n.01_1->cabinet.n.01_*",
+        "store::box__of__oatmeal.n.01_2->cabinet.n.01_1",
+        "store::jar__of__sugar.n.01_1->cabinet.n.01_*",
+        "store::jar__of__sugar.n.01_2->cabinet.n.01_*"
+      ],
+      "execution_valid": true,
+      "partial_order_edges": [],
+      "valid_topological_sorts": 1000,
+      "total_topological_sorts": 1000,
+      "topological_validation_status": "sampled"
+    },
+    {
+      "plan": [
+        "store::bag__of__chips.n.01_1->cabinet.n.01_1",
+        "store::bag__of__chips.n.01_2->cabinet.n.01_*",
+        "store::bottle__of__olive_oil.n.01_1->cabinet.n.01_1",
+        "store::bottle__of__olive_oil.n.01_2->cabinet.n.01_1",
+        "store::box__of__oatmeal.n.01_1->cabinet.n.01_*",
+        "store::box__of__oatmeal.n.01_2->cabinet.n.01_1",
+        "store::jar__of__sugar.n.01_1->cabinet.n.01_*",
+        "store::jar__of__sugar.n.01_2->cabinet.n.01_1"
+      ],
+      "execution_valid": true,
+      "partial_order_edges": [],
+      "valid_topological_sorts": 1000,
+      "total_topological_sorts": 1000,
+      "topological_validation_status": "sampled"
+    },
+    {
+      "plan": [
+        "store::bag__of__chips.n.01_1->cabinet.n.01_1",
+        "store::bag__of__chips.n.01_2->cabinet.n.01_*",
+        "store::bottle__of__olive_oil.n.01_1->cabinet.n.01_1",
+        "store::bottle__of__olive_oil.n.01_2->cabinet.n.01_1",
+        "store::box__of__oatmeal.n.01_1->cabinet.n.01_*",
+        "store::box__of__oatmeal.n.01_2->cabinet.n.01_1",
+        "store::jar__of__sugar.n.01_1->cabinet.n.01_1",
+        "store::jar__of__sugar.n.01_2->cabinet.n.01_*"
+      ],
+      "execution_valid": true,
+      "partial_order_edges": [],
+      "valid_topological_sorts": 1000,
+      "total_topological_sorts": 1000,
+      "topological_validation_status": "sampled"
+    },
+    {
+      "plan": [
+        "store::bag__of__chips.n.01_1->cabinet.n.01_1",
+        "store::bag__of__chips.n.01_2->cabinet.n.01_*",
+        "store::bottle__of__olive_oil.n.01_1->cabinet.n.01_1",
+        "store::bottle__of__olive_oil.n.01_2->cabinet.n.01_1",
+        "store::box__of__oatmeal.n.01_1->cabinet.n.01_*",
+        "store::box__of__oatmeal.n.01_2->cabinet.n.01_1",
+        "store::jar__of__sugar.n.01_1->cabinet.n.01_1",
+        "store::jar__of__sugar.n.01_2->cabinet.n.01_1"
+      ],
+      "execution_valid": true,
+      "partial_order_edges": [],
+      "valid_topological_sorts": 1000,
+      "total_topological_sorts": 1000,
+      "topological_validation_status": "sampled"
+    },
+    {
+      "plan": [
+        "store::bag__of__chips.n.01_1->cabinet.n.01_1",
+        "store::bag__of__chips.n.01_2->cabinet.n.01_*",
+        "store::bottle__of__olive_oil.n.01_1->cabinet.n.01_1",
+        "store::bottle__of__olive_oil.n.01_2->cabinet.n.01_1",
+        "store::box__of__oatmeal.n.01_1->cabinet.n.01_1",
+        "store::box__of__oatmeal.n.01_2->cabinet.n.01_*",
+        "store::jar__of__sugar.n.01_1->cabinet.n.01_*",
+        "store::jar__of__sugar.n.01_2->cabinet.n.01_*"
+      ],
+      "execution_valid": true,
+      "partial_order_edges": [],
+      "valid_topological_sorts": 1000,
+      "total_topological_sorts": 1000,
+      "topological_validation_status": "sampled"
+    },
+    {
+      "plan": [
+        "store::bag__of__chips.n.01_1->cabinet.n.01_1",
+        "store::bag__of__chips.n.01_2->cabinet.n.01_*",
+        "store::bottle__of__olive_oil.n.01_1->cabinet.n.01_1",
+        "store::bottle__of__olive_oil.n.01_2->cabinet.n.01_1",
+        "store::box__of__oatmeal.n.01_1->cabinet.n.01_1",
+        "store::box__of__oatmeal.n.01_2->cabinet.n.01_*",
+        "store::jar__of__sugar.n.01_1->cabinet.n.01_*",
+        "store::jar__of__sugar.n.01_2->cabinet.n.01_1"
+      ],
+      "execution_valid": true,
+      "partial_order_edges": [],
+      "valid_topological_sorts": 1000,
+      "total_topological_sorts": 1000,
+      "topological_validation_status": "sampled"
+    },
+    {
+      "plan": [
+        "store::bag__of__chips.n.01_1->cabinet.n.01_1",
+        "store::bag__of__chips.n.01_2->cabinet.n.01_*",
+        "store::bottle__of__olive_oil.n.01_1->cabinet.n.01_1",
+        "store::bottle__of__olive_oil.n.01_2->cabinet.n.01_1",
+        "store::box__of__oatmeal.n.01_1->cabinet.n.01_1",
+        "store::box__of__oatmeal.n.01_2->cabinet.n.01_*",
+        "store::jar__of__sugar.n.01_1->cabinet.n.01_1",
+        "store::jar__of__sugar.n.01_2->cabinet.n.01_*"
+      ],
+      "execution_valid": true,
+      "partial_order_edges": [],
+      "valid_topological_sorts": 1000,
+      "total_topological_sorts": 1000,
+      "topological_validation_status": "sampled"
+    },
+    {
+      "plan": [
+        "store::bag__of__chips.n.01_1->cabinet.n.01_1",
+        "store::bag__of__chips.n.01_2->cabinet.n.01_*",
+        "store::bottle__of__olive_oil.n.01_1->cabinet.n.01_1",
+        "store::bottle__of__olive_oil.n.01_2->cabinet.n.01_1",
+        "store::box__of__oatmeal.n.01_1->cabinet.n.01_1",
+        "store::box__of__oatmeal.n.01_2->cabinet.n.01_*",
+        "store::jar__of__sugar.n.01_1->cabinet.n.01_1",
+        "store::jar__of__sugar.n.01_2->cabinet.n.01_1"
+      ],
+      "execution_valid": true,
+      "partial_order_edges": [],
+      "valid_topological_sorts": 1000,
+      "total_topological_sorts": 1000,
+      "topological_validation_status": "sampled"
+    },
+    {
+      "plan": [
+        "store::bag__of__chips.n.01_1->cabinet.n.01_1",
+        "store::bag__of__chips.n.01_2->cabinet.n.01_*",
+        "store::bottle__of__olive_oil.n.01_1->cabinet.n.01_1",
+        "store::bottle__of__olive_oil.n.01_2->cabinet.n.01_1",
+        "store::box__of__oatmeal.n.01_1->cabinet.n.01_1",
+        "store::box__of__oatmeal.n.01_2->cabinet.n.01_1",
+        "store::jar__of__sugar.n.01_1->cabinet.n.01_*",
+        "store::jar__of__sugar.n.01_2->cabinet.n.01_*"
+      ],
+      "execution_valid": true,
+      "partial_order_edges": [],
+      "valid_topological_sorts": 1000,
+      "total_topological_sorts": 1000,
+      "topological_validation_status": "sampled"
+    },
+    {
+      "plan": [
+        "store::bag__of__chips.n.01_1->cabinet.n.01_1",
+        "store::bag__of__chips.n.01_2->cabinet.n.01_*",
+        "store::bottle__of__olive_oil.n.01_1->cabinet.n.01_1",
+        "store::bottle__of__olive_oil.n.01_2->cabinet.n.01_1",
+        "store::box__of__oatmeal.n.01_1->cabinet.n.01_1",
+        "store::box__of__oatmeal.n.01_2->cabinet.n.01_1",
+        "store::jar__of__sugar.n.01_1->cabinet.n.01_*",
+        "store::jar__of__sugar.n.01_2->cabinet.n.01_1"
+      ],
+      "execution_valid": true,
+      "partial_order_edges": [],
+      "valid_topological_sorts": 1000,
+      "total_topological_sorts": 1000,
+      "topological_validation_status": "sampled"
+    },
+    {
+      "plan": [
+        "store::bag__of__chips.n.01_1->cabinet.n.01_1",
+        "store::bag__of__chips.n.01_2->cabinet.n.01_*",
+        "store::bottle__of__olive_oil.n.01_1->cabinet.n.01_1",
+        "store::bottle__of__olive_oil.n.01_2->cabinet.n.01_1",
+        "store::box__of__oatmeal.n.01_1->cabinet.n.01_1",
+        "store::box__of__oatmeal.n.01_2->cabinet.n.01_1",
+        "store::jar__of__sugar.n.01_1->cabinet.n.01_1",
+        "store::jar__of__sugar.n.01_2->cabinet.n.01_*"
+      ],
+      "execution_valid": true,
+      "partial_order_edges": [],
+      "valid_topological_sorts": 1000,
+      "total_topological_sorts": 1000,
+      "topological_validation_status": "sampled"
+    },
+    {
+      "plan": [
+        "store::bag__of__chips.n.01_1->cabinet.n.01_1",
+        "store::bag__of__chips.n.01_2->cabinet.n.01_*",
+        "store::bottle__of__olive_oil.n.01_1->cabinet.n.01_1",
+        "store::bottle__of__olive_oil.n.01_2->cabinet.n.01_1",
+        "store::box__of__oatmeal.n.01_1->cabinet.n.01_1",
+        "store::box__of__oatmeal.n.01_2->cabinet.n.01_1",
+        "store::jar__of__sugar.n.01_1->cabinet.n.01_1",
+        "store::jar__of__sugar.n.01_2->cabinet.n.01_1"
+      ],
+      "execution_valid": true,
+      "partial_order_edges": [],
+      "valid_topological_sorts": 1000,
+      "total_topological_sorts": 1000,
+      "topological_validation_status": "sampled"
+    },
+    {
+      "plan": [
+        "store::bag__of__chips.n.01_1->cabinet.n.01_1",
+        "store::bag__of__chips.n.01_2->cabinet.n.01_1",
+        "store::bottle__of__olive_oil.n.01_1->cabinet.n.01_*",
+        "store::bottle__of__olive_oil.n.01_2->cabinet.n.01_*",
+        "store::box__of__oatmeal.n.01_1->cabinet.n.01_*",
+        "store::box__of__oatmeal.n.01_2->cabinet.n.01_*",
+        "store::jar__of__sugar.n.01_1->cabinet.n.01_*",
+        "store::jar__of__sugar.n.01_2->cabinet.n.01_*"
+      ],
+      "execution_valid": true,
+      "partial_order_edges": [],
+      "valid_topological_sorts": 1000,
+      "total_topological_sorts": 1000,
+      "topological_validation_status": "sampled"
+    },
+    {
+      "plan": [
+        "store::bag__of__chips.n.01_1->cabinet.n.01_1",
+        "store::bag__of__chips.n.01_2->cabinet.n.01_1",
+        "store::bottle__of__olive_oil.n.01_1->cabinet.n.01_*",
+        "store::bottle__of__olive_oil.n.01_2->cabinet.n.01_*",
+        "store::box__of__oatmeal.n.01_1->cabinet.n.01_*",
+        "store::box__of__oatmeal.n.01_2->cabinet.n.01_*",
+        "store::jar__of__sugar.n.01_1->cabinet.n.01_*",
+        "store::jar__of__sugar.n.01_2->cabinet.n.01_1"
+      ],
+      "execution_valid": true,
+      "partial_order_edges": [],
+      "valid_topological_sorts": 1000,
+      "total_topological_sorts": 1000,
+      "topological_validation_status": "sampled"
+    },
+    {
+      "plan": [
+        "store::bag__of__chips.n.01_1->cabinet.n.01_1",
+        "store::bag__of__chips.n.01_2->cabinet.n.01_1",
+        "store::bottle__of__olive_oil.n.01_1->cabinet.n.01_*",
+        "store::bottle__of__olive_oil.n.01_2->cabinet.n.01_*",
+        "store::box__of__oatmeal.n.01_1->cabinet.n.01_*",
+        "store::box__of__oatmeal.n.01_2->cabinet.n.01_*",
+        "store::jar__of__sugar.n.01_1->cabinet.n.01_1",
+        "store::jar__of__sugar.n.01_2->cabinet.n.01_*"
+      ],
+      "execution_valid": true,
+      "partial_order_edges": [],
+      "valid_topological_sorts": 1000,
+      "total_topological_sorts": 1000,
+      "topological_validation_status": "sampled"
+    },
+    {
+      "plan": [
+        "store::bag__of__chips.n.01_1->cabinet.n.01_1",
+        "store::bag__of__chips.n.01_2->cabinet.n.01_1",
+        "store::bottle__of__olive_oil.n.01_1->cabinet.n.01_*",
+        "store::bottle__of__olive_oil.n.01_2->cabinet.n.01_*",
+        "store::box__of__oatmeal.n.01_1->cabinet.n.01_*",
+        "store::box__of__oatmeal.n.01_2->cabinet.n.01_*",
+        "store::jar__of__sugar.n.01_1->cabinet.n.01_1",
+        "store::jar__of__sugar.n.01_2->cabinet.n.01_1"
+      ],
+      "execution_valid": true,
+      "partial_order_edges": [],
+      "valid_topological_sorts": 1000,
+      "total_topological_sorts": 1000,
+      "topological_validation_status": "sampled"
+    },
+    {
+      "plan": [
+        "store::bag__of__chips.n.01_1->cabinet.n.01_1",
+        "store::bag__of__chips.n.01_2->cabinet.n.01_1",
+        "store::bottle__of__olive_oil.n.01_1->cabinet.n.01_*",
+        "store::bottle__of__olive_oil.n.01_2->cabinet.n.01_*",
+        "store::box__of__oatmeal.n.01_1->cabinet.n.01_*",
+        "store::box__of__oatmeal.n.01_2->cabinet.n.01_1",
+        "store::jar__of__sugar.n.01_1->cabinet.n.01_*",
+        "store::jar__of__sugar.n.01_2->cabinet.n.01_*"
+      ],
+      "execution_valid": true,
+      "partial_order_edges": [],
+      "valid_topological_sorts": 1000,
+      "total_topological_sorts": 1000,
+      "topological_validation_status": "sampled"
+    },
+    {
+      "plan": [
+        "store::bag__of__chips.n.01_1->cabinet.n.01_1",
+        "store::bag__of__chips.n.01_2->cabinet.n.01_1",
+        "store::bottle__of__olive_oil.n.01_1->cabinet.n.01_*",
+        "store::bottle__of__olive_oil.n.01_2->cabinet.n.01_*",
+        "store::box__of__oatmeal.n.01_1->cabinet.n.01_*",
+        "store::box__of__oatmeal.n.01_2->cabinet.n.01_1",
+        "store::jar__of__sugar.n.01_1->cabinet.n.01_*",
+        "store::jar__of__sugar.n.01_2->cabinet.n.01_1"
+      ],
+      "execution_valid": true,
+      "partial_order_edges": [],
+      "valid_topological_sorts": 1000,
+      "total_topological_sorts": 1000,
+      "topological_validation_status": "sampled"
+    },
+    {
+      "plan": [
+        "store::bag__of__chips.n.01_1->cabinet.n.01_1",
+        "store::bag__of__chips.n.01_2->cabinet.n.01_1",
+        "store::bottle__of__olive_oil.n.01_1->cabinet.n.01_*",
+        "store::bottle__of__olive_oil.n.01_2->cabinet.n.01_*",
+        "store::box__of__oatmeal.n.01_1->cabinet.n.01_*",
+        "store::box__of__oatmeal.n.01_2->cabinet.n.01_1",
+        "store::jar__of__sugar.n.01_1->cabinet.n.01_1",
+        "store::jar__of__sugar.n.01_2->cabinet.n.01_*"
+      ],
+      "execution_valid": true,
+      "partial_order_edges": [],
+      "valid_topological_sorts": 1000,
+      "total_topological_sorts": 1000,
+      "topological_validation_status": "sampled"
+    },
+    {
+      "plan": [
+        "store::bag__of__chips.n.01_1->cabinet.n.01_1",
+        "store::bag__of__chips.n.01_2->cabinet.n.01_1",
+        "store::bottle__of__olive_oil.n.01_1->cabinet.n.01_*",
+        "store::bottle__of__olive_oil.n.01_2->cabinet.n.01_*",
+        "store::box__of__oatmeal.n.01_1->cabinet.n.01_*",
+        "store::box__of__oatmeal.n.01_2->cabinet.n.01_1",
+        "store::jar__of__sugar.n.01_1->cabinet.n.01_1",
+        "store::jar__of__sugar.n.01_2->cabinet.n.01_1"
+      ],
+      "execution_valid": true,
+      "partial_order_edges": [],
+      "valid_topological_sorts": 1000,
+      "total_topological_sorts": 1000,
+      "topological_validation_status": "sampled"
+    },
+    {
+      "plan": [
+        "store::bag__of__chips.n.01_1->cabinet.n.01_1",
+        "store::bag__of__chips.n.01_2->cabinet.n.01_1",
+        "store::bottle__of__olive_oil.n.01_1->cabinet.n.01_*",
+        "store::bottle__of__olive_oil.n.01_2->cabinet.n.01_*",
+        "store::box__of__oatmeal.n.01_1->cabinet.n.01_1",
+        "store::box__of__oatmeal.n.01_2->cabinet.n.01_*",
+        "store::jar__of__sugar.n.01_1->cabinet.n.01_*",
+        "store::jar__of__sugar.n.01_2->cabinet.n.01_*"
+      ],
+      "execution_valid": true,
+      "partial_order_edges": [],
+      "valid_topological_sorts": 1000,
+      "total_topological_sorts": 1000,
+      "topological_validation_status": "sampled"
+    },
+    {
+      "plan": [
+        "store::bag__of__chips.n.01_1->cabinet.n.01_1",
+        "store::bag__of__chips.n.01_2->cabinet.n.01_1",
+        "store::bottle__of__olive_oil.n.01_1->cabinet.n.01_*",
+        "store::bottle__of__olive_oil.n.01_2->cabinet.n.01_*",
+        "store::box__of__oatmeal.n.01_1->cabinet.n.01_1",
+        "store::box__of__oatmeal.n.01_2->cabinet.n.01_*",
+        "store::jar__of__sugar.n.01_1->cabinet.n.01_*",
+        "store::jar__of__sugar.n.01_2->cabinet.n.01_1"
+      ],
+      "execution_valid": true,
+      "partial_order_edges": [],
+      "valid_topological_sorts": 1000,
+      "total_topological_sorts": 1000,
+      "topological_validation_status": "sampled"
+    },
+    {
+      "plan": [
+        "store::bag__of__chips.n.01_1->cabinet.n.01_1",
+        "store::bag__of__chips.n.01_2->cabinet.n.01_1",
+        "store::bottle__of__olive_oil.n.01_1->cabinet.n.01_*",
+        "store::bottle__of__olive_oil.n.01_2->cabinet.n.01_*",
+        "store::box__of__oatmeal.n.01_1->cabinet.n.01_1",
+        "store::box__of__oatmeal.n.01_2->cabinet.n.01_*",
+        "store::jar__of__sugar.n.01_1->cabinet.n.01_1",
+        "store::jar__of__sugar.n.01_2->cabinet.n.01_*"
+      ],
+      "execution_valid": true,
+      "partial_order_edges": [],
+      "valid_topological_sorts": 1000,
+      "total_topological_sorts": 1000,
+      "topological_validation_status": "sampled"
+    },
+    {
+      "plan": [
+        "store::bag__of__chips.n.01_1->cabinet.n.01_1",
+        "store::bag__of__chips.n.01_2->cabinet.n.01_1",
+        "store::bottle__of__olive_oil.n.01_1->cabinet.n.01_*",
+        "store::bottle__of__olive_oil.n.01_2->cabinet.n.01_*",
+        "store::box__of__oatmeal.n.01_1->cabinet.n.01_1",
+        "store::box__of__oatmeal.n.01_2->cabinet.n.01_*",
+        "store::jar__of__sugar.n.01_1->cabinet.n.01_1",
+        "store::jar__of__sugar.n.01_2->cabinet.n.01_1"
+      ],
+      "execution_valid": true,
+      "partial_order_edges": [],
+      "valid_topological_sorts": 1000,
+      "total_topological_sorts": 1000,
+      "topological_validation_status": "sampled"
+    },
+    {
+      "plan": [
+        "store::bag__of__chips.n.01_1->cabinet.n.01_1",
+        "store::bag__of__chips.n.01_2->cabinet.n.01_1",
+        "store::bottle__of__olive_oil.n.01_1->cabinet.n.01_*",
+        "store::bottle__of__olive_oil.n.01_2->cabinet.n.01_*",
+        "store::box__of__oatmeal.n.01_1->cabinet.n.01_1",
+        "store::box__of__oatmeal.n.01_2->cabinet.n.01_1",
+        "store::jar__of__sugar.n.01_1->cabinet.n.01_*",
+        "store::jar__of__sugar.n.01_2->cabinet.n.01_*"
+      ],
+      "execution_valid": true,
+      "partial_order_edges": [],
+      "valid_topological_sorts": 1000,
+      "total_topological_sorts": 1000,
+      "topological_validation_status": "sampled"
+    },
+    {
+      "plan": [
+        "store::bag__of__chips.n.01_1->cabinet.n.01_1",
+        "store::bag__of__chips.n.01_2->cabinet.n.01_1",
+        "store::bottle__of__olive_oil.n.01_1->cabinet.n.01_*",
+        "store::bottle__of__olive_oil.n.01_2->cabinet.n.01_*",
+        "store::box__of__oatmeal.n.01_1->cabinet.n.01_1",
+        "store::box__of__oatmeal.n.01_2->cabinet.n.01_1",
+        "store::jar__of__sugar.n.01_1->cabinet.n.01_*",
+        "store::jar__of__sugar.n.01_2->cabinet.n.01_1"
+      ],
+      "execution_valid": true,
+      "partial_order_edges": [],
+      "valid_topological_sorts": 1000,
+      "total_topological_sorts": 1000,
+      "topological_validation_status": "sampled"
+    },
+    {
+      "plan": [
+        "store::bag__of__chips.n.01_1->cabinet.n.01_1",
+        "store::bag__of__chips.n.01_2->cabinet.n.01_1",
+        "store::bottle__of__olive_oil.n.01_1->cabinet.n.01_*",
+        "store::bottle__of__olive_oil.n.01_2->cabinet.n.01_*",
+        "store::box__of__oatmeal.n.01_1->cabinet.n.01_1",
+        "store::box__of__oatmeal.n.01_2->cabinet.n.01_1",
+        "store::jar__of__sugar.n.01_1->cabinet.n.01_1",
+        "store::jar__of__sugar.n.01_2->cabinet.n.01_*"
+      ],
+      "execution_valid": true,
+      "partial_order_edges": [],
+      "valid_topological_sorts": 1000,
+      "total_topological_sorts": 1000,
+      "topological_validation_status": "sampled"
+    },
+    {
+      "plan": [
+        "store::bag__of__chips.n.01_1->cabinet.n.01_1",
+        "store::bag__of__chips.n.01_2->cabinet.n.01_1",
+        "store::bottle__of__olive_oil.n.01_1->cabinet.n.01_*",
+        "store::bottle__of__olive_oil.n.01_2->cabinet.n.01_*",
+        "store::box__of__oatmeal.n.01_1->cabinet.n.01_1",
+        "store::box__of__oatmeal.n.01_2->cabinet.n.01_1",
+        "store::jar__of__sugar.n.01_1->cabinet.n.01_1",
+        "store::jar__of__sugar.n.01_2->cabinet.n.01_1"
+      ],
+      "execution_valid": true,
+      "partial_order_edges": [],
+      "valid_topological_sorts": 1000,
+      "total_topological_sorts": 1000,
+      "topological_validation_status": "sampled"
+    },
+    {
+      "plan": [
+        "store::bag__of__chips.n.01_1->cabinet.n.01_1",
+        "store::bag__of__chips.n.01_2->cabinet.n.01_1",
+        "store::bottle__of__olive_oil.n.01_1->cabinet.n.01_*",
+        "store::bottle__of__olive_oil.n.01_2->cabinet.n.01_1",
+        "store::box__of__oatmeal.n.01_1->cabinet.n.01_*",
+        "store::box__of__oatmeal.n.01_2->cabinet.n.01_*",
+        "store::jar__of__sugar.n.01_1->cabinet.n.01_*",
+        "store::jar__of__sugar.n.01_2->cabinet.n.01_*"
+      ],
+      "execution_valid": true,
+      "partial_order_edges": [],
+      "valid_topological_sorts": 1000,
+      "total_topological_sorts": 1000,
+      "topological_validation_status": "sampled"
+    },
+    {
+      "plan": [
+        "store::bag__of__chips.n.01_1->cabinet.n.01_1",
+        "store::bag__of__chips.n.01_2->cabinet.n.01_1",
+        "store::bottle__of__olive_oil.n.01_1->cabinet.n.01_*",
+        "store::bottle__of__olive_oil.n.01_2->cabinet.n.01_1",
+        "store::box__of__oatmeal.n.01_1->cabinet.n.01_*",
+        "store::box__of__oatmeal.n.01_2->cabinet.n.01_*",
+        "store::jar__of__sugar.n.01_1->cabinet.n.01_*",
+        "store::jar__of__sugar.n.01_2->cabinet.n.01_1"
+      ],
+      "execution_valid": true,
+      "partial_order_edges": [],
+      "valid_topological_sorts": 1000,
+      "total_topological_sorts": 1000,
+      "topological_validation_status": "sampled"
+    },
+    {
+      "plan": [
+        "store::bag__of__chips.n.01_1->cabinet.n.01_1",
+        "store::bag__of__chips.n.01_2->cabinet.n.01_1",
+        "store::bottle__of__olive_oil.n.01_1->cabinet.n.01_*",
+        "store::bottle__of__olive_oil.n.01_2->cabinet.n.01_1",
+        "store::box__of__oatmeal.n.01_1->cabinet.n.01_*",
+        "store::box__of__oatmeal.n.01_2->cabinet.n.01_*",
+        "store::jar__of__sugar.n.01_1->cabinet.n.01_1",
+        "store::jar__of__sugar.n.01_2->cabinet.n.01_*"
+      ],
+      "execution_valid": true,
+      "partial_order_edges": [],
+      "valid_topological_sorts": 1000,
+      "total_topological_sorts": 1000,
+      "topological_validation_status": "sampled"
+    },
+    {
+      "plan": [
+        "store::bag__of__chips.n.01_1->cabinet.n.01_1",
+        "store::bag__of__chips.n.01_2->cabinet.n.01_1",
+        "store::bottle__of__olive_oil.n.01_1->cabinet.n.01_*",
+        "store::bottle__of__olive_oil.n.01_2->cabinet.n.01_1",
+        "store::box__of__oatmeal.n.01_1->cabinet.n.01_*",
+        "store::box__of__oatmeal.n.01_2->cabinet.n.01_*",
+        "store::jar__of__sugar.n.01_1->cabinet.n.01_1",
+        "store::jar__of__sugar.n.01_2->cabinet.n.01_1"
+      ],
+      "execution_valid": true,
+      "partial_order_edges": [],
+      "valid_topological_sorts": 1000,
+      "total_topological_sorts": 1000,
+      "topological_validation_status": "sampled"
+    },
+    {
+      "plan": [
+        "store::bag__of__chips.n.01_1->cabinet.n.01_1",
+        "store::bag__of__chips.n.01_2->cabinet.n.01_1",
+        "store::bottle__of__olive_oil.n.01_1->cabinet.n.01_*",
+        "store::bottle__of__olive_oil.n.01_2->cabinet.n.01_1",
+        "store::box__of__oatmeal.n.01_1->cabinet.n.01_*",
+        "store::box__of__oatmeal.n.01_2->cabinet.n.01_1",
+        "store::jar__of__sugar.n.01_1->cabinet.n.01_*",
+        "store::jar__of__sugar.n.01_2->cabinet.n.01_*"
+      ],
+      "execution_valid": true,
+      "partial_order_edges": [],
+      "valid_topological_sorts": 1000,
+      "total_topological_sorts": 1000,
+      "topological_validation_status": "sampled"
+    },
+    {
+      "plan": [
+        "store::bag__of__chips.n.01_1->cabinet.n.01_1",
+        "store::bag__of__chips.n.01_2->cabinet.n.01_1",
+        "store::bottle__of__olive_oil.n.01_1->cabinet.n.01_*",
+        "store::bottle__of__olive_oil.n.01_2->cabinet.n.01_1",
+        "store::box__of__oatmeal.n.01_1->cabinet.n.01_*",
+        "store::box__of__oatmeal.n.01_2->cabinet.n.01_1",
+        "store::jar__of__sugar.n.01_1->cabinet.n.01_*",
+        "store::jar__of__sugar.n.01_2->cabinet.n.01_1"
+      ],
+      "execution_valid": true,
+      "partial_order_edges": [],
+      "valid_topological_sorts": 1000,
+      "total_topological_sorts": 1000,
+      "topological_validation_status": "sampled"
+    },
+    {
+      "plan": [
+        "store::bag__of__chips.n.01_1->cabinet.n.01_1",
+        "store::bag__of__chips.n.01_2->cabinet.n.01_1",
+        "store::bottle__of__olive_oil.n.01_1->cabinet.n.01_*",
+        "store::bottle__of__olive_oil.n.01_2->cabinet.n.01_1",
+        "store::box__of__oatmeal.n.01_1->cabinet.n.01_*",
+        "store::box__of__oatmeal.n.01_2->cabinet.n.01_1",
+        "store::jar__of__sugar.n.01_1->cabinet.n.01_1",
+        "store::jar__of__sugar.n.01_2->cabinet.n.01_*"
+      ],
+      "execution_valid": true,
+      "partial_order_edges": [],
+      "valid_topological_sorts": 1000,
+      "total_topological_sorts": 1000,
+      "topological_validation_status": "sampled"
+    },
+    {
+      "plan": [
+        "store::bag__of__chips.n.01_1->cabinet.n.01_1",
+        "store::bag__of__chips.n.01_2->cabinet.n.01_1",
+        "store::bottle__of__olive_oil.n.01_1->cabinet.n.01_*",
+        "store::bottle__of__olive_oil.n.01_2->cabinet.n.01_1",
+        "store::box__of__oatmeal.n.01_1->cabinet.n.01_*",
+        "store::box__of__oatmeal.n.01_2->cabinet.n.01_1",
+        "store::jar__of__sugar.n.01_1->cabinet.n.01_1",
+        "store::jar__of__sugar.n.01_2->cabinet.n.01_1"
+      ],
+      "execution_valid": true,
+      "partial_order_edges": [],
+      "valid_topological_sorts": 1000,
+      "total_topological_sorts": 1000,
+      "topological_validation_status": "sampled"
+    },
+    {
+      "plan": [
+        "store::bag__of__chips.n.01_1->cabinet.n.01_1",
+        "store::bag__of__chips.n.01_2->cabinet.n.01_1",
+        "store::bottle__of__olive_oil.n.01_1->cabinet.n.01_*",
+        "store::bottle__of__olive_oil.n.01_2->cabinet.n.01_1",
+        "store::box__of__oatmeal.n.01_1->cabinet.n.01_1",
+        "store::box__of__oatmeal.n.01_2->cabinet.n.01_*",
+        "store::jar__of__sugar.n.01_1->cabinet.n.01_*",
+        "store::jar__of__sugar.n.01_2->cabinet.n.01_*"
+      ],
+      "execution_valid": true,
+      "partial_order_edges": [],
+      "valid_topological_sorts": 1000,
+      "total_topological_sorts": 1000,
+      "topological_validation_status": "sampled"
+    },
+    {
+      "plan": [
+        "store::bag__of__chips.n.01_1->cabinet.n.01_1",
+        "store::bag__of__chips.n.01_2->cabinet.n.01_1",
+        "store::bottle__of__olive_oil.n.01_1->cabinet.n.01_*",
+        "store::bottle__of__olive_oil.n.01_2->cabinet.n.01_1",
+        "store::box__of__oatmeal.n.01_1->cabinet.n.01_1",
+        "store::box__of__oatmeal.n.01_2->cabinet.n.01_*",
+        "store::jar__of__sugar.n.01_1->cabinet.n.01_*",
+        "store::jar__of__sugar.n.01_2->cabinet.n.01_1"
+      ],
+      "execution_valid": true,
+      "partial_order_edges": [],
+      "valid_topological_sorts": 1000,
+      "total_topological_sorts": 1000,
+      "topological_validation_status": "sampled"
+    },
+    {
+      "plan": [
+        "store::bag__of__chips.n.01_1->cabinet.n.01_1",
+        "store::bag__of__chips.n.01_2->cabinet.n.01_1",
+        "store::bottle__of__olive_oil.n.01_1->cabinet.n.01_*",
+        "store::bottle__of__olive_oil.n.01_2->cabinet.n.01_1",
+        "store::box__of__oatmeal.n.01_1->cabinet.n.01_1",
+        "store::box__of__oatmeal.n.01_2->cabinet.n.01_*",
+        "store::jar__of__sugar.n.01_1->cabinet.n.01_1",
+        "store::jar__of__sugar.n.01_2->cabinet.n.01_*"
+      ],
+      "execution_valid": true,
+      "partial_order_edges": [],
+      "valid_topological_sorts": 1000,
+      "total_topological_sorts": 1000,
+      "topological_validation_status": "sampled"
+    },
+    {
+      "plan": [
+        "store::bag__of__chips.n.01_1->cabinet.n.01_1",
+        "store::bag__of__chips.n.01_2->cabinet.n.01_1",
+        "store::bottle__of__olive_oil.n.01_1->cabinet.n.01_*",
+        "store::bottle__of__olive_oil.n.01_2->cabinet.n.01_1",
+        "store::box__of__oatmeal.n.01_1->cabinet.n.01_1",
+        "store::box__of__oatmeal.n.01_2->cabinet.n.01_*",
+        "store::jar__of__sugar.n.01_1->cabinet.n.01_1",
+        "store::jar__of__sugar.n.01_2->cabinet.n.01_1"
+      ],
+      "execution_valid": true,
+      "partial_order_edges": [],
+      "valid_topological_sorts": 1000,
+      "total_topological_sorts": 1000,
+      "topological_validation_status": "sampled"
+    },
+    {
+      "plan": [
+        "store::bag__of__chips.n.01_1->cabinet.n.01_1",
+        "store::bag__of__chips.n.01_2->cabinet.n.01_1",
+        "store::bottle__of__olive_oil.n.01_1->cabinet.n.01_*",
+        "store::bottle__of__olive_oil.n.01_2->cabinet.n.01_1",
+        "store::box__of__oatmeal.n.01_1->cabinet.n.01_1",
+        "store::box__of__oatmeal.n.01_2->cabinet.n.01_1",
+        "store::jar__of__sugar.n.01_1->cabinet.n.01_*",
+        "store::jar__of__sugar.n.01_2->cabinet.n.01_*"
+      ],
+      "execution_valid": true,
+      "partial_order_edges": [],
+      "valid_topological_sorts": 1000,
+      "total_topological_sorts": 1000,
+      "topological_validation_status": "sampled"
+    },
+    {
+      "plan": [
+        "store::bag__of__chips.n.01_1->cabinet.n.01_1",
+        "store::bag__of__chips.n.01_2->cabinet.n.01_1",
+        "store::bottle__of__olive_oil.n.01_1->cabinet.n.01_*",
+        "store::bottle__of__olive_oil.n.01_2->cabinet.n.01_1",
+        "store::box__of__oatmeal.n.01_1->cabinet.n.01_1",
+        "store::box__of__oatmeal.n.01_2->cabinet.n.01_1",
+        "store::jar__of__sugar.n.01_1->cabinet.n.01_*",
+        "store::jar__of__sugar.n.01_2->cabinet.n.01_1"
+      ],
+      "execution_valid": true,
+      "partial_order_edges": [],
+      "valid_topological_sorts": 1000,
+      "total_topological_sorts": 1000,
+      "topological_validation_status": "sampled"
+    },
+    {
+      "plan": [
+        "store::bag__of__chips.n.01_1->cabinet.n.01_1",
+        "store::bag__of__chips.n.01_2->cabinet.n.01_1",
+        "store::bottle__of__olive_oil.n.01_1->cabinet.n.01_*",
+        "store::bottle__of__olive_oil.n.01_2->cabinet.n.01_1",
+        "store::box__of__oatmeal.n.01_1->cabinet.n.01_1",
+        "store::box__of__oatmeal.n.01_2->cabinet.n.01_1",
+        "store::jar__of__sugar.n.01_1->cabinet.n.01_1",
+        "store::jar__of__sugar.n.01_2->cabinet.n.01_*"
+      ],
+      "execution_valid": true,
+      "partial_order_edges": [],
+      "valid_topological_sorts": 1000,
+      "total_topological_sorts": 1000,
+      "topological_validation_status": "sampled"
+    },
+    {
+      "plan": [
+        "store::bag__of__chips.n.01_1->cabinet.n.01_1",
+        "store::bag__of__chips.n.01_2->cabinet.n.01_1",
+        "store::bottle__of__olive_oil.n.01_1->cabinet.n.01_*",
+        "store::bottle__of__olive_oil.n.01_2->cabinet.n.01_1",
+        "store::box__of__oatmeal.n.01_1->cabinet.n.01_1",
+        "store::box__of__oatmeal.n.01_2->cabinet.n.01_1",
+        "store::jar__of__sugar.n.01_1->cabinet.n.01_1",
+        "store::jar__of__sugar.n.01_2->cabinet.n.01_1"
+      ],
+      "execution_valid": true,
+      "partial_order_edges": [],
+      "valid_topological_sorts": 1000,
+      "total_topological_sorts": 1000,
+      "topological_validation_status": "sampled"
+    },
+    {
+      "plan": [
+        "store::bag__of__chips.n.01_1->cabinet.n.01_1",
+        "store::bag__of__chips.n.01_2->cabinet.n.01_1",
+        "store::bottle__of__olive_oil.n.01_1->cabinet.n.01_1",
+        "store::bottle__of__olive_oil.n.01_2->cabinet.n.01_*",
+        "store::box__of__oatmeal.n.01_1->cabinet.n.01_*",
+        "store::box__of__oatmeal.n.01_2->cabinet.n.01_*",
+        "store::jar__of__sugar.n.01_1->cabinet.n.01_*",
+        "store::jar__of__sugar.n.01_2->cabinet.n.01_*"
+      ],
+      "execution_valid": true,
+      "partial_order_edges": [],
+      "valid_topological_sorts": 1000,
+      "total_topological_sorts": 1000,
+      "topological_validation_status": "sampled"
+    },
+    {
+      "plan": [
+        "store::bag__of__chips.n.01_1->cabinet.n.01_1",
+        "store::bag__of__chips.n.01_2->cabinet.n.01_1",
+        "store::bottle__of__olive_oil.n.01_1->cabinet.n.01_1",
+        "store::bottle__of__olive_oil.n.01_2->cabinet.n.01_*",
+        "store::box__of__oatmeal.n.01_1->cabinet.n.01_*",
+        "store::box__of__oatmeal.n.01_2->cabinet.n.01_*",
+        "store::jar__of__sugar.n.01_1->cabinet.n.01_*",
+        "store::jar__of__sugar.n.01_2->cabinet.n.01_1"
+      ],
+      "execution_valid": true,
+      "partial_order_edges": [],
+      "valid_topological_sorts": 1000,
+      "total_topological_sorts": 1000,
+      "topological_validation_status": "sampled"
+    },
+    {
+      "plan": [
+        "store::bag__of__chips.n.01_1->cabinet.n.01_1",
+        "store::bag__of__chips.n.01_2->cabinet.n.01_1",
+        "store::bottle__of__olive_oil.n.01_1->cabinet.n.01_1",
+        "store::bottle__of__olive_oil.n.01_2->cabinet.n.01_*",
+        "store::box__of__oatmeal.n.01_1->cabinet.n.01_*",
+        "store::box__of__oatmeal.n.01_2->cabinet.n.01_*",
+        "store::jar__of__sugar.n.01_1->cabinet.n.01_1",
+        "store::jar__of__sugar.n.01_2->cabinet.n.01_*"
+      ],
+      "execution_valid": true,
+      "partial_order_edges": [],
+      "valid_topological_sorts": 1000,
+      "total_topological_sorts": 1000,
+      "topological_validation_status": "sampled"
+    },
+    {
+      "plan": [
+        "store::bag__of__chips.n.01_1->cabinet.n.01_1",
+        "store::bag__of__chips.n.01_2->cabinet.n.01_1",
+        "store::bottle__of__olive_oil.n.01_1->cabinet.n.01_1",
+        "store::bottle__of__olive_oil.n.01_2->cabinet.n.01_*",
+        "store::box__of__oatmeal.n.01_1->cabinet.n.01_*",
+        "store::box__of__oatmeal.n.01_2->cabinet.n.01_*",
+        "store::jar__of__sugar.n.01_1->cabinet.n.01_1",
+        "store::jar__of__sugar.n.01_2->cabinet.n.01_1"
+      ],
+      "execution_valid": true,
+      "partial_order_edges": [],
+      "valid_topological_sorts": 1000,
+      "total_topological_sorts": 1000,
+      "topological_validation_status": "sampled"
+    },
+    {
+      "plan": [
+        "store::bag__of__chips.n.01_1->cabinet.n.01_1",
+        "store::bag__of__chips.n.01_2->cabinet.n.01_1",
+        "store::bottle__of__olive_oil.n.01_1->cabinet.n.01_1",
+        "store::bottle__of__olive_oil.n.01_2->cabinet.n.01_*",
+        "store::box__of__oatmeal.n.01_1->cabinet.n.01_*",
+        "store::box__of__oatmeal.n.01_2->cabinet.n.01_1",
+        "store::jar__of__sugar.n.01_1->cabinet.n.01_*",
+        "store::jar__of__sugar.n.01_2->cabinet.n.01_*"
+      ],
+      "execution_valid": true,
+      "partial_order_edges": [],
+      "valid_topological_sorts": 1000,
+      "total_topological_sorts": 1000,
+      "topological_validation_status": "sampled"
+    },
+    {
+      "plan": [
+        "store::bag__of__chips.n.01_1->cabinet.n.01_1",
+        "store::bag__of__chips.n.01_2->cabinet.n.01_1",
+        "store::bottle__of__olive_oil.n.01_1->cabinet.n.01_1",
+        "store::bottle__of__olive_oil.n.01_2->cabinet.n.01_*",
+        "store::box__of__oatmeal.n.01_1->cabinet.n.01_*",
+        "store::box__of__oatmeal.n.01_2->cabinet.n.01_1",
+        "store::jar__of__sugar.n.01_1->cabinet.n.01_*",
+        "store::jar__of__sugar.n.01_2->cabinet.n.01_1"
+      ],
+      "execution_valid": true,
+      "partial_order_edges": [],
+      "valid_topological_sorts": 1000,
+      "total_topological_sorts": 1000,
+      "topological_validation_status": "sampled"
+    },
+    {
+      "plan": [
+        "store::bag__of__chips.n.01_1->cabinet.n.01_1",
+        "store::bag__of__chips.n.01_2->cabinet.n.01_1",
+        "store::bottle__of__olive_oil.n.01_1->cabinet.n.01_1",
+        "store::bottle__of__olive_oil.n.01_2->cabinet.n.01_*",
+        "store::box__of__oatmeal.n.01_1->cabinet.n.01_*",
+        "store::box__of__oatmeal.n.01_2->cabinet.n.01_1",
+        "store::jar__of__sugar.n.01_1->cabinet.n.01_1",
+        "store::jar__of__sugar.n.01_2->cabinet.n.01_*"
+      ],
+      "execution_valid": true,
+      "partial_order_edges": [],
+      "valid_topological_sorts": 1000,
+      "total_topological_sorts": 1000,
+      "topological_validation_status": "sampled"
+    },
+    {
+      "plan": [
+        "store::bag__of__chips.n.01_1->cabinet.n.01_1",
+        "store::bag__of__chips.n.01_2->cabinet.n.01_1",
+        "store::bottle__of__olive_oil.n.01_1->cabinet.n.01_1",
+        "store::bottle__of__olive_oil.n.01_2->cabinet.n.01_*",
+        "store::box__of__oatmeal.n.01_1->cabinet.n.01_*",
+        "store::box__of__oatmeal.n.01_2->cabinet.n.01_1",
+        "store::jar__of__sugar.n.01_1->cabinet.n.01_1",
+        "store::jar__of__sugar.n.01_2->cabinet.n.01_1"
+      ],
+      "execution_valid": true,
+      "partial_order_edges": [],
+      "valid_topological_sorts": 1000,
+      "total_topological_sorts": 1000,
+      "topological_validation_status": "sampled"
+    },
+    {
+      "plan": [
+        "store::bag__of__chips.n.01_1->cabinet.n.01_1",
+        "store::bag__of__chips.n.01_2->cabinet.n.01_1",
+        "store::bottle__of__olive_oil.n.01_1->cabinet.n.01_1",
+        "store::bottle__of__olive_oil.n.01_2->cabinet.n.01_*",
+        "store::box__of__oatmeal.n.01_1->cabinet.n.01_1",
+        "store::box__of__oatmeal.n.01_2->cabinet.n.01_*",
+        "store::jar__of__sugar.n.01_1->cabinet.n.01_*",
+        "store::jar__of__sugar.n.01_2->cabinet.n.01_*"
+      ],
+      "execution_valid": true,
+      "partial_order_edges": [],
+      "valid_topological_sorts": 1000,
+      "total_topological_sorts": 1000,
+      "topological_validation_status": "sampled"
+    },
+    {
+      "plan": [
+        "store::bag__of__chips.n.01_1->cabinet.n.01_1",
+        "store::bag__of__chips.n.01_2->cabinet.n.01_1",
+        "store::bottle__of__olive_oil.n.01_1->cabinet.n.01_1",
+        "store::bottle__of__olive_oil.n.01_2->cabinet.n.01_*",
+        "store::box__of__oatmeal.n.01_1->cabinet.n.01_1",
+        "store::box__of__oatmeal.n.01_2->cabinet.n.01_*",
+        "store::jar__of__sugar.n.01_1->cabinet.n.01_*",
+        "store::jar__of__sugar.n.01_2->cabinet.n.01_1"
+      ],
+      "execution_valid": true,
+      "partial_order_edges": [],
+      "valid_topological_sorts": 1000,
+      "total_topological_sorts": 1000,
+      "topological_validation_status": "sampled"
+    },
+    {
+      "plan": [
+        "store::bag__of__chips.n.01_1->cabinet.n.01_1",
+        "store::bag__of__chips.n.01_2->cabinet.n.01_1",
+        "store::bottle__of__olive_oil.n.01_1->cabinet.n.01_1",
+        "store::bottle__of__olive_oil.n.01_2->cabinet.n.01_*",
+        "store::box__of__oatmeal.n.01_1->cabinet.n.01_1",
+        "store::box__of__oatmeal.n.01_2->cabinet.n.01_*",
+        "store::jar__of__sugar.n.01_1->cabinet.n.01_1",
+        "store::jar__of__sugar.n.01_2->cabinet.n.01_*"
+      ],
+      "execution_valid": true,
+      "partial_order_edges": [],
+      "valid_topological_sorts": 1000,
+      "total_topological_sorts": 1000,
+      "topological_validation_status": "sampled"
+    },
+    {
+      "plan": [
+        "store::bag__of__chips.n.01_1->cabinet.n.01_1",
+        "store::bag__of__chips.n.01_2->cabinet.n.01_1",
+        "store::bottle__of__olive_oil.n.01_1->cabinet.n.01_1",
+        "store::bottle__of__olive_oil.n.01_2->cabinet.n.01_*",
+        "store::box__of__oatmeal.n.01_1->cabinet.n.01_1",
+        "store::box__of__oatmeal.n.01_2->cabinet.n.01_*",
+        "store::jar__of__sugar.n.01_1->cabinet.n.01_1",
+        "store::jar__of__sugar.n.01_2->cabinet.n.01_1"
+      ],
+      "execution_valid": true,
+      "partial_order_edges": [],
+      "valid_topological_sorts": 1000,
+      "total_topological_sorts": 1000,
+      "topological_validation_status": "sampled"
+    },
+    {
+      "plan": [
+        "store::bag__of__chips.n.01_1->cabinet.n.01_1",
+        "store::bag__of__chips.n.01_2->cabinet.n.01_1",
+        "store::bottle__of__olive_oil.n.01_1->cabinet.n.01_1",
+        "store::bottle__of__olive_oil.n.01_2->cabinet.n.01_*",
+        "store::box__of__oatmeal.n.01_1->cabinet.n.01_1",
+        "store::box__of__oatmeal.n.01_2->cabinet.n.01_1",
+        "store::jar__of__sugar.n.01_1->cabinet.n.01_*",
+        "store::jar__of__sugar.n.01_2->cabinet.n.01_*"
+      ],
+      "execution_valid": true,
+      "partial_order_edges": [],
+      "valid_topological_sorts": 1000,
+      "total_topological_sorts": 1000,
+      "topological_validation_status": "sampled"
+    },
+    {
+      "plan": [
+        "store::bag__of__chips.n.01_1->cabinet.n.01_1",
+        "store::bag__of__chips.n.01_2->cabinet.n.01_1",
+        "store::bottle__of__olive_oil.n.01_1->cabinet.n.01_1",
+        "store::bottle__of__olive_oil.n.01_2->cabinet.n.01_*",
+        "store::box__of__oatmeal.n.01_1->cabinet.n.01_1",
+        "store::box__of__oatmeal.n.01_2->cabinet.n.01_1",
+        "store::jar__of__sugar.n.01_1->cabinet.n.01_*",
+        "store::jar__of__sugar.n.01_2->cabinet.n.01_1"
+      ],
+      "execution_valid": true,
+      "partial_order_edges": [],
+      "valid_topological_sorts": 1000,
+      "total_topological_sorts": 1000,
+      "topological_validation_status": "sampled"
+    },
+    {
+      "plan": [
+        "store::bag__of__chips.n.01_1->cabinet.n.01_1",
+        "store::bag__of__chips.n.01_2->cabinet.n.01_1",
+        "store::bottle__of__olive_oil.n.01_1->cabinet.n.01_1",
+        "store::bottle__of__olive_oil.n.01_2->cabinet.n.01_*",
+        "store::box__of__oatmeal.n.01_1->cabinet.n.01_1",
+        "store::box__of__oatmeal.n.01_2->cabinet.n.01_1",
+        "store::jar__of__sugar.n.01_1->cabinet.n.01_1",
+        "store::jar__of__sugar.n.01_2->cabinet.n.01_*"
+      ],
+      "execution_valid": true,
+      "partial_order_edges": [],
+      "valid_topological_sorts": 1000,
+      "total_topological_sorts": 1000,
+      "topological_validation_status": "sampled"
+    },
+    {
+      "plan": [
+        "store::bag__of__chips.n.01_1->cabinet.n.01_1",
+        "store::bag__of__chips.n.01_2->cabinet.n.01_1",
+        "store::bottle__of__olive_oil.n.01_1->cabinet.n.01_1",
+        "store::bottle__of__olive_oil.n.01_2->cabinet.n.01_*",
+        "store::box__of__oatmeal.n.01_1->cabinet.n.01_1",
+        "store::box__of__oatmeal.n.01_2->cabinet.n.01_1",
+        "store::jar__of__sugar.n.01_1->cabinet.n.01_1",
+        "store::jar__of__sugar.n.01_2->cabinet.n.01_1"
+      ],
+      "execution_valid": true,
+      "partial_order_edges": [],
+      "valid_topological_sorts": 1000,
+      "total_topological_sorts": 1000,
+      "topological_validation_status": "sampled"
+    },
+    {
+      "plan": [
+        "store::bag__of__chips.n.01_1->cabinet.n.01_1",
+        "store::bag__of__chips.n.01_2->cabinet.n.01_1",
+        "store::bottle__of__olive_oil.n.01_1->cabinet.n.01_1",
+        "store::bottle__of__olive_oil.n.01_2->cabinet.n.01_1",
+        "store::box__of__oatmeal.n.01_1->cabinet.n.01_*",
+        "store::box__of__oatmeal.n.01_2->cabinet.n.01_*",
+        "store::jar__of__sugar.n.01_1->cabinet.n.01_*",
+        "store::jar__of__sugar.n.01_2->cabinet.n.01_*"
+      ],
+      "execution_valid": true,
+      "partial_order_edges": [],
+      "valid_topological_sorts": 1000,
+      "total_topological_sorts": 1000,
+      "topological_validation_status": "sampled"
+    },
+    {
+      "plan": [
+        "store::bag__of__chips.n.01_1->cabinet.n.01_1",
+        "store::bag__of__chips.n.01_2->cabinet.n.01_1",
+        "store::bottle__of__olive_oil.n.01_1->cabinet.n.01_1",
+        "store::bottle__of__olive_oil.n.01_2->cabinet.n.01_1",
+        "store::box__of__oatmeal.n.01_1->cabinet.n.01_*",
+        "store::box__of__oatmeal.n.01_2->cabinet.n.01_*",
+        "store::jar__of__sugar.n.01_1->cabinet.n.01_*",
+        "store::jar__of__sugar.n.01_2->cabinet.n.01_1"
+      ],
+      "execution_valid": true,
+      "partial_order_edges": [],
+      "valid_topological_sorts": 1000,
+      "total_topological_sorts": 1000,
+      "topological_validation_status": "sampled"
+    },
+    {
+      "plan": [
+        "store::bag__of__chips.n.01_1->cabinet.n.01_1",
+        "store::bag__of__chips.n.01_2->cabinet.n.01_1",
+        "store::bottle__of__olive_oil.n.01_1->cabinet.n.01_1",
+        "store::bottle__of__olive_oil.n.01_2->cabinet.n.01_1",
+        "store::box__of__oatmeal.n.01_1->cabinet.n.01_*",
+        "store::box__of__oatmeal.n.01_2->cabinet.n.01_*",
+        "store::jar__of__sugar.n.01_1->cabinet.n.01_1",
+        "store::jar__of__sugar.n.01_2->cabinet.n.01_*"
+      ],
+      "execution_valid": true,
+      "partial_order_edges": [],
+      "valid_topological_sorts": 1000,
+      "total_topological_sorts": 1000,
+      "topological_validation_status": "sampled"
+    },
+    {
+      "plan": [
+        "store::bag__of__chips.n.01_1->cabinet.n.01_1",
+        "store::bag__of__chips.n.01_2->cabinet.n.01_1",
+        "store::bottle__of__olive_oil.n.01_1->cabinet.n.01_1",
+        "store::bottle__of__olive_oil.n.01_2->cabinet.n.01_1",
+        "store::box__of__oatmeal.n.01_1->cabinet.n.01_*",
+        "store::box__of__oatmeal.n.01_2->cabinet.n.01_*",
+        "store::jar__of__sugar.n.01_1->cabinet.n.01_1",
+        "store::jar__of__sugar.n.01_2->cabinet.n.01_1"
+      ],
+      "execution_valid": true,
+      "partial_order_edges": [],
+      "valid_topological_sorts": 1000,
+      "total_topological_sorts": 1000,
+      "topological_validation_status": "sampled"
+    },
+    {
+      "plan": [
+        "store::bag__of__chips.n.01_1->cabinet.n.01_1",
+        "store::bag__of__chips.n.01_2->cabinet.n.01_1",
+        "store::bottle__of__olive_oil.n.01_1->cabinet.n.01_1",
+        "store::bottle__of__olive_oil.n.01_2->cabinet.n.01_1",
+        "store::box__of__oatmeal.n.01_1->cabinet.n.01_*",
+        "store::box__of__oatmeal.n.01_2->cabinet.n.01_1",
+        "store::jar__of__sugar.n.01_1->cabinet.n.01_*",
+        "store::jar__of__sugar.n.01_2->cabinet.n.01_*"
+      ],
+      "execution_valid": true,
+      "partial_order_edges": [],
+      "valid_topological_sorts": 1000,
+      "total_topological_sorts": 1000,
+      "topological_validation_status": "sampled"
+    },
+    {
+      "plan": [
+        "store::bag__of__chips.n.01_1->cabinet.n.01_1",
+        "store::bag__of__chips.n.01_2->cabinet.n.01_1",
+        "store::bottle__of__olive_oil.n.01_1->cabinet.n.01_1",
+        "store::bottle__of__olive_oil.n.01_2->cabinet.n.01_1",
+        "store::box__of__oatmeal.n.01_1->cabinet.n.01_*",
+        "store::box__of__oatmeal.n.01_2->cabinet.n.01_1",
+        "store::jar__of__sugar.n.01_1->cabinet.n.01_*",
+        "store::jar__of__sugar.n.01_2->cabinet.n.01_1"
+      ],
+      "execution_valid": true,
+      "partial_order_edges": [],
+      "valid_topological_sorts": 1000,
+      "total_topological_sorts": 1000,
+      "topological_validation_status": "sampled"
+    },
+    {
+      "plan": [
+        "store::bag__of__chips.n.01_1->cabinet.n.01_1",
+        "store::bag__of__chips.n.01_2->cabinet.n.01_1",
+        "store::bottle__of__olive_oil.n.01_1->cabinet.n.01_1",
+        "store::bottle__of__olive_oil.n.01_2->cabinet.n.01_1",
+        "store::box__of__oatmeal.n.01_1->cabinet.n.01_*",
+        "store::box__of__oatmeal.n.01_2->cabinet.n.01_1",
+        "store::jar__of__sugar.n.01_1->cabinet.n.01_1",
+        "store::jar__of__sugar.n.01_2->cabinet.n.01_*"
+      ],
+      "execution_valid": true,
+      "partial_order_edges": [],
+      "valid_topological_sorts": 1000,
+      "total_topological_sorts": 1000,
+      "topological_validation_status": "sampled"
+    },
+    {
+      "plan": [
+        "store::bag__of__chips.n.01_1->cabinet.n.01_1",
+        "store::bag__of__chips.n.01_2->cabinet.n.01_1",
+        "store::bottle__of__olive_oil.n.01_1->cabinet.n.01_1",
+        "store::bottle__of__olive_oil.n.01_2->cabinet.n.01_1",
+        "store::box__of__oatmeal.n.01_1->cabinet.n.01_*",
+        "store::box__of__oatmeal.n.01_2->cabinet.n.01_1",
+        "store::jar__of__sugar.n.01_1->cabinet.n.01_1",
+        "store::jar__of__sugar.n.01_2->cabinet.n.01_1"
+      ],
+      "execution_valid": true,
+      "partial_order_edges": [],
+      "valid_topological_sorts": 1000,
+      "total_topological_sorts": 1000,
+      "topological_validation_status": "sampled"
+    },
+    {
+      "plan": [
+        "store::bag__of__chips.n.01_1->cabinet.n.01_1",
+        "store::bag__of__chips.n.01_2->cabinet.n.01_1",
+        "store::bottle__of__olive_oil.n.01_1->cabinet.n.01_1",
+        "store::bottle__of__olive_oil.n.01_2->cabinet.n.01_1",
+        "store::box__of__oatmeal.n.01_1->cabinet.n.01_1",
+        "store::box__of__oatmeal.n.01_2->cabinet.n.01_*",
+        "store::jar__of__sugar.n.01_1->cabinet.n.01_*",
+        "store::jar__of__sugar.n.01_2->cabinet.n.01_*"
+      ],
+      "execution_valid": true,
+      "partial_order_edges": [],
+      "valid_topological_sorts": 1000,
+      "total_topological_sorts": 1000,
+      "topological_validation_status": "sampled"
+    },
+    {
+      "plan": [
+        "store::bag__of__chips.n.01_1->cabinet.n.01_1",
+        "store::bag__of__chips.n.01_2->cabinet.n.01_1",
+        "store::bottle__of__olive_oil.n.01_1->cabinet.n.01_1",
+        "store::bottle__of__olive_oil.n.01_2->cabinet.n.01_1",
+        "store::box__of__oatmeal.n.01_1->cabinet.n.01_1",
+        "store::box__of__oatmeal.n.01_2->cabinet.n.01_*",
+        "store::jar__of__sugar.n.01_1->cabinet.n.01_*",
+        "store::jar__of__sugar.n.01_2->cabinet.n.01_1"
+      ],
+      "execution_valid": true,
+      "partial_order_edges": [],
+      "valid_topological_sorts": 1000,
+      "total_topological_sorts": 1000,
+      "topological_validation_status": "sampled"
+    },
+    {
+      "plan": [
+        "store::bag__of__chips.n.01_1->cabinet.n.01_1",
+        "store::bag__of__chips.n.01_2->cabinet.n.01_1",
+        "store::bottle__of__olive_oil.n.01_1->cabinet.n.01_1",
+        "store::bottle__of__olive_oil.n.01_2->cabinet.n.01_1",
+        "store::box__of__oatmeal.n.01_1->cabinet.n.01_1",
+        "store::box__of__oatmeal.n.01_2->cabinet.n.01_*",
+        "store::jar__of__sugar.n.01_1->cabinet.n.01_1",
+        "store::jar__of__sugar.n.01_2->cabinet.n.01_*"
+      ],
+      "execution_valid": true,
+      "partial_order_edges": [],
+      "valid_topological_sorts": 1000,
+      "total_topological_sorts": 1000,
+      "topological_validation_status": "sampled"
+    },
+    {
+      "plan": [
+        "store::bag__of__chips.n.01_1->cabinet.n.01_1",
+        "store::bag__of__chips.n.01_2->cabinet.n.01_1",
+        "store::bottle__of__olive_oil.n.01_1->cabinet.n.01_1",
+        "store::bottle__of__olive_oil.n.01_2->cabinet.n.01_1",
+        "store::box__of__oatmeal.n.01_1->cabinet.n.01_1",
+        "store::box__of__oatmeal.n.01_2->cabinet.n.01_*",
+        "store::jar__of__sugar.n.01_1->cabinet.n.01_1",
+        "store::jar__of__sugar.n.01_2->cabinet.n.01_1"
+      ],
+      "execution_valid": true,
+      "partial_order_edges": [],
+      "valid_topological_sorts": 1000,
+      "total_topological_sorts": 1000,
+      "topological_validation_status": "sampled"
+    },
+    {
+      "plan": [
+        "store::bag__of__chips.n.01_1->cabinet.n.01_1",
+        "store::bag__of__chips.n.01_2->cabinet.n.01_1",
+        "store::bottle__of__olive_oil.n.01_1->cabinet.n.01_1",
+        "store::bottle__of__olive_oil.n.01_2->cabinet.n.01_1",
+        "store::box__of__oatmeal.n.01_1->cabinet.n.01_1",
+        "store::box__of__oatmeal.n.01_2->cabinet.n.01_1",
+        "store::jar__of__sugar.n.01_1->cabinet.n.01_*",
+        "store::jar__of__sugar.n.01_2->cabinet.n.01_*"
+      ],
+      "execution_valid": true,
+      "partial_order_edges": [],
+      "valid_topological_sorts": 1000,
+      "total_topological_sorts": 1000,
+      "topological_validation_status": "sampled"
+    },
+    {
+      "plan": [
+        "store::bag__of__chips.n.01_1->cabinet.n.01_1",
+        "store::bag__of__chips.n.01_2->cabinet.n.01_1",
+        "store::bottle__of__olive_oil.n.01_1->cabinet.n.01_1",
+        "store::bottle__of__olive_oil.n.01_2->cabinet.n.01_1",
+        "store::box__of__oatmeal.n.01_1->cabinet.n.01_1",
+        "store::box__of__oatmeal.n.01_2->cabinet.n.01_1",
+        "store::jar__of__sugar.n.01_1->cabinet.n.01_*",
+        "store::jar__of__sugar.n.01_2->cabinet.n.01_1"
+      ],
+      "execution_valid": true,
+      "partial_order_edges": [],
+      "valid_topological_sorts": 1000,
+      "total_topological_sorts": 1000,
+      "topological_validation_status": "sampled"
+    },
+    {
+      "plan": [
+        "store::bag__of__chips.n.01_1->cabinet.n.01_1",
+        "store::bag__of__chips.n.01_2->cabinet.n.01_1",
+        "store::bottle__of__olive_oil.n.01_1->cabinet.n.01_1",
+        "store::bottle__of__olive_oil.n.01_2->cabinet.n.01_1",
+        "store::box__of__oatmeal.n.01_1->cabinet.n.01_1",
+        "store::box__of__oatmeal.n.01_2->cabinet.n.01_1",
+        "store::jar__of__sugar.n.01_1->cabinet.n.01_1",
+        "store::jar__of__sugar.n.01_2->cabinet.n.01_*"
+      ],
+      "execution_valid": true,
+      "partial_order_edges": [],
+      "valid_topological_sorts": 1000,
+      "total_topological_sorts": 1000,
+      "topological_validation_status": "sampled"
+    },
+    {
+      "plan": [
+        "store::bag__of__chips.n.01_1->cabinet.n.01_1",
+        "store::bag__of__chips.n.01_2->cabinet.n.01_1",
+        "store::bottle__of__olive_oil.n.01_1->cabinet.n.01_1",
+        "store::bottle__of__olive_oil.n.01_2->cabinet.n.01_1",
+        "store::box__of__oatmeal.n.01_1->cabinet.n.01_1",
+        "store::box__of__oatmeal.n.01_2->cabinet.n.01_1",
+        "store::jar__of__sugar.n.01_1->cabinet.n.01_1",
+        "store::jar__of__sugar.n.01_2->cabinet.n.01_1"
+      ],
+      "execution_valid": true,
+      "partial_order_edges": [],
+      "valid_topological_sorts": 1000,
+      "total_topological_sorts": 1000,
+      "topological_validation_status": "sampled"
+    }
+  ],
+  "structured_negative_count": 10,
+  "structured_negatives": [
+    {
+      "plan": [
+        "store::bag__of__chips.n.01_2->cabinet.n.01_*",
+        "store::bottle__of__olive_oil.n.01_1->cabinet.n.01_*",
+        "store::bottle__of__olive_oil.n.01_2->cabinet.n.01_*",
+        "store::box__of__oatmeal.n.01_1->cabinet.n.01_*",
+        "store::box__of__oatmeal.n.01_2->cabinet.n.01_*",
+        "store::jar__of__sugar.n.01_1->cabinet.n.01_*",
+        "store::jar__of__sugar.n.01_2->cabinet.n.01_*"
+      ],
+      "executable": true,
+      "goal_satisfied": false,
+      "failure_step": null,
+      "failed_action_id": null,
+      "missing_preconditions": []
+    },
+    {
+      "plan": [
+        "store::bag__of__chips.n.01_1->cabinet.n.01_*",
+        "store::bottle__of__olive_oil.n.01_1->cabinet.n.01_*",
+        "store::bottle__of__olive_oil.n.01_2->cabinet.n.01_*",
+        "store::box__of__oatmeal.n.01_1->cabinet.n.01_*",
+        "store::box__of__oatmeal.n.01_2->cabinet.n.01_*",
+        "store::jar__of__sugar.n.01_1->cabinet.n.01_*",
+        "store::jar__of__sugar.n.01_2->cabinet.n.01_*"
+      ],
+      "executable": true,
+      "goal_satisfied": false,
+      "failure_step": null,
+      "failed_action_id": null,
+      "missing_preconditions": []
+    },
+    {
+      "plan": [
+        "store::bag__of__chips.n.01_1->cabinet.n.01_*",
+        "store::bag__of__chips.n.01_2->cabinet.n.01_*",
+        "store::bottle__of__olive_oil.n.01_2->cabinet.n.01_*",
+        "store::box__of__oatmeal.n.01_1->cabinet.n.01_*",
+        "store::box__of__oatmeal.n.01_2->cabinet.n.01_*",
+        "store::jar__of__sugar.n.01_1->cabinet.n.01_*",
+        "store::jar__of__sugar.n.01_2->cabinet.n.01_*"
+      ],
+      "executable": true,
+      "goal_satisfied": false,
+      "failure_step": null,
+      "failed_action_id": null,
+      "missing_preconditions": []
+    },
+    {
+      "plan": [
+        "store::bag__of__chips.n.01_1->cabinet.n.01_*",
+        "store::bag__of__chips.n.01_2->cabinet.n.01_*",
+        "store::bottle__of__olive_oil.n.01_1->cabinet.n.01_*",
+        "store::box__of__oatmeal.n.01_1->cabinet.n.01_*",
+        "store::box__of__oatmeal.n.01_2->cabinet.n.01_*",
+        "store::jar__of__sugar.n.01_1->cabinet.n.01_*",
+        "store::jar__of__sugar.n.01_2->cabinet.n.01_*"
+      ],
+      "executable": true,
+      "goal_satisfied": false,
+      "failure_step": null,
+      "failed_action_id": null,
+      "missing_preconditions": []
+    },
+    {
+      "plan": [
+        "store::bag__of__chips.n.01_1->cabinet.n.01_*",
+        "store::bag__of__chips.n.01_2->cabinet.n.01_*",
+        "store::bottle__of__olive_oil.n.01_1->cabinet.n.01_*",
+        "store::bottle__of__olive_oil.n.01_2->cabinet.n.01_*",
+        "store::box__of__oatmeal.n.01_2->cabinet.n.01_*",
+        "store::jar__of__sugar.n.01_1->cabinet.n.01_*",
+        "store::jar__of__sugar.n.01_2->cabinet.n.01_*"
+      ],
+      "executable": true,
+      "goal_satisfied": false,
+      "failure_step": null,
+      "failed_action_id": null,
+      "missing_preconditions": []
+    },
+    {
+      "plan": [
+        "store::bag__of__chips.n.01_1->cabinet.n.01_*",
+        "store::bag__of__chips.n.01_2->cabinet.n.01_*",
+        "store::bottle__of__olive_oil.n.01_1->cabinet.n.01_*",
+        "store::bottle__of__olive_oil.n.01_2->cabinet.n.01_*",
+        "store::box__of__oatmeal.n.01_1->cabinet.n.01_*",
+        "store::jar__of__sugar.n.01_1->cabinet.n.01_*",
+        "store::jar__of__sugar.n.01_2->cabinet.n.01_*"
+      ],
+      "executable": true,
+      "goal_satisfied": false,
+      "failure_step": null,
+      "failed_action_id": null,
+      "missing_preconditions": []
+    },
+    {
+      "plan": [
+        "store::bag__of__chips.n.01_1->cabinet.n.01_*",
+        "store::bag__of__chips.n.01_2->cabinet.n.01_*",
+        "store::bottle__of__olive_oil.n.01_1->cabinet.n.01_*",
+        "store::bottle__of__olive_oil.n.01_2->cabinet.n.01_*",
+        "store::box__of__oatmeal.n.01_1->cabinet.n.01_*",
+        "store::box__of__oatmeal.n.01_2->cabinet.n.01_*",
+        "store::jar__of__sugar.n.01_2->cabinet.n.01_*"
+      ],
+      "executable": true,
+      "goal_satisfied": false,
+      "failure_step": null,
+      "failed_action_id": null,
+      "missing_preconditions": []
+    },
+    {
+      "plan": [
+        "store::bag__of__chips.n.01_1->cabinet.n.01_*",
+        "store::bag__of__chips.n.01_2->cabinet.n.01_*",
+        "store::bottle__of__olive_oil.n.01_1->cabinet.n.01_*",
+        "store::bottle__of__olive_oil.n.01_2->cabinet.n.01_*",
+        "store::box__of__oatmeal.n.01_1->cabinet.n.01_*",
+        "store::box__of__oatmeal.n.01_2->cabinet.n.01_*",
+        "store::jar__of__sugar.n.01_1->cabinet.n.01_*"
+      ],
+      "executable": true,
+      "goal_satisfied": false,
+      "failure_step": null,
+      "failed_action_id": null,
+      "missing_preconditions": []
+    },
+    {
+      "plan": [
+        "store::bag__of__chips.n.01_2->cabinet.n.01_*",
+        "store::bottle__of__olive_oil.n.01_1->cabinet.n.01_*",
+        "store::bottle__of__olive_oil.n.01_2->cabinet.n.01_*",
+        "store::box__of__oatmeal.n.01_1->cabinet.n.01_*",
+        "store::box__of__oatmeal.n.01_2->cabinet.n.01_*",
+        "store::jar__of__sugar.n.01_1->cabinet.n.01_*",
+        "store::jar__of__sugar.n.01_2->cabinet.n.01_1"
+      ],
+      "executable": true,
+      "goal_satisfied": false,
+      "failure_step": null,
+      "failed_action_id": null,
+      "missing_preconditions": []
+    },
+    {
+      "plan": [
+        "store::bag__of__chips.n.01_1->cabinet.n.01_*",
+        "store::bottle__of__olive_oil.n.01_1->cabinet.n.01_*",
+        "store::bottle__of__olive_oil.n.01_2->cabinet.n.01_*",
+        "store::box__of__oatmeal.n.01_1->cabinet.n.01_*",
+        "store::box__of__oatmeal.n.01_2->cabinet.n.01_*",
+        "store::jar__of__sugar.n.01_1->cabinet.n.01_*",
+        "store::jar__of__sugar.n.01_2->cabinet.n.01_1"
+      ],
+      "executable": true,
+      "goal_satisfied": false,
+      "failure_step": null,
+      "failed_action_id": null,
+      "missing_preconditions": []
+    }
+  ],
+  "audit_requirement": "manual trace review and action-semantic sign-off"
+}

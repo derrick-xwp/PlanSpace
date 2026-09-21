@@ -1,0 +1,8 @@
+{
+  "corrected_secondary_metric_audit_v1.json": "fa57684115ee29c595f8ed89a789e19118ec32ff1aedc29edc8267e5b38a0fd0",
+  "phi4_mini_corrected_prefix_v1.json": "a052d5a7a0f8e4599b9920f11e384db9e2c6c717f57a7adaebf420327a44d1c4",
+  "phi4_mini_corrected_catalog_v1.json": "20e33efc122a7e9ab4a09ffc588afa5ef5c0ba9b19a2e504991298d7e09c6e9f",
+  "family_sensitivity_v1.json": "6e5c42f4d53cb792e48294dc7bc04878e35e96f4580a1e6aff2268b3a13e78bf",
+  "external_statistics_v1.json": "313ff893291b617b930d68206a17d7f4e3b37795871ac144ad7f1481c09ecd72",
+  "verifier_stages_costs_v1.json": "4c234893b544546d469cc03ba70a3be95a4e5e5b78be9fc692251653419c3586"
+}

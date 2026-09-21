@@ -1,0 +1,376 @@
+{
+  "evidence_status": "controlled_same_seed_same_domain_prompt_serialization_comparison",
+  "analysis_version": "planspace-prompt-serialization-effect-v0.1",
+  "old_protocol_version": "planspace_text_plan_v0.4-candidate",
+  "new_protocol_version": "planspace_text_plan_v0.6-v04-uniform-compact",
+  "generic_domain_version": "planspace_generic_household_v0.4-candidate",
+  "decoding": {
+    "samples_per_task": 5,
+    "seed_base": 20260914,
+    "temperature": 0.7,
+    "top_p": 0.9,
+    "max_new_tokens": 512,
+    "enable_thinking": false
+  },
+  "bootstrap": {
+    "unit": "paired task",
+    "trials": 10000,
+    "seed": 20260916
+  },
+  "models": [
+    {
+      "model_id": "Qwen/Qwen3-4B",
+      "model_revision": "1cfa9a7208912126459214e8b04321603b3df60c",
+      "task_count": 100,
+      "prompt_hash_changed_task_count": 100,
+      "serialized_chat_hash_changed_task_count": 100,
+      "effects": {
+        "parse": {
+          "old_rate": 1.0,
+          "new_rate": 0.992,
+          "estimate": -0.008,
+          "ci95_low": -0.024000000000000004,
+          "ci95_high": 0.0,
+          "paired_sign_flip_p_value": 1.0,
+          "holm_adjusted_p_value": 1.0,
+          "holm_reject_0_05": false
+        },
+        "executable": {
+          "old_rate": 0.968,
+          "new_rate": 0.96,
+          "estimate": -0.007999999999999998,
+          "ci95_low": -0.018,
+          "ci95_high": 0.0,
+          "paired_sign_flip_p_value": 0.25307469253074694,
+          "holm_adjusted_p_value": 0.7592240775922408,
+          "holm_reject_0_05": false
+        },
+        "goal_valid": {
+          "old_rate": 0.8819999999999999,
+          "new_rate": 0.88,
+          "estimate": -0.0019999999999999983,
+          "ci95_low": -0.038,
+          "ci95_high": 0.038,
+          "paired_sign_flip_p_value": 1.0,
+          "holm_adjusted_p_value": 1.0,
+          "holm_reject_0_05": false
+        },
+        "partial_order": {
+          "old_rate": 0.7340000000000001,
+          "new_rate": 0.742,
+          "estimate": 0.008,
+          "ci95_low": -0.04,
+          "ci95_high": 0.057999999999999996,
+          "paired_sign_flip_p_value": 0.844015598440156,
+          "holm_adjusted_p_value": 1.0,
+          "holm_reject_0_05": false
+        },
+        "exact": {
+          "old_rate": 0.664,
+          "new_rate": 0.6920000000000001,
+          "estimate": 0.028000000000000004,
+          "ci95_low": -0.02,
+          "ci95_high": 0.07800000000000001,
+          "paired_sign_flip_p_value": 0.33486651334866513,
+          "holm_adjusted_p_value": 0.7667233276672332,
+          "holm_reject_0_05": false
+        }
+      }
+    },
+    {
+      "model_id": "microsoft/Phi-4-mini-instruct",
+      "model_revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+      "task_count": 100,
+      "prompt_hash_changed_task_count": 100,
+      "serialized_chat_hash_changed_task_count": 100,
+      "effects": {
+        "parse": {
+          "old_rate": 0.3880000000000001,
+          "new_rate": 0.2639999999999999,
+          "estimate": -0.12399999999999994,
+          "ci95_low": -0.18400000000000002,
+          "ci95_high": -0.064,
+          "paired_sign_flip_p_value": 0.00019998000199980003,
+          "holm_adjusted_p_value": 0.0011998800119988001,
+          "holm_reject_0_05": true
+        },
+        "executable": {
+          "old_rate": 0.31799999999999995,
+          "new_rate": 0.11599999999999999,
+          "estimate": -0.20199999999999999,
+          "ci95_low": -0.272,
+          "ci95_high": -0.13400000000000004,
+          "paired_sign_flip_p_value": 9.999000099990002e-05,
+          "holm_adjusted_p_value": 0.0005999400059994001,
+          "holm_reject_0_05": true
+        },
+        "goal_valid": {
+          "old_rate": 0.206,
+          "new_rate": 0.09400000000000003,
+          "estimate": -0.11199999999999999,
+          "ci95_low": -0.16799999999999993,
+          "ci95_high": -0.06000000000000002,
+          "paired_sign_flip_p_value": 0.00019998000199980003,
+          "holm_adjusted_p_value": 0.0011998800119988001,
+          "holm_reject_0_05": true
+        },
+        "partial_order": {
+          "old_rate": 0.184,
+          "new_rate": 0.09000000000000002,
+          "estimate": -0.09399999999999999,
+          "ci95_low": -0.15,
+          "ci95_high": -0.04195000000000072,
+          "paired_sign_flip_p_value": 0.0010998900109989002,
+          "holm_adjusted_p_value": 0.006599340065993401,
+          "holm_reject_0_05": true
+        },
+        "exact": {
+          "old_rate": 0.16599999999999998,
+          "new_rate": 0.07400000000000002,
+          "estimate": -0.092,
+          "ci95_low": -0.142,
+          "ci95_high": -0.046000000000000006,
+          "paired_sign_flip_p_value": 0.0005999400059994001,
+          "holm_adjusted_p_value": 0.0035996400359964006,
+          "holm_reject_0_05": true
+        }
+      }
+    },
+    {
+      "model_id": "mistralai/Mistral-7B-Instruct-v0.3",
+      "model_revision": "c170c708c41dac9275d15a8fff4eca08d52bab71",
+      "task_count": 100,
+      "prompt_hash_changed_task_count": 100,
+      "serialized_chat_hash_changed_task_count": 100,
+      "effects": {
+        "parse": {
+          "old_rate": 0.8739999999999999,
+          "new_rate": 0.8339999999999997,
+          "estimate": -0.039999999999999994,
+          "ci95_low": -0.09600000000000002,
+          "ci95_high": 0.019999999999999997,
+          "paired_sign_flip_p_value": 0.2014798520147985,
+          "holm_adjusted_p_value": 0.805919408059194,
+          "holm_reject_0_05": false
+        },
+        "executable": {
+          "old_rate": 0.7879999999999999,
+          "new_rate": 0.76,
+          "estimate": -0.028000000000000008,
+          "ci95_low": -0.098,
+          "ci95_high": 0.042,
+          "paired_sign_flip_p_value": 0.47695230476952305,
+          "holm_adjusted_p_value": 0.9539046095390461,
+          "holm_reject_0_05": false
+        },
+        "goal_valid": {
+          "old_rate": 0.684,
+          "new_rate": 0.6799999999999998,
+          "estimate": -0.003999999999999998,
+          "ci95_low": -0.07400000000000002,
+          "ci95_high": 0.06799999999999998,
+          "paired_sign_flip_p_value": 0.956904309569043,
+          "holm_adjusted_p_value": 1.0,
+          "holm_reject_0_05": false
+        },
+        "partial_order": {
+          "old_rate": 0.6239999999999999,
+          "new_rate": 0.6,
+          "estimate": -0.024000000000000004,
+          "ci95_low": -0.09600000000000003,
+          "ci95_high": 0.046000000000000006,
+          "paired_sign_flip_p_value": 0.5529447055294471,
+          "holm_adjusted_p_value": 1.0,
+          "holm_reject_0_05": false
+        },
+        "exact": {
+          "old_rate": 0.586,
+          "new_rate": 0.564,
+          "estimate": -0.021999999999999992,
+          "ci95_low": -0.098,
+          "ci95_high": 0.054049999999999286,
+          "paired_sign_flip_p_value": 0.6086391360863913,
+          "holm_adjusted_p_value": 0.7667233276672332,
+          "holm_reject_0_05": false
+        }
+      }
+    },
+    {
+      "model_id": "allenai/OLMo-2-1124-7B-Instruct",
+      "model_revision": "470b1fba1ae01581f270116362ee4aa1b97f4c84",
+      "task_count": 100,
+      "prompt_hash_changed_task_count": 99,
+      "serialized_chat_hash_changed_task_count": 99,
+      "effects": {
+        "parse": {
+          "old_rate": 0.154,
+          "new_rate": 0.196,
+          "estimate": 0.042,
+          "ci95_low": -0.02200000000000001,
+          "ci95_high": 0.11200000000000002,
+          "paired_sign_flip_p_value": 0.24847515248475152,
+          "holm_adjusted_p_value": 0.805919408059194,
+          "holm_reject_0_05": false
+        },
+        "executable": {
+          "old_rate": 0.076,
+          "new_rate": 0.078,
+          "estimate": 0.0020000000000000013,
+          "ci95_low": -0.028000000000000004,
+          "ci95_high": 0.038,
+          "paired_sign_flip_p_value": 1.0,
+          "holm_adjusted_p_value": 1.0,
+          "holm_reject_0_05": false
+        },
+        "goal_valid": {
+          "old_rate": 0.05,
+          "new_rate": 0.07200000000000001,
+          "estimate": 0.022000000000000002,
+          "ci95_low": -1.1102230246251566e-18,
+          "ci95_high": 0.054000000000000006,
+          "paired_sign_flip_p_value": 0.2578742125787421,
+          "holm_adjusted_p_value": 0.7736226377362263,
+          "holm_reject_0_05": false
+        },
+        "partial_order": {
+          "old_rate": 0.05,
+          "new_rate": 0.07200000000000001,
+          "estimate": 0.022000000000000002,
+          "ci95_low": -0.002,
+          "ci95_high": 0.054000000000000006,
+          "paired_sign_flip_p_value": 0.24757524247575244,
+          "holm_adjusted_p_value": 0.7427257274272573,
+          "holm_reject_0_05": false
+        },
+        "exact": {
+          "old_rate": 0.05,
+          "new_rate": 0.07200000000000001,
+          "estimate": 0.022000000000000002,
+          "ci95_low": -1.1102230246251566e-18,
+          "ci95_high": 0.054000000000000006,
+          "paired_sign_flip_p_value": 0.2555744425557444,
+          "holm_adjusted_p_value": 0.7667233276672332,
+          "holm_reject_0_05": false
+        }
+      }
+    },
+    {
+      "model_id": "Qwen/Qwen3-8B",
+      "model_revision": "b968826d9c46dd6066d109eabc6255188de91218",
+      "task_count": 100,
+      "prompt_hash_changed_task_count": 100,
+      "serialized_chat_hash_changed_task_count": 100,
+      "effects": {
+        "parse": {
+          "old_rate": 1.0,
+          "new_rate": 0.8959999999999999,
+          "estimate": -0.10400000000000001,
+          "ci95_low": -0.16799999999999998,
+          "ci95_high": -0.05,
+          "paired_sign_flip_p_value": 0.00039996000399960006,
+          "holm_adjusted_p_value": 0.001999800019998,
+          "holm_reject_0_05": true
+        },
+        "executable": {
+          "old_rate": 0.978,
+          "new_rate": 0.868,
+          "estimate": -0.11,
+          "ci95_low": -0.17400000000000002,
+          "ci95_high": -0.05399999999999999,
+          "paired_sign_flip_p_value": 0.0007999200079992001,
+          "holm_adjusted_p_value": 0.003999600039996,
+          "holm_reject_0_05": true
+        },
+        "goal_valid": {
+          "old_rate": 0.922,
+          "new_rate": 0.828,
+          "estimate": -0.094,
+          "ci95_low": -0.16200000000000003,
+          "ci95_high": -0.029999999999999995,
+          "paired_sign_flip_p_value": 0.006399360063993601,
+          "holm_adjusted_p_value": 0.031996800319968,
+          "holm_reject_0_05": true
+        },
+        "partial_order": {
+          "old_rate": 0.7819999999999999,
+          "new_rate": 0.6719999999999999,
+          "estimate": -0.11,
+          "ci95_low": -0.184,
+          "ci95_high": -0.04000000000000001,
+          "paired_sign_flip_p_value": 0.0029997000299970002,
+          "holm_adjusted_p_value": 0.014998500149985002,
+          "holm_reject_0_05": true
+        },
+        "exact": {
+          "old_rate": 0.6920000000000001,
+          "new_rate": 0.632,
+          "estimate": -0.06,
+          "ci95_low": -0.13399999999999995,
+          "ci95_high": 0.012,
+          "paired_sign_flip_p_value": 0.11948805119488051,
+          "holm_adjusted_p_value": 0.47795220477952205,
+          "holm_reject_0_05": false
+        }
+      }
+    },
+    {
+      "model_id": "Qwen/Qwen3-14B",
+      "model_revision": "40c069824f4251a91eefaf281ebe4c544efd3e18",
+      "task_count": 100,
+      "prompt_hash_changed_task_count": 100,
+      "serialized_chat_hash_changed_task_count": 100,
+      "effects": {
+        "parse": {
+          "old_rate": 0.99,
+          "new_rate": 0.986,
+          "estimate": -0.003999999999999999,
+          "ci95_low": -0.034,
+          "ci95_high": 0.026000000000000002,
+          "paired_sign_flip_p_value": 1.0,
+          "holm_adjusted_p_value": 1.0,
+          "holm_reject_0_05": false
+        },
+        "executable": {
+          "old_rate": 0.988,
+          "new_rate": 0.9259999999999999,
+          "estimate": -0.06199999999999999,
+          "ci95_low": -0.11800000000000001,
+          "ci95_high": -0.012000000000000004,
+          "paired_sign_flip_p_value": 0.025897410258974102,
+          "holm_adjusted_p_value": 0.10358964103589641,
+          "holm_reject_0_05": false
+        },
+        "goal_valid": {
+          "old_rate": 0.988,
+          "new_rate": 0.9259999999999999,
+          "estimate": -0.06199999999999999,
+          "ci95_low": -0.118,
+          "ci95_high": -0.012000000000000004,
+          "paired_sign_flip_p_value": 0.0314968503149685,
+          "holm_adjusted_p_value": 0.125987401259874,
+          "holm_reject_0_05": false
+        },
+        "partial_order": {
+          "old_rate": 0.848,
+          "new_rate": 0.79,
+          "estimate": -0.057999999999999996,
+          "ci95_low": -0.11199999999999999,
+          "ci95_high": -0.01,
+          "paired_sign_flip_p_value": 0.0357964203579642,
+          "holm_adjusted_p_value": 0.1431856814318568,
+          "holm_reject_0_05": false
+        },
+        "exact": {
+          "old_rate": 0.782,
+          "new_rate": 0.728,
+          "estimate": -0.054000000000000006,
+          "ci95_low": -0.11,
+          "ci95_high": -0.003999999999999999,
+          "paired_sign_flip_p_value": 0.044195580441955803,
+          "holm_adjusted_p_value": 0.22097790220977903,
+          "holm_reject_0_05": false
+        }
+      }
+    }
+  ]
+}

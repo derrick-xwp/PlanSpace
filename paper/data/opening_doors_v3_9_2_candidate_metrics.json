@@ -1,0 +1,202 @@
+{
+  "evidence_status": "frozen_bddl_candidate_semantics_not_paper_evidence",
+  "activity": "opening_doors",
+  "problem_id": "opening_doors-0",
+  "source_sha256": "0051d08c1826ceb8eaf9ca5ab595c14fd539d8b162a42293ab48be8134bbc719",
+  "action_domain_version": "planspace_domain_v0.1-candidate",
+  "plan_count": 2,
+  "enumeration_unit": "simple_plan_sequences",
+  "plan_lengths": [
+    3,
+    4
+  ],
+  "completeness_status": "bounded_complete_simple_paths",
+  "search_bound": {
+    "max_depth": 4,
+    "max_cost": null
+  },
+  "single_reference_false_rejection_rate": 0.5,
+  "families": [
+    {
+      "plan": [
+        "open::door.n.01_1",
+        "navigate::bathroom->living_room",
+        "open::door.n.01_2"
+      ],
+      "execution_valid": true,
+      "partial_order_edges": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "valid_topological_sorts": 1,
+      "total_topological_sorts": 1,
+      "topological_validation_status": "complete"
+    },
+    {
+      "plan": [
+        "navigate::bathroom->living_room",
+        "open::door.n.01_2",
+        "navigate::living_room->bathroom",
+        "open::door.n.01_1"
+      ],
+      "execution_valid": true,
+      "partial_order_edges": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "valid_topological_sorts": 1,
+      "total_topological_sorts": 1,
+      "topological_validation_status": "complete"
+    }
+  ],
+  "structured_negative_count": 10,
+  "structured_negatives": [
+    {
+      "plan": [
+        "navigate::bathroom->living_room",
+        "open::door.n.01_2"
+      ],
+      "executable": true,
+      "goal_satisfied": false,
+      "failure_step": null,
+      "failed_action_id": null,
+      "missing_preconditions": []
+    },
+    {
+      "plan": [
+        "open::door.n.01_1",
+        "open::door.n.01_2"
+      ],
+      "executable": false,
+      "goal_satisfied": false,
+      "failure_step": 1,
+      "failed_action_id": "open::door.n.01_2",
+      "missing_preconditions": [
+        "agent_inroom(agent.n.01_1, living_room)"
+      ]
+    },
+    {
+      "plan": [
+        "open::door.n.01_1",
+        "navigate::bathroom->living_room"
+      ],
+      "executable": true,
+      "goal_satisfied": false,
+      "failure_step": null,
+      "failed_action_id": null,
+      "missing_preconditions": []
+    },
+    {
+      "plan": [
+        "navigate::bathroom->living_room",
+        "open::door.n.01_1",
+        "open::door.n.01_2"
+      ],
+      "executable": false,
+      "goal_satisfied": false,
+      "failure_step": 1,
+      "failed_action_id": "open::door.n.01_1",
+      "missing_preconditions": [
+        "agent_inroom(agent.n.01_1, bathroom)"
+      ]
+    },
+    {
+      "plan": [
+        "open::door.n.01_1",
+        "open::door.n.01_2",
+        "navigate::bathroom->living_room"
+      ],
+      "executable": false,
+      "goal_satisfied": false,
+      "failure_step": 1,
+      "failed_action_id": "open::door.n.01_2",
+      "missing_preconditions": [
+        "agent_inroom(agent.n.01_1, living_room)"
+      ]
+    },
+    {
+      "plan": [
+        "open::door.n.01_2",
+        "navigate::living_room->bathroom",
+        "open::door.n.01_1"
+      ],
+      "executable": false,
+      "goal_satisfied": false,
+      "failure_step": 0,
+      "failed_action_id": "open::door.n.01_2",
+      "missing_preconditions": [
+        "agent_inroom(agent.n.01_1, living_room)"
+      ]
+    },
+    {
+      "plan": [
+        "navigate::bathroom->living_room",
+        "navigate::living_room->bathroom",
+        "open::door.n.01_1"
+      ],
+      "executable": true,
+      "goal_satisfied": false,
+      "failure_step": null,
+      "failed_action_id": null,
+      "missing_preconditions": []
+    },
+    {
+      "plan": [
+        "navigate::bathroom->living_room",
+        "open::door.n.01_2",
+        "open::door.n.01_1"
+      ],
+      "executable": false,
+      "goal_satisfied": false,
+      "failure_step": 2,
+      "failed_action_id": "open::door.n.01_1",
+      "missing_preconditions": [
+        "agent_inroom(agent.n.01_1, bathroom)"
+      ]
+    },
+    {
+      "plan": [
+        "navigate::bathroom->living_room",
+        "open::door.n.01_2",
+        "navigate::living_room->bathroom"
+      ],
+      "executable": true,
+      "goal_satisfied": false,
+      "failure_step": null,
+      "failed_action_id": null,
+      "missing_preconditions": []
+    },
+    {
+      "plan": [
+        "open::door.n.01_2",
+        "navigate::bathroom->living_room",
+        "navigate::living_room->bathroom",
+        "open::door.n.01_1"
+      ],
+      "executable": false,
+      "goal_satisfied": false,
+      "failure_step": 0,
+      "failed_action_id": "open::door.n.01_2",
+      "missing_preconditions": [
+        "agent_inroom(agent.n.01_1, living_room)"
+      ]
+    }
+  ],
+  "audit_requirement": "manual trace review and action-semantic sign-off"
+}

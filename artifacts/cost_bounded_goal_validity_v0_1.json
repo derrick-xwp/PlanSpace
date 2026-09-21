@@ -1,0 +1,355 @@
+{
+  "evidence_status": "post_hoc_cost_threshold_sensitivity",
+  "analysis_version": "planspace-cost-bounded-goal-validity-v0.1",
+  "definition": "A plan is accepted at threshold tau iff replay reaches the goal and (plan_cost - minimum_reference_cost) / minimum_reference_cost <= tau.",
+  "denominator_policy": "The primary rate uses all outputs. Executable-conditional rates are diagnostic; goal-valid retention isolates the effect of the cost bound.",
+  "bootstrap": {
+    "unit": "task",
+    "trials": 10000,
+    "seed": 20260918
+  },
+  "thresholds": [
+    0.0,
+    0.25,
+    0.5,
+    1.0
+  ],
+  "models": [
+    {
+      "model_id": "mistralai/Mistral-7B-Instruct-v0.3",
+      "model_revision": "c170c708c41dac9275d15a8fff4eca08d52bab71",
+      "artifact": "artifacts/mistral_7b_queue_171_enriched_v0_9_context171_six.json",
+      "artifact_sha256": "ee9ae12b7ae1deb49fc244c6000e587afa00b6003f6706c007e58598e0a02b28",
+      "task_count": 171,
+      "output_count": 855,
+      "executable_count": 691,
+      "goal_valid_count": 643,
+      "thresholds": [
+        {
+          "normalized_cost_regret_threshold": 0.0,
+          "accepted_count": 622,
+          "full_denominator_rate": 0.7274853801169591,
+          "full_denominator_task_bootstrap_95ci": [
+            0.6654970760233919,
+            0.7859649122807016
+          ],
+          "executable_conditional_rate": 0.9001447178002895,
+          "goal_valid_retention_rate": 0.9673405909797823
+        },
+        {
+          "normalized_cost_regret_threshold": 0.25,
+          "accepted_count": 628,
+          "full_denominator_rate": 0.7345029239766082,
+          "full_denominator_task_bootstrap_95ci": [
+            0.6748538011695907,
+            0.7906432748538011
+          ],
+          "executable_conditional_rate": 0.9088277858176556,
+          "goal_valid_retention_rate": 0.9766718506998445
+        },
+        {
+          "normalized_cost_regret_threshold": 0.5,
+          "accepted_count": 630,
+          "full_denominator_rate": 0.7368421052631579,
+          "full_denominator_task_bootstrap_95ci": [
+            0.678362573099415,
+            0.7929824561403507
+          ],
+          "executable_conditional_rate": 0.9117221418234442,
+          "goal_valid_retention_rate": 0.9797822706065319
+        },
+        {
+          "normalized_cost_regret_threshold": 1.0,
+          "accepted_count": 643,
+          "full_denominator_rate": 0.752046783625731,
+          "full_denominator_task_bootstrap_95ci": [
+            0.694736842105263,
+            0.8070175438596486
+          ],
+          "executable_conditional_rate": 0.9305354558610709,
+          "goal_valid_retention_rate": 1.0
+        }
+      ]
+    },
+    {
+      "model_id": "allenai/OLMo-2-1124-7B-Instruct",
+      "model_revision": "470b1fba1ae01581f270116362ee4aa1b97f4c84",
+      "artifact": "artifacts/olmo2_7b_queue_171_enriched_v0_9_context171_six.json",
+      "artifact_sha256": "136a69991387316eef15ba5575f1308c74ad724e4608525cd9299ab8c11af4cf",
+      "task_count": 171,
+      "output_count": 855,
+      "executable_count": 54,
+      "goal_valid_count": 48,
+      "thresholds": [
+        {
+          "normalized_cost_regret_threshold": 0.0,
+          "accepted_count": 47,
+          "full_denominator_rate": 0.05497076023391813,
+          "full_denominator_task_bootstrap_95ci": [
+            0.025730994152046785,
+            0.08888888888888888
+          ],
+          "executable_conditional_rate": 0.8703703703703703,
+          "goal_valid_retention_rate": 0.9791666666666666
+        },
+        {
+          "normalized_cost_regret_threshold": 0.25,
+          "accepted_count": 48,
+          "full_denominator_rate": 0.056140350877192984,
+          "full_denominator_task_bootstrap_95ci": [
+            0.028070175438596492,
+            0.08888888888888889
+          ],
+          "executable_conditional_rate": 0.8888888888888888,
+          "goal_valid_retention_rate": 1.0
+        },
+        {
+          "normalized_cost_regret_threshold": 0.5,
+          "accepted_count": 48,
+          "full_denominator_rate": 0.056140350877192984,
+          "full_denominator_task_bootstrap_95ci": [
+            0.02690058479532164,
+            0.09122807017543859
+          ],
+          "executable_conditional_rate": 0.8888888888888888,
+          "goal_valid_retention_rate": 1.0
+        },
+        {
+          "normalized_cost_regret_threshold": 1.0,
+          "accepted_count": 48,
+          "full_denominator_rate": 0.056140350877192984,
+          "full_denominator_task_bootstrap_95ci": [
+            0.02690058479532164,
+            0.09122807017543859
+          ],
+          "executable_conditional_rate": 0.8888888888888888,
+          "goal_valid_retention_rate": 1.0
+        }
+      ]
+    },
+    {
+      "model_id": "microsoft/Phi-4-mini-instruct",
+      "model_revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+      "artifact": "artifacts/phi4_mini_queue_171_enriched_v0_9_context171_six.json",
+      "artifact_sha256": "0e3a4a135d72d7ba4f4d16629373f225faa82ad8055d1e85f5ae34e06ff1d79f",
+      "task_count": 171,
+      "output_count": 855,
+      "executable_count": 81,
+      "goal_valid_count": 65,
+      "thresholds": [
+        {
+          "normalized_cost_regret_threshold": 0.0,
+          "accepted_count": 64,
+          "full_denominator_rate": 0.07485380116959064,
+          "full_denominator_task_bootstrap_95ci": [
+            0.05146198830409357,
+            0.10058479532163739
+          ],
+          "executable_conditional_rate": 0.7901234567901234,
+          "goal_valid_retention_rate": 0.9846153846153847
+        },
+        {
+          "normalized_cost_regret_threshold": 0.25,
+          "accepted_count": 65,
+          "full_denominator_rate": 0.07602339181286549,
+          "full_denominator_task_bootstrap_95ci": [
+            0.05263157894736842,
+            0.10175438596491224
+          ],
+          "executable_conditional_rate": 0.8024691358024691,
+          "goal_valid_retention_rate": 1.0
+        },
+        {
+          "normalized_cost_regret_threshold": 0.5,
+          "accepted_count": 65,
+          "full_denominator_rate": 0.07602339181286549,
+          "full_denominator_task_bootstrap_95ci": [
+            0.05380116959064327,
+            0.10175438596491224
+          ],
+          "executable_conditional_rate": 0.8024691358024691,
+          "goal_valid_retention_rate": 1.0
+        },
+        {
+          "normalized_cost_regret_threshold": 1.0,
+          "accepted_count": 65,
+          "full_denominator_rate": 0.07602339181286549,
+          "full_denominator_task_bootstrap_95ci": [
+            0.05263157894736843,
+            0.10175438596491225
+          ],
+          "executable_conditional_rate": 0.8024691358024691,
+          "goal_valid_retention_rate": 1.0
+        }
+      ]
+    },
+    {
+      "model_id": "Qwen/Qwen3-14B",
+      "model_revision": "40c069824f4251a91eefaf281ebe4c544efd3e18",
+      "artifact": "artifacts/qwen3_14b_queue_171_enriched_v0_9_context171_six.json",
+      "artifact_sha256": "5d9ad5720fc442f95071a899b9cb138a13bdf112227d80a1a25597f8b2ce43b7",
+      "task_count": 171,
+      "output_count": 855,
+      "executable_count": 810,
+      "goal_valid_count": 810,
+      "thresholds": [
+        {
+          "normalized_cost_regret_threshold": 0.0,
+          "accepted_count": 777,
+          "full_denominator_rate": 0.9087719298245615,
+          "full_denominator_task_bootstrap_95ci": [
+            0.864327485380117,
+            0.9485380116959063
+          ],
+          "executable_conditional_rate": 0.9592592592592593,
+          "goal_valid_retention_rate": 0.9592592592592593
+        },
+        {
+          "normalized_cost_regret_threshold": 0.25,
+          "accepted_count": 800,
+          "full_denominator_rate": 0.935672514619883,
+          "full_denominator_task_bootstrap_95ci": [
+            0.8982456140350875,
+            0.9684210526315787
+          ],
+          "executable_conditional_rate": 0.9876543209876543,
+          "goal_valid_retention_rate": 0.9876543209876543
+        },
+        {
+          "normalized_cost_regret_threshold": 0.5,
+          "accepted_count": 800,
+          "full_denominator_rate": 0.935672514619883,
+          "full_denominator_task_bootstrap_95ci": [
+            0.8982456140350877,
+            0.9672514619883041
+          ],
+          "executable_conditional_rate": 0.9876543209876543,
+          "goal_valid_retention_rate": 0.9876543209876543
+        },
+        {
+          "normalized_cost_regret_threshold": 1.0,
+          "accepted_count": 810,
+          "full_denominator_rate": 0.9473684210526315,
+          "full_denominator_task_bootstrap_95ci": [
+            0.9134502923976607,
+            0.9754385964912281
+          ],
+          "executable_conditional_rate": 1.0,
+          "goal_valid_retention_rate": 1.0
+        }
+      ]
+    },
+    {
+      "model_id": "Qwen/Qwen3-4B",
+      "model_revision": "1cfa9a7208912126459214e8b04321603b3df60c",
+      "artifact": "artifacts/qwen3_4b_queue_171_enriched_v0_9_context171_six.json",
+      "artifact_sha256": "de92ea3c3744991c61b4c4f1dd72a9a7f4ce882f5916dc990eb041ddb606cae7",
+      "task_count": 171,
+      "output_count": 855,
+      "executable_count": 834,
+      "goal_valid_count": 795,
+      "thresholds": [
+        {
+          "normalized_cost_regret_threshold": 0.0,
+          "accepted_count": 737,
+          "full_denominator_rate": 0.8619883040935673,
+          "full_denominator_task_bootstrap_95ci": [
+            0.8093567251461988,
+            0.9099415204678364
+          ],
+          "executable_conditional_rate": 0.8836930455635491,
+          "goal_valid_retention_rate": 0.9270440251572327
+        },
+        {
+          "normalized_cost_regret_threshold": 0.25,
+          "accepted_count": 773,
+          "full_denominator_rate": 0.904093567251462,
+          "full_denominator_task_bootstrap_95ci": [
+            0.8584795321637427,
+            0.945029239766082
+          ],
+          "executable_conditional_rate": 0.9268585131894485,
+          "goal_valid_retention_rate": 0.9723270440251572
+        },
+        {
+          "normalized_cost_regret_threshold": 0.5,
+          "accepted_count": 780,
+          "full_denominator_rate": 0.9122807017543859,
+          "full_denominator_task_bootstrap_95ci": [
+            0.8690058479532163,
+            0.9508771929824563
+          ],
+          "executable_conditional_rate": 0.935251798561151,
+          "goal_valid_retention_rate": 0.9811320754716981
+        },
+        {
+          "normalized_cost_regret_threshold": 1.0,
+          "accepted_count": 790,
+          "full_denominator_rate": 0.9239766081871345,
+          "full_denominator_task_bootstrap_95ci": [
+            0.8842105263157896,
+            0.9602339181286549
+          ],
+          "executable_conditional_rate": 0.947242206235012,
+          "goal_valid_retention_rate": 0.9937106918238994
+        }
+      ]
+    },
+    {
+      "model_id": "Qwen/Qwen3-8B",
+      "model_revision": "b968826d9c46dd6066d109eabc6255188de91218",
+      "artifact": "artifacts/qwen3_8b_queue_171_enriched_v0_9_context171_six.json",
+      "artifact_sha256": "49e23c45388540e44150c123b521c58a2abfcb0fff236539b66fdfbf244b66be",
+      "task_count": 171,
+      "output_count": 855,
+      "executable_count": 736,
+      "goal_valid_count": 708,
+      "thresholds": [
+        {
+          "normalized_cost_regret_threshold": 0.0,
+          "accepted_count": 650,
+          "full_denominator_rate": 0.7602339181286549,
+          "full_denominator_task_bootstrap_95ci": [
+            0.6982456140350879,
+            0.8198830409356727
+          ],
+          "executable_conditional_rate": 0.8831521739130435,
+          "goal_valid_retention_rate": 0.9180790960451978
+        },
+        {
+          "normalized_cost_regret_threshold": 0.25,
+          "accepted_count": 693,
+          "full_denominator_rate": 0.8105263157894737,
+          "full_denominator_task_bootstrap_95ci": [
+            0.7520467836257311,
+            0.864327485380117
+          ],
+          "executable_conditional_rate": 0.9415760869565217,
+          "goal_valid_retention_rate": 0.9788135593220338
+        },
+        {
+          "normalized_cost_regret_threshold": 0.5,
+          "accepted_count": 693,
+          "full_denominator_rate": 0.8105263157894737,
+          "full_denominator_task_bootstrap_95ci": [
+            0.7532163742690059,
+            0.864327485380117
+          ],
+          "executable_conditional_rate": 0.9415760869565217,
+          "goal_valid_retention_rate": 0.9788135593220338
+        },
+        {
+          "normalized_cost_regret_threshold": 1.0,
+          "accepted_count": 703,
+          "full_denominator_rate": 0.8222222222222222,
+          "full_denominator_task_bootstrap_95ci": [
+            0.7649122807017547,
+            0.8736842105263158
+          ],
+          "executable_conditional_rate": 0.9551630434782609,
+          "goal_valid_retention_rate": 0.9929378531073446
+        }
+      ]
+    }
+  ]
+}

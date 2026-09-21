@@ -1,0 +1,91 @@
+{
+  "evidence_status": "internal_ai_output_validity_audit_not_human_validation",
+  "analysis_version": "planspace-output-validity-analysis-v0.1",
+  "packet_version": "planspace-output-validity-v0.1",
+  "reviewer_a_role": "formal_semantics",
+  "reviewer_b_role": "adversarial_household_intent",
+  "case_count": 120,
+  "agreement": {
+    "interface_compliant": {
+      "agreement_count": 111,
+      "agreement_rate": 0.925,
+      "cohen_kappa": 0.7711864406779662,
+      "reviewer_a_counts": {
+        "no": 29,
+        "yes": 91
+      },
+      "reviewer_b_counts": {
+        "no": 20,
+        "yes": 100
+      }
+    },
+    "valid_at_declared_abstraction": {
+      "agreement_count": 118,
+      "agreement_rate": 0.9833333333333333,
+      "cohen_kappa": 0.9666666666666666,
+      "reviewer_a_counts": {
+        "no": 62,
+        "yes": 58
+      },
+      "reviewer_b_counts": {
+        "no": 60,
+        "yes": 60
+      }
+    },
+    "reasonable_high_level_behavior": {
+      "agreement_count": 106,
+      "agreement_rate": 0.8833333333333333,
+      "cohen_kappa": 0.7682119205298011,
+      "reviewer_a_counts": {
+        "no": 48,
+        "yes": 72
+      },
+      "reviewer_b_counts": {
+        "no": 62,
+        "yes": 58
+      }
+    }
+  },
+  "consensus_reasonable_case_count": 120,
+  "adjudication_case_count": 23,
+  "metric_validity_against_ai_consensus": {
+    "exact_match": {
+      "n": 120,
+      "tp": 20,
+      "tn": 48,
+      "fp": 0,
+      "fn": 52,
+      "accuracy": 0.5666666666666667,
+      "precision": 1.0,
+      "recall": 0.2777777777777778,
+      "f1": 0.4347826086956522
+    },
+    "partial_order_match": {
+      "n": 120,
+      "tp": 40,
+      "tn": 48,
+      "fp": 0,
+      "fn": 32,
+      "accuracy": 0.7333333333333333,
+      "precision": 1.0,
+      "recall": 0.5555555555555556,
+      "f1": 0.7142857142857143
+    },
+    "goal_valid": {
+      "n": 120,
+      "tp": 60,
+      "tn": 48,
+      "fp": 0,
+      "fn": 12,
+      "accuracy": 0.9,
+      "precision": 1.0,
+      "recall": 0.8333333333333334,
+      "f1": 0.9090909090909091
+    },
+    "ordered_action_similarity": {
+      "n": 120,
+      "auroc": 0.5645254629629629
+    }
+  },
+  "boundary": "Labels come from agreement between two isolated Codex roles with a third isolated Codex role adjudicating disagreements. They quantify internal adversarial consistency and metric discrimination, not independent human or simulator construct validity."
+}
